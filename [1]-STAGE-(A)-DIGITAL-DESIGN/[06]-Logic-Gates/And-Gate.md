@@ -23,7 +23,7 @@
 
 ### **3. Interface & Pins**
 * **Block Diagram:**
-  The *AND GATE* block diagram:
+  The **AND GATE** block diagram:
 
 ![AND Gate](Image/and-gates.png)
 
