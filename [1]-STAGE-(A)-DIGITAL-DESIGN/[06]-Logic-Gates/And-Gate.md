@@ -1,17 +1,23 @@
 # Hardware Specification: *AND Gate*
 
-## * **What Problem Does It Solve?**
+* **What Problem Does It Solve?**
   - The and gate checks if all condition are true
   - If one inputs is 'ON' then output will be 'ON'
   - If both inputs is 'ON' output will be 'OFF'  
   
-## * **What is the Circuit?**
+* **What is the Circuit?**
   - It is an electronc circuit that performs AND operation
 ---
 
-### **2. Applications**
 * **Where Is It Used?**
- 
+  *The and gate will be used in:*
+  
+  - Security System
+  - Door Bell
+  - Alaram System
+  - Computer And Digital Circuit
+  - Traffic Signal Control System
+  - 
 ---
 
 ### **3. Interface & Pins**
