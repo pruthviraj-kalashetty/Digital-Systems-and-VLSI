@@ -2,11 +2,11 @@
 
 * **What Problem Does It Solve?**
   - The and gate checks if all condition are true
-  - If one inputs is 'ON' then output will be 'ON'
-  - If both inputs is 'ON' output will be 'OFF'  
+  - If one inputs is 'TRUE' then output will be 'TRUE'
+  - If both inputs is 'TRUE' output will be 'FALSE'  
   
 * **What is the Circuit?**
-  - It is an electronc circuit that performs AND operation
+  - It is an electronic circuit that performs AND operation
 ---
 
 * **Where Is It Used?**
@@ -15,7 +15,7 @@
   
   - Security System
   - Door Bell
-  - Alaram System
+  - Alarm System
   - Computer And Digital Circuit
   - Traffic Signal Control System
   - 
@@ -45,12 +45,12 @@
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-The symbol of 'AND' gate [*]
+
 
 * **Boolean Equation:**
-  The mathematical function of the circuit is represented as:
+  The Boolean equation of the AND gate is:
   
-**Y = A*B**
+**Y = A.B**
 
 ---
 * **Waveform / Timing Diagram:**
