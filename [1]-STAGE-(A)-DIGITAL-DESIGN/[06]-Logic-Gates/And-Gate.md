@@ -1,4 +1,4 @@
-# Hardware Specification: *AND Gate*
+# **AND Gate**
 
 * **What Problem Does It Solve?**
   - The and gate checks if all condition are true
