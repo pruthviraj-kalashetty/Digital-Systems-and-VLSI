@@ -21,25 +21,22 @@
   - 
 ---
 
-### **3. Interface & Pins**
 * **Block Diagram:**
   The **AND GATE** block diagram:
 
 ![AND Gate](Image/and-gates.png)
 
-* **Inputs and Outputs:**
-  | Signal Name | Direction | Bit-Width | Domain |
-  | :--- | :--- | :--- | :--- |
-  | `A` | Input | 1-bit | Data / Control |
-  | `B` | Input | 1-bit | Data / Control |
-  | `Y` | Output | 1-bit | Data Output |
+---
 
 * **Function of Inputs and Outputs:**
-  
+  -Inputs:- 2 = A,B.
+  -Output:- 1 = y.
+
+  -when both inputs A = 0 , B = 0 output wii be y = 0.
+  -when both inputs A = 1 , B = 1 output wii be y = 1.
 
 ---
 
-### **4. Mathematical Logic**
 * **Truth Table:**
 | A | B | Y |
 |---|---|---|
@@ -52,10 +49,11 @@ The symbol of 'AND' gate [*]
 
 * **Boolean Equation:**
   The mathematical function of the circuit is represented as:
-
+  
+**Y = A*B**
 
 ---
-### **5. Waveform / Timing Diagram:**
+* **Waveform / Timing Diagram:**
   The ideal functional timing diagram demonstrates how changes on the input pins propagate through to the output:
 
   ![AND Gate Timing Waveform](./images/and_waveform.png)
