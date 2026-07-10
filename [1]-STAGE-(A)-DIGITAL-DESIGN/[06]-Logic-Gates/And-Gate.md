@@ -2,8 +2,8 @@
 
 * **What Problem Does It Solve?**
   - The and gate checks if all condition are true
-  - If one inputs is 'TRUE' then output will be 'TRUE'
-  - If both inputs is 'TRUE' output will be 'FALSE'  
+  - If only any one input is 'TRUE', the output will be 'FALSE'.
+   -If both inputs are 'TRUE', the output will be 'TRUE'.
   
 * **What is the Circuit?**
   - It is an electronic circuit that performs AND operation
