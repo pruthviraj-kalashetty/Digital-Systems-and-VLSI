@@ -22,7 +22,6 @@
 ---
 
 * **Block Diagram:**
-  The **AND GATE** block diagram:
 
 ![AND Gate](Image/and-gates.png)
 
