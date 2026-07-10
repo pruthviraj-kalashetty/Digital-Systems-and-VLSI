@@ -22,7 +22,7 @@
 * **Block Diagram:**
   The block diagram defines the black-box boundary of the device:
 
-  ![2-Input AND Gate Block Diagram](and_block.png)
+![AND Gate](and-gates.png)
 
 * **Inputs and Outputs:**
   | Signal Name | Direction | Bit-Width | Domain |
