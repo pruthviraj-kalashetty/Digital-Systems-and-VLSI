@@ -1,6 +1,5 @@
 # Hardware Specification: *AND Gate*
 
-### **1. Purpose & Definition**
 * **What Problem Does It Solve?**
   - The and gate checks if all condition are true
   - If one inputs is 'ON' then output will be 'ON'
