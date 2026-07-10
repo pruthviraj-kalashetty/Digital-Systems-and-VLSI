@@ -4,4 +4,4 @@ Digital basics refer to the fundamental concepts of digital electronics and syst
 *Topic Covered in this Module*
 
 * **[Digital-System-Overview.md](./Digital-System-Overview.md):**
-* **[Digital-vs-Analog.md](./Digital-vs-Analog):**
+* **[Digital-vs-Analog.md](./Digital-vs-Analog.md):**
