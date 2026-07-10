@@ -32,6 +32,7 @@
   -Output:- Y  [1 output]
 
   -when both inputs A = 0 , B = 0 output wii be y = 0.
+  
   -when both inputs A = 1 , B = 1 output wii be y = 1.
 
 ---
