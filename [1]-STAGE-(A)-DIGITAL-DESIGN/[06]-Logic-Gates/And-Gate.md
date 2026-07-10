@@ -35,6 +35,8 @@
   
   -when both inputs A = 1 , B = 1 output wii be y = 1.
 
+  -when both inputs A = 1 , B = 0 output wii be y = 0.
+
 ---
 
 * **Truth Table:**
