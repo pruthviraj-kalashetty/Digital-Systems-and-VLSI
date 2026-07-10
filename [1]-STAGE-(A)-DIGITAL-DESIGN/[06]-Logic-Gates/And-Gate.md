@@ -1,11 +1,11 @@
 # Hardware Specification: *AND Gate*
 
-* **What Problem Does It Solve?**
+## * **What Problem Does It Solve?**
   - The and gate checks if all condition are true
   - If one inputs is 'ON' then output will be 'ON'
   - If both inputs is 'ON' output will be 'OFF'  
   
-* **What is the Circuit?**
+## * **What is the Circuit?**
   - It is an electronc circuit that performs AND operation
 ---
 
