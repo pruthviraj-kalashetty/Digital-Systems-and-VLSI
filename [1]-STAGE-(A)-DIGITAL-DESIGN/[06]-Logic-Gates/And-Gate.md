@@ -2,9 +2,12 @@
 
 ### **1. Purpose & Definition**
 * **What Problem Does It Solve?**
+  - The and gate checks if all condition are true
+  - If one inputs is 'ON' then output will be 'ON'
+  - If both inputs is 'ON' output will be 'OFF'  
   
 * **What is the Circuit?**
-  
+  - It is an electronc circuit that performs AND operation
 ---
 
 ### **2. Applications**
@@ -32,12 +35,14 @@
 
 ### **4. Mathematical Logic**
 * **Truth Table:**
-  | Input A | Input B | Output Y |
-  | :---: | :---: | :---: |
-  | 0 | 0 | **0** |
-  | 0 | 1 | **0** |
-  | 1 | 0 | **0** |
-  | 1 | 1 | **1** |
+| A | B | Y |
+|---|---|---|
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+The symbol of 'AND' gate [*]
 
 * **Boolean Equation:**
   The mathematical function of the circuit is represented as:
