@@ -1,7 +1,7 @@
 # **AND Gate**
 
 * **What Problem Does It Solve?**
-  - The and gate checks if all condition are true
+  - The AND gate checks if all conditions are true
   - If only any one input is 'TRUE', the output will be 'FALSE'.
    -If both inputs are 'TRUE', the output will be 'TRUE'.
   
@@ -11,7 +11,7 @@
 
 * **Where Is It Used?**
   
-  *The and gate will be used in:*
+  *The AND gate will be used in:*
   
   - Security System
   - Door Bell
@@ -28,8 +28,8 @@
 ---
 
 * **Function of Inputs and Outputs:**
-  -Inputs:- 2 = A,B.
-  -Output:- 1 = y.
+  -Inputs:- A,B  [2 inputs]
+  -Output:- Y  [1 output]
 
   -when both inputs A = 0 , B = 0 output wii be y = 0.
   -when both inputs A = 1 , B = 1 output wii be y = 1.
