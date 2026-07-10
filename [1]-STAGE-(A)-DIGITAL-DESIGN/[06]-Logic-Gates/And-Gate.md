@@ -56,5 +56,5 @@ The symbol of 'AND' gate [*]
 * **Waveform / Timing Diagram:**
   The ideal functional timing diagram demonstrates how changes on the input pins propagate through to the output:
 
-  ![AND Gate Timing Waveform](./images/and_waveform.png)
+  ![AND Gate Timing Waveform](Images/and_waveform.png)
 
