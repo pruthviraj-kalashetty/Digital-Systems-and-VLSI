@@ -10,6 +10,7 @@
 ---
 
 * **Where Is It Used?**
+  
   *The and gate will be used in:*
   
   - Security System
