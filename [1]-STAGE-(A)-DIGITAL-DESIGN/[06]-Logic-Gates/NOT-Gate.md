@@ -1,9 +1,9 @@
 # **NOT Gate**
 
 * **What Problem Does It Solve?**
-  - The NOT gate will give an opposite value from output
-  - If the input is TRUE output becomes FALSE
-  - If the input is FALSE output becomes TRUE
+  - The NOT gate will give an opposite value from output.
+  - If the input is TRUE output becomes FALSE.
+  - If the input is FALSE output becomes TRUE.
   
 * **What is the Circuit?**
   - It is an electronic circuit that performs NOT operation
@@ -11,12 +11,12 @@
 
 * **Where Is It Used?**
   
-  *The AND gate will be used in:*
+  *The NOT gate will be used in:*
 
-  - Alarm System
-  - Computer And Digital Circuit
-  - Signal controll system
-  - Digital electronics
+  - Alarm System.
+  - Computer And Digital Circuit.
+  - Signal controll system.
+  - Digital electronics.
 ---
 
 * **Block Diagram:**
