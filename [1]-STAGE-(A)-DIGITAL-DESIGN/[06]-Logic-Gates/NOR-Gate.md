@@ -18,7 +18,7 @@
   - Digital electronics.
 ---
 
-* **Block Diagram:**
+* **Circuit Diagram:**
 
 ![NOR Gate](Image/nor-gates.png)
 
