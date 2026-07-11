@@ -21,7 +21,7 @@
   - 
 ---
 
-* **Block Diagram:**
+* **Circuit Diagram:**
 
 ![XNOR Gate](Image/xnor-gates.png)
 
