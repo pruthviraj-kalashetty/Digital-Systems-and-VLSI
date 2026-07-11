@@ -21,7 +21,7 @@
   - 
 ---
 
-* **Block Diagram:**
+* **Circuit Diagram:**
 
 ![AND Gate](Image/and-gates.png)
 
