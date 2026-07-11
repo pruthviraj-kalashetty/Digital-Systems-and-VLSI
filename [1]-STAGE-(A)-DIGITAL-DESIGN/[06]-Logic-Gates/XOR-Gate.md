@@ -19,7 +19,7 @@
   - Error detection. 
 ---
 
-* **Block Diagram:**
+* **Circuit Diagram:**
 
 ![XOR Gate](Image/xor-gates.png)
 
