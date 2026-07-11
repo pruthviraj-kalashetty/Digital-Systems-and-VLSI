@@ -2,7 +2,7 @@
 
 * **What Problem Does It Solve?**
   - The NAND gate checks if all inputs are TRUE.
-  - IF both inputs are TRUE output becomes FALSE.
+  - If both inputs are TRUE output becomes FALSE.
   - If any one input is FALSE output becomes TRUE.
   
 * **What is the Circuit?**
