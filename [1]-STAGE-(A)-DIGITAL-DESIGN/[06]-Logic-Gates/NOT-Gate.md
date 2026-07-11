@@ -19,7 +19,7 @@
   - Digital electronics.
 ---
 
-* **Block Diagram:**
+* **Circuit Diagram:**
 
 ![NOT Gate](Image/not-gates.png)
 
