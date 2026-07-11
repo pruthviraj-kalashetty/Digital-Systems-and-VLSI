@@ -19,7 +19,7 @@
     
 ---
 
-* **Block Diagram:**
+* **Circuit Diagram:**
 
 ![NAND Gate](Image/nand-gates.png)
 
