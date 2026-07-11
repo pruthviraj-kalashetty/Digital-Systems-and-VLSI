@@ -20,7 +20,7 @@
   - Emergency controll system.
 ---
 
-* **Block Diagram:**
+* **Circuit Diagram:**
 
 ![or Gate](Image/or-gates.png)
 
