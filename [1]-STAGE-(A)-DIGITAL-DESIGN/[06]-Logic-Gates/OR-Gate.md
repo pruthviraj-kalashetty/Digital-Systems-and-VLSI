@@ -1,23 +1,23 @@
 # **OR Gate**
 
 * **What Problem Does It Solve?**
-  - The OR gate checks atleast one input is true
-  - If the one input is true then the output will be true
-  - If there is both input are true output will be true 
+  - The OR gate checks atleast one input is TRUE.
+  - If the one input is TRUE then the output will be TRUE.
+  - If there is both input are TRUE output will be TRUE. 
   
 * **What is the Circuit?**
-  - It is an electronic circuit that performs OR operation
+  - It is an electronic circuit that performs OR operation.
 ---
 
 * **Where Is It Used?**
   
-  *The AND gate will be used in:*
+  *The OR gate will be used in:*
   
-  - Security System
-  - Alarm System
-  - Computer And Digital Circuit
-  - Traffic Signal Control System
-  - Emergency controll system
+  - Security System.
+  - Alarm System.
+  - Computer And Digital Circuit.
+  - Traffic Signal Control System.
+  - Emergency controll system.
 ---
 
 * **Block Diagram:**
