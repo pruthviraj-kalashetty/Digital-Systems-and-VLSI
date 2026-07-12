@@ -65,6 +65,7 @@
 |  1   1    0   |  0       1     |
 |  1   1    1   |  1       1     | 
 
+
 * **Boolean Equation**
 
  - Sum = (A'B'C) + (A'Bc') + (AB'c') + (ABC)
