@@ -26,12 +26,12 @@
 ---
 
 * **Function of Inputs and Outputs:**
-  -Inputs:- A  [1 inputs]
-  -Output:- Y  [1 output]
+  - Inputs:- A  [1 inputs]
+  - Output:- Y  [1 output]
 
-  -when both inputs A = 1 , output wii be y = 0.
+  - when both inputs A = 1 , output wii be y = 0.
   
-  -when both inputs A = 0 , output wii be y = 1.
+  - when both inputs A = 0 , output wii be y = 1.
 
 ---
 
@@ -44,6 +44,7 @@
 
 
 * **Boolean Equation:**
+  
   The Boolean equation of the NOT gate is:
   
 **Y = A**
