@@ -1,4 +1,4 @@
-## **Full Adder**
+# **Full Adder**
 
   - A full adder is a digital combinational circuit that adds three 1-bit binary numbers (two inputs A , B and carry-in Cin) to produce a sum (S) and a carry-out (Cout)
 
@@ -24,14 +24,14 @@
 
 *A Full Adder is widely used in*
 
-  - CPUs (Processors)
-  - ALU (Arithmetic Logic Unit)
-  - Digital calculators
-  - Microcontrollers
-  - Memory address calculation circuits
-  - Digital Signal Processing (DSP) systems
-  - Digital VLSI and RTL design
-  - FPGA and ASIC designs
+  - CPUs (Processors).
+  - ALU (Arithmetic Logic Unit).
+  - Digital calculators.
+  - Microcontrollers.
+  - Memory address calculation circuits.
+  - Digital Signal Processing (DSP) systems.
+  - Digital VLSI and RTL design.
+  - FPGA and ASIC designs.
 
 ---
 
@@ -43,11 +43,11 @@
 
 * **Function of Inputs and Outputs**
 
-  - A = First binary input bit
-  - B = Second binary input bit
-  - Cin = Carry input Full Adder stage
-  - Sum (S) = Result of adding A, B, and Cin
-  - Carry Out (Cout)
+  - A = First binary input bit.
+  - B = Second binary input bit.
+  - Cin = Carry input Full Adder stage.
+  - Sum (S) = Result of adding A, B, and Cin.
+  - Carry Out (Cout).
 
 ---
 
