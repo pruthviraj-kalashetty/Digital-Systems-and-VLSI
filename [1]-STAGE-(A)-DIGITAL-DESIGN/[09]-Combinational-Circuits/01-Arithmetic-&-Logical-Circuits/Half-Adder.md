@@ -71,4 +71,4 @@
 
 * **Waveform / Timing Diagram:**
 
-  ![HALF_ADDER Timing Waveform](Image/half_adder.png)
+  ![HALF_ADDER Timing Waveform](Image/half_adder_waveform.png)
