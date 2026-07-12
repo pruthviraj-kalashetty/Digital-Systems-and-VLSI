@@ -1,7 +1,7 @@
 # **Half Subtractor**
 
 * **What Problem Does It Solve**
-* 
+  
   - A Half Subtractor is a digital combinational circuit.
   - It subtracts two 1-bit binary numbers (A and B).
   - It produces a Difference (D) and a Borrow (Bout).
@@ -52,11 +52,11 @@
 
 * **Truth Table**
 
-A| B| Difference (D)| Borrow (Bout)
-0| 0| 0| 0
-0| 1| 1| 1
-1| 0| 1| 0
-1| 1| 0| 0
+|A| B| Difference (D)| Borrow (Bout)
+|0| 0| 0| 0|
+|0| 1| 1| 1|
+|1| 0| 1| 0|
+|1| 1| 0| 0|
 
 ---
 
