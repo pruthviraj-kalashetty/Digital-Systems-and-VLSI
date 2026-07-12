@@ -70,5 +70,5 @@
 
 * **Waveform / Timing Diagram:**
 
-  ![HALF_SUBCTRACTOR Timing Waveform](Image/full_subctractor_waveform.png)
+  ![HALF_SUBCTRACTOR Timing Waveform](Image/half_subctractor_waveform.png)
 
