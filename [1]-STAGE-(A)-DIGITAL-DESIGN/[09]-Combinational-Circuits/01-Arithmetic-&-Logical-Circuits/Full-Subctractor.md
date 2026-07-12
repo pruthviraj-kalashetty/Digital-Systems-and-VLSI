@@ -36,7 +36,7 @@
 
 * **Circuit Diagram:**
 
-"FULL_SUBTRACTOR" (Image/full-subtractor.png)
+![FULL_SUBCTRACTOR](Image/ful-subctractor.png)
 
 ---
 
@@ -72,30 +72,3 @@
 
 ---
 
-* Waveform
-
-Time → ---------------------------------------->
-
-A      : 0    0    1    1
-
-B      : 0    1    0    1
-
-Bin    : 0    1    1    0
-
-Diff   : 0    0    0    0
-
-Borrow : 0    1    0    0
-
----
-
-* Easy Way to Remember
-
-- A Full Subtractor subtracts three input bits (A, B, and Bin).
-- It generates the Difference (D) and Borrow Out (Bout).
-- The Borrow Out is passed to the next stage during multi-bit subtraction.
-
----
-
-* One-Line Definition (Interview)
-
-«A Full Subtractor is a combinational logic circuit that subtracts three 1-bit binary inputs (A, B, and Bin) and produces a Difference (D) and a Borrow Out (Bout).»
