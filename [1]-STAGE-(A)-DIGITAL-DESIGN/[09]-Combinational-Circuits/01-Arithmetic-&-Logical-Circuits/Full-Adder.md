@@ -9,7 +9,7 @@
 
 * **Why is it used?**
 
-*A Full Adder is used because:s*
+  *A Full Adder is used because:s*
 
  - It performs binary addition with a carry input.
  - It is the basic building block for multi-bit adders.
