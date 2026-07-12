@@ -26,8 +26,10 @@
 ---
 
 * **Function of Inputs and Outputs:**
-  -Inputs:- A,B  [2 inputs]
-  -Output:- Y  [1 output]
+  
+  - Inputs:- A,B  [2 inputs]
+  
+  - Output:- Y  [1 output]
 
 ---
 
