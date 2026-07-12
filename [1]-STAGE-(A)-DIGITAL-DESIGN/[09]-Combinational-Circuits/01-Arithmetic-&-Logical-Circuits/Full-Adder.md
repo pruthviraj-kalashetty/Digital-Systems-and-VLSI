@@ -81,4 +81,4 @@
 
 * **Waveform / Timing Diagram:**
 
-  ![FULL_ADDER Timing Waveform](Image/ful_adder.png)
+  ![FULL_ADDER Timing Waveform](Image/ful_adder_waveform.png)
