@@ -20,8 +20,8 @@
 ---
 
 * **Where is it used?**
-
-*A Full Adder is widely used in*
+ 
+ *A Full Adder is widely used in*
 
   - CPUs (Processors).
   - ALU (Arithmetic Logic Unit).
