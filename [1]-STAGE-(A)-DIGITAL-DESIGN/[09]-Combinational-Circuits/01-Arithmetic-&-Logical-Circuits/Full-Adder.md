@@ -10,7 +10,7 @@
 
 * **Why is it used?**
 
-*A Full Adder is used because*:
+*A Full Adder is used because*
 
  - It performs binary addition with a carry input.
  - It is the basic building block for multi-bit adders.
@@ -22,7 +22,7 @@
 
 * **Where is it used?**
 
-*A Full Adder is widely used in:*
+*A Full Adder is widely used in*
 
   - CPUs (Processors)
   - ALU (Arithmetic Logic Unit)
