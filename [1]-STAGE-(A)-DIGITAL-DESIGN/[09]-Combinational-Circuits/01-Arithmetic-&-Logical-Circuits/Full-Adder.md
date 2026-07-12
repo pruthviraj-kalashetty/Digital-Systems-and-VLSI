@@ -8,7 +8,7 @@
   
 ---
 
-** Why is it used?**
+* **Why is it used?**
 
 *A Full Adder is used because*:
 
@@ -20,7 +20,7 @@
 
 ---
 
-**Where is it used?**
+* **Where is it used?**
 
 *A Full Adder is widely used in:*
 
@@ -41,7 +41,7 @@
 
 ---
 
-**Function of Inputs and Outputs**
+* **Function of Inputs and Outputs**
 
 - A = First binary input bit
 - B = Second binary input bit
@@ -51,7 +51,7 @@
 
 ---
 
-**Truth Table** 
+* **Truth Table** 
 
 |     input     |     Output     |
 |:-------------:|:--------------:|
@@ -65,7 +65,7 @@
 |  1   1    0   |  0       1     |
 |  1   1    1   |  1       1     | 
 
-**Boolean Equation**
+* **Boolean Equation**
 
  - Sum = (A'B'C) + (A'Bc') + (AB'c') + (ABC)
 
@@ -82,6 +82,3 @@
 * **Waveform / Timing Diagram:**
 
   ![HALF_ADDER Timing Waveform](Image/half_adder.png)
-
-
-
