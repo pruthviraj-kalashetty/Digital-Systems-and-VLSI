@@ -1,10 +1,10 @@
 ## **Full Adder**
 
-- A full adder is a digital combinational circuit that adds three 1-bit binary numbers (two inputs A , B and carry-in Cin) to produce a sum (S) and a carry-out (Cout). 
+  - A full adder is a digital combinational circuit that adds three 1-bit binary numbers (two inputs A , B and carry-in Cin) to produce a sum (S) and a carry-out (Cout). 
 
-- Inputs:- Three (A , B , Cin).
+  - Inputs:- Three (A , B , Cin).
 
-- Outputs:- Two (Sum and carry out).
+  - Outputs:- Two (Sum and carry out).
   
 ---
 
@@ -12,11 +12,11 @@
 
 *A Full Adder is used because*:
 
-- It performs binary addition with a carry input.
-- It is the basic building block for multi-bit adders.
-- It enables arithmetic operations in digital systems.
-- It ensures correct addition by forwarding the carry to the next stage.
-- It is simple, fast, and efficient for digital circuit design.
+  - It performs binary addition with a carry input.
+  - It is the basic building block for multi-bit adders.
+  - It enables arithmetic operations in digital systems.
+  - It ensures correct addition by forwarding the carry to the next stage.
+  - It is simple, fast, and efficient for digital circuit design.
 
 ---
 
@@ -24,14 +24,14 @@
 
 *A Full Adder is widely used in:*
 
-- CPUs (Processors)
-- ALU (Arithmetic Logic Unit)
-- Digital calculators
-- Microcontrollers
-- Memory address calculation circuits
-- Digital Signal Processing (DSP) systems
-- Digital VLSI and RTL design
-- FPGA and ASIC designs
+  - CPUs (Processors)
+  - ALU (Arithmetic Logic Unit)
+  - Digital calculators
+  - Microcontrollers
+  - Memory address calculation circuits
+  - Digital Signal Processing (DSP) systems
+  - Digital VLSI and RTL design
+  - FPGA and ASIC designs
 
 ---
 
@@ -43,11 +43,11 @@
 
 * **Function of Inputs and Outputs**
 
-- A = First binary input bit
-- B = Second binary input bit
-- Cin = Carry input Full Adder stage
-- Sum (S) = Result of adding A, B, and Cin
-- Carry Out (Cout)
+  - A = First binary input bit
+  - B = Second binary input bit
+  - Cin = Carry input Full Adder stage
+ - Sum (S) = Result of adding A, B, and Cin
+  - Carry Out (Cout)
 
 ---
 
@@ -68,15 +68,15 @@
 
 * **Boolean Equation**
 
- - Sum = (A'B'C) + (A'Bc') + (AB'c') + (ABC)
+   - Sum = (A'B'C) + (A'Bc') + (AB'c') + (ABC)
 
- - Sum = c'(A'B + AB') + C(A'B' + AB)
+   - Sum = c'(A'B + AB') + C(A'B' + AB)
 
- - Carry out = (A'BC) + (AB'C) + (ABC') + (ABC)
+   - Carry out = (A'BC) + (AB'C) + (ABC') + (ABC)
 
- - Carry out = C(A'B + AB') + AB(C" + C)
+   - Carry out = C(A'B + AB') + AB(C" + C)
 
- - Carry out = AB + BC + AC
+   - Carry out = AB + BC + AC
 
 ---
 
