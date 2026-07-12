@@ -52,7 +52,8 @@
 
 * **Truth Table**
 
-|A| B| Difference (D)| Borrow (Bout)
+| A | B | Difference (D)| Borrow (Bout)|
+|---|---|---------------|--------------|
 |0| 0| 0| 0|
 |0| 1| 1| 1|
 |1| 0| 1| 0|
