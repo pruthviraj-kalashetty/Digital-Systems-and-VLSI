@@ -11,11 +11,11 @@
 
   *A Full Adder is used because:s*
 
- - It performs binary addition with a carry input.
- - It is the basic building block for multi-bit adders.
- - It enables arithmetic operations in digital systems.
- - It ensures correct addition by forwarding the carry to the next stage.
- - It is simple, fast, and efficient for digital circuit design.
+   - It performs binary addition with a carry input.
+   - It is the basic building block for multi-bit adders.
+   - It enables arithmetic operations in digital systems.
+   - It ensures correct addition by forwarding the carry to the next stage.
+   - It is simple, fast, and efficient for digital circuit design.
  
 ---
 
