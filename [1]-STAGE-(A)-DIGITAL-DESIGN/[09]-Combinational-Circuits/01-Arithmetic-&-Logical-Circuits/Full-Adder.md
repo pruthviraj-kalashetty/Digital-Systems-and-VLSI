@@ -9,7 +9,7 @@
 
 * **Why is it used?**
 
-  *A Full Adder is used because:s*
+  *A Full Adder is used because:*
 
    - It performs binary addition with a carry input.
    - It is the basic building block for multi-bit adders.
@@ -81,4 +81,4 @@
 
 * **Waveform / Timing Diagram:**
 
-  ![FULL_ADDER Timing Waveform](Image/ful_adder_waveform.png)
+  ![FULL_ADDER Timing Waveform](Image/full_adder_waveform.png)
