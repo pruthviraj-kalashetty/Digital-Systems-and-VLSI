@@ -1,10 +1,10 @@
 ## **Full Adder**
 
-  - A full adder is a digital combinational circuit that adds three 1-bit binary numbers (two inputs A , B and carry-in Cin) to produce a sum (S) and a carry-out (Cout). 
+   - A full adder is a digital combinational circuit that adds three 1-bit binary numbers (two inputs A , B and carry-in Cin) to produce a sum (S) and a carry-out (Cout). 
 
-  - Inputs:- Three (A , B , Cin).
+   - Inputs:- Three (A , B , Cin).
 
-  - Outputs:- Two (Sum and carry out).
+   - Outputs:- Two (Sum and carry out).
   
 ---
 
@@ -12,12 +12,12 @@
 
 *A Full Adder is used because*:
 
-  - It performs binary addition with a carry input.
-  - It is the basic building block for multi-bit adders.
-  - It enables arithmetic operations in digital systems.
-  - It ensures correct addition by forwarding the carry to the next stage.
-  - It is simple, fast, and efficient for digital circuit design.
-
+   - It performs binary addition with a carry input.
+   - It is the basic building block for multi-bit adders.
+   - It enables arithmetic operations in digital systems.
+   - It ensures correct addition by forwarding the carry to the next stage.
+   - It is simple, fast, and efficient for digital circuit design.
+ 
 ---
 
 * **Where is it used?**
