@@ -3,7 +3,7 @@
 * **What Problem Does It Solve?**
   - The AND gate checks if all conditions are true.
   - If only any one input is TRUE the output will be FALSE.
-   -If both inputs are TRUE the output will be TRUE.
+  - if both inputs are TRUE the output will be TRUE.
   
 * **What is the Circuit?**
   - It is an electronic circuit that performs AND operation.
