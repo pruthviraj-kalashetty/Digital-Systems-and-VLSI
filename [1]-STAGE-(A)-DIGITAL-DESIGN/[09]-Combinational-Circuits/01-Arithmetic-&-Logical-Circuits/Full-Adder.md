@@ -36,7 +36,7 @@
 
   * **Circuit Diagram:**
 
-![HALF_ADDER](Image/half-adder.png)
+![FULL_ADDER](Image/full-adder.png)
 
 ---
 
@@ -81,4 +81,4 @@
 
 * **Waveform / Timing Diagram:**
 
-  ![HALF_ADDER Timing Waveform](Image/half_adder.png)
+  ![FULL_ADDER Timing Waveform](Image/ful_adder.png)
