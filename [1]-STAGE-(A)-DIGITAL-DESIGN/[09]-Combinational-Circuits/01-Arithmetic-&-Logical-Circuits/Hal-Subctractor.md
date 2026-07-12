@@ -63,8 +63,8 @@
 
 * **Boolean Expressions**
 
-- Difference (D) = A ⊕ B
-- Borrow (Bout) = A̅ · B
+  - Difference (D) = A ⊕ B
+  - Borrow (Bout) = A̅ · B
 
 ---
 
