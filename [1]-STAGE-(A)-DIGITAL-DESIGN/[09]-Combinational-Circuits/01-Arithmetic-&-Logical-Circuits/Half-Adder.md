@@ -63,9 +63,9 @@
 
 * **Boolean Equation** 
 
-- Sum = a' * b + a * b'
+  - Sum = a' * b + a * b'
 
-- Carry = a * b
+  - Carry = a * b
 
 ---
 
