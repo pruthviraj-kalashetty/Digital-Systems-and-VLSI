@@ -21,16 +21,16 @@
 
  * **Where is it used?**
  
-  *A Half Adder is widely used in*
+   *A Half Adder is widely used in*
 
-  - CPUs (Processors).
-  - ALU (Arithmetic Logic Unit).
-  - Digital calculators.
-  - Arithmetic circuits.
-  - Digital VLSI and RTL design.
-  - FPGA and ASIC designs.
-  - Binary addition circuits.
-  - Digital logic systems.
+   - CPUs (Processors).
+   - ALU (Arithmetic Logic Unit).
+   - Digital calculators.
+   - Arithmetic circuits.
+   - Digital VLSI and RTL design.
+   - FPGA and ASIC designs.
+   - Binary addition circuits.
+   - Digital logic systems.
 
 ---
 
