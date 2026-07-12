@@ -46,7 +46,7 @@
 * **Boolean Equation:**
   The Boolean equation of the XOR gate is:
   
-**Y = (A+B)''
+**Y = (A+B)''**
 
 ---
 * **Waveform / Timing Diagram:**
