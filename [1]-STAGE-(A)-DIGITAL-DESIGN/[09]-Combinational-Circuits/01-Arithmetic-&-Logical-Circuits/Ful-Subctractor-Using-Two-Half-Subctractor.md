@@ -6,7 +6,9 @@
   - It subtracts three 1-bit binary numbers (A, B, and Borrow-in (Bin)).
   - It produces a Difference (D) and a Borrow-out (Bout).
   - It is implemented using two Half Subtractors and one OR gate.
-    
+
+---
+  
 * **Why is it used**
   
   *A Full Subtractor using Half Subtractors is used because:*
@@ -16,6 +18,8 @@
   - It simplifies the implementation of binary subtraction.
   - It is used to build multi-bit subtractors.
   - It provides accurate Difference and Borrow outputs.
+
+---
   
 * **Where is it used**
   
@@ -31,6 +35,8 @@
     - Binary subtraction circuits.
     - Circuit Diagram:
 
+---
+
 * **Function of Inputs and Outputs**
   
   - A = Minuend (number from which B is subtracted).
@@ -38,6 +44,8 @@
   - Bin = Borrow input from the previous stage.
   - Difference (D) = Final subtraction result.
   - Borrow Out (Bout) = Final borrow sent to the next stage.
+
+---
 
 * **Boolean Expressions**
   
