@@ -29,6 +29,11 @@
    - Binary arithmetic circuits.
    - Digital signal processing systems.
    - Circuit Diagram:
+ 
+     * **Circuit Diagram:**
+
+![FULL_ADDER_USING_TWO_HALF_ADDER](Images/full-adder-using-two-half-adder.png)
+
 
 * **Function of Inputs and Outputs**
   
@@ -37,6 +42,12 @@
   - Cin = Carry input from the previous stage.
   - Sum (S) = Final addition result.
   - Carry Out (Cout) = Final carry sent to the next stage.
-  - Boolean Expressions
+    
+* **Boolean Expressions**
   - Sum (S) = A ⊕ B ⊕ Cin
   - Carry Out (Cout) = (A · B) + (Cin · (A ⊕ B))
+ 
+* **Waveform / Timing Diagram:**
+
+  ![FULL_ADDER_USING_TWO_HALF_ADDER Timing Waveform](Image/full_adder_using_two_half_adder_waveform.png)
+
