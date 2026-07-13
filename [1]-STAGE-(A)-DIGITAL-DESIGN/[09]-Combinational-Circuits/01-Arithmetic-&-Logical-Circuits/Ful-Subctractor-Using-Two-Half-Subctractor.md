@@ -37,6 +37,11 @@
 
 ---
 
+* **Circuit Diagram:**
+
+![FULL_SUBCTRACTOr_USING_TWO_HALF_SUBCTRACTOR](Images/full-subctractor-using-two-half-subctractor.png)
+
+
 * **Function of Inputs and Outputs**
   
   - A = Minuend (number from which B is subtracted).
@@ -66,3 +71,10 @@
   
   - Difference (D) = A ⊕ B ⊕ Bin
   - Borrow Out (Bout) = A̅·B + A̅·Bin + B·Bin
+ 
+---
+
+* **Waveform / Timing Diagram:**
+
+  ![FULL_SUBCTRACTOR_USING_TWO_HALF_SUBCTRACTOR Timing Waveform](Image/full_subctractor_using_two_half_subctractor_waveform.png)
+
