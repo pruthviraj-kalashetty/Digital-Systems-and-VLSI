@@ -1,4 +1,4 @@
-# 01. Digital Basics & Signal Fundamentals
+# 01. Digital Basics
 
 [![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Signal%20Integrity%20%26%20Basics-brightgreen.svg)](#)
