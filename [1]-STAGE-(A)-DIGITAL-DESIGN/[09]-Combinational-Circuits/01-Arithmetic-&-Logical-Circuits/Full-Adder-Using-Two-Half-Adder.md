@@ -17,6 +17,8 @@
     - It is used to build multi-bit adders.
     - It provides accurate Sum and Carry outputs.
 
+---
+
 * **Where is it used**
   
   *A Full Adder using Half Adders is widely used in:*
@@ -30,10 +32,13 @@
    - Digital signal processing systems.
    - Circuit Diagram:
 
-  * **Circuit Diagram:**
+---
+
+* **Circuit Diagram:**
 
 ![FULL_ADDER_USING_TWO_HALF_ADDER](Images/full-adder-using-two-half-adder.png)
 
+---
 
 * **Function of Inputs and Outputs**
   
@@ -42,10 +47,14 @@
   - Cin = Carry input from the previous stage.
   - Sum (S) = Final addition result.
   - Carry Out (Cout) = Final carry sent to the next stage.
+
+    ---
     
 * **Boolean Expressions**
   - Sum (S) = A ⊕ B ⊕ Cin
   - Carry Out (Cout) = (A · B) + (Cin · (A ⊕ B))
+
+ ---
  
 * **Waveform / Timing Diagram:**
 
