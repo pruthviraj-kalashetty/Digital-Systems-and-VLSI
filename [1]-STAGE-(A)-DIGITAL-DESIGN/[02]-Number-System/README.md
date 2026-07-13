@@ -1,4 +1,4 @@
-# Digital Design Foundations: Number Systems & Conversions
+# Number Systems & Conversions
 
 [![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Hardware%20Fundamentals-orange.svg)](#)
