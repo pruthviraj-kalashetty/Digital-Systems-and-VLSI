@@ -29,8 +29,8 @@
    - Binary arithmetic circuits.
    - Digital signal processing systems.
    - Circuit Diagram:
- 
-     * **Circuit Diagram:**
+
+  * **Circuit Diagram:**
 
 ![FULL_ADDER_USING_TWO_HALF_ADDER](Images/full-adder-using-two-half-adder.png)
 
