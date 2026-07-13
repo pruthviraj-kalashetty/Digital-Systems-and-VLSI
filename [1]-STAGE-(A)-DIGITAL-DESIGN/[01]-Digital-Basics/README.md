@@ -1,32 +1,34 @@
-# 01 - Digital Basics
+# 01. Digital Basics
 
 ## Overview
 
-This section introduces the fundamental concepts of digital electronics that form the foundation for Digital Design, Verilog HDL, RTL Design, FPGA Development, and VLSI Design.
+This module introduces the fundamental concepts of digital electronics that serve as the foundation for Digital Design, Computer Architecture, Verilog HDL, RTL Design, FPGA Development, and VLSI Design.
 
-Understanding these concepts is essential before learning combinational circuits, sequential circuits, finite state machines (FSMs), and hardware description languages.
+The topics covered in this module establish the basic understanding required before studying combinational logic, sequential logic, finite state machines (FSMs), and hardware description languages.
 
 ---
 
 ## Learning Objectives
 
-- Understand the difference between analog and digital systems.
-- Learn how digital systems process and represent information.
-- Build a strong foundation for digital logic design.
-- Prepare for advanced VLSI and RTL design concepts.
+After completing this module, you will be able to:
+
+- Differentiate between analog and digital systems.
+- Understand the characteristics of digital signals.
+- Explain the basic architecture of digital systems.
+- Build a strong foundation for advanced digital design concepts.
 
 ---
 
-## Topics Covered
+## Contents
 
-| Topic | Description |
-|--------|-------------|
-| Digital vs Analog | Comparison between analog and digital signals and systems |
-| Digital System Overview | Introduction to digital systems, components, and applications |
+| File | Description |
+|------|-------------|
+| `Digital-vs-Analog.md` | Comparison between analog and digital systems, signals, advantages, limitations, and applications. |
+| `Digital-System-Overview.md` | Introduction to digital systems, components, data representation, and real-world applications. |
 
 ---
 
-## Repository Structure
+## Directory Structure
 
 ```text
 01-Digital-Basics/
@@ -34,41 +36,42 @@ Understanding these concepts is essential before learning combinational circuits
 ├── Digital-vs-Analog.md
 ├── Digital-System-Overview.md
 └── images/
-    ├── analog-graph.png
-    └── digital-graph.png
+    ├── analog-signal.png
+    └── digital-signal.png
 ```
 
 ---
 
-## Files
-
-- 📄 Digital-vs-Analog.md
-- 📄 Digital-System-Overview.md
-
----
-
-## Images
-
-- Analog Signal Graph
-- Digital Signal Graph
-
----
-
-## Skills Gained
+## Concepts Covered
 
 - Digital Electronics Fundamentals
-- Signal Representation
-- Analog vs Digital Comparison
-- Basics of Digital Systems
+- Analog vs Digital Systems
+- Digital Signal Representation
+- Characteristics of Digital Systems
+- Applications of Digital Electronics
 
 ---
 
-## Next Step
+## Skills Acquired
 
-Continue to **02-Number-Systems** to learn binary, decimal, octal, hexadecimal number systems and their conversions.
+- Fundamental understanding of digital electronics
+- Ability to distinguish analog and digital systems
+- Knowledge of digital signal representation
+- Preparation for combinational and sequential logic design
 
 ---
 
-**Author:** Pruthviraj Kalashetty
+## References
 
-*Part of the VLSI Learning Journey repository.*
+- Morris Mano – *Digital Design*
+- M. Morris Mano & Michael Ciletti – *Digital Design with RTL Design, Verilog HDL and VHDL*
+- William Stallings – *Computer Organization and Architecture*
+
+---
+
+## Author
+
+**Pruthviraj Kalashetty**
+
+Electronics & Communication Engineering  
+Aspiring RTL Design & VLSI Engineer
