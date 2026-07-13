@@ -1,34 +1,74 @@
-# ⚡ Digital Systems & Signals
+# 01 - Digital Basics
 
-A foundational reference guide covering the core concepts of digital electronics, focusing on the architectural differences between digital and analog systems.
+## Overview
 
----
+This section introduces the fundamental concepts of digital electronics that form the foundation for Digital Design, Verilog HDL, RTL Design, FPGA Development, and VLSI Design.
 
-## 📂 Project Structure
-
-This directory contains the following notes and assets:
-
-* **[Digital System Overview](./Digital-System-Overview.md)** – An introduction to the core architecture, advantages, and operations of digital systems.
-* **[Digital vs. Analog](./Digital-vs-Analog.md)** – A direct comparison between continuous (analog) and discrete (digital) signals.
-
-### 🖼️ Visual Assets
-* `image-analog-graph.png` – Graphical representation of a continuous analog waveform.
-* `image-digital-graph.png` – Graphical representation of a discrete digital step signal.
+Understanding these concepts is essential before learning combinational circuits, sequential circuits, finite state machines (FSMs), and hardware description languages.
 
 ---
 
-## 🔍 Core Concepts Summary
+## Learning Objectives
 
-### 📊 Digital vs. Analog Signals
+- Understand the difference between analog and digital systems.
+- Learn how digital systems process and represent information.
+- Build a strong foundation for digital logic design.
+- Prepare for advanced VLSI and RTL design concepts.
 
-| Feature | Analog Signals | Digital Signals |
-| :--- | :--- | :--- |
-| **Data Representation** | Continuous values | Discrete values (`0` and `1`) |
-| **Noise Vulnerability** | High (susceptible to distortion) | Low (highly immune to noise) |
-| **Examples** | Audio waves, temperature, voltage | CPU registers, square waves, binary data |
+---
 
-### 🛠️ Why Digital?
-Digital systems form the backbone of modern computing due to three major advantages:
-1. **High Precision:** Minimal data corruption over long distances.
-2. **Programmability:** Easier to design, manipulate, and automate via software.
-3. **Efficient Storage:** Information can be tightly packed and easily replicated.
+## Topics Covered
+
+| Topic | Description |
+|--------|-------------|
+| Digital vs Analog | Comparison between analog and digital signals and systems |
+| Digital System Overview | Introduction to digital systems, components, and applications |
+
+---
+
+## Repository Structure
+
+```text
+01-Digital-Basics/
+├── README.md
+├── Digital-vs-Analog.md
+├── Digital-System-Overview.md
+└── images/
+    ├── analog-graph.png
+    └── digital-graph.png
+```
+
+---
+
+## Files
+
+- 📄 Digital-vs-Analog.md
+- 📄 Digital-System-Overview.md
+
+---
+
+## Images
+
+- Analog Signal Graph
+- Digital Signal Graph
+
+---
+
+## Skills Gained
+
+- Digital Electronics Fundamentals
+- Signal Representation
+- Analog vs Digital Comparison
+- Basics of Digital Systems
+
+---
+
+## Next Step
+
+Continue to **02-Number-Systems** to learn binary, decimal, octal, hexadecimal number systems and their conversions.
+
+---
+
+**Author:** Pruthviraj Kalashetty
+
+*Part of the VLSI Learning Journey repository.*
