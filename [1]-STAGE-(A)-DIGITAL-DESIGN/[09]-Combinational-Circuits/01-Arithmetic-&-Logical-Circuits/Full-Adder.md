@@ -36,7 +36,7 @@
 
   * **Circuit Diagram:**
 
-![FULL_ADDER](full-adder.png)
+![FULL_ADDER](Images/full-adder.png)
 
 ---
 
