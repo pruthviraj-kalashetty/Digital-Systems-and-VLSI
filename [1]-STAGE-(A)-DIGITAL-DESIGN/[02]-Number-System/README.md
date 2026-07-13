@@ -1,71 +1,91 @@
-# Number Systems & Conversions
+# 🔢 My Number Systems & Conversion Guide
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
-[![Focus](https://img.shields.io/badge/Focus-Hardware%20Fundamentals-orange.svg)](#)
-
-This module establishes the core mathematical foundations required for RTL design and digital logic. While hardware fundamentally operates on binary logic levels, hardware engineers switch between different radix (base) representations to optimize memory layout, address decoding, and code readability.
+Welcome! I put this repository together as a clean, practical reference guide to master foundational digital number systems. It maps out how Binary, Octal, Hexadecimal, and Decimal systems work under the hood, along with the exact step-by-step methods I use to convert between them.
 
 ---
 
-## 🔌 Hardware-Level System Overview
+## 🧠 Core Systems at a Glance
 
-### 1. Binary System (Base-2)
-In digital circuits, binary digits (`0` and `1`) do not just mean "OFF" or "ON." They represent physical **electrical voltage ranges** (Logic Levels):
-*   **Logic 0:** Represents Logic Low ($V_{OL}$ / Ground).
-*   **Logic 1:** Represents Logic High ($V_{OH}$ / $V_{DD}$).
-*   *Hardware Context:* Hardware tracks these values using positional weights based on powers of two ($2^n$).
+### 1. Binary (Base-2)
+The absolute foundation of computer architecture. It represents data using just two states:
+* **Digits:** `0` (OFF / Low Voltage) and `1` (ON / High Voltage)
+* **How it scales:** Every position represents a power of 2 ($2^n$).
 
-### 2. Hexadecimal System (Base-16)
-Reading a raw 32-bit or 64-bit binary bus in a simulation waveform is highly prone to human error. Hexadecimal solves this by grouping bits.
-*   **The Math:** Since $16 = 2^4$, exactly **one hexadecimal digit maps to a 4-bit binary nibble**.
-*   **Digits:** `0-9` for values 0-9, and `A-F` for values 10-15 (`A`=10, `B`=11, `C`=12, `D`=13, `E`=14, `F`=15).
+### 2. Hexadecimal (Base-16)
+Because reading long strings of 0s and 1s gives humans a headache, we use Hex as a compact shortcut. 
+* **Digits:** `0-9` for standard numbers, and letters `A-F` for values 10 through 15:
+    * `A`=10, `B`=11, `C`=12, `D`=13, `E`=14, `F`=15
 
-### 3. Octal System (Base-8)
-An older computing representation where **one octal digit maps to a 3-bit binary group** ($8 = 2^3$). 
-*   **Digits:** `0` through `7`.
-*   *Application:* Used historically in 12-bit or 36-bit architectures, and still seen in system permissions.
+### 3. Octal (Base-8)
+A legacy base system that groups binary digits into sets of three.
+* **Digits:** `0` through `7`
 
 ---
 
-## 🔄 Practical Conversion Procedures
+## 🔄 Step-by-Step Conversion Workflows
 
-### 🔹 1. Binary $\leftrightarrow$ Hexadecimal Fast Mapping
-Because Hex maps perfectly to 4-bit boundaries, you do not need to convert to decimal first. Simply group bits by 4, starting from the radix point and moving outward.
+### 📊 1. Binary to Hexadecimal
+To turn binary into hex, I split the bits into **groups of four** starting from the radix point. (Go left for whole numbers, right for decimals). If a group is short, just pad it with zeros.
 
-*   **Binary to Hex Example:** `0100 1111 0111 . 1101 0101`
-    *   `0100` $\rightarrow$ **4**
-    *   `1111` $\rightarrow$ **F**
-    *   `0111` $\rightarrow$ **7**
-    *   `1101` $\rightarrow$ **D**
-    *   `0101` $\rightarrow$ **5**
-    *   *Result:* $(010011110111.11010101)_2 = (4F7.D5)_{16}$
+**Example:** Convert $(010011110111.11010101)_2$ to Hex
 
-*   **Hex to Binary Example:** $(F37A.B2)_{16}$
-    *   Expand each digit to its exact 4-bit equivalent: `F` $\rightarrow$ 1111, `3` $\rightarrow$ 0011, `7` $\rightarrow$ 0111, `A` $\rightarrow$ 1010, `B` $\rightarrow$ 1011, `2` $\rightarrow$ 0010.
-    *   *Result:* $(F37A.B2)_{16} = (111100110111.10110010)_2$
+1. **Group into 4-bit chunks:** `0100` | `1111` | `0111` **.** `1101` | `0101` | `0000`
+2. **Translate each chunk:**
+   * `0100` $\rightarrow$ **4**
+   * `1111` $\rightarrow$ **F**
+   * `0111` $\rightarrow$ **7**
+   * `1101` $\rightarrow$ **D**
+   * `0101` $\rightarrow$ **5**
+   * `0000` $\rightarrow$ **0**
 
----
-
-### 🔹 2. Binary to Decimal (Weighted Sum)
-To find the decimal value of a binary string, calculate the sum of the positional weights for every active (`1`) bit.
-
-*   **Example:** $(111000)_2$
-    *   Identify the active powers of 2: $2^5$ (32), $2^4$ (16), and $2^3$ (8).
-    *   Ignore positions with `0`.
-    *   *Calculation:* $32 + 16 + 8 = 56$
-    *   *Result:* $(111000)_2 = (56)_{10}$
+> **Result:** $(010011110111.11010101)_2 = (4F7.D50)_{16}$
 
 ---
 
-### 🔹 3. Decimal to Binary (Successive Radix Division)
-To convert a base-10 integer to base-2, repeatedly divide the integer by 2. Record the remainder at each step, and use the new quotient for the next division. Read the remainders from **bottom to top** (Most Significant Bit to Least Significant Bit).
+### 📊 2. Hexadecimal to Binary
+This is the reverse process. I take each individual Hex digit and expand it into its unique **4-bit binary equivalent**.
 
-*   **Example:** Convert $(119)_{10}$ to Binary
-    1. $119 \div 2 = 59$ | Remainder = **1** (LSB)
-    2. $59 \div 2 = 29$  | Remainder = **1**
-    3. $29 \div 2 = 14$  | Remainder = **1**
-    4. $14 \div 2 = 7$   | Remainder = **0**
-    5. $7 \div 2 = 3$    | Remainder = **1**
-    6. $3 \div 2 = 1$    | Remainder = **1**
-    7. $1 \div 2 = 0$    | Remainder = **1** (MSB)
-    *   *Result:* Reading bottom-to-top yields $(1110111)_2$
+**Example:** Convert $(F37A.B2)_{16}$ to Binary
+
+* **F** $\rightarrow$ `1111`
+* **3** $\rightarrow$ `0011`
+* **7** $\rightarrow$ `0111`
+* **A** $\rightarrow$ `1010`
+* **.**
+* **B** $\rightarrow$ `1011`
+* **2** $\rightarrow$ `0010`
+
+> **Result:** $(F37A.B2)_{16} = (111100111010.10110010)_2$
+
+---
+
+### 📊 3. Binary to Decimal
+For this, I line up the binary string against a positional weight table, grab every active bit (`1`), and sum their values up.
+
+**Example:** Convert $(111000)_2$ to Decimal
+
+| Bit Position | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Weight Value** | 32 | 16 | 8 | 4 | 2 | 1 |
+| **My Bit String** | **1** | **1** | **1** | **0** | **0** | **0** |
+
+$$\text{Calculation: } 32 + 16 + 8 = 56$$
+
+> **Result:** $(111000)_2 = (56)_{10}$
+
+---
+
+### 📊 4. Decimal to Binary (Successive Division)
+To bring a normal decimal number down to base-2, I repeatedly divide the number by 2 and track the remainders. Once I hit 0, I read the remainders from **bottom to top** (Most Significant Bit to Least Significant Bit).
+
+**Example:** Convert $(119)_{10}$ to Binary
+
+1. $119 \div 2 = 59$ (Remainder **1** - LSB)
+2. $59 \div 2 = 29$ (Remainder **1**)
+3. $29 \div 2 = 14$ (Remainder **1**)
+4. $14 \div 2 = 7$ (Remainder **0**)
+5. $7 \div 2 = 3$ (Remainder **1**)
+6. $3 \div 2 = 1$ (Remainder **1**)
+7. $1 \div 2 = 0$ (Remainder **1** - MSB)
+
+> **Result:** $(119)_{10} = (1110111)_2$
