@@ -1,91 +1,58 @@
-# 🔢 Number Systems & Conversions
+# 02. Number Systems & Architectural Mapping
 
-A clean, practical reference guide for understanding foundational digital number systems (Binary, Octal, Hexadecimal, and Decimal) and the exact workflows used to convert between them.
+[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Focus](https://img.shields.io/badge/Focus-Data%20Representation%20%26%20Buses-orange.svg)](#)
 
----
-
-## 📂 Core Systems Overview
-
-### 1. Binary (Base-2)
-The foundation of digital computing. Data is represented using two logical states:
-* **Digits:** `0` (OFF) and `1` (ON)
-* **Progression:** Each position represents an increasing power of 2 ($2^n$).
-
-### 2. Hexadecimal (Base-16)
-Used in computing as a compact, human-readable way to represent long binary sequences.
-* **Digits:** `0-9` and letters `A-F` (representing values 10 to 15):
-  * `A` = 10, `B` = 11, `C` = 12, `D` = 13, `E` = 14, `F` = 15
-
-### 3. Octal (Base-8)
-A legacy system that groups binary digits into clusters of three.
-* **Digits:** `0` through `7`
+This module explores the core number systems utilized in digital logic design and hardware specification. In the VLSI domain, choosing the right radix (base) representation is crucial for configuring register layouts, interpreting bus behaviors in simulation waveforms, and organizing instruction set architectures (ISAs).
 
 ---
 
-## 🔄 Step-by-Step Conversions
+## 🎯 Learning Objectives
 
-### 📊 1. Binary to Hexadecimal
-Split the binary digits into **groups of four bits** starting from the radix point (moving left for whole numbers, right for fractions). Pad with zeros if a group is incomplete.
-
-**Example:** Convert $(010011110111.11010101)_2$ to Hex
-
-1. **Group into 4-bit sets:** `0100` | `1111` | `0111` **.** `1101` | `0101` | `0000`
-2. **Convert each set:**
-   * `0100` $\rightarrow$ **4**
-   * `1111` $\rightarrow$ **F**
-   * `0111` $\rightarrow$ **7**
-   * `1101` $\rightarrow$ **D**
-   * `0101` $\rightarrow$ **5**
-   * `0000` $\rightarrow$ **0**
-
-> **Result:** $(010011110111.11010101)_2 = (4F7.D50)_{16}$
+By working through these modules, you will master the concepts required to:
+* **Analyze Bit-Level Layouts:** Map data directly to hardware structures based on word boundaries (bits, bytes, nibbles).
+* **Optimize Waveform Inspection:** Utilize alternative radix representations to simplify tracking and debugging high-bit-width buses.
+* **Execute Exact Conversions:** Perform precise fractional and integer base changes without data loss or resolution degradation.
 
 ---
 
-### 📊 2. Hexadecimal to Binary
-Expand each individual Hexadecimal digit directly into its equivalent **4-bit binary sequence**.
+## 📂 Module Contents
 
-**Example:** Convert $(F37A.B2)_{16}$ to Binary
-
-* **F** $\rightarrow$ `1111`
-* **3** $\rightarrow$ `0011`
-* **7** $\rightarrow$ `0111`
-* **A** $\rightarrow$ `1010`
-* **.**
-* **B** $\rightarrow$ `1011`
-* **2** $\rightarrow$ `0010`
-
-> **Result:** $(F37A.B2)_{16} = (111100111010.10110010)_2$
+| File | Hardware & Architectural Focus |
+| :--- | :--- |
+| **[`Binary-System.md`](./Binary-System.md)** | The base-2 native layer of silicon hardware. Explores positional bit-weights, word lengths, and logical states. |
+| **[`Hexadecimal-System.md`](./Hexadecimal-System.md)** | The standard base-16 representation for modern 32-bit and 64-bit data buses, instruction opcodes, and memory space mapping. |
+| **[`Octal-System.md`](./Octal-System.md)** | The base-8 representation used historically in early computer architectures and still applied in custom bit-field encoding structures. |
+| **[`Number-System-Conversion.md`](./Number-System-Conversion.md)** | The algorithmic mechanics of transitioning data between different bases, emphasizing fast grouping strategies. |
 
 ---
 
-### 📊 3. Binary to Decimal
-Multiply each active bit (`1`) by its corresponding positional weight ($2^n$) and calculate the sum.
+## 🛠️ Core Engineering Concepts Covered
 
-**Example:** Convert $(111000)_2$ to Decimal
+### 1. Modern Data Bus Representation: Why Hex Over Binary?
+In modern hardware design, dealing with raw 32-bit or 64-bit strings directly is impossible for a human designer during debug. Because $16 = 2^4$, exactly **one hexadecimal character replaces 4 bits (a nibble)**. 
+* *Example:* A 16-bit control status register holding `1111000011001010` is vastly easier to verify in a Verilog simulator when viewed instantly as `0xF0CA`.
 
-| Bit Position | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Weight** | 32 | 16 | 8 | 4 | 2 | 1 |
-| **Bit Value** | **1** | **1** | **1** | **0** | **0** | **0** |
+### 2. Radical Cross-Mapping Boundaries
+Digital components are constrained by physical wire boundaries. Transitioning between systems with power-of-two bases is highly efficient in hardware configuration:
 
-$$\text{Calculation: } 32 + 16 + 8 = 56$$
+* **Octal Mapping ($2^3$):** Direct $3$-bit groupings. Perfect for isolating specific flag bits in smaller, legacy architectures.
+* **Hexadecimal Mapping ($2^4$):** Direct $4$-bit groupings. Matches byte-aligned memory boundaries ($8$ bits = $2$ hex digits).
 
-> **Result:** $(111000)_2 = (56)_{10}$
+### 3. Conversion Core Workflows
+* **Integer Realignment:** Utilizing successive radix division to transition decimal configurations into exact binary hardware patterns.
+* **Fractional Precision Handling:** Using successive multiplication to avoid precision drops when loading floating-point constants into specialized fixed-point registers.
 
 ---
 
-### 📊 4. Decimal to Binary (Successive Division)
-Repeatedly divide the decimal integer by the target radix (2) and record the remainders. Read the final remainders from **bottom to top** (Most Significant Bit to Least Significant Bit).
+## 📚 Reference Literature
 
-**Example:** Convert $(119)_{10}$ to Binary
+* M. Morris Mano & Michael D. Ciletti – *Digital Design with RTL Design, VHDL, and Verilog*
+* Thomas L. Floyd – *Digital Fundamentals*
+* David Money Harris & Sarah L. Harris – *Digital Design and Computer Architecture*
 
-1. $119 \div 2 = 59$ (Remainder **1** - LSB)
-2. $59 \div 2 = 29$ (Remainder **1**)
-3. $29 \div 2 = 14$ (Remainder **1**)
-4. $14 \div 2 = 7$ (Remainder **0**)
-5. $7 \div 2 = 3$ (Remainder **1**)
-6. $3 \div 2 = 1$ (Remainder **1**)
-7. $1 \div 2 = 0$ (Remainder **1** - MSB)
+---
 
-> **Result:** $(119)_{10} = (1110111)_2$
+## 👤 Author
+
+**Pruthviraj Kalashetty** *Electronics & Communication Engineering* **Aspiring RTL Design & VLSI Engineer**
