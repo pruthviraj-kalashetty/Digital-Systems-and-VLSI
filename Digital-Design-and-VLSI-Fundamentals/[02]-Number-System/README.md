@@ -1,6 +1,6 @@
 # 02. Number Systems
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Data%20Representation-orange.svg)](#)
 
 This module introduces the fundamental number systems used in digital electronics and computer systems. It covers binary, octal, and hexadecimal number systems, along with number system conversions, providing the foundation for digital logic design, computer architecture, Verilog HDL, and RTL Design.
