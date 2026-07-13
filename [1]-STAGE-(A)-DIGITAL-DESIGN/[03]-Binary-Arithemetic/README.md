@@ -11,10 +11,10 @@ This module introduces the fundamental arithmetic operations used in digital ele
 
 By working through this module, you will be able to:
 
-* Perform binary addition and binary subtraction accurately.
-* Understand carry and borrow generation in binary arithmetic.
-* Analyze multi-bit binary arithmetic operations.
-* Build the mathematical foundation for designing adders and subtractors.
+- Perform binary addition and binary subtraction accurately.
+- Understand carry and borrow generation in binary arithmetic.
+- Analyze multi-bit binary arithmetic operations.
+- Build the mathematical foundation for designing adders and subtractors.
 
 ---
 
@@ -24,6 +24,17 @@ By working through this module, you will be able to:
 | :--- | :--- |
 | **[`Binary-Addition.md`](./Binary-Addition.md)** | Rules of binary addition, carry generation, truth tables, and multi-bit addition. |
 | **[`Binary-Subtraction.md`](./Binary-Subtraction.md)** | Rules of binary subtraction, borrow generation, truth tables, and multi-bit subtraction. |
+
+---
+
+## 🌲 Directory Structure
+
+```text
+03-Binary-Arithmetic/
+├── README.md
+├── Binary-Addition.md
+└── Binary-Subtraction.md
+```
 
 ---
 
@@ -56,9 +67,8 @@ Binary subtraction determines the difference between two binary numbers. When a 
 
 ## 📚 Reference Literature
 
-- M. Morris Mano & Michael D. Ciletti – *Digital Design with RTL Design, VHDL, and Verilog*
-- Thomas L. Floyd – *Digital Fundamentals*
-- David Money Harris & Sarah L. Harris – *Digital Design and Computer Architecture*
+- Neso Academy
+- All About Electronics
 
 ---
 
