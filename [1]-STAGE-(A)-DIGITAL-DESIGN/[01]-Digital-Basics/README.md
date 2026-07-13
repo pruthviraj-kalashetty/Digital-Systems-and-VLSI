@@ -1,34 +1,31 @@
-# 01. Digital Basics
+# 01. Digital Basics & Signal Fundamentals
 
-## Overview
+[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Focus](https://img.shields.io/badge/Focus-Signal%20Integrity%20%26%20Basics-brightgreen.svg)](#)
 
-This module introduces the fundamental concepts of digital electronics that serve as the foundation for Digital Design, Computer Architecture, Verilog HDL, RTL Design, FPGA Development, and VLSI Design.
-
-The topics covered in this module establish the basic understanding required before studying combinational logic, sequential logic, finite state machines (FSMs), and hardware description languages.
-
----
-
-## Learning Objectives
-
-After completing this module, you will be able to:
-
-- Differentiate between analog and digital systems.
-- Understand the characteristics of digital signals.
-- Explain the basic architecture of digital systems.
-- Build a strong foundation for advanced digital design concepts.
+This module establishes the core foundational principles of digital electronics. Before jumping into hardware description languages (HDLs) or complex RTL design architectures, it is vital to understand how physical, continuous electrical phenomena are abstracted into discrete digital states.
 
 ---
 
-## Contents
+## 🎯 Learning Objectives
 
-| File | Description |
-|------|-------------|
-| `Digital-vs-Analog.md` | Comparison between analog and digital systems, signals, advantages, limitations, and applications. |
-| `Digital-System-Overview.md` | Introduction to digital systems, components, data representation, and real-world applications. |
+By analyzing these fundamentals, you will develop the intuition to:
+* **Abstract Physical Electronics:** Understand how continuous voltages are mapped into discrete binary logic levels (`0` and `1`).
+* **Evaluate Signal Behavior:** Contrast continuous analog domains with time-quantized digital domains, focusing on noise immunity.
+* **Recognize System Constraints:** Identify the basic structural building blocks (sampling, quantization, encoding) that form a digital system interface.
 
 ---
 
-## Directory Structure
+## 📂 Module Contents
+
+| File | Technical Focus |
+| :--- | :--- |
+| **[`Digital-vs-Analog.md`](./Digital-vs-Analog.md)** | Direct comparison of continuous vs. discrete signals, mathematical abstraction, noise margin advantages, and hardware limitations. |
+| **[`Digital-System-Overview.md`](./Digital-System-Overview.md)** | Architecture of a digital processing system, data representation schemes, and real-world interface topologies. |
+
+---
+
+## 🌲 Directory Structure
 
 ```text
 01-Digital-Basics/
@@ -38,40 +35,3 @@ After completing this module, you will be able to:
 └── images/
     ├── analog-signal.png
     └── digital-signal.png
-```
-
----
-
-## Concepts Covered
-
-- Digital Electronics Fundamentals
-- Analog vs Digital Systems
-- Digital Signal Representation
-- Characteristics of Digital Systems
-- Applications of Digital Electronics
-
----
-
-## Skills Acquired
-
-- Fundamental understanding of digital electronics
-- Ability to distinguish analog and digital systems
-- Knowledge of digital signal representation
-- Preparation for combinational and sequential logic design
-
----
-
-## References
-
-- Morris Mano – *Digital Design*
-- M. Morris Mano & Michael Ciletti – *Digital Design with RTL Design, Verilog HDL and VHDL*
-- William Stallings – *Computer Organization and Architecture*
-
----
-
-## Author
-
-**Pruthviraj Kalashetty**
-
-Electronics & Communication Engineering  
-Aspiring RTL Design & VLSI Engineer
