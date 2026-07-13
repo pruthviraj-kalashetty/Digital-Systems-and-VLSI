@@ -49,7 +49,22 @@
   - Carry Out (Cout) = Final carry sent to the next stage.
 
 ---
+
+* **Truth Table**
+
+| A | B | Cin | Sum1 (A⊕B) | Carry1 (A·B) | Sum (Sum1⊕Cin) | Carry2 (Sum1·Cin) | Cout (Carry1+Carry2) |
+|:-:|:-:|:---:|:----------:|:------------:|:--------------:|:-----------------:|:--------------------:|
+| 0 | 0 |  0  |     0      |      0       |       0        |         0         |          0           |
+| 0 | 0 |  1  |     0      |      0       |       1        |         0         |          0           |
+| 0 | 1 |  0  |     1      |      0       |       1        |         0         |          0           |
+| 0 | 1 |  1  |     1      |      0       |       0        |         1         |          1           |
+| 1 | 0 |  0  |     1      |      0       |       1        |         0         |          0           |
+| 1 | 0 |  1  |     1      |      0       |       0        |         1         |          1           |
+| 1 | 1 |  0  |     0      |      1       |       0        |         0         |          1           |
+| 1 | 1 |  1  |     0      |      1       |       1        |         0         |          1           |
     
+---
+
 * **Boolean Expressions**
   - Sum (S) = A ⊕ B ⊕ Cin
   - Carry Out (Cout) = (A · B) + (Cin · (A ⊕ B))
