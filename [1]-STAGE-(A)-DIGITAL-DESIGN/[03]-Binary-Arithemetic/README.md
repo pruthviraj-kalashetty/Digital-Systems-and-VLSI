@@ -33,7 +33,10 @@ By working through this module, you will be able to:
 03-Binary-Arithmetic/
 ├── README.md
 ├── Binary-Addition.md
-└── Binary-Subtraction.md
+├── Binary-Subtraction.md
+└── images/
+    ├── binary-addition.png
+    └── binary-subtraction.png
 ```
 
 ---
@@ -67,8 +70,8 @@ Binary subtraction determines the difference between two binary numbers. When a 
 
 ## 📚 Reference Literature
 
-- Neso Academy
-- All About Electronics
+- Neso Academy – Digital Electronics Course
+- All About Electronics – Digital Electronics Tutorials
 
 ---
 
