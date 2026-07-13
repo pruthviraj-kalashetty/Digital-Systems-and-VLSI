@@ -1,95 +1,326 @@
-# Number System Conversion & Reference Guide
+# Number System
 
 [![Digital Logic](https://img.shields.io/badge/Logic-Digital%20Design-blue.svg)](#)
 [![Stage](https://img.shields.io/badge/Stage-A-brightgreen.svg)](#)
 
-This document serves as a comprehensive reference guide for understanding foundational digital number systems (Binary, Octal, Hexadecimal, and Decimal) along with exact procedural workflows for converting numbers between these bases.
+## Overview
+
+A **Number System** is a method of representing numerical values using a fixed set of symbols (digits) and a **base (radix)**. Number systems form the foundation of Digital Electronics because all digital circuits store, process, and transmit information in binary form.
+
+Understanding number systems is essential before learning Binary Arithmetic, Boolean Algebra, Logic Gates, Combinational Logic, Sequential Logic, RTL Design, FPGA Design, and ASIC Design.
 
 ---
 
-## 🔢 Core Number Systems Reference
+## Topics Covered
 
-### 1. Binary Number System (Base-2)
-The fundamental language of digital electronics and computer systems, representing states using two characters.
-* **Digits:** `0` (OFF / Low Voltage) and `1` (ON / High Voltage)
-* **Weights:** Expressed as powers of 2 ($2^n$).
-
-### 2. Hexadecimal Number System (Base-16)
-Used extensively in computing to provide a human-readable, compact representation of long binary strings.
-* **Digits:** `0-9` and letters `A-F` to represent values from 10 to 15:
-    * `A` = 10, `B` = 11, `C` = 12, `D` = 13, `E` = 14, `F` = 15
-
-### 3. Octal Number System (Base-8)
-An older computing base representation that groups binary digits into clusters of three.
-* **Digits:** `0, 1, 2, 3, 4, 5, 6, 7`
-* **Example:** $(231.25)_8$
+- Binary Number System
+- Decimal Number System
+- Octal Number System
+- Hexadecimal Number System
+- Binary to Decimal Conversion
+- Decimal to Binary Conversion
+- Binary to Octal Conversion
+- Octal to Binary Conversion
+- Binary to Hexadecimal Conversion
+- Hexadecimal to Binary Conversion
+- Successive Division (Radix Conversion)
 
 ---
 
-## 🔄 Conversion Methodologies & Examples
+# Number Systems
 
-### 📊 1. Binary to Hexadecimal
-To convert a binary number to hexadecimal, split the digits into **groups of four bits** starting from the binary point (moving left for integers, right for fractional parts). Pad with leading or trailing zeros if necessary.
+## 1. Binary Number System (Base-2)
 
-**Example String:** $(010011110111.11010101)_2$
+The **Binary Number System** is the fundamental language of digital electronics and computer systems. It represents data using only two digits.
 
-1. **Group into 4-bit clusters:** `0100`, `1111`, `0111` **.** `1101`, `0101`, `0000`
-2. **Convert each cluster to its Hex equivalent:**
-   * `0100` $\rightarrow$ **4**
-   * `1111` $\rightarrow$ **F**
-   * `0111` $\rightarrow$ **7**
-   * `1101` $\rightarrow$ **D**
-   * `0101` $\rightarrow$ **5**
-   * `0000` $\rightarrow$ **0**
+### Digits
 
-> **Result:** $(010011110111.11010101)_2 = (4F7.D50)_{16}$
+- **0** → LOW / OFF
+- **1** → HIGH / ON
 
----
+### Base
 
-### 📊 2. Hexadecimal to Binary
-Convert each individual hexadecimal digit directly into its equivalent **4-bit binary representation**.
+**Base = 2**
 
-**Example String:** $(F37A.B2)_{16}$
+### Positional Weights
 
-* **F** $\rightarrow$ `1111`
-* **3** $\rightarrow$ `0011`
-* **7** $\rightarrow$ `0111`
-* **A** $\rightarrow$ `1010`
-* **.**
-* **B** $\rightarrow$ `1011`
-* **2** $\rightarrow$ `0010`
+| Bit Position | 5 | 4 | 3 | 2 | 1 | 0 |
+|:------------:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Weight | 2⁵ | 2⁴ | 2³ | 2² | 2¹ | 2⁰ |
 
-> **Result:** $(F37A.B2)_{16} = (111100111010.10110010)_2$
+### Example
+
+```
+111000₂
+
+= (1 × 2⁵) + (1 × 2⁴) + (1 × 2³)
+
+= 32 + 16 + 8
+
+= 56₁₀
+```
 
 ---
 
-### 📊 3. Binary to Decimal
-Multiply each active bit (`1`) by its positional weight ($2^n$) and sum the results.
+## 2. Decimal Number System (Base-10)
 
-**Example String:** $(111000)_2$
+The **Decimal Number System** is the standard numbering system used in everyday life.
 
-| Bit Position | $2^5$ | $2^4$ | $2^3$ | $2^2$ | $2^1$ | $2^0$ |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Weight** | 32 | 16 | 8 | 4 | 2 | 1 |
-| **Bit Value** | **1** | **1** | **1** | **0** | **0** | **0** |
+### Digits
 
-$$\text{Calculation: } 32 + 16 + 8 = 56$$
+```
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+```
 
-> **Result:** $(111000)_2 = (56)_{10}$
+### Base
+
+**Base = 10**
+
+### Example
+
+```
+(459)₁₀
+
+= (4 × 10²)
+
++ (5 × 10¹)
+
++ (9 × 10⁰)
+
+= 400 + 50 + 9
+
+= 459
+```
 
 ---
 
-### 📊 4. Decimal to Binary (Successive Division Radix Conversion)
-To convert an integer from Decimal to a target base, repeatedly divide the quotient by the target radix (Base 2) and record the remainder. Read the final remainders from **bottom to top** (MSB to LSB).
+## 3. Octal Number System (Base-8)
 
-**Example:** Convert $(119)_{10}$ to Binary
+The **Octal Number System** uses eight digits and is commonly used as a compact representation of binary numbers.
 
-1. $119 \div 2 = 59$ with a Remainder of **1** (LSB)
-2. $59 \div 2 = 29$ with a Remainder of **1**
-3. $29 \div 2 = 14$ with a Remainder of **1**
-4. $14 \div 2 = 7$ with a Remainder of **0**
-5. $7 \div 2 = 3$ with a Remainder of **1**
-6. $3 \div 2 = 1$ with a Remainder of **1**
-7. $1 \div 2 = 0$ with a Remainder of **1** (MSB)
+### Digits
 
-> **Result:** $(119)_{10} = (1110111)_2$
+```
+0, 1, 2, 3, 4, 5, 6, 7
+```
+
+### Base
+
+**Base = 8**
+
+### Example
+
+```
+(231.25)₈
+```
+
+---
+
+## 4. Hexadecimal Number System (Base-16)
+
+The **Hexadecimal Number System** provides a compact representation of binary numbers and is widely used in digital electronics and computer systems.
+
+### Digits
+
+```
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+```
+
+### Base
+
+**Base = 16**
+
+### Hexadecimal Values
+
+| Hex | Decimal |
+|:---:|:-------:|
+| A | 10 |
+| B | 11 |
+| C | 12 |
+| D | 13 |
+| E | 14 |
+| F | 15 |
+
+### Example
+
+```
+(A3F)₁₆
+```
+
+---
+
+# Number System Conversions
+
+## 1. Binary to Hexadecimal
+
+To convert a binary number into hexadecimal:
+
+- Divide the binary digits into groups of **4 bits**.
+- Start grouping from the binary point.
+- Add leading or trailing zeros if required.
+- Convert each 4-bit group into its hexadecimal equivalent.
+
+### Example
+
+```
+(010011110111.11010101)₂
+```
+
+Group into 4-bit blocks
+
+```
+0100 1111 0111 . 1101 0101 0000
+```
+
+Convert each group
+
+| Binary | Hex |
+|:------:|:---:|
+|0100|4|
+|1111|F|
+|0111|7|
+|1101|D|
+|0101|5|
+|0000|0|
+
+### Result
+
+```
+(010011110111.11010101)₂ = (4F7.D50)₁₆
+```
+
+---
+
+## 2. Hexadecimal to Binary
+
+Each hexadecimal digit is represented by **4 binary bits**.
+
+### Example
+
+```
+(F37A.B2)₁₆
+```
+
+| Hex | Binary |
+|:---:|:------:|
+|F|1111|
+|3|0011|
+|7|0111|
+|A|1010|
+|B|1011|
+|2|0010|
+
+### Result
+
+```
+(F37A.B2)₁₆
+
+=
+
+(1111001101111010.10110010)₂
+```
+
+---
+
+## 3. Binary to Decimal
+
+Multiply each binary digit by its positional weight (2ⁿ) and add the values corresponding to bits that are **1**.
+
+### Example
+
+```
+(111000)₂
+```
+
+| Bit | Weight |
+|:---:|:------:|
+|1|2⁵ = 32|
+|1|2⁴ = 16|
+|1|2³ = 8|
+|0|2² = 4|
+|0|2¹ = 2|
+|0|2⁰ = 1|
+
+Calculation
+
+```
+32 + 16 + 8 = 56
+```
+
+### Result
+
+```
+(111000)₂ = (56)₁₀
+```
+
+---
+
+## 4. Decimal to Binary (Successive Division Method)
+
+The **Successive Division Method** converts a decimal integer into binary by repeatedly dividing the number by **2** and recording the remainder.
+
+The binary number is obtained by reading the remainders from **bottom to top**.
+
+### Example
+
+Convert
+
+```
+(119)₁₀
+```
+
+| Division | Quotient | Remainder |
+|:---------|:--------:|:---------:|
+|119 ÷ 2|59|1|
+|59 ÷ 2|29|1|
+|29 ÷ 2|14|1|
+|14 ÷ 2|7|0|
+|7 ÷ 2|3|1|
+|3 ÷ 2|1|1|
+|1 ÷ 2|0|1|
+
+Read the remainders from bottom to top
+
+```
+1110111
+```
+
+### Result
+
+```
+(119)₁₀ = (1110111)₂
+```
+
+---
+
+# Applications
+
+Number systems are widely used in:
+
+- Digital Electronics
+- Computer Architecture
+- Microprocessors
+- Embedded Systems
+- RTL Design
+- FPGA Design
+- ASIC Design
+- Memory Addressing
+- Digital Communication
+
+---
+
+# Learning Outcomes
+
+After completing this section, you will be able to:
+
+- Understand Binary, Decimal, Octal, and Hexadecimal number systems.
+- Identify the radix (base) of each number system.
+- Perform manual number system conversions.
+- Convert between Binary, Decimal, Octal, and Hexadecimal.
+- Apply number system concepts in Digital Logic Design and RTL Design.
+
+---
+
+# Summary
+
+Number systems are one of the most important foundations of Digital Electronics. Every digital circuit internally stores and processes data using binary values. Understanding Binary, Decimal, Octal, and Hexadecimal number systems, along with their conversion techniques, provides the necessary foundation for studying Binary Arithmetic, Boolean Algebra, Logic Gates, Digital Circuit Design, RTL Design, FPGA Design, and ASIC Design.
