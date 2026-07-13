@@ -1,9 +1,9 @@
-# 02. Number Systems & Architectural Mapping
+# 02. Number Systems 
 
 [![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Data%20Representation%20%26%20Buses-orange.svg)](#)
 
-This module explores the core number systems utilized in digital logic design and hardware specification. In the VLSI domain, choosing the right radix (base) representation is crucial for configuring register layouts, interpreting bus behaviors in simulation waveforms, and organizing instruction set architectures (ISAs).
+This module introduces the number systems used in digital electronics and computer systems. It covers binary, octal, hexadecimal, and decimal representations along with number system conversions, providing the foundation for digital logic design, computer architecture, and Verilog HDL.
 
 ---
 
