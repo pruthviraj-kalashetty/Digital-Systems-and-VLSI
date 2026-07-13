@@ -55,4 +55,4 @@ Digital components are constrained by physical wire boundaries. Transitioning be
 
 ## 👤 Author
 
-**Pruthviraj Kalashetty** *Electronics & Communication Engineering* **Aspiring RTL Design & VLSI Engineer**
+**Pruthviraj Kalashetty** *Electronics & Communication Engineering* 
