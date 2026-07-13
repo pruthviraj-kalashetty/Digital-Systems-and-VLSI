@@ -10,7 +10,7 @@
 
 * **Why is it used**
   
-   *A Full Adder using Half Adders is used because:
+   *A Full Adder using Half Adders is used because:*
     - It adds two binary bits along with a carry input.
     - It is easy to design using basic digital building blocks.
     - It simplifies the implementation of binary addition.
@@ -19,7 +19,7 @@
 
 * **Where is it used**
   
-  *A Full Adder using Half Adders is widely used in:
+  *A Full Adder using Half Adders is widely used in:*
    - CPUs (Processors).
    - ALU (Arithmetic Logic Unit).
    - Digital calculators.
