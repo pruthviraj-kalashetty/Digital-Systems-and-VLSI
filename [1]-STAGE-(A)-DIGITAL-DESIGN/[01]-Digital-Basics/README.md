@@ -1,27 +1,29 @@
 # 01. Digital Basics
 
 [![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
-[![Focus](https://img.shields.io/badge/Focus-Signal%20Integrity%20%26%20Basics-brightgreen.svg)](#)
+[![Focus](https://img.shields.io/badge/Focus-Digital%20Fundamentals-brightgreen.svg)](#)
 
-This module establishes the core foundational principles of digital electronics. Before jumping into hardware description languages (HDLs) or complex RTL design architectures, it is vital to understand how physical, continuous electrical phenomena are abstracted into discrete digital states.
+This module introduces the fundamental concepts of digital electronics that serve as the foundation for Digital Design, Computer Architecture, Verilog HDL, RTL Design, FPGA Development, and VLSI Design. It explains the transition from analog to digital systems and provides an overview of how digital systems process, represent, and manipulate information.
 
 ---
 
 ## 🎯 Learning Objectives
 
-By analyzing these fundamentals, you will develop the intuition to:
-* **Abstract Physical Electronics:** Understand how continuous voltages are mapped into discrete binary logic levels (`0` and `1`).
-* **Evaluate Signal Behavior:** Contrast continuous analog domains with time-quantized digital domains, focusing on noise immunity.
-* **Recognize System Constraints:** Identify the basic structural building blocks (sampling, quantization, encoding) that form a digital system interface.
+By working through this module, you will be able to:
+
+- Differentiate between analog and digital systems.
+- Understand the characteristics of digital signals.
+- Explain the basic architecture and operation of digital systems.
+- Build a strong foundation for advanced digital design concepts.
 
 ---
 
 ## 📂 Module Contents
 
-| File | Technical Focus |
+| File | Core Technical Focus |
 | :--- | :--- |
-| **[`Digital-vs-Analog.md`](./Digital-vs-Analog.md)** | Direct comparison of continuous vs. discrete signals, mathematical abstraction, noise margin advantages, and hardware limitations. |
-| **[`Digital-System-Overview.md`](./Digital-System-Overview.md)** | Architecture of a digital processing system, data representation schemes, and real-world interface topologies. |
+| **[`Digital-vs-Analog.md`](./Digital-vs-Analog.md)** | Comparison between analog and digital systems, signal characteristics, advantages, limitations, and real-world applications. |
+| **[`Digital-System-Overview.md`](./Digital-System-Overview.md)** | Introduction to digital systems, functional blocks, data representation, and applications of digital electronics. |
 
 ---
 
@@ -31,7 +33,34 @@ By analyzing these fundamentals, you will develop the intuition to:
 01-Digital-Basics/
 ├── README.md
 ├── Digital-vs-Analog.md
-├── Digital-System-Overview.md
-└── images/
-    ├── analog-signal.png
-    └── digital-signal.png
+└── Digital-System-Overview.md
+```
+
+---
+
+## 🛠️ Core Concepts Covered
+
+### 1. Digital vs Analog Systems
+
+Understand the fundamental differences between analog and digital systems, including signal representation, accuracy, noise immunity, processing techniques, and practical applications.
+
+### 2. Digital System Overview
+
+Learn the basic architecture of digital systems, including input processing, logic operations, output generation, and the role of digital electronics in modern computing and embedded systems.
+
+---
+
+## 📚 Reference Literature
+
+- Neso Academy – Digital Electronics
+- All About Electronics – Digital Electronics Tutorials
+
+---
+
+## 👤 Author
+
+**Pruthviraj Kalashetty**
+
+*Electronics & Communication Engineering Student*
+
+**VLSI & RTL Design Learner**
