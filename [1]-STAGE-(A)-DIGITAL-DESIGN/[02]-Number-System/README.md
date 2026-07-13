@@ -1,58 +1,78 @@
-# 02. Number Systems 
+# 02. Number Systems
 
 [![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
-[![Focus](https://img.shields.io/badge/Focus-Data%20Representation%20%26%20Buses-orange.svg)](#)
+[![Focus](https://img.shields.io/badge/Focus-Data%20Representation-orange.svg)](#)
 
-This module introduces the number systems used in digital electronics and computer systems. It covers binary, octal, hexadecimal, and decimal representations along with number system conversions, providing the foundation for digital logic design, computer architecture, and Verilog HDL.
+This module introduces the fundamental number systems used in digital electronics and computer systems. It covers binary, octal, and hexadecimal number systems, along with number system conversions, providing the foundation for digital logic design, computer architecture, Verilog HDL, and RTL Design.
 
 ---
 
 ## 🎯 Learning Objectives
 
-By working through these modules, you will master the concepts required to:
-* **Analyze Bit-Level Layouts:** Map data directly to hardware structures based on word boundaries (bits, bytes, nibbles).
-* **Optimize Waveform Inspection:** Utilize alternative radix representations to simplify tracking and debugging high-bit-width buses.
-* **Execute Exact Conversions:** Perform precise fractional and integer base changes without data loss or resolution degradation.
+By working through this module, you will be able to:
+
+- Understand the binary, octal, and hexadecimal number systems.
+- Perform accurate conversions between different number systems.
+- Interpret data representation used in digital circuits.
+- Build a strong mathematical foundation for digital electronics and computer systems.
 
 ---
 
 ## 📂 Module Contents
 
-| File | Hardware & Architectural Focus |
+| File | Core Technical Focus |
 | :--- | :--- |
-| **[`Binary-System.md`](./Binary-System.md)** | The base-2 native layer of silicon hardware. Explores positional bit-weights, word lengths, and logical states. |
-| **[`Hexadecimal-System.md`](./Hexadecimal-System.md)** | The standard base-16 representation for modern 32-bit and 64-bit data buses, instruction opcodes, and memory space mapping. |
-| **[`Octal-System.md`](./Octal-System.md)** | The base-8 representation used historically in early computer architectures and still applied in custom bit-field encoding structures. |
-| **[`Number-System-Conversion.md`](./Number-System-Conversion.md)** | The algorithmic mechanics of transitioning data between different bases, emphasizing fast grouping strategies. |
+| **[`Binary-System.md`](./Binary-System.md)** | Introduction to the binary number system, bit representation, positional weights, and binary data representation. |
+| **[`Octal-System.md`](./Octal-System.md)** | Understanding the octal number system, positional notation, and its relationship with binary numbers. |
+| **[`Hexadecimal-System.md`](./Hexadecimal-System.md)** | Introduction to hexadecimal notation, hexadecimal digits, and efficient representation of binary data. |
+| **[`Number-System-Conversion.md`](./Number-System-Conversion.md)** | Methods for converting numbers between binary, decimal, octal, and hexadecimal number systems. |
 
 ---
 
-## 🛠️ Core Engineering Concepts Covered
+## 🌲 Directory Structure
 
-### 1. Modern Data Bus Representation: Why Hex Over Binary?
-In modern hardware design, dealing with raw 32-bit or 64-bit strings directly is impossible for a human designer during debug. Because $16 = 2^4$, exactly **one hexadecimal character replaces 4 bits (a nibble)**. 
-* *Example:* A 16-bit control status register holding `1111000011001010` is vastly easier to verify in a Verilog simulator when viewed instantly as `0xF0CA`.
+```text
+02-Number-Systems/
+├── README.md
+├── Binary-System.md
+├── Octal-System.md
+├── Hexadecimal-System.md
+└── Number-System-Conversion.md
+```
 
-### 2. Radical Cross-Mapping Boundaries
-Digital components are constrained by physical wire boundaries. Transitioning between systems with power-of-two bases is highly efficient in hardware configuration:
+---
 
-* **Octal Mapping ($2^3$):** Direct $3$-bit groupings. Perfect for isolating specific flag bits in smaller, legacy architectures.
-* **Hexadecimal Mapping ($2^4$):** Direct $4$-bit groupings. Matches byte-aligned memory boundaries ($8$ bits = $2$ hex digits).
+## 🛠️ Core Concepts Covered
 
-### 3. Conversion Core Workflows
-* **Integer Realignment:** Utilizing successive radix division to transition decimal configurations into exact binary hardware patterns.
-* **Fractional Precision Handling:** Using successive multiplication to avoid precision drops when loading floating-point constants into specialized fixed-point registers.
+### 1. Binary Number System
+
+The binary number system uses only two digits (`0` and `1`) and serves as the fundamental language of digital electronics. Every digital circuit, processor, and memory device represents and processes information in binary form.
+
+### 2. Octal Number System
+
+The octal number system uses eight digits (`0–7`). Since one octal digit represents three binary bits, it provides a compact representation of binary numbers.
+
+### 3. Hexadecimal Number System
+
+The hexadecimal number system uses sixteen symbols (`0–9` and `A–F`). One hexadecimal digit represents four binary bits, making it the preferred representation for memory addresses, machine code, and digital systems.
+
+### 4. Number System Conversion
+
+Number system conversion involves translating values between binary, decimal, octal, and hexadecimal representations using standard conversion techniques while preserving numerical accuracy.
 
 ---
 
 ## 📚 Reference Literature
 
-* M. Morris Mano & Michael D. Ciletti – *Digital Design with RTL Design, VHDL, and Verilog*
-* Thomas L. Floyd – *Digital Fundamentals*
-* David Money Harris & Sarah L. Harris – *Digital Design and Computer Architecture*
+- Neso Academy – Digital Electronics
+- All About Electronics – Digital Electronics Tutorials
 
 ---
 
 ## 👤 Author
 
-**Pruthviraj Kalashetty** *Electronics & Communication Engineering* 
+**Pruthviraj Kalashetty**
+
+*Electronics & Communication Engineering Student*
+
+**VLSI & RTL Design Learner**
