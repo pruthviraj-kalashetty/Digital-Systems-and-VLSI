@@ -1,6 +1,6 @@
 # 03. Binary Arithmetic
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Binary%20Arithmetic-orange.svg)](#)
 
 This module introduces the fundamental arithmetic operations used in digital electronics and computer systems. It covers binary addition and binary subtraction, providing the mathematical foundation for combinational logic design, arithmetic circuits, Verilog HDL, and RTL Design.
