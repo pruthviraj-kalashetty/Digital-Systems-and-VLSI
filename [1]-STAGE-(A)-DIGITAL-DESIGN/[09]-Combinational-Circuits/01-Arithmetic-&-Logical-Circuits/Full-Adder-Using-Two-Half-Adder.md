@@ -48,7 +48,7 @@
   - Sum (S) = Final addition result.
   - Carry Out (Cout) = Final carry sent to the next stage.
 
-    ---
+---
     
 * **Boolean Expressions**
   - Sum (S) = A ⊕ B ⊕ Cin
