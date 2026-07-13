@@ -41,6 +41,7 @@
 
 ![FULL_SUBCTRACTOr_USING_TWO_HALF_SUBCTRACTOR](Images/full-subctractor-using-two-half-subctractor.png)
 
+---
 
 * **Function of Inputs and Outputs**
   
