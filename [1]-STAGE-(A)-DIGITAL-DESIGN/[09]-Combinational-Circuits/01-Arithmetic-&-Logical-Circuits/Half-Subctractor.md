@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![HALF_SUBCTRACTOR](Image/half-subctractor.png)
+![HALF_SUBCTRACTOR](Images/half-subctractor.png)
 
 ---
 
