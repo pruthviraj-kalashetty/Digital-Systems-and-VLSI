@@ -1,37 +1,27 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" />
+<img src="assets/banner.png" width="100%" alt="Digital Design & VLSI Banner"/>
 
-# Digital Design & VLSI Fundamentals
+# 🚀 Digital Design & VLSI Fundamentals
 
 ### Complete Digital Electronics • CMOS • VLSI Theory Learning Repository
 
 <p>
-
-<img src="https://img.shields.io/badge/RTL-Design-00C8FF?style=for-the-badge">
-<img src="https://img.shields.io/badge/VLSI-Engineering-blue?style=for-the-badge">
-<img src="https://img.shields.io/badge/Digital-Electronics-success?style=for-the-badge">
-<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
-
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Digital%20Design-00C8FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-success?style=for-the-badge"/>
 </p>
-
-</div>
-
-
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=github,vscode,git" />
-
-</p>
-
-
----
-
 
 ### ⭐ Building Strong Digital Design Fundamentals for RTL & VLSI Engineering
 
-Designed for learning, interview preparation, and professional portfolio development.
+*Designed for learning, interview preparation, and professional portfolio development.*
 
+</div>
+
+---
+
+## 📚 Concepts Covered
 
 <p align="center">
 
@@ -55,4 +45,12 @@ Designed for learning, interview preparation, and professional portfolio develop
 
 <img src="https://img.shields.io/badge/CMOS-VLSI-0D1117?style=for-the-badge&logoColor=white"/>
 
+</p>
+
+---
+
+## 🛠️ Repository Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=github,git,vscode" alt="GitHub, Git, VS Code"/>
 </p>
