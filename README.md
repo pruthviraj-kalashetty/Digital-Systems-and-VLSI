@@ -33,16 +33,6 @@
 
 Designed for learning, interview preparation, and professional portfolio development.
 
-</div>
-
-<div align="center"><img src="assets/banner.png" width="100%" alt="Digital Design & VLSI Banner"/>🚀 Digital Design & VLSI Fundamentals
-
-A Complete Learning Repository for Digital Electronics, CMOS & VLSI Engineering
-
-<p><img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-00C8FF?style=for-the-badge"/><img src="https://img.shields.io/badge/Focus-RTL%20Design-blue?style=for-the-badge"/><img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-success?style=for-the-badge"/><img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/><img src="https://img.shields.io/badge/Maintained-Yes-orange?style=for-the-badge"/></p>"Strong fundamentals build great RTL engineers."
-
-</div>---
-
 📖 Overview
 
 Welcome to Digital Design & VLSI Fundamentals, a structured learning repository that covers the essential theoretical concepts required for RTL Design, Digital IC Design, FPGA Development, and ASIC Engineering.
