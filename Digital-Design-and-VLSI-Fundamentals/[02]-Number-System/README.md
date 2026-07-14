@@ -25,7 +25,7 @@ By working through this module, you will be able to:
 | **[`Binary-System.md`](./Binary-System.md)** | Introduction to the binary number system, bit representation, positional weights, and binary data representation. |
 | **[`Octal-System.md`](./Octal-System.md)** | Understanding the octal number system, positional notation, and its relationship with binary numbers. |
 | **[`Hexadecimal-System.md`](./Hexadecimal-System.md)** | Introduction to hexadecimal notation, hexadecimal digits, and efficient representation of binary data. |
-| **[`Number-System-Conversion.md`](./Number-System-Conversion.md)** | Methods for converting numbers between binary, decimal, octal, and hexadecimal number systems. |
+| **[`Number-System-Conversion.md`](./1-Number-System-Conversion.md)** | Methods for converting numbers between binary, decimal, octal, and hexadecimal number systems. |
 
 ---
 
