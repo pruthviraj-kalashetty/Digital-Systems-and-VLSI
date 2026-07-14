@@ -26,10 +26,6 @@ By working through this module, you will be able to:
 | **[`BCD-Code.md`](./BCD-Code.md)** | Introduction to Binary Coded Decimal (BCD), its representation, characteristics, advantages, and applications. |
 | **[`Gray-Code.md`](./Gray-Code.md)** | Understanding Gray Code, unit-distance property, advantages, and practical applications in digital systems. |
 | **[`ASCII-Code.md`](./ASCII-Code.md)** | ASCII character encoding, character representation, control characters, and data communication. |
-| **[`Binary-to-Gray.md`](./Binary-to-Gray.md)** | Step-by-step conversion from Binary Code to Gray Code with examples. |
-| **[`Gray-to-Binary.md`](./Gray-to-Binary.md)** | Step-by-step conversion from Gray Code to Binary Code with examples. |
-| **[`BCD-to-Excess-3.md`](./BCD-to-Excess-3.md)** | Conversion of BCD Code to Excess-3 Code and its applications. |
-| **[`Excess-3-to-BCD.md`](./Excess-3-to-BCD.md)** | Conversion of Excess-3 Code back to BCD Code using standard conversion techniques. |
 
 ---
 
