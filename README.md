@@ -16,3 +16,21 @@
 </p>
 
 </div>
+
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=github,vscode,git" />
+
+</p>
+
+
+---
+
+<div align="center">
+
+### ⭐ Building Strong Digital Design Fundamentals for RTL & VLSI Engineering
+
+Designed for learning, interview preparation, and professional portfolio development.
+
+</div>
