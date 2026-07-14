@@ -43,25 +43,25 @@ This repository follows a carefully organized roadmap beginning with the fundame
 
 **🎯 Repository Objectives**
 
-✔ Build strong Digital Electronics fundamentals
+✔ Build strong Digital Electronics fundamentals.
 
-✔ Master Boolean Algebra and Logic Optimization
+✔ Master Boolean Algebra and Logic Optimization.
 
-✔ Understand Combinational Logic Design
+✔ Understand Combinational Logic Design.
 
-✔ Learn Sequential Logic Design
+✔ Learn Sequential Logic Design.
 
-✔ Study Finite State Machine Design
+✔ Study Finite State Machine Design.
 
-✔ Understand Timing Analysis
+✔ Understand Timing Analysis.
 
-✔ Learn CMOS and Semiconductor Fundamentals
+✔ Learn CMOS and Semiconductor Fundamentals.
 
-✔ Build a foundation for RTL Design
+✔ Build a foundation for RTL Design.
 
-✔ Prepare for VLSI technical interviews
+✔ Prepare for VLSI technical interviews.
 
-✔ Create professional engineering documentation
+✔ Create professional engineering documentation.
 
 ---
 
