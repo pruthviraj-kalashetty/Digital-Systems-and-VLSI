@@ -33,7 +33,7 @@
 
 Designed for learning, interview preparation, and professional portfolio development.
 
-📖 Overview
+**📖 Overview**
 
 Welcome to Digital Design & VLSI Fundamentals, a structured learning repository that covers the essential theoretical concepts required for RTL Design, Digital IC Design, FPGA Development, and ASIC Engineering.
 
@@ -41,7 +41,7 @@ This repository follows a carefully organized roadmap beginning with the fundame
 
 ---
 
-🎯 Repository Objectives
+**🎯 Repository Objectives**
 
 ✔ Build strong Digital Electronics fundamentals
 
