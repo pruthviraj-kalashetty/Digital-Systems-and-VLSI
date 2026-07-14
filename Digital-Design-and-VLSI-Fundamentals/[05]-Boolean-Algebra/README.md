@@ -25,8 +25,8 @@ By working through this module, you will be able to:
 | :--- | :--- |
 | **[`Boolean-Basics.md`](./1-Boolean-Basics.md)** | Introduction to Boolean Algebra, logical variables, Boolean operations, truth tables, and basic logic principles. |
 | **[`Boolean-Laws.md`](./2-Boolean-Expressions.md)** | Fundamental Boolean laws including Identity, Null, Idempotent, Complement, Commutative, Associative, and Distributive laws. |
-| **[`DeMorgan-Theorem.md`](./3-Boolean-Laws.md)** | De Morgan's First and Second Theorems, logical transformations, and practical applications in digital circuit design. |
-| **[`Boolean-Expression.md`](.4-De-Morgan-Theorem.md)** | Representation, evaluation, and simplification of Boolean expressions using standard algebraic techniques. |
+| **[`DeMorgan-Theorem.md`](./3-Boolean-laws.md)** | De Morgan's First and Second Theorems, logical transformations, and practical applications in digital circuit design. |
+| **[`Boolean-Expression.md`](.4-De-Morgans-Theorem.md)** | Representation, evaluation, and simplification of Boolean expressions using standard algebraic techniques. |
 
 ---
 
