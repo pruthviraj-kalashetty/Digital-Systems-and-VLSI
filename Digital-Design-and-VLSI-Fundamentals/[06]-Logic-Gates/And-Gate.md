@@ -18,7 +18,7 @@
   - Alarm System.
   - Computer And Digital Circuit.
   - Traffic Signal Control System.
-  - 
+    
 ---
 
 * **Circuit Diagram:**
