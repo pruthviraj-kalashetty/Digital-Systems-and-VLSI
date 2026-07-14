@@ -27,7 +27,6 @@
 
 ---
 
-<div align="center">
 
 ### ⭐ Building Strong Digital Design Fundamentals for RTL & VLSI Engineering
 
