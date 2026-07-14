@@ -34,9 +34,25 @@ Designed for learning, interview preparation, and professional portfolio develop
 
 
 <p align="center">
-  <img src="assets/logos/xilinx.svg" height="55" alt="Xilinx"/>
-  <img src="assets/logos/vivado.svg" height="55" alt="Vivado"/>
-  <img src="assets/logos/modelsim.svg" height="55" alt="ModelSim"/>
-  <img src="assets/logos/git.svg" height="55" alt="Git"/>
-  <img src="assets/logos/github.svg" height="55" alt="GitHub"/>
+
+<img src="https://img.shields.io/badge/Digital-Electronics-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Boolean-Algebra-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Logic-Gates-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Karnaugh-Maps-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Combinational-Logic-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Sequential-Logic-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Finite-State-Machines-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Timing-Analysis-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Semiconductor-Basics-0D1117?style=for-the-badge&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/CMOS-VLSI-0D1117?style=for-the-badge&logoColor=white"/>
+
 </p>
