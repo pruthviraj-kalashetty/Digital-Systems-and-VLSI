@@ -1,7 +1,3 @@
-<div align="center">
-
-<img src="assets/banner.png" width="100%" alt="Digital Design & VLSI Banner"/>
-
 # 🚀 Digital Design & VLSI Fundamentals
 
 ### Complete Digital Electronics • CMOS • VLSI Theory Learning Repository
