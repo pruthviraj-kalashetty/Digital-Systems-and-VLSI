@@ -1,4 +1,4 @@
-# **XNOT Gate**
+# **XNOR Gate**
 
 * **What Problem Does It Solve?**
   - The XNOR gate checks if inputs are the same.
