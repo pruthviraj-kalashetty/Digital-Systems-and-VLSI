@@ -88,7 +88,7 @@ Digital-System-and-VLSI
 │   ├── Binary-System.md
 │   ├── Octal-System.md
 │   ├── Hexadecimal-System.md
-│   └── Number-System-Conversion.md
+│   └── 1-Number-System-Conversion.md
 │
 ├── 03-Binary-Arithmetic
 │   ├── Binary-Addition.md
@@ -97,17 +97,13 @@ Digital-System-and-VLSI
 ├── 04-Binary-Codes
 │   ├── BCD-Code.md
 │   ├── Gray-Code.md
-│   ├── ASCII-Code.md
-│   ├── Binary-to-Gray.md
-│   ├── Gray-to-Binary.md
-│   ├── BCD-to-Excess-3.md
-│   └── Excess-3-to-BCD.md
+│   └── ASCII-Code.md 
 │
 ├── 05-Boolean-Algebra
-│   ├── Boolean-Basics.md
-│   ├── Boolean-Laws.md
-│   ├── DeMorgan-Theorem.md
-│   └── Boolean-Expression.md
+│   ├── 1-Boolean-Basics.md
+│   ├── 2-Boolean-Expression.md
+│   ├── 3-Boolean-Laws.md
+│   └── 4-De-Morgans-Theorem.md
 │
 ├── 06-Logic-Gates
 │   ├── AND-Gate.md
