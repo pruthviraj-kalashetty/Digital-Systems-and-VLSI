@@ -35,9 +35,9 @@
 
 ---
 
-  * **Circuit Diagram:**
+  * **Block Diagram:**
 
-![FULL_ADDER](Images/full-adder.png)
+![FULL_ADDER](Images/4-bit-ripple-cary-adder.png)
 
 ---
 
