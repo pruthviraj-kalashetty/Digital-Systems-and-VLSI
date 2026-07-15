@@ -45,6 +45,12 @@ By working through this module, you will be able to:
 ├── NOR-Gate.md
 ├── XOR-Gate.md
 └── XNOR-Gate.md
+└── Image
+     └──
+     └──
+     └──
+     └──
+     └── 
 ```
 
 ---
