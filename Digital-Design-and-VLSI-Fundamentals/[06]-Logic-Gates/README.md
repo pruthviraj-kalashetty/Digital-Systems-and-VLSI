@@ -46,11 +46,15 @@ By working through this module, you will be able to:
 ├── XOR-Gate.md
 └── XNOR-Gate.md
 └── Image
-     └──
-     └──
-     └──
-     └──
-     └── 
+     └── and-gates.png
+     └── and_waveform.png
+     └── nand-gates.png
+     └── nor-gates.png
+     └── not-gates.png
+     └── or-gates.png
+     └── xnor-gates.png
+     └── xor-gates.png
+
 ```
 
 ---
