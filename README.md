@@ -75,3 +75,37 @@ The objective is to build a strong foundation before moving into **Verilog RTL D
 ---
 
 # 🏗️ Repository Structure
+
+---
+
+
+---
+
+# 🎯 Skills Developed
+
+✔ Digital Circuit Analysis  
+✔ CMOS Logic Understanding  
+✔ RTL Design Foundation  
+✔ Hardware Problem Solving  
+✔ VLSI Design Flow Understanding  
+✔ Interview Preparation
+
+---
+
+# 🛠️ Tools Used
+
+<p>
+<img src="https://skillicons.dev/icons?i=github,git,vscode,linux"/>
+</p>
+
+---
+
+# 🔗 Next Learning Stage
+
+This repository builds the foundation for:
+
+➡ Verilog RTL Design  
+➡ SystemVerilog Verification  
+➡ FPGA Implementation  
+➡ ASIC Design Flow
+
