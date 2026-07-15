@@ -1,52 +1,77 @@
 # 🚀 Digital Design & VLSI Fundamentals
 
-### Complete Digital Electronics • CMOS • VLSI Theory Learning Repository
+### Digital Electronics • CMOS • VLSI Concepts • RTL Design Foundation
 
 <p>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Focus-Digital%20Design-00C8FF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-success?style=for-the-badge"/>
-</p>
-
-### ⭐ Building Strong Digital Design Fundamentals for RTL & VLSI Engineering
-
-*Designed for learning, interview preparation, and professional portfolio development.*
-
-</div>
-
----
-
-## 📚 Concepts Covered
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/Digital-Electronics-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Boolean-Algebra-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Logic-Gates-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Karnaugh-Maps-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Combinational-Logic-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Sequential-Logic-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/FSM-Stage-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Timing-Analysis-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/Semiconductor-Basics-0D1117?style=for-the-badge&logoColor=white"/>
-
-<img src="https://img.shields.io/badge/CMOS-VLSI-0D1117?style=for-the-badge&logoColor=white"/>
-
+  <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-purple?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🛠️ Repository Tools
+## 📌 About This Repository
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=github,git,vscode" alt="GitHub, Git, VS Code"/>
-</p>
+This repository contains structured notes, concepts, and design fundamentals required for **RTL Design and VLSI Engineering**.
+
+It covers the journey from:
+- Semiconductor fundamentals
+- MOS and CMOS concepts
+- Digital logic design
+- Timing concepts
+- VLSI design fundamentals
+
+The objective is to build a strong foundation before moving into **Verilog RTL Design and ASIC/FPGA implementation**.
+
+---
+
+# 📚 Concepts Covered
+
+## Semiconductor & VLSI Fundamentals
+- Semiconductor Basics
+- PN Junction
+- MOS Devices
+- NMOS & PMOS
+- CMOS Fundamentals
+- CMOS Inverter
+- CMOS Logic Gates
+- VLSI Design Flow
+
+## Digital Design Fundamentals
+- Number Systems
+- Binary Arithmetic
+- Binary Codes
+- Boolean Algebra
+- Logic Gates
+- Karnaugh Maps
+
+## Combinational Logic
+- Adders
+- Subtractors
+- Multiplexers
+- Demultiplexers
+- Encoders
+- Decoders
+- Comparators
+- ALU Basics
+
+## Sequential Logic
+- Latches
+- Flip-Flops
+- Registers
+- Counters
+- Shift Registers
+
+## Advanced Digital Concepts
+- Finite State Machines (FSM)
+- Clock & Reset Concepts
+- Timing Parameters
+  - Setup Time
+  - Hold Time
+  - Propagation Delay
+- Static Timing Analysis (STA Basics)
+
+---
+
+# 🏗️ Repository Structure
