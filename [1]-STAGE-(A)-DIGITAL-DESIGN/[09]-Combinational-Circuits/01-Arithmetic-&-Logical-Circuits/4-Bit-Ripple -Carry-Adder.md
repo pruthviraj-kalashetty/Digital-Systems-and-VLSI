@@ -10,13 +10,13 @@
 
 * **Why is it used**
   
-    *A 4-Bit Ripple Carry Adder is used because:*
+  *A 4-Bit Ripple Carry Adder is used because:*
   
-      - It performs multi-bit binary addition.
-      - It is simple and easy to design.
-      - It is used as the basic adder in many digital systems.
-      - It passes the carry from one Full Adder to the next.
-      - It is widely used in arithmetic circuits and processors.
+    - It performs multi-bit binary addition.
+    - It is simple and easy to design.
+    - It is used as the basic adder in many digital systems.
+    - It passes the carry from one Full Adder to the next.
+    - It is widely used in arithmetic circuits and processors.
 
 ---
 
