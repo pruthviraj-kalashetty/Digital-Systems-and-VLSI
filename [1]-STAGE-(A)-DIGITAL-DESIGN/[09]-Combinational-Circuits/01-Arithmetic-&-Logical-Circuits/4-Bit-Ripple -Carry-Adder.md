@@ -73,16 +73,13 @@
 ---
 
 * **Boolean Expression**
-## Boolean Expressions
 
-### Full Adder 1 (Least Significant Bit)
+Full Adder 1 (Least Significant Bit)
 
 - **S0 = A0 ⊕ B0 ⊕ Cin**
 - **C1 = (A0 · B0) + (Cin · (A0 ⊕ B0))**
 
----
-
-### Full Adder 2
+Full Adder 2
 
 - **S1 = A1 ⊕ B1 ⊕ C1**
 - **C2 = (A1 · B1) + (C1 · (A1 ⊕ B1))**
