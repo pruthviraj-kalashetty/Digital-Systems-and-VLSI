@@ -33,7 +33,8 @@
 
 <img src="https://img.shields.io/badge/Sequential-Logic-0D1117?style=for-the-badge&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/Finite%20State%20Machine-0D1117?style=for-the-badge&logoColor=white"/>
+<img src="https://img.shields.io/badge/Finite%20State%20Machines-0D1117?style=for-the-badge&logoColor=white"/>
+
 <img src="https://img.shields.io/badge/Timing-Analysis-0D1117?style=for-the-badge&logoColor=white"/>
 
 <img src="https://img.shields.io/badge/Semiconductor-Basics-0D1117?style=for-the-badge&logoColor=white"/>
