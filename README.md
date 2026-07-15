@@ -33,7 +33,7 @@
 
 <img src="https://img.shields.io/badge/Sequential-Logic-0D1117?style=for-the-badge&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/Finite--State--Machines-0D1117?style=for-the-badge" alt="Finite State Machines" />
+<img src="https://img.shields.io/badge/Finite--State--Machines-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Finite-State-Machines" />
 
 <img src="https://img.shields.io/badge/Timing-Analysis-0D1117?style=for-the-badge&logoColor=white"/>
 
