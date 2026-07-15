@@ -74,8 +74,9 @@ The objective is to build a strong foundation before moving into **Verilog RTL D
 
 ---
 
-# 🏗️ Repository Structure
+# 🏗️ Directory Structure
 
+```text
 Digital-System-and-VLSI
 │
 ├──Digital-Design-and-VLSI-fundamentals
@@ -220,6 +221,7 @@ Digital-System-and-VLSI
     ├── Parasitic-RC.md
     ├── Power-Static-vs-Dynamic.md
     └── Logical-Effort.md
+```
 ---
 
 
