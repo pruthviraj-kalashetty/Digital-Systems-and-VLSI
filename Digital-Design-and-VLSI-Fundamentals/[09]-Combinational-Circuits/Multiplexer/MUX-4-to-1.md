@@ -55,7 +55,7 @@
 
 | E | S1 | S0 | Y |
 |:--:|:--:|:--:|:-:|
-| 0 | X | X | I0 |
+| 0 | X | X | X |
 | 1 | 0 | 0 | I1 |
 | 1 | 1 | 0 | I2 |
 | 1 | 0 | 1 | I3 |
@@ -65,21 +65,10 @@
 
 * **Boolean Expression**
 
-- **Y = S1̅S0̅·I0 + S1̅S0·I1 + S1S0̅·I2 + S1S0·I3**
+- **Y = [E(S1̅S0̅·I0)] + [E(S1̅S0·I1)] + [E(S1S0̅·I2)] + [E(S1S0·I3)]**
 
 ---
 
-* **Easy Way to Remember**
+* **Waveform / Timing Diagram:**
 
-- A 4 : 1 MUX has **4 inputs**, **1 output**, and **2 select lines**.
-- **S1S0 = 00 → I0**
-- **S1S0 = 01 → I1**
-- **S1S0 = 10 → I2**
-- **S1S0 = 11 → I3**
-- It works like a switch that selects one of four inputs.
-
----
-
-* **One-Line Definition (Interview)**
-
-> A 4 : 1 Multiplexer (MUX) is a combinational logic circuit that selects one of four input signals and forwards the selected input to a single output based on two select lines.
+  ![MUX-4-to-1 WAVEFORM](MUX-Images/MUX_4_to_1_waveform.png)
