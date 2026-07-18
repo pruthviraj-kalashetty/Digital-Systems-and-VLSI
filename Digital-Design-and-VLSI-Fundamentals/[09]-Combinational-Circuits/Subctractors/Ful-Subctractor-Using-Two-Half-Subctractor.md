@@ -39,7 +39,7 @@
 
 * **Circuit Diagram:**
 
-![FULL_SUBCTRACTOr_USING_TWO_HALF_SUBCTRACTOR](Subctractors-Images/full-subctractor-using-two-half-subctractor.png)
+![FULL_SUBCTRACTOr_USING_TWO_HALF_SUBCTRACTOR](Subctractors-Images/Full-subctractor-using-two-half-subctractor.png)
 
 ---
 
