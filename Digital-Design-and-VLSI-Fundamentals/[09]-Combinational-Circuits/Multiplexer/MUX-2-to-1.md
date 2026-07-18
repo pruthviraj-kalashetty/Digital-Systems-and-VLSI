@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![MUX-2-to-1](MUX-Image/MUX-2-to-1.png)
+![MUX-2-to-1](MUX-Images/MUX-2-to-1.png)
 
 ---
 
