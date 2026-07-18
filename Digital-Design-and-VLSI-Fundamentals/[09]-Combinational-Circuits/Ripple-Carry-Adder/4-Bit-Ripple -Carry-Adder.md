@@ -37,7 +37,7 @@
 
   * **Block Diagram:**
 
-![FULL_ADDER](Ripple-Carry-Adder/4-bit-ripple-cary-adder.png)
+![FULL_ADDER](4-bit-ripple-cary-adder.png)
 
 ---
 
