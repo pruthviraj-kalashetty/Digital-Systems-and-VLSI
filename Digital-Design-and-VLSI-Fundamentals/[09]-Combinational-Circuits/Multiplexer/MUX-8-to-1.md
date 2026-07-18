@@ -1,0 +1,97 @@
+# **8 : 1 Multiplexer (MUX)**
+
+* **What Problem Does It Solve?**
+  - An 8 : 1 Multiplexer (MUX) is a digital combinational circuit.
+  - It selects one input from eight input signals.
+  - It forwards the selected input to a single output.
+  - The selection is controlled by three select lines (S2, S1, and S0).
+
+---
+
+* **Why is it used?**
+
+  *An 8 : 1 Multiplexer is used because:*
+
+  - It selects one signal from multiple inputs.
+  - It controls the flow of data in digital circuits.
+  - It reduces the number of data lines.
+  - It simplifies hardware design.
+  - It improves circuit efficiency.
+
+---
+
+* **Where is it used?**
+
+  *An 8 : 1 Multiplexer is widely used in:*
+
+  - CPUs (Processors).
+  - ALU (Arithmetic Logic Unit).
+  - Memory systems.
+  - Data routing circuits.
+  - Communication systems.
+  - Digital VLSI and RTL design.
+  - FPGA and ASIC designs.
+  - Embedded systems.
+
+---
+
+* **Circuit Diagram:**
+
+![MUX-8-to-1](MUX-Images/MUX-8-to-1.png)
+
+---
+
+* **Function of Inputs and Outputs**
+
+  - I0 = First data input.
+  - I1 = Second data input.
+  - I2 = Third data input.
+  - I3 = Fourth data input.
+  - I4 = Fifth data input.
+  - I5 = Sixth data input.
+  - I6 = Seventh data input.
+  - I7 = Eighth data input.
+  - S2, S1, S0 = Select lines used to choose one input.
+  - Y = Output.
+
+---
+
+* **Truth Table**
+
+| E | S1 | S0 | Selected Input | Y |
+|:--:|:--:|:--:|:--------------:|:-:|
+| 0 | 0 | 0 | I0 | I0 |
+| 0 | 0 | 1 | I1 | I1 |
+| 0 | 1 | 0 | I2 | I2 |
+| 0 | 1 | 1 | I3 | I3 |
+| 1 | 0 | 0 | I4 | I4 |
+| 1 | 0 | 1 | I5 | I5 |
+| 1 | 1 | 0 | I6 | I6 |
+| 1 | 1 | 1 | I7 | I7 |
+
+---
+
+* **Boolean Expression**
+
+- **Y = S2̅S1̅S0̅·I0 + S2̅S1̅S0·I1 + S2̅S1S0̅·I2 + S2̅S1S0·I3 + S2S1̅S0̅·I4 + S2S1̅S0·I5 + S2S1S0̅·I6 + S2S1S0·I7**
+
+---
+
+* **Easy Way to Remember**
+
+- An 8 : 1 MUX has **8 inputs**, **1 output**, and **3 select lines**.
+- **S2S1S0 = 000 → I0**
+- **S2S1S0 = 001 → I1**
+- **S2S1S0 = 010 → I2**
+- **S2S1S0 = 011 → I3**
+- **S2S1S0 = 100 → I4**
+- **S2S1S0 = 101 → I5**
+- **S2S1S0 = 110 → I6**
+- **S2S1S0 = 111 → I7**
+- It works like a switch that selects one of eight inputs.
+
+---
+
+* **One-Line Definition (Interview)**
+
+> An 8 : 1 Multiplexer (MUX) is a combinational logic circuit that selects one of eight input signals and forwards the selected input to a single output based on three select lines.
