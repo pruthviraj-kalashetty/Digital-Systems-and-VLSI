@@ -69,5 +69,5 @@
 
 * **Waveform / Timing Diagram:**
 
-  ![MUX-2-to-1 WAVEFORM](MUX_2_to_1.png)
+  ![MUX-2-to-1 WAVEFORM](MUX-Images/MUX_2_to_1_waveform.png)
 
