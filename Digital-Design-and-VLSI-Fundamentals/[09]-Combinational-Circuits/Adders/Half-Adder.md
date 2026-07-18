@@ -36,7 +36,7 @@
 
    * **Circuit Diagram:**
 
-![HALF_ADDER](Images/half-adder.png)
+![HALF_ADDER](Adders-Images/half-adder.png)
 
 ---
 
