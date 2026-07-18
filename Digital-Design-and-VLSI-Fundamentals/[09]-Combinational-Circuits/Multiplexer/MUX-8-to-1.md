@@ -74,25 +74,8 @@
 
 * **Boolean Expression**
 
-- **Y = S2̅S1̅S0̅·I0 + S2̅S1̅S0·I1 + S2̅S1S0̅·I2 + S2̅S1S0·I3 + S2S1̅S0̅·I4 + S2S1̅S0·I5 + S2S1S0̅·I6 + S2S1S0·I7**
+- **Y = E[S2̅S1̅S0̅·I0 + S2̅S1̅S0·I1 + S2̅S1S0̅·I2 + S2̅S1S0·I3 + S2S1̅S0̅·I4 + S2S1̅S0·I5 + S2S1S0̅·I6 + S2S1S0·I7]**
 
 ---
 
-* **Easy Way to Remember**
-
-- An 8 : 1 MUX has **8 inputs**, **1 output**, and **3 select lines**.
-- **S2S1S0 = 000 → I0**
-- **S2S1S0 = 001 → I1**
-- **S2S1S0 = 010 → I2**
-- **S2S1S0 = 011 → I3**
-- **S2S1S0 = 100 → I4**
-- **S2S1S0 = 101 → I5**
-- **S2S1S0 = 110 → I6**
-- **S2S1S0 = 111 → I7**
-- It works like a switch that selects one of eight inputs.
-
----
-
-* **One-Line Definition (Interview)**
-
-> An 8 : 1 Multiplexer (MUX) is a combinational logic circuit that selects one of eight input signals and forwards the selected input to a single output based on three select lines.
+![MUX-8-to-1 WAVEFORM](MUX-Images/MUX_8_to_1_waveform.png)
