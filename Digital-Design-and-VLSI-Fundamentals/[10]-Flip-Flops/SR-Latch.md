@@ -46,7 +46,7 @@
 
 ### **Circuit Diagram**
 
-![NOR_SR_LATCH](Image/nor-sr-latch.png)
+![NOR_SR_LATCH](Circuit-Images/nor-sr-latch.png)
 
 ---
 
