@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![SR_FLIP_FLOP](Image/sr-flip-flop.png)
+![SR_FLIP_FLOP](Circuit-Images/sr-flip-flop.png)
 
 ---
 
