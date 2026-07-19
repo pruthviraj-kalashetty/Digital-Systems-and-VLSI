@@ -1,6 +1,6 @@
 # 07. Combinational Logic
 
-[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital-Design-and-VLSI-Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Combinational%20Logic-green.svg)](#)
 
 This module introduces the fundamental concepts of combinational logic circuits, where the output depends solely on the present input values. It covers truth tables, minterms, maxterms, and the differences between combinational and sequential logic, providing the foundation for designing digital circuits such as adders, multiplexers, decoders, and encoders used in Verilog HDL, RTL Design, FPGA Development, and VLSI Design.
