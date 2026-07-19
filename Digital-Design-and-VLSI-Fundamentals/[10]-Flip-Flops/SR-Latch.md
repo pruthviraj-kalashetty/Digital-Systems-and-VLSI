@@ -90,7 +90,7 @@
 
 ### **Circuit Diagram**
 
-![NAND_SR_LATCH](Image/nand-sr-latch.png)
+![NAND_SR_LATCH](Circuit-Images/nand-sr-latch.png)
 
 ---
 
