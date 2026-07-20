@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![D_LATCH](Image/d-latch.png)
+![D_LATCH](Circuit-Images/d-latch.png)
 
 ---
 
