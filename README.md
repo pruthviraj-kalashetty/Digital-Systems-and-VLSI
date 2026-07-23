@@ -4,9 +4,10 @@
 
 <p>
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-Digital%20Design-00C8FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Digital%20Design%20%26%20CMOS-00C8FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Fundamentals-VLSI%20%26%20Timing-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Concepts-STA%20Basics-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-success?style=for-the-badge"/>
 </p>
 
 ---
