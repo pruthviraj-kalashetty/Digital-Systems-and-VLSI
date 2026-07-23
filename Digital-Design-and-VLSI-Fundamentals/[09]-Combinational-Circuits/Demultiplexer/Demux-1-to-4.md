@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![1X4_DEMUX](Image/1x4-demultiplexer.png)
+![1X4_DEMUX](DEMUX-Images/1x4-demultiplexer.png)
 
 ---
 
