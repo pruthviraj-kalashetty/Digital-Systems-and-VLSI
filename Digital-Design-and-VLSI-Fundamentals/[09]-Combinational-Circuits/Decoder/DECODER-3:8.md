@@ -86,4 +86,6 @@
 - **Y7 = A2 · A1 · A0**
 
 ---
+* **Waveform / Timing Diagram:**
 
+ ![3X8_ENCODER](DECODER-Images/3x8_encoder.png)
