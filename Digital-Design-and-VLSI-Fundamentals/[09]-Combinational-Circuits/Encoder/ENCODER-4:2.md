@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![4X2_ENCODER](Image/4x2-encoder.png)
+![4X2_ENCODER](ENCODER-Images/4x2-encoder.png)
 
 ---
 
