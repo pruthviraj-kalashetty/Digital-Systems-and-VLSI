@@ -35,7 +35,7 @@
 
 ---
 
-* **Circuit Diagram:**
+* **Block Diagram:**
 
 ![1X2_DEMUX](DEMUX-Images/1x2-demultiplexer.png)
 
