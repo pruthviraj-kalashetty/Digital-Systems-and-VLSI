@@ -72,17 +72,6 @@
 
 ---
 
-* **Easy Way to Remember**
+* **Waveform / Timing Diagram:**
 
-- A **4 : 2 Encoder** has **4 inputs** and **2 outputs**.
-- **I0 → 00**
-- **I1 → 01**
-- **I2 → 10**
-- **I3 → 11**
-- Only one input can be HIGH at a time.
-
----
-
-* **One-Line Definition (Interview)**
-
-> A 4 : 2 Encoder is a combinational logic circuit that converts one of four active input lines into a 2-bit binary output.
+  ![4X2_ENCODER](ENCODER-Images/4x2_encoder.png)
