@@ -72,4 +72,4 @@
 
 ---
 
-![MUX-8-to-1 WAVEFORM](MUX-Images/MUX_8_to_1_waveform.png)
+ ![2X4_ENCODER](ENCODER-Images/4x2_encoder.png)
