@@ -35,7 +35,7 @@
 
 ---
 
-* **Circuit Diagram:**
+* **Block Diagram:**
 
 ![MUX-4-to-1](MUX-Images/MUX-4-to-1.png)
 ---
