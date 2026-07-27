@@ -35,7 +35,7 @@
 
 ---
 
-* **Circuit Diagram:**
+* **Block Diagram:**
 
 ![4X2_ENCODER](ENCODER-Images/4x2-encoder.png)
 
