@@ -71,5 +71,6 @@
 - **Y3 = A1 · A0**
 
 ---
+* **Waveform / Timing Diagram:**
 
  ![2X4_ENCODER](ENCODER-Images/4x2_encoder.png)
