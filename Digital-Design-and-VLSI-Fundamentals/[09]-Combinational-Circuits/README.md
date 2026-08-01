@@ -1,6 +1,6 @@
 # 09. Combinational Circuits
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Combinational%20Circuits-green.svg)](#)
 
 This module covers the design and operation of fundamental combinational circuits used in digital electronics. It includes arithmetic circuits such as adders and subtractors, data selection and routing circuits such as multiplexers and demultiplexers, code conversion circuits such as encoders and decoders, and digital comparators.
