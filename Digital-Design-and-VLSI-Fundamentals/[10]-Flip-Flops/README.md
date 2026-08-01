@@ -1,6 +1,6 @@
 # 10. Flip-Flops
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Sequential%20Logic-orange.svg)](#)
 
 This module introduces the fundamental storage elements used in sequential digital circuits: flip-flops. It covers SR, D, JK, and T flip-flops along with latch concepts, operating principles, truth tables, characteristic tables, and applications in digital systems.
