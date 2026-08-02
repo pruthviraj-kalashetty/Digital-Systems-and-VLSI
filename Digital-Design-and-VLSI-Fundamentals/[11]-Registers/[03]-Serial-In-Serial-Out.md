@@ -35,7 +35,7 @@
 
 ---
 
-* **Circuit Diagram:**
+* **Block Diagram:**
 
 ![SISO_SHIFT_REGISTER](Images/siso-block.png)
 
@@ -75,6 +75,8 @@ Suppose the serial data is **1 → 0 → 1 → 1**.
 After the **4th clock pulse**, the first input bit reaches the **Serial Output (SO)**.
 
 ---
+
+* **Clock Pulse:**
 
 ![SISO_SHIFT_REGISTER](Images/siso-clock.png)
 
