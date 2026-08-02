@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![SIPO_SHIFT_REGISTER](Image/sipo-shift-register.png)
+![SIPO_SHIFT_REGISTER](Images/sipo-block.png)
 
 ---
 
@@ -77,6 +77,9 @@ After the **4th clock pulse**, the outputs become:
 | Q3 | Q2 | Q1 | Q0 |
 |:--:|:--:|:--:|:--:|
 | 1 | 0 | 1 | 1 |
+
+---
+![SIPO_SHIFT_REGISTER](Images/sipo-clock.png)
 
 ---
 
