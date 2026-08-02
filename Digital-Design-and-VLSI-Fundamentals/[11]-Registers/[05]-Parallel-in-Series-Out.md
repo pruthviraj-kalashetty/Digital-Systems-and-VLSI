@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![PISO_SHIFT_REGISTER](Images/piso-block.png)
+![PISO_SHIFT_REGISTER](Images/piso-Block.png)
 
 ---
 
