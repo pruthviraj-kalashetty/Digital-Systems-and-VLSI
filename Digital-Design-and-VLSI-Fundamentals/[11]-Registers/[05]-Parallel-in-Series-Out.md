@@ -84,7 +84,7 @@ After each clock pulse, the serial output is:
 
 ---
 
-![PISO_SHIFT_REGISTER](Images/piso-block.png)
+![PISO_SHIFT_REGISTER](Images/piso-clock.png)
 
 ---
 
