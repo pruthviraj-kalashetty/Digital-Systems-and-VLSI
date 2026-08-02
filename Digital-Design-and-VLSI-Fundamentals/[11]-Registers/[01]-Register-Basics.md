@@ -108,7 +108,3 @@
 - Registers act as **temporary memory** inside a processor.
 
 ---
-
-* **One-Line Definition (Interview)**
-
-> A Register is a group of flip-flops used to temporarily store and transfer binary data in digital systems under the control of a clock signal.
