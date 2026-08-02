@@ -37,7 +37,7 @@
 
 * **Circuit Diagram:**
 
-![SISO_SHIFT_REGISTER](Image/siso-shift-register.png)
+![SISO_SHIFT_REGISTER](Images/siso-block.png)
 
 ---
 
@@ -67,12 +67,16 @@ Suppose the serial data is **1 → 0 → 1 → 1**.
 | Clock Pulse | Q3 | Q2 | Q1 | Q0 |
 |:-----------:|:--:|:--:|:--:|:--:|
 | Initial | 0 | 0 | 0 | 0 |
-| 1 | 0 | 0 | 0 | 1 |
-| 2 | 0 | 0 | 1 | 0 |
-| 3 | 0 | 1 | 0 | 1 |
-| 4 | 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 0 |
+| 2 | 1 | 1 | 0 | 0 |
+| 3 | 1 | 1 | 1 | 0 |
+| 4 | 1 | 1 | 1 | 1 |
 
 After the **4th clock pulse**, the first input bit reaches the **Serial Output (SO)**.
+
+---
+
+![SISO_SHIFT_REGISTER](Images/siso-clock.png)
 
 ---
 
@@ -101,8 +105,3 @@ After the **4th clock pulse**, the first input bit reaches the **Serial Output (
 - One clock pulse shifts the data by **one position**.
 - Made using **D Flip-Flops** connected in series.
 
----
-
-* **One-Line Definition (Interview)**
-
-> A SISO (Serial-In Serial-Out) Shift Register is a sequential logic circuit that accepts data serially, shifts it through a series of D Flip-Flops, and produces the output serially, one bit at a time.
