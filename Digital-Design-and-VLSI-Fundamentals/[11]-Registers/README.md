@@ -28,10 +28,10 @@ By working through this module, you will be able to:
 | :--- | :--- |
 | **[`[01]-Register-Basics.md`](./[01]-Register-Basics.md)** | Introduction to registers, data storage, clocking, and the role of registers in sequential digital systems. |
 | **[`[02]-Shift-Registers.md`](./[02]-Shift-Registers.md)** | Fundamentals of shift registers, data shifting, clock operation, and common applications. |
-| **[`[03]-SISO-Register.md`](./[03]-SISO-Register.md)** | Serial-In Serial-Out register for serial data storage and sequential data transfer. |
-| **[`[04]-SIPO-Register.md`](./[04]-SIPO-Register.md)** | Serial-In Parallel-Out register for converting serial data into parallel data. |
-| **[`[05]-PISO-Register.md`](./[04]-PISO-Register.md)** | Parallel-In Serial-Out register for converting parallel data into serial data. |
-| **[`[06]-PIPO-Register.md`](./[06]-PIPO-Register.md)** | Parallel-In Parallel-Out register for parallel data storage and transfer. |
+| **[`[03]-Serial-In-Serial-Out.md`](./[03]-Serial-In-Serial-Out.md)** | Serial-In Serial-Out register for serial data storage and sequential data transfer. |
+| **[`[04]-Serial-In-Parallel-Out.md`](./[04]-Serial-In-Parallel-Out.md)** | Serial-In Parallel-Out register for converting serial data into parallel data. |
+| **[`[05]-Parallel-In-Serial-Out.md`](./[04]-Parallel-In-Serial-Out.md)** | Parallel-In Serial-Out register for converting parallel data into serial data. |
+| **[`[06]-Parallel-In-Parallel-Out.md`](./[06]-Parallel-In-Parallel-Out.md)** | Parallel-In Parallel-Out register for parallel data storage and transfer. |
 
 ---
 
