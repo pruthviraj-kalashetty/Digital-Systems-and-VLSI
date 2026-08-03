@@ -71,14 +71,14 @@ After loading:
 
 | Parallel Input | D3 | D2 | D1 | D0 |
 |:--------------:|:--:|:--:|:--:|:--:|
-| Loaded Data | 1 | 0 | 1 | 1 |
+| Loaded Data | 1 | 1 | 1 | 1 |
 
 After each clock pulse, the serial output is:
 
 | Clock Pulse | Serial Output (SO) |
 |:-----------:|:------------------:|
 | 1 | 1 |
-| 2 | 0 |
+| 2 | 1s |
 | 3 | 1 |
 | 4 | 1 |
 
