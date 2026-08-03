@@ -1,6 +1,6 @@
 # 02. MOS Devices
 
-[![Stage](https://img.shields.io/badge/Semiconductor-Basics-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor-Basics-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-MOS%20Devices-green.svg)](#)
 
 This module introduces Metal-Oxide-Semiconductor Field-Effect Transistors (MOSFETs), the fundamental building blocks of modern CMOS technology and VLSI design. It covers the structure, operation, characteristics, and threshold voltage of NMOS and PMOS transistors, providing the foundation for CMOS logic gates, digital integrated circuits, and semiconductor device engineering.
