@@ -40,12 +40,12 @@ By working through this module, you will be able to:
 ```text
 11-Registers/
 ├── README.md
-├── Register-Basics.md
-├── Shift-Registers.md
-├── SISO-Register.md
-├── SIPO-Register.md
-├── PISO-Register.md
-└── PIPO-Register.md
+├── [01]-Register-Basics.md
+├── [02]-Shift-Registers.md
+├── [03]-SISO-Register.md
+├── [04]-SIPO-Register.md
+├── [05]-PISO-Register.md
+└── [06]-PIPO-Register.md
 ```
 
 ---
