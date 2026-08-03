@@ -65,7 +65,7 @@
 
 Suppose the parallel input is:
 
-**D3 D2 D1 D0 = 1 0 1 1**
+**D3 D2 D1 D0 = 1 1 1 1**
 
 After loading:
 
