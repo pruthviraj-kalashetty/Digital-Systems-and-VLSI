@@ -67,9 +67,9 @@ Suppose the serial data is **1 → 0 → 1 → 1**.
 | Clock Pulse | Q3 | Q2 | Q1 | Q0 |
 |:-----------:|:--:|:--:|:--:|:--:|
 | Initial | 0 | 0 | 0 | 0 |
-| 1 | 0 | 0 | 0 | 1 |
-| 2 | 0 | 0 | 1 | 0 |
-| 3 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 0 | 0 |
+| 2 | 1 | 1 | 0 | 0 |
+| 3 | 0 | 1 | 1 | 0 |
 | 4 | 1 | 0 | 1 | 1 |
 
 After the **4th clock pulse**, the outputs become:
