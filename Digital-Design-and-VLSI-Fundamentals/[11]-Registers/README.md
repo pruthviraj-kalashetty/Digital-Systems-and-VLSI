@@ -1,6 +1,6 @@
 # 11. Registers
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Registers-green.svg)](#)
 
 This module introduces registers, fundamental sequential digital circuits used to store, transfer, and shift binary data. It covers register basics, shift registers, and the four primary data transfer configurations: Serial-In Serial-Out (SISO), Serial-In Parallel-Out (SIPO), Parallel-In Serial-Out (PISO), and Parallel-In Parallel-Out (PIPO).
@@ -26,12 +26,12 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`Register-Basics.md`](./Register-Basics.md)** | Introduction to registers, data storage, clocking, and the role of registers in sequential digital systems. |
-| **[`Shift-Registers.md`](./Shift-Registers.md)** | Fundamentals of shift registers, data shifting, clock operation, and common applications. |
-| **[`SISO-Register.md`](./SISO-Register.md)** | Serial-In Serial-Out register for serial data storage and sequential data transfer. |
-| **[`SIPO-Register.md`](./SIPO-Register.md)** | Serial-In Parallel-Out register for converting serial data into parallel data. |
-| **[`PISO-Register.md`](./PISO-Register.md)** | Parallel-In Serial-Out register for converting parallel data into serial data. |
-| **[`PIPO-Register.md`](./PIPO-Register.md)** | Parallel-In Parallel-Out register for parallel data storage and transfer. |
+| **[`[01]-Register-Basics.md`](./[01]-Register-Basics.md)** | Introduction to registers, data storage, clocking, and the role of registers in sequential digital systems. |
+| **[`[02]-Shift-Registers.md`](./[02]-Shift-Registers.md)** | Fundamentals of shift registers, data shifting, clock operation, and common applications. |
+| **[`[03]-SISO-Register.md`](./[03]-SISO-Register.md)** | Serial-In Serial-Out register for serial data storage and sequential data transfer. |
+| **[`[04]-SIPO-Register.md`](./[04]-SIPO-Register.md)** | Serial-In Parallel-Out register for converting serial data into parallel data. |
+| **[`[05]-PISO-Register.md`](./[04]-PISO-Register.md)** | Parallel-In Serial-Out register for converting parallel data into serial data. |
+| **[`[06]-PIPO-Register.md`](./[06]-PIPO-Register.md)** | Parallel-In Parallel-Out register for parallel data storage and transfer. |
 
 ---
 
