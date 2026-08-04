@@ -1,6 +1,6 @@
 # 🚀 Digital Design & VLSI Fundamentals
 
-### Digital Electronics • CMOS • VLSI Concepts • RTL Design Foundation
+### Digital Electronics • Semiconductor Fundamentals • CMOS • Timing • VLSI Concepts • RTL Design Foundation
 
 <p>
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
@@ -11,6 +11,13 @@
 </p>
 
 ---
+<p align="center">
+  <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Focus-Digital%20Design-00C8FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Semiconductor-CMOS-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Timing-STA-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Foundation-RTL%20Design-purple?style=for-the-badge"/>
+</p>
 
 ## 📌 About This Repository
 
