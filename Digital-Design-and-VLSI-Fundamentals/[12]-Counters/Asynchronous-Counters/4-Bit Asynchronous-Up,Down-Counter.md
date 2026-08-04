@@ -77,9 +77,7 @@
 
 ---
 
-* **Counting Sequence**
-
-### **When U/D = 1 (Up Count)**
+* **Truth Table**
 
 | Clock Pulse | Q3 | Q2 | Q1 | Q0 | Decimal |
 |:-----------:|:--:|:--:|:--:|:--:|:------:|
@@ -100,22 +98,37 @@
 | 14 | 1 | 1 | 1 | 0 | 14 |
 | 15 | 1 | 1 | 1 | 1 | 15 |
 
-### **When U/D = 0 (Down Count)**
+---
 
-| Clock Pulse | Q3 | Q2 | Q1 | Q0 | Decimal |
-|:-----------:|:--:|:--:|:--:|:--:|:------:|
-| 0 | 1 | 1 | 1 | 1 | 15 |
-| 1 | 1 | 1 | 1 | 0 | 14 |
-| 2 | 1 | 1 | 0 | 1 | 13 |
-| 3 | 1 | 1 | 0 | 0 | 12 |
-| 4 | 1 | 0 | 1 | 1 | 11 |
-| 5 | 1 | 0 | 1 | 0 | 10 |
-| 6 | 1 | 0 | 0 | 1 | 9 |
-| 7 | 1 | 0 | 0 | 0 | 8 |
-| 8 | 0 | 1 | 1 | 1 | 7 |
-| 9 | 0 | 1 | 1 | 0 | 6 |
-| 10 | 0 | 1 | 0 | 1 | 5 |
-| 11 | 0 | 1 | 0 | 0 | 4 |
-| 12 | 0 | 0 | 1 | 1 | 3 |
-| 13 | 0 | 0 | 1 | 0 |
-```
+* **Working**
+
+  - Initially, all JK Flip-Flops are connected with **J = K = 1**.
+  - The first flip-flop receives the external clock signal.
+  - The **U/D** control input selects the counting direction.
+  - When **U/D = 1**, the **Q output** of each flip-flop is connected to the clock input of the next flip-flop, so the counter counts **upward**.
+  - When **U/D = 0**, the **Q̅ (Q Bar) output** of each flip-flop is connected to the clock input of the next flip-flop, so the counter counts **downward**.
+  - The first flip-flop toggles with every clock pulse.
+  - The remaining flip-flops toggle according to the selected clock signal (**Q** or **Q̅**) from the previous stage.
+  - This allows the counter to change its counting direction without changing the circuit.
+  - Since the clock signal propagates from one flip-flop to the next, it is called an **Asynchronous (Ripple) Up/Down Counter**.
+
+---
+
+* **Advantages**
+
+  - Can count in both upward and downward directions.
+  - Uses a single circuit for two operations.
+  - Simple and economical design.
+  - Requires fewer hardware components.
+  - Suitable for frequency division.
+  - Easy to implement in digital systems.
+
+---
+
+* **Disadvantages**
+
+  - Has propagation delay due to ripple effect.
+  - Slower than synchronous up/down counters.
+  - Output bits do not change simultaneously.
+  - Not suitable for high-speed applications.
+
