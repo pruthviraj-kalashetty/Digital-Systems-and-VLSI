@@ -1,6 +1,6 @@
 # 01. Semiconductor Basics
 
-[![Stage](https://img.shields.io/badge/Stage-C--CMOS--Fundamentals-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Semiconductor%20Technology-green.svg)](#)
 
 This module introduces the fundamental concepts of semiconductor materials and the complete semiconductor manufacturing process used to build modern integrated circuits. It covers semiconductor physics, doping, N-type and P-type materials, silicon wafer fabrication, cleanroom technology, photolithography, wafer testing, chip packaging, and the semiconductor ecosystem.
