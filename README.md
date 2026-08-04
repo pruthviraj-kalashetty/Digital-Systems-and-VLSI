@@ -13,11 +13,11 @@
 
 --- 
 
-# 🛠️ Tools Used
+## 🛠️ Tools Used
 
-<p>
-<img src="https://skillicons.dev/icons?i=github,git,vscode,linux"/>
-</p>
+               <p>
+               <img src="https://skillicons.dev/icons?i=github,git,vscode,linux"/>
+              </p>
 
 ---
 
