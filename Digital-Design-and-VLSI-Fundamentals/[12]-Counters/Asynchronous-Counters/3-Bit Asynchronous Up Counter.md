@@ -1,6 +1,6 @@
-# 3-Bit Asynchronous Up Counter
+# **3-Bit Asynchronous Up Counter**
 
-## Overview
+* **Overview**
 
 A **3-Bit Asynchronous Up Counter**, also called a **3-Bit Ripple Up Counter**, is a sequential logic circuit that counts in **ascending binary order**. It is built using **three T Flip-Flops** (or JK Flip-Flops with **J = K = 1**) connected in cascade.
 
@@ -8,7 +8,7 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 ---
 
-# Key Features
+* **Key Features**
 
 - Counts from **0 to 7**.
 - Uses **3 Flip-Flops**.
@@ -20,9 +20,9 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 ---
 
-# Why is it Used?
+* **Why is it Used**
 
-A 3-Bit Asynchronous Up Counter is used because it:
+*A 3-Bit Asynchronous Up Counter is used because it:*
 
 - Counts clock pulses automatically.
 - Generates binary counting sequences.
@@ -32,9 +32,9 @@ A 3-Bit Asynchronous Up Counter is used because it:
 
 ---
 
-# Applications
+* **Applications**
 
-This counter is commonly used in:
+*This counter is commonly used in:*
 
 - Digital clocks
 - Event counting circuits
@@ -49,15 +49,15 @@ This counter is commonly used in:
 
 ---
 
-# Construction
+* **Construction**
 
-A 3-Bit Asynchronous Up Counter consists of:
+*A 3-Bit Asynchronous Up Counter consists of:*
 
 - **3 T Flip-Flops** (or JK Flip-Flops with J = K = 1)
 - One external clock input
 - Common reset signal (optional)
 
-Connection:
+*Connection:*
 
 - External Clock → Flip-Flop 0
 - Q0 → Clock input of Flip-Flop 1
@@ -67,13 +67,13 @@ Since every flip-flop waits for the previous flip-flop, the counting operation o
 
 ---
 
-# Block Diagram
+* **Block Diagram**
 
 ![3-Bit Asynchronous Up Counter](Images/3-Bit-Asynchronous-Up-Counter.png)
 
 ---
 
-# Inputs and Outputs
+* **Inputs and Outputs**
 
 | Signal | Description |
 |---------|-------------|
@@ -86,13 +86,13 @@ Since every flip-flop waits for the previous flip-flop, the counting operation o
 
 ---
 
-# Timing Diagram
+* **Timing Diagram**
 
 ![3-Bit Asynchronous Up Counter Timing Diagram](Images/3-Bit-Asynchronous-Up-Counter-Time.png)
 
 ---
 
-# Counting Sequence
+* **Counting Sequence**
 
 | Clock Pulse | Q2 | Q1 | Q0 | Decimal |
 |:-----------:|:--:|:--:|:--:|:------:|
@@ -108,7 +108,7 @@ Since every flip-flop waits for the previous flip-flop, the counting operation o
 
 ---
 
-# Working Principle
+* **Working Principle**
 
 ### Step 1
 Initially, all flip-flops are reset.
@@ -157,7 +157,7 @@ The counting process repeats continuously.
 
 ---
 
-# Advantages
+* **Advantages**
 
 - Simple circuit design
 - Requires fewer logic gates
@@ -169,7 +169,7 @@ The counting process repeats continuously.
 
 ---
 
-# Disadvantages
+* **Disadvantages**
 
 - Propagation delay increases with each flip-flop.
 - Not suitable for high-speed systems.
