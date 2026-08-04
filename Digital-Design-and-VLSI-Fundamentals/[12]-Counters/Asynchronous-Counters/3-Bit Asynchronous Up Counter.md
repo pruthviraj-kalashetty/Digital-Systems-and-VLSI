@@ -69,25 +69,7 @@ Since every flip-flop waits for the previous flip-flop, the counting operation o
 
 # Block Diagram
 
-```text
-          CLK
-           │
-      ┌─────────┐
-      │  FF0    │
-      └────┬────┘
-           │Q0
-           ▼
-      ┌─────────┐
-      │  FF1    │
-      └────┬────┘
-           │Q1
-           ▼
-      ┌─────────┐
-      │  FF2    │
-      └────┬────┘
-           │
-         Q2 Output
-```
+![3-Bit Asynchronous Up Counter](Images/3-Bit-Asynchronous-Up-Counter.png)
 
 ---
 
@@ -101,6 +83,12 @@ Since every flip-flop waits for the previous flip-flop, the counting operation o
 | Q0 | Least Significant Bit (LSB) |
 | Q1 | Middle bit |
 | Q2 | Most Significant Bit (MSB) |
+
+---
+
+# Timing Diagram
+
+![3-Bit Asynchronous Up Counter Timing Diagram](Images/3-Bit-Asynchronous-Up-Counter-Time.png)
 
 ---
 
