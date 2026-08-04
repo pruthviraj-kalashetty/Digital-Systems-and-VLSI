@@ -78,35 +78,18 @@
 
 ---
 
-* **Counting Sequence**
+* **Truth table**
 
-### **Up Mode (U/D = 1)**
-
-| Clock Pulse | Q2 | Q1 | Q0 | Decimal |
-|:-----------:|:--:|:--:|:--:|:------:|
-| 0 | 0 | 0 | 0 | 0 |
-| 1 | 0 | 0 | 1 | 1 |
-| 2 | 0 | 1 | 0 | 2 |
-| 3 | 0 | 1 | 1 | 3 |
-| 4 | 1 | 0 | 0 | 4 |
-| 5 | 1 | 0 | 1 | 5 |
-| 6 | 1 | 1 | 0 | 6 |
-| 7 | 1 | 1 | 1 | 7 |
-| 8 | 0 | 0 | 0 | Restart |
-
-### **Down Mode (U/D = 0)**
-
-| Clock Pulse | Q2 | Q1 | Q0 | Decimal |
-|:-----------:|:--:|:--:|:--:|:------:|
-| 0 | 1 | 1 | 1 | 7 |
-| 1 | 1 | 1 | 0 | 6 |
-| 2 | 1 | 0 | 1 | 5 |
-| 3 | 1 | 0 | 0 | 4 |
-| 4 | 0 | 1 | 1 | 3 |
-| 5 | 0 | 1 | 0 | 2 |
-| 6 | 0 | 0 | 1 | 1 |
-| 7 | 0 | 0 | 0 | 0 |
-| 8 | 1 | 1 | 1 | Restart |
+| M | Q | Q̅ | Y |
+|:-----------:|:--:|:--:|:--:|
+| 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 |
+| 0 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 1 | 
 
 ---
 
@@ -119,21 +102,6 @@
   - When **U/D = 0**, the counter counts downward from **111** to **000**.
   - The output of each flip-flop acts as the clock input for the next flip-flop.
   - The counting sequences are:
-
-**Up Mode**
-
-```
-000 → 001 → 010 → 011 → 100 → 101 → 110 → 111
-```
-
-**Down Mode**
-
-```
-111 → 110 → 101 → 100 → 011 → 010 → 001 → 000
-```
-
-  - After reaching the last count, the counter restarts and continues counting.
-  - Since the clock signal propagates from one flip-flop to another, it is called a **Ripple Counter**.
 
 ---
 
@@ -154,20 +122,3 @@
   - Slower than synchronous counters.
   - Output bits do not change simultaneously.
   - Not suitable for high-speed applications.
-
----
-
-* **Easy Way to Remember**
-
-  - Uses **3 Flip-Flops**.
-  - Counts from **0 to 7** and **7 to 0**.
-  - Total states = **8 (2³)**.
-  - **U/D = 1** → Up Counting.
-  - **U/D = 0** → Down Counting.
-  - Also called a **3-Bit Ripple Up/Down Counter**.
-
----
-
-* **One-Line Definition (Interview)**
-
-> A **3-Bit Asynchronous Up/Down Counter** is a sequential logic circuit made of three flip-flops that can count in both ascending and descending binary order depending on the **Up/Down control input**, where only the first flip-flop receives the external clock signal.
