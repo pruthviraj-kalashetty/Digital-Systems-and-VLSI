@@ -11,6 +11,14 @@
   <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-success?style=for-the-badge"/>
 </p>
 
+--- 
+
+# 🛠️ Tools Used
+
+<p>
+<img src="https://skillicons.dev/icons?i=github,git,vscode,linux"/>
+</p>
+
 ---
 
 ## 📌 About This Repository
@@ -399,7 +407,8 @@ This repository is theory-focused and serves as the foundation for my Verilog RT
 │ ├── 10-Clock-Jitter.md
 │ ├── 11-Arrival-Time.md                    
 │ ├── 12-Required-Time.md                   
-│ └── 13-Timing-Diagrams.md            
+│ └── 13-Timing-Diagrams.md
+│       
 └── STA-Basics
   ├── 01-Introduction-to-STA.md             
   ├── 02-Timing-Paths.md
