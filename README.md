@@ -5,7 +5,8 @@
 <p>
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Focus-Digital%20Design%20%26%20CMOS-00C8FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Fundamentals-VLSI%20%26%20Timing-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Semiconductor-CMOS-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Timing-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Concepts-STA%20Basics-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-success?style=for-the-badge"/>
 </p>
@@ -15,7 +16,7 @@
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Focus-Digital%20Design-00C8FF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Semiconductor-CMOS-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Timing-STA-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Timing-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Foundation-RTL%20Design-purple?style=for-the-badge"/>
 </p>
 
