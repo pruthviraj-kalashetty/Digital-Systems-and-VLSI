@@ -24,11 +24,11 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 *A 3-Bit Asynchronous Up Counter is used because it:*
 
- - Counts clock pulses automatically.
- - Generates binary counting sequences.
-   - Divides the input clock frequency.
-   - Requires fewer logic gates.
-   - Is easy to design and implement.
+  - Counts clock pulses automatically.
+  - Generates binary counting sequences.
+  - Divides the input clock frequency.
+  - Requires fewer logic gates.
+  - Is easy to design and implement.
 
 ---
 
