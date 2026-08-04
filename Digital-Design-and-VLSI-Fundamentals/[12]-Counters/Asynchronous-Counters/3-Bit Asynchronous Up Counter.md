@@ -10,13 +10,13 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 * **Key Features**
 
-  - Counts from **0 to 7**.
-  - Uses **3 Flip-Flops**.
-  - Generates **8 unique binary states (2³ = 8)**.
-  - Counts in **ascending order**.
-  - Only the first flip-flop receives the external clock.
-  - Simple circuit with low hardware requirements.
-  - Best suited for **low-speed digital applications**.
+    - Counts from **0 to 7**.
+    - Uses **3 Flip-Flops**.
+    - Generates **8 unique binary states (2³ = 8)**.
+    - Counts in **ascending order**.
+    - Only the first flip-flop receives the external clock.
+    - Simple circuit with low hardware requirements.
+    - Best suited for **low-speed digital applications**.
 
 ---
 
