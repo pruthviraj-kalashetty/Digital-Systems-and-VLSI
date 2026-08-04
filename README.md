@@ -12,238 +12,429 @@
 </p>
 
 ---
-<p align="center">
-  <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-Digital%20Design-00C8FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Semiconductor-CMOS-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Timing-orange?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Foundation-RTL%20Design-purple?style=for-the-badge"/>
-</p>
 
 ## 📌 About This Repository
 
-This repository contains structured notes, concepts, and design fundamentals required for **RTL Design and VLSI Engineering**.
+This repository contains structured notes, concepts, and design fundamentals required for **RTL Design and ASIC VLSI Engineering**.
 
 It covers the journey from:
+
+- Digital Electronics
 - Semiconductor fundamentals
-- MOS and CMOS concepts
-- Digital logic design
-- Timing concepts
+- MOSFET and CMOS Technology
+- Timing Concepts
+- Static Timing Analysis (STA)
 - VLSI design fundamentals
 
-The objective is to build a strong foundation before moving into **Verilog RTL Design and ASIC/FPGA implementation**.
+The primary objective is to understand how digital hardware works internally before implementing hardware using Verilog RTL.
+
+This repository is theory-focused and serves as the foundation for my Verilog RTL Design repository.
 
 ---
 
-# 📚 Concepts Covered
+# 📚 Learning Goal
 
-## Semiconductor & VLSI Fundamentals
-- Semiconductor Basics
-- PN Junction
-- MOS Devices
-- NMOS & PMOS
-- CMOS Fundamentals
-- CMOS Inverter
-- CMOS Logic Gates
-- VLSI Design Flow
-
-## Digital Design Fundamentals
+## 1️⃣ Digital Electronics
+- Digital Basics
 - Number Systems
 - Binary Arithmetic
 - Binary Codes
 - Boolean Algebra
 - Logic Gates
+- Combinational Logic
 - Karnaugh Maps
-
-## Combinational Logic
-- Adders
-- Subtractors
-- Multiplexers
-- Demultiplexers
-- Encoders
-- Decoders
-- Comparators
-- ALU Basics
-
-## Sequential Logic
-- Latches
+- Combinational Circuits
 - Flip-Flops
 - Registers
 - Counters
-- Shift Registers
-
-## Advanced Digital Concepts
 - Finite State Machines (FSM)
-- Clock & Reset Concepts
-- Timing Parameters
-  - Setup Time
-  - Hold Time
-  - Propagation Delay
-- Static Timing Analysis (STA Basics)
+
+---
+
+## 2️⃣ Semiconductor Fundamentals *(Knowledge)*
+
+- Semiconductor Basics
+- Intrinsic & Extrinsic Semiconductor
+- Doping
+- PN Junction
+- Semiconductor Manufacturing
+- Wafer Fabrication
+- Photolithography
+- EUV Lithography
+- Chip Packaging
+- Semiconductor Ecosystem
+
+---
+
+## 3️⃣ MOS & CMOS *(Knowledge)*
+
+### MOS Devices
+
+- MOSFET
+- NMOS
+- PMOS
+- MOS Operation
+- Threshold Voltage
+
+### CMOS Fundamentals
+
+- CMOS Basics
+- CMOS Inverter
+- CMOS Logic Gates
+- CMOS Characteristics
+- CMOS Power
+- CMOS Digital Design Concepts
+
+---
+
+## 4️⃣ VLSI Fundamentals *(Knowledge)*
+
+- Introduction to VLSI
+- ASIC vs FPGA
+- Front-End vs Back-End
+- RTL to GDSII Flow
+- Power, Performance & Area (PPA)
+- Parasitic RC
+- Logical Effort
+
+---
+
+## 5️⃣ Timing Concepts *(Knowledge + Interview)*
+
+- Clock Concepts
+- Propagation Delay
+- Contamination Delay
+- Rise Time
+- Fall Time
+- Setup Time
+- Hold Time
+- Clock Skew
+- Clock Jitter
+- Arrival Time
+- Required Time
+- Timing Diagrams
+
+---
+
+## 6️⃣ Static Timing Analysis (STA) *(Knowledge + Interview)*
+
+- Introduction to STA
+- Timing Paths
+- Setup Analysis
+- Hold Analysis
+- Timing Violations
+- Slack Analysis
+- Timing Constraints
+- Critical Path
+- Timing Reports
+- Input & Output Delay
+- False Path
+- Multicycle Path
+- Timing Closure
+
 
 ---
 
 # 🏗️ Directory Structure
 
 ```text
-Digital-System-and-VLSI
+**Repository - 01**
+
+├──Digital-Systems-and-VLSI  
+│   ├── [01]-Digital-Basics
+│   │   ├── Digital-vs-Analog.md
+│   │   └── Digital-System-Overview.md
+│   │
+│   ├── [02]-Number-Systems
+│   │   ├── Binary-System.md
+│   │   ├── Decimal-System.md
+│   │   ├── Octal-System.md
+│   │   ├── Hexadecimal-System.md
+│   │   └── Number-System-Conversion.md
+│   │
+│   ├── [03]-Binary-Arithmetic
+│   │   ├── Binary-Addition.md
+│   │   ├── Binary-Subtraction.md
+│   │   ├── Binary-Multiplication.md
+│   │   └── Binary-Division.md
+│   │
+│   ├── [04]-Binary-Codes
+│   │   ├── BCD-Code.md
+│   │   ├── Gray-Code.md
+│   │   ├── ASCII-Code.md
+│   │   ├── Excess-3-Code.md
+│   │   ├── Binary-to-Gray.md
+│   │   ├── Gray-to-Binary.md
+│   │   ├── BCD-to-Excess-3.md
+│   │   └── Excess-3-to-BCD.md
+│   │
+│   ├── [05]-Boolean-Algebra
+│   │   ├── Boolean-Basics.md
+│   │   ├── Boolean-Laws.md
+│   │   ├── DeMorgan-Theorem.md
+│   │   └── Boolean-Expression.md
+│   │
+│   ├── [06]-Logic-Gates
+│   │   ├── AND-Gate.md
+│   │   ├── OR-Gate.md
+│   │   ├── NOT-Gate.md
+│   │   ├── NAND-Gate.md
+│   │   ├── NOR-Gate.md
+│   │   ├── XOR-Gate.md
+│   │   └── XNOR-Gate.md
+│   │
+│   ├── [07]-Combinational-Logic
+│   │   ├── Introduction.md
+│   │   ├── Truth-Tables.md
+│   │   ├── Minterms-Maxterms.md
+│   │   └── Combinational-vs-Sequential.md
+│   │
+│   ├── [08]-Karnaugh-Map
+│   │   ├── KMap-3-Variable.md
+│   │   ├── KMap-4-Variable.md
+│   │   └── Dont-Care-Conditions.md
+
+│   ├── [09]-Combinational-Circuits
+│   │   ├── Adders
+│   │   │   ├── Half-Adder.md
+│   │   │   ├── Full-Adder.md
+│   │   │   └── Full-Adder-Using-Two-Half-Adder.md
+│   │   ├── Subctractor
+│   │   │   ├── Half-Subctractor.md
+│   │   │   ├── Full-Subctractor.md
+│   │   │   └── Full-Subctractor-Using-Two-Half-Subctractor.md
+│   │   ├── Multiplexer
+│   │   │   ├── 2x1.md
+│   │   │   ├── 4x1.md
+│   │   │   └── 8x1.md
+│   │   ├── Demultiplexer
+│   │   │   ├── 1x2.md
+│   │   │   ├── 1x4.md
+│   │   │   └── 1x8.md
+│   │   ├── Decoder
+│   │   │   ├── 2x4.md
+│   │   │   └── 3x8.md
+│   │   ├── Encoder
+│   │   │   ├── 4x2.md
+│   │   │   ├── 8x3.md
+│   │   │   └── Priority-Encoder.md
+│   │   └── Comparator
+│   │   │   ├── 1-bit.md
+│   │   │   ├── 2-bit.md
+│   │   │   └── 3-bit.md
+│   │   └── Ripple-Carry-Adder.md
+│   │
+│   ├── [10]-Flip-Flops
+│   │   ├── SR-FlipFlop.md
+│   │   ├── D-FlipFlop.md
+│   │   ├── JK-FlipFlop.md
+│   │   ├── T-FlipFlop.md
+│   │   ├── Characteristic-Table.md
+│   │   └── Excitation-Table.md
+│   │
+│   ├── [11]-Registers
+│   │   ├── Register-Basics.md
+│   │   ├── Shift-Registers.md
+│   │   ├── SISO-Register.md
+│   │   ├── SIPO-Register.md
+│   │   ├── PISO-Register.md
+│   │   └── PIPO-Register.md
+│   │
+│   ├── [12]-Counters
+│   │   ├── Asynchronous-Counters
+│   │   │   ├──3-Bit-Asynchoronous-Up-Counter.md
+│   │   │   ├── 3-Bit-Asynchoronous-Down-Counter.md
+│   │   │   ├── 4-Bit-Asynchoronous-Up-Counter.md
+│   │   │   └── 4-Bit-Asynchoronous-Down-Counter.md
+│   │   ├── Synchronous-Counters
+│   │   │   ├── Up-Counter.md
+│   │   │   ├── Down-Counter.md
+│   │   │   ├── Up-Down-Counter.md
+│   │   │   └── Mod-N-Counter.md
+│   │   └── Special-Counters
+│   │       ├── Ring-Counter.md
+│   │       └── Johnson-Counter.md
+│   │
+│   └── [13]-Finite-State-Machines
+│       ├── FSM-Introduction.md
+│       ├── State-Diagram.md
+│       ├── State-Table.md
+│       ├── Moore-Machine.md
+│       ├── Mealy-Machine.md
+│       └── Sequence-Detector.md
 │
-├──Digital-Design-and-VLSI-fundamentals
+├── Semiconductor-and-CMOS
+│   │
+│   ├── [01]-Semiconductor-Basics
+│   │   ├── Semiconductor-Types.md 
+│   │   ├── Intrinsic-Semiconductor.md 
+│   │   ├── Extrinsic-Semiconductor.md 
+│   │   ├── Doping.md 
+│   │   ├── N-Type-Semiconductor.md 
+│   │   ├── P-Type-Semiconductor.md 
+│   │   ├── Semiconductor Manufacturing Process
+│   │   ├── From Sand to Silicon
+│   │   ├── Silicon Wafer Manufacturing
+│   │   ├── Semiconductor Fabrication Plant
+│   │   ├── Clean Room Technology
+│   │   ├── Photolithography
+│   │   ├── EUV Lithography
+│   │   ├── Wafer Testing
+│   │   ├── Chip Packaging
+│   │   └──Semiconductor Ecosystem
+│   │   
+│   ├── [02]-MOS-Devices
+│   │   ├── What is MOSFET.md
+│   │   ├── NMOS.md
+│   │   ├── PMOS.md
+│   │   ├── MOS-Operation.md
+│   │   └── Threshold-Voltage.md
+│   │
+│   └── [03]. CMOS Fundamentals
+│        ├── [01]-CMOS-Basics
+│         │ ├── What is CMOS?
+│         │ ├── Complementary NMOS + PMOS
+│         │ ├── CMOS Inverter
+│         │    ├── CMOS Logic Operation
+│         │    └── Pull-up and Pull-down Networks
+│         │   
+│         ├── [02]-CMOS Logic Gates
+│          │   ├── CMOS NOT (Inverter)
+│          │   ├── CMOS NAND
+│          │   ├── CMOS NOR
+│          │   ├── CMOS AND
+│          │    ├── CMOS OR
+│          │     └── CMOS XOR / XNOR (basic understanding)
+│          │   
+│          ├── [03]-CMOS Characteristics
+│          │   ├── Logic 0 and Logic 1
+│          │   ├── Voltage Levels
+│          │   ├── Noise Margin
+│          │   ├── Propagation Delay
+│          │   ├── Rise Time
+│          │     └── Fall Time
+│          │     
+│          ├── [04]-CMOS Power
+│          │    ├── Dynamic Power
+│          │    ├── Static Power
+│          │    ├── Switching Activity
+│          │    ├── Short-Circuit Power (basic)
+│          │     └── Leakage Power (basic)
+│          │     
+│          └── [05]- CMOS Digital Design Concepts
+│              ├── Fan-in
+│              ├── Fan-out
+│              ├── Load Capacitance
+│              ├── Drive Strength (basic)
+│              ├── PVT Variations (basic)
+│               └── Process Technology Nodes (basic)
 │
-├── 01-Digital-Basics
-│   ├── Digital-vs-Analog.md
-│   └── Digital-System-Overview.md
+├── VLSI-Fundamentals
+│   ├── [01]-Introduction-to-VLSI
+│   │   ├── What-is-VLSI
+│   │   ├── VLSI-Levels-of-Integration
+│   │   ├── VLSI-Design-Types
+│   │   ├── Digital-vs-Analog-IC
+│   │   └── VLSI-Applications
+│   │  
+│   ├── [02]-ASIC-vs-FPGA
+│   │    ├── ASIC
+│   │    ├── FPGA
+│   │    ├── ASIC-vs-FPGA
+│   │    ├── Advantages-and-Disadvantages
+│   │    └── RTL-in-ASIC-and-FPGA
+│   │
+│   ├── [03]-Front-End-vs-Back-End
+│   │    ├── Front-End-Design
+│   │    ├── RTL-Design
+│   │    ├── Functional-Verification
+│   │    ├── Logic-Synthesis
+│   │    ├── Back-End-Design
+│   │    └── Physical-Design
+│   │  
+│   ├── [04]-RTL-to-GDSII-Flow
+│   │   ├── Specification
+│   │   ├── RTL-Coding
+│   │   ├── Functional-Verification
+│   │   ├── Logic-Synthesis
+│   │   ├── Floor-planning
+│   │   ├── Placement
+│   │   ├── Clock-Tree-Synthesis
+│   │   ├── Routing
+│   │   ├── STA
+│   │   ├── Physical-Verification
+│   │   └── GDSII
+│   │   
+│   ├── [05]-PPA
+│   │   ├── Power
+│   │   ├── Performance
+│   │   ├── Area
+│   │   ├── PPA-Tradeoffs
+│   │   └── RTL-Level-PPA-Optimization
+│   │  
+│   ├── [06]-Parasitic-RC-Basics
+│   │   ├── Resistance
+│   │   ├── Capacitance
+│   │   ├── Interconnect
+│   │   ├── RC-Delay
+│   │   └── Impact-on-Timing
+│   │
+│   └── [07]-Logical-Effort-Basics
+│         ├── Gate-Delay
+│         ├── Logical-Effort
+│         ├── Electrical-Effort
+│         ├── Parasitic-Delay
+│         └── Path-Optimization
 │
-├── 02-Number-Systems
-│   ├── Binary-System.md
-│   ├── Octal-System.md
-│   ├── Hexadecimal-System.md
-│   └── 1-Number-System-Conversion.md
-│
-├── 03-Binary-Arithmetic
-│   ├── Binary-Addition.md
-│   └── Binary-Subtraction.md
-│
-├── 04-Binary-Codes
-│   ├── BCD-Code.md
-│   ├── Gray-Code.md
-│   └── ASCII-Code.md 
-│
-├── 05-Boolean-Algebra
-│   ├── 1-Boolean-Basics.md
-│   ├── 2-Boolean-Expression.md
-│   ├── 3-Boolean-Laws.md
-│   └── 4-De-Morgans-Theorem.md
-│
-├── 06-Logic-Gates
-│   ├── AND-Gate.md
-│   ├── OR-Gate.md
-│   ├── NOT-Gate.md
-│   ├── NAND-Gate.md
-│   ├── NOR-Gate.md
-│   ├── XOR-Gate.md
-│   └── XNOR-Gate.md
-│
-├── 07-Combinational-Logic
-│   ├── Introduction.md
-│   ├── Truth-Tables.md
-│   ├── Minterms-Maxterms.md
-│   └── Combinational-vs-Sequential.md
-│
-├── 08-Karnaugh-Map
-│   ├── Kmap-3-Variable.md
-│   ├── Kmap-4-Variable.md
-│   └── Dont-Care-Conditions.md
-│
-├── 09-Combinational-Circuits
-│   ├── Half-Adder.md
-│   ├── Full-Adder.md
-│   ├── Half-Subtractor.md
-│   ├── Full-Subtractor.md
-│   ├── Full-Adder-using-Half-Adder.md
-│   ├── Full-Subtractor-using-Half-Subtractor.md
-│   ├── Ripple-Carry-Adder.md
-│   ├── Multiplexer.md
-│   │   ├── 2x1
-│   │   ├── 4x1
-│   │   └── 8x1
-│   ├── Demultiplexer.md
-│   │   ├── 1x2
-│   │   ├── 1x4
-│   │   └── 1x8
-│   ├── Decoder.md
-│   │   ├── 2x4
-│   │   └── 3x8
-│   ├── Encoder.md
-│   │   ├── 4x2
-│   │   ├── 8x3
-│   │   └── Priority-Encoder.md
-│   └── Comparator.md
-│       ├── 1-bit
-│       ├── 2-bit
-│       └── 4-bit
-│
-├── 10-Flip-Flops
-│   ├── SR-FlipFlop.md
-│   ├── D-FlipFlop.md
-│   ├── JK-FlipFlop.md
-│   ├── T-FlipFlop.md
-│   ├── Characteristic-Table.md
-│   └── Excitation-Table.md
-│
-├── 11-Registers
-│   ├── Register-Basics.md
-│   ├── Shift-Registers.md
-│   ├── SISO-Register.md
-│   ├── SIPO-Register.md
-│   ├── PISO-Register.md
-│   └── PIPO-Register.md
-│
-├── 12-Counters
-│
-├── Asynchronous-Counters
-│   ├── Ripple-Counter
-│   ├── Up-Counter
-│   └── Down-Counter
-│
-├── Synchronous-Counters
-│   ├── Up-Counter
-│   ├── Down-Counter
-│   ├── Up-Down-Counter (optional)
-│   └── Mod-N-Counter
-│
-└── Special-Counters
-│   ├── Ring-Counter
-│    └── Johnson-Counter
-│
-├── 13-Finite-State-Machines
-│   ├── FSM-Introduction.md
-│   ├── State-Diagram.md
-│   ├── State-Table.md
-│   ├── Moore-Machine.md
-│   ├── Mealy-Machine.md
-│   └── Sequence-Detector.md
-│
-├── 14-Timing-Concepts
-│   ├── Setup-Time.md
-│   ├── Hold-Time.md
-│   ├── Clock-to-Q-Delay.md
-│   ├── Propagation-Delay.md
-│   └── Timing-Diagrams.md
-│
-├── 15-Semiconductor-Basics
-│   ├── Semiconductor-Concept.md
-│   ├── Intrinsic-vs-Extrinsic-Semiconductor.md
-│   ├── PN-Junction.md
-│   └── Diode-Operation.md
-│
-├── 16-MOS-Devices
-│   ├── MOS-Capacitor.md
-│   ├── MOSFET-Structure.md
-│   ├── MOSFET-Working.md
-│   ├── NMOS.md
-│   ├── PMOS.md
-│   └── CMOS-Inverter.md
-│
-└── 17-VLSI-Fundamentals
-    ├── CMOS-Delay-and-Sizing.md
-    ├── Parasitic-RC.md
-    ├── Power-Static-vs-Dynamic.md
-    └── Logical-Effort.md
+├──Timing-Concepts
+│ ├── 01-Clock-Concepts.md
+│ ├── 02-Clock-Frequency-and-Period.md      
+│ ├── 03-Propagation-Delay.md
+│ ├── 04-Contamination-Delay.md             
+│ ├── 05-Rise-Time.md
+│ ├── 06-Fall-Time.md
+│ ├── 07-Setup-Time.md
+│ ├── 08-Hold-Time.md
+│ ├── 09-Clock-Skew.md
+│ ├── 10-Clock-Jitter.md
+│ ├── 11-Arrival-Time.md                    
+│ ├── 12-Required-Time.md                   
+│ └── 13-Timing-Diagrams.md            
+└── STA-Basics
+  ├── 01-Introduction-to-STA.md             
+  ├── 02-Timing-Paths.md
+  ├── 03-Setup-Analysis.md
+  ├── 04-Hold-Analysis.md
+  ├── 05-Timing-Violations.md
+  ├── 06-Slack-Analysis.md
+  ├── 07-Timing-Constraints.md
+  ├── 08-Critical-Path.md
+  ├── 09-Timing-Reports.md
+  ├── 10-Input-and-Output-Delay.md          
+  ├── 11-False-Path-Basics.md               
+  ├── 12-Multicycle-Path-Basics.md          
+  └── 13-Timing-Closure-Basics.md               
+
 ```
 ---
 
 
 ---
 
-# 🎯 Skills Developed
+# 🎯 Skills Developed✔ 
 
-✔ Digital Circuit Analysis  
-✔ CMOS Logic Understanding  
-✔ RTL Design Foundation  
-✔ Hardware Problem Solving  
-✔ VLSI Design Flow Understanding  
-✔ Interview Preparation
+- Digital Circuit Analysis
+- Boolean Logic Simplification
+- Combinational Circuit Design
+- Sequential Circuit Fundamentals
+- CMOS Logic Understanding
+- Semiconductor Fundamentals
+- VLSI Design Flow Understanding
+- Timing Analysis Fundamentals
+- Static Timing Analysis (STA) Basics
+- RTL Design Foundation
+- Hardware Design Thinking
+- ASIC Interview Preparation
 
 ---
 
