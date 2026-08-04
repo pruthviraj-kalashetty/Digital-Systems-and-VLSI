@@ -10,13 +10,13 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 * **Key Features**
 
-- Counts from **0 to 7**.
-- Uses **3 Flip-Flops**.
-- Generates **8 unique binary states (2³ = 8)**.
-- Counts in **ascending order**.
-- Only the first flip-flop receives the external clock.
-- Simple circuit with low hardware requirements.
-- Best suited for **low-speed digital applications**.
+  - Counts from **0 to 7**.
+  - Uses **3 Flip-Flops**.
+  - Generates **8 unique binary states (2³ = 8)**.
+  - Counts in **ascending order**.
+  - Only the first flip-flop receives the external clock.
+  - Simple circuit with low hardware requirements.
+  - Best suited for **low-speed digital applications**.
 
 ---
 
@@ -24,11 +24,11 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 *A 3-Bit Asynchronous Up Counter is used because it:*
 
-- Counts clock pulses automatically.
-- Generates binary counting sequences.
-- Divides the input clock frequency.
-- Requires fewer logic gates.
-- Is easy to design and implement.
+   - Counts clock pulses automatically.
+   - Generates binary counting sequences.
+   - Divides the input clock frequency.
+   - Requires fewer logic gates.
+   - Is easy to design and implement.
 
 ---
 
@@ -36,16 +36,16 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 *This counter is commonly used in:*
 
-- Digital clocks
-- Event counting circuits
-- Frequency divider circuits
-- Digital timers
-- Embedded systems
-- FPGA designs
-- ASIC designs
-- Digital VLSI and RTL design
-- Simple automation systems
-- Educational digital electronics projects
+   - Digital clocks
+   - Event counting circuits
+   - Frequency divider circuits
+   - Digital timers
+   - Embedded systems
+   - FPGA designs
+   - ASIC designs
+   - Digital VLSI and RTL design
+   - Simple automation systems
+   - Educational digital electronics projects
 
 ---
 
@@ -53,15 +53,15 @@ The counter is called **asynchronous** because only the first flip-flop receives
 
 *A 3-Bit Asynchronous Up Counter consists of:*
 
-- **3 T Flip-Flops** (or JK Flip-Flops with J = K = 1)
-- One external clock input
-- Common reset signal (optional)
+   - **3 T Flip-Flops** (or JK Flip-Flops with J = K = 1)
+   - One external clock input
+   - Common reset signal (optional)
 
 *Connection:*
 
-- External Clock → Flip-Flop 0
-- Q0 → Clock input of Flip-Flop 1
-- Q1 → Clock input of Flip-Flop 2
+   - External Clock → Flip-Flop 0
+   - Q0 → Clock input of Flip-Flop 1
+   - Q1 → Clock input of Flip-Flop 2
 
 Since every flip-flop waits for the previous flip-flop, the counting operation occurs one stage after another.
 
@@ -159,22 +159,22 @@ The counting process repeats continuously.
 
 * **Advantages**
 
-- Simple circuit design
-- Requires fewer logic gates
-- Low hardware cost
-- Easy to understand
-- Easy to implement
-- Suitable for educational purposes
-- Good for low-speed applications
+   - Simple circuit design
+   - Requires fewer logic gates
+   - Low hardware cost
+   - Easy to understand
+   - Easy to implement
+   - Suitable for educational purposes
+   - Good for low-speed applications
 
 ---
 
 * **Disadvantages**
 
-- Propagation delay increases with each flip-flop.
-- Not suitable for high-speed systems.
-- Output bits do not change simultaneously.
-- Less accurate than synchronous counters.
+   - Propagation delay increases with each flip-flop.
+   - Not suitable for high-speed systems.
+   - Output bits do not change simultaneously.
+   - Less accurate than synchronous counters.
 
 
 
