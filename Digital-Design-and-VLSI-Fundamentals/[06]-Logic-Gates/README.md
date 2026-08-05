@@ -38,13 +38,13 @@ By working through this module, you will be able to:
 ```text
 06-Logic-Gates/
 ├── README.md
-├── AND-Gate.md
-├── OR-Gate.md
-├── NOT-Gate.md
-├── NAND-Gate.md
-├── NOR-Gate.md
-├── XOR-Gate.md
-└── XNOR-Gate.md
+├── 01-AND-Gate.md
+├── 02-OR-Gate.md
+├── 03-NOT-Gate.md
+├── 04-NAND-Gate.md
+├── 05-NOR-Gate.md
+├── 06-XOR-Gate.md
+└── 07-XNOR-Gate.md
 └── Image
      └── and-gates.png
      └── and_waveform.png
