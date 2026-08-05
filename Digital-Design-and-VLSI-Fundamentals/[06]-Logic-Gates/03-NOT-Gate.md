@@ -43,7 +43,7 @@ A NOT gate is a digital logic gate that performs the logical NOT operation on a 
 
 * **Circuit Diagram:**
 
-![NOT Gate](Image/not-gate.png)
+![NOT Gate](Image/not-gates.png)
 
 ---
 
