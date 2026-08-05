@@ -47,12 +47,6 @@
 
 ---
 
-* **Basic Block Diagram:**
-
-![COUNTER](Image/counter.png)
-
----
-
 * **Function of Inputs and Outputs**
 
   - **CLK** = Clock input used for counting.
