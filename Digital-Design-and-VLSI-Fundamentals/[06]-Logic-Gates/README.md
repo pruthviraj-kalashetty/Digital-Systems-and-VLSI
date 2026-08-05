@@ -23,13 +23,13 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`AND-Gate.md`](./AND-Gate.md)** | Logical AND operation, truth table, Boolean expression, symbol, and practical applications. |
-| **[`OR-Gate.md`](./OR-Gate.md)** | Logical OR operation, truth table, Boolean expression, symbol, and practical applications. |
-| **[`NOT-Gate.md`](./NOT-Gate.md)** | Inverter operation, truth table, Boolean expression, symbol, and signal inversion. |
-| **[`NAND-Gate.md`](./NAND-Gate.md)** | Universal NAND gate, truth table, Boolean expression, symbol, and implementation of digital circuits. |
-| **[`NOR-Gate.md`](./NOR-Gate.md)** | Universal NOR gate, truth table, Boolean expression, symbol, and digital circuit implementation. |
-| **[`XOR-Gate.md`](./XOR-Gate.md)** | Exclusive-OR operation, truth table, Boolean expression, symbol, and arithmetic applications. |
-| **[`XNOR-Gate.md`](./XNOR-Gate.md)** | Exclusive-NOR operation, truth table, Boolean expression, symbol, and equality comparison applications. |
+| **[`01-AND-Gate.md`](./01-AND-Gate.md)** | Logical AND operation, truth table, Boolean expression, symbol, and practical applications. |
+| **[`02-OR-Gate.md`](./02-OR-Gate.md)** | Logical OR operation, truth table, Boolean expression, symbol, and practical applications. |
+| **[`03-NOT-Gate.md`](./03-NOT-Gate.md)** | Inverter operation, truth table, Boolean expression, symbol, and signal inversion. |
+| **[`04-NAND-Gate.md`](./04-NAND-Gate.md)** | Universal NAND gate, truth table, Boolean expression, symbol, and implementation of digital circuits. |
+| **[`05-NOR-Gate.md`](./05-NOR-Gate.md)** | Universal NOR gate, truth table, Boolean expression, symbol, and digital circuit implementation. |
+| **[`06-XOR-Gate.md`](./06-XOR-Gate.md)** | Exclusive-OR operation, truth table, Boolean expression, symbol, and arithmetic applications. |
+| **[`07-XNOR-Gate.md`](./07-XNOR-Gate.md)** | Exclusive-NOR operation, truth table, Boolean expression, symbol, and equality comparison applications. |
 
 ---
 
