@@ -26,10 +26,10 @@ By working through this module, you will be able to:
 | File | Core Technical Focus |
 | :--- | :--- |
 | **[`01-What is MOSFET.md`](./What%20is%20MOSFET.md)** | Introduction to MOSFETs, device structure, terminals, working principle, and applications in digital electronics. |
-| **[`02-NMOS.md`](./NMOS.md)** | Structure, operation, characteristics, and switching behavior of NMOS transistors. |
-| **[`03-PMOS.md`](./PMOS.md)** | Structure, operation, characteristics, and switching behavior of PMOS transistors. |
-| **[`04-MOS-Operation.md`](./MOS-Operation.md)** | MOSFET operating regions including Cutoff, Triode (Linear), and Saturation modes. |
-| **[`05-Threshold-Voltage.md`](./Threshold-Voltage.md)** | Threshold voltage, gate control, channel formation, and its importance in MOSFET switching. |
+| **[`02-NMOS.md`](./02-NMOS.md)** | Structure, operation, characteristics, and switching behavior of NMOS transistors. |
+| **[`03-PMOS.md`](./03-PMOS.md)** | Structure, operation, characteristics, and switching behavior of PMOS transistors. |
+| **[`04-MOS-Operation.md`](./04-MOS-Operation.md)** | MOSFET operating regions including Cutoff, Triode (Linear), and Saturation modes. |
+| **[`05-Threshold-Voltage.md`](./05-Threshold-Voltage.md)** | Threshold voltage, gate control, channel formation, and its importance in MOSFET switching. |
 
 ---
 
