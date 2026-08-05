@@ -43,7 +43,7 @@ A NOR gate is a digital logic gate that performs the logical NOR operation on tw
 
 * **Circuit Diagram:**
 
-![NOR Gate](Image/nor-gate.png)
+![NOR Gate](Image/nor-gates.png)
 
 ---
 
