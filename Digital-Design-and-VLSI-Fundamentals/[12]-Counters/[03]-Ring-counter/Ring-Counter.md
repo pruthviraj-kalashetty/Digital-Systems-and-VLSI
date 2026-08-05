@@ -50,7 +50,7 @@ A Ring Counter is a synchronous sequential circuit made using D flip-flops, wher
 
 ---
 
-* **Truth Table (4-Bit Ring Counter)**
+* **Counting Sequence (4-Bit Ring Counter)**
 
 | Clock Pulse | Q3 | Q2 | Q1 | Q0 |
 |--------------|----|----|----|----|
@@ -244,18 +244,4 @@ A Ring Counter is a synchronous counter built using D flip-flops, where one HIGH
   - Neso Academy – Digital Electronics.
   - GeeksforGeeks – Ring Counter.
 
----
 
-* **Waveform / Timing Diagram:**
-
-```text
-CLK : ─┐_┌─_┌─_┌─_┌─_┌─
-
-Q0  : ███____ __________███____
-Q1  : ____███______________
-Q2  : ________███__________
-Q3  : ____________███______
-
-Sequence:
-0001 → 0010 → 0100 → 1000 → 0001
-```
