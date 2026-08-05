@@ -42,7 +42,7 @@ An XOR gate is a digital logic gate that performs the Exclusive OR operation on 
 
 * **Circuit Diagram:**
 
-![XOR Gate](Image/xor-gate.png)
+![XOR Gate](Image/xor-gates.png)
 
 ---
 
