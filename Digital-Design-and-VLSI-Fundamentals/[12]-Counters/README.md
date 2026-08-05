@@ -1,6 +1,6 @@
 # 12. Counters
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Counters-orange.svg)](#)
 
 This module introduces digital counters, one of the most important sequential circuits used in digital systems. It covers asynchronous (ripple) counters, synchronous counters, and ring counters, explaining their operating principles, timing characteristics, counting sequences, and practical applications.
