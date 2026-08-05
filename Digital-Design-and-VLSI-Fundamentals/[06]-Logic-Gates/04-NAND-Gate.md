@@ -43,7 +43,7 @@ A NAND gate is a digital logic gate that performs the logical NAND operation on 
 
 * **Circuit Diagram:**
 
-![NAND Gate](Image/nand-gate.png)
+![NAND Gate](Image/nand-gates.png)
 
 ---
 
