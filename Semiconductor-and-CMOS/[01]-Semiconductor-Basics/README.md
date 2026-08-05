@@ -27,22 +27,22 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`Semiconductor-Types.md`](./Semiconductor-Types.md)** | Classification of conductors, semiconductors, and insulators based on electrical conductivity. |
-| **[`Intrinsic-Semiconductor.md`](./Intrinsic-Semiconductor.md)** | Pure semiconductor materials, crystal structure, and electron-hole pair generation. |
-| **[`Extrinsic-Semiconductor.md`](./Extrinsic-Semiconductor.md)** | Doped semiconductors and improved electrical conductivity. |
-| **[`Doping.md`](./Doping.md)** | Semiconductor doping, donor and acceptor impurities, and carrier concentration. |
-| **[`N-Type-Semiconductor.md`](./N-Type-Semiconductor.md)** | Formation, charge carriers, and characteristics of N-type semiconductors. |
-| **[`P-Type-Semiconductor.md`](./P-Type-Semiconductor.md)** | Formation, charge carriers, and characteristics of P-type semiconductors. |
-| **[`Semiconductor-Manufacturing-Process.md`](./Semiconductor-Manufacturing-Process.md)** | Overview of the complete IC manufacturing process from silicon to packaged chips. |
-| **[`From-Sand-to-Silicon.md`](./From-Sand-to-Silicon.md)** | Conversion of silica into high-purity silicon used for semiconductor manufacturing. |
-| **[`Silicon-Wafer-Manufacturing.md`](./Silicon-Wafer-Manufacturing.md)** | Crystal growth, wafer slicing, polishing, and wafer preparation. |
-| **[`Semiconductor-Fabrication-Plant.md`](./Semiconductor-Fabrication-Plant.md)** | Introduction to semiconductor fabrication facilities (fabs) and manufacturing workflow. |
-| **[`Clean-Room-Technology.md`](./Clean-Room-Technology.md)** | Cleanroom classifications, contamination control, and manufacturing environment. |
-| **[`Photolithography.md`](./Photolithography.md)** | Pattern transfer process used to fabricate integrated circuits. |
-| **[`EUV-Lithography.md`](./EUV-Lithography.md)** | Extreme Ultraviolet lithography used in advanced semiconductor technology nodes. |
-| **[`Wafer-Testing.md`](./Wafer-Testing.md)** | Electrical testing and quality verification before chip packaging. |
-| **[`Chip-Packaging.md`](./Chip-Packaging.md)** | IC packaging technologies, package types, and final product preparation. |
-| **[`Semiconductor-Ecosystem.md`](./Semiconductor-Ecosystem.md)** | Overview of the semiconductor industry, design companies, foundries, OSATs, and the supply chain. |
+| **[`01-Semiconductor-Types.md`](./01-Semiconductor-Types.md)** | Classification of conductors, semiconductors, and insulators based on electrical conductivity. |
+| **[`02-Intrinsic-Semiconductor.md`](./02-Intrinsic-Semiconductor.md)** | Pure semiconductor materials, crystal structure, and electron-hole pair generation. |
+| **[`03-Extrinsic-Semiconductor.md`](./03-Extrinsic-Semiconductor.md)** | Doped semiconductors and improved electrical conductivity. |
+| **[`04-Doping.md`](./04-Doping.md)** | Semiconductor doping, donor and acceptor impurities, and carrier concentration. |
+| **[`05-N-Type-Semiconductor.md`](./05-N-Type-Semiconductor.md)** | Formation, charge carriers, and characteristics of N-type semiconductors. |
+| **[`06-P-Type-Semiconductor.md`](./06-P-Type-Semiconductor.md)** | Formation, charge carriers, and characteristics of P-type semiconductors. |
+| **[`07-Semiconductor-Manufacturing-Process.md`](./07-Semiconductor-Manufacturing-Process.md)** | Overview of the complete IC manufacturing process from silicon to packaged chips. |
+| **[`08-From-Sand-to-Silicon.md`](./08-From-Sand-to-Silicon.md)** | Conversion of silica into high-purity silicon used for semiconductor manufacturing. |
+| **[`09-Silicon-Wafer-Manufacturing.md`](./09-Silicon-Wafer-Manufacturing.md)** | Crystal growth, wafer slicing, polishing, and wafer preparation. |
+| **[`10-Semiconductor-Fabrication-Plant.md`](./10-Semiconductor-Fabrication-Plant.md)** | Introduction to semiconductor fabrication facilities (fabs) and manufacturing workflow. |
+| **[`11-Clean-Room-Technology.md`](./11-Clean-Room-Technology.md)** | Cleanroom classifications, contamination control, and manufacturing environment. |
+| **[`12-Photolithography.md`](./12-Photolithography.md)** | Pattern transfer process used to fabricate integrated circuits. |
+| **[`13-EUV-Lithography.md`](./13-EUV-Lithography.md)** | Extreme Ultraviolet lithography used in advanced semiconductor technology nodes. |
+| **[`14-Wafer-Testing.md`](./14-Wafer-Testing.md)** | Electrical testing and quality verification before chip packaging. |
+| **[`15-Chip-Packaging.md`](./15-Chip-Packaging.md)** | IC packaging technologies, package types, and final product preparation. |
+| **[`16-Semiconductor-Ecosystem.md`](./16-Semiconductor-Ecosystem.md)** | Overview of the semiconductor industry, design companies, foundries, OSATs, and the supply chain. |
 
 ---
 
@@ -51,22 +51,22 @@ By working through this module, you will be able to:
 ```text
 01-Semiconductor-Basics/
 ├── README.md
-├── Semiconductor-Types.md
-├── Intrinsic-Semiconductor.md
-├── Extrinsic-Semiconductor.md
-├── Doping.md
-├── N-Type-Semiconductor.md
-├── P-Type-Semiconductor.md
-├── Semiconductor-Manufacturing-Process.md
-├── From-Sand-to-Silicon.md
-├── Silicon-Wafer-Manufacturing.md
-├── Semiconductor-Fabrication-Plant.md
-├── Clean-Room-Technology.md
-├── Photolithography.md
-├── EUV-Lithography.md
-├── Wafer-Testing.md
-├── Chip-Packaging.md
-└── Semiconductor-Ecosystem.md
+├── 01-Semiconductor-Types.md
+├── 02-Intrinsic-Semiconductor.md
+├── 03-Extrinsic-Semiconductor.md
+├── 04-Doping.md
+├── 05-N-Type-Semiconductor.md
+├── 06-P-Type-Semiconductor.md
+├── 07-Semiconductor-Manufacturing-Process.md
+├── 08-From-Sand-to-Silicon.md
+├── 09-Silicon-Wafer-Manufacturing.md
+├── 10-Semiconductor-Fabrication-Plant.md
+├── 11-Clean-Room-Technology.md
+├── 12-Photolithography.md
+├── 13-EUV-Lithography.md
+├── 14-Wafer-Testing.md
+├── 15-Chip-Packaging.md
+└── 16-Semiconductor-Ecosystem.md
 ```
 
 ---
