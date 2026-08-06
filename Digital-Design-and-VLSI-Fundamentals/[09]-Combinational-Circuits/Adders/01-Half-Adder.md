@@ -47,7 +47,7 @@ A Half Adder is a combinational logic circuit that adds two one-bit binary input
 
 * **Circuit Diagram:**
 
-![Half Adder](Image/half-adder.png)
+![Half Adder](Adders-Images/half-adder.png)
 
 ---
 
