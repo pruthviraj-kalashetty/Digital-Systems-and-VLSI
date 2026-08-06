@@ -59,7 +59,7 @@ A Full Adder Using Two Half Adders is a combinational logic circuit that adds th
 
 * **Circuit Diagram:**
 
-![Full Adder Using Two Half Adders](Adders-Image/full-adder-using-two-half-adders.png)
+![Full Adder Using Two Half Adders](Adders-Images/full-adder-using-two-half-adders.png)
 
 ---
 
