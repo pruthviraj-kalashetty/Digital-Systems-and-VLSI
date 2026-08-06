@@ -48,7 +48,7 @@ A Full Subtractor is a combinational logic circuit that subtracts two one-bit bi
 
 * **Circuit Diagram:**
 
-![Full Subtractor](Subctractors-Images/full-subctractor.png)
+![Full Subtractor](Subctractors-Images/full-subtractor.png)
 
 ---
 
