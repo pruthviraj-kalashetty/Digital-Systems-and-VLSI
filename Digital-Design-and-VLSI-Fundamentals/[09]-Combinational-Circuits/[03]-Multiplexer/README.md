@@ -1,6 +1,6 @@
 # Multiplexers
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Multiplexers-orange.svg)](#)
 
 This module introduces multiplexers (MUX), fundamental combinational circuits that select one input from multiple data inputs and route it to a single output based on the values of selection lines. It covers 2×1, 4×1, and 8×1 multiplexers, their logic implementation, truth tables, Boolean expressions, and practical applications in digital systems.
