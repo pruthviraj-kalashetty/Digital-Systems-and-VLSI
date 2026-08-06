@@ -48,7 +48,7 @@ A Half Subtractor is a combinational logic circuit that subtracts two one-bit bi
 
 * **Circuit Diagram:**
 
-![Half Subtractor](Subctractors-Images/half-subtractor.png)
+![Half Subtractor](Subctractors-Images/half-subctractor.png)
 
 ---
 
