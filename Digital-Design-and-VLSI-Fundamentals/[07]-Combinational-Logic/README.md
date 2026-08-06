@@ -23,10 +23,10 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`Introduction.md`](./Introduction.md)** | Introduction to combinational logic circuits, characteristics, and real-world applications. |
-| **[`Truth-Tables.md`](./Truth-Tables.md)** | Construction and interpretation of truth tables for digital logic functions. |
-| **[`Minterms-Maxterms.md`](./Minterms-Maxterms.md)** | Standard Boolean function representation using minterms, maxterms, canonical forms, and notation. |
-| **[`Combinational-vs-Sequential.md`](./Combinational-vs-Sequential.md)** | Comparison between combinational and sequential circuits, highlighting their characteristics, memory elements, and applications. |
+| **[`01-Introduction-to-Combinational-Logic.md`](./01-Introduction-to-Combinational-Logic.md)** | Introduction to combinational logic circuits, characteristics, and real-world applications. |
+| **[`02-Truth-Tables.md`](./02-Truth-Tables.md)** | Construction and interpretation of truth tables for digital logic functions. |
+| **[`03-Minterms-Maxterms.md`](./03-Minterms-Maxterms.md)** | Standard Boolean function representation using minterms, maxterms, canonical forms, and notation. |
+| **[`04-Combinational-vs-Sequential.md`](./04-Combinational-vs-Sequential.md)** | Comparison between combinational and sequential circuits, highlighting their characteristics, memory elements, and applications. |
 
 ---
 
@@ -35,10 +35,10 @@ By working through this module, you will be able to:
 ```text
 07-Combinational-Logic/
 ├── README.md
-├── Introduction.md
-├── Truth-Tables.md
-├── Minterms-Maxterms.md
-└── Combinational-vs-Sequential.md
+├── 01-Introduction-to-Combinational-Logic.md
+├── 02-Truth-Tables.md
+├── 03-Minterms-Maxterms.md
+└── 04-Combinational-vs-Sequential.md
 ```
 
 ---
