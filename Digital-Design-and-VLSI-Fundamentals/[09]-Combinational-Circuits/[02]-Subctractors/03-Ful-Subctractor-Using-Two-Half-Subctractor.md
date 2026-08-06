@@ -59,7 +59,7 @@ A Full Subtractor Using Two Half Subtractors is a combinational logic circuit th
 
 * **Circuit Diagram:**
 
-![Full Subtractor Using Two Half Subtractors](Subctractors-Images/Full-subtractor-using-two-half-subtractor.png)
+![Full Subtractor Using Two Half Subtractors](Subctractors-Images/Full-subtractor-using-two-half-subctractor.png)
 
 ---
 
