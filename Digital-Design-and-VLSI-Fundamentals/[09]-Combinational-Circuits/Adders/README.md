@@ -1,6 +1,6 @@
 # Adders
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/[09]-Combinational-Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Adders-orange.svg)](#)
 
 This module introduces adders, the fundamental combinational circuits used to perform binary addition in digital systems. It covers the Half Adder, Full Adder, and the implementation of a Full Adder using two Half Adders. These circuits form the foundation of arithmetic logic units (ALUs), processors, digital signal processing systems, and RTL design.
