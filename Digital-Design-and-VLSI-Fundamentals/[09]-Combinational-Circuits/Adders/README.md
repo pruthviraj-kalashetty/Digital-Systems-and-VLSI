@@ -27,7 +27,7 @@ By working through this module, you will be able to:
 | :--- | :--- |
 | **[`01-Half-Adder.md`](./01-Half-Adder.md)** | Introduction to the Half Adder, binary addition of two single-bit inputs, truth table, Boolean expressions, and logic implementation. |
 | **[`02-Full-Adder.md`](./02-Full-Adder.md)** | Design and operation of the Full Adder, including carry input, truth table, Boolean expressions, and logic implementation. |
-| **[`03-Full-Adder-Using-Two-Half-Adders.md`](./03-Full-Adder-Using-Two-Half-Adders.md)** | Construction of a Full Adder using two Half Adders and an OR gate, with complete circuit analysis. |
+| **[`03-Full-Adder-Using-Two-Half-Adder.md`](./03-Full-Adder-Using-Two-Half-Adder.md)** | Construction of a Full Adder using two Half Adders and an OR gate, with complete circuit analysis. |
 
 ---
 
