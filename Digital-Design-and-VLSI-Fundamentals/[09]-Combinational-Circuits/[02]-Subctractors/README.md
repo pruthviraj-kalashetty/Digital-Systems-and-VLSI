@@ -1,6 +1,6 @@
 # Subtractors
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Subtractors-orange.svg)](#)
 
 This module introduces subtractors, the fundamental combinational circuits used to perform binary subtraction in digital systems. It covers the Half Subtractor, Full Subtractor, and the implementation of a Full Subtractor using two Half Subtractors. These circuits form the foundation of arithmetic units, processors, digital systems, and RTL design.
@@ -25,9 +25,9 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`01-Half-Subtractor.md`](./01-Half-Subtractor.md)** | Introduction to the Half Subtractor, binary subtraction of two single-bit inputs, truth table, Boolean expressions, and logic implementation. |
-| **[`02-Full-Subtractor.md`](./02-Full-Subtractor.md)** | Design and operation of the Full Subtractor, including borrow input, truth table, Boolean expressions, and logic implementation. |
-| **[`03-Full-Subtractor-Using-Two-Half-Subtractors.md`](./03-Full-Subtractor-Using-Two-Half-Subtractors.md)** | Construction of a Full Subtractor using two Half Subtractors and an OR gate, with complete circuit analysis. |
+| **[`01-Half-Subctractor.md`](./01-Half-Subctractor.md)** | Introduction to the Half Subtractor, binary subtraction of two single-bit inputs, truth table, Boolean expressions, and logic implementation. |
+| **[`02-Full-Subctractor.md`](./02-Full-Subctractor.md)** | Design and operation of the Full Subtractor, including borrow input, truth table, Boolean expressions, and logic implementation. |
+| **[`03-Full-Subctractor-Using-Two-Half-Sucbtractor.md`](./03-Full-Subctractor-Using-Two-Half-Subctractor.md)** | Construction of a Full Subtractor using two Half Subtractors and an OR gate, with complete circuit analysis. |
 
 ---
 
