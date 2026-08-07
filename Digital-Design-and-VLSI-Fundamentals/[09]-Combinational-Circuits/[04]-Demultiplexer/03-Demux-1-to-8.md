@@ -53,7 +53,7 @@ A **1 × 8 Demultiplexer (DEMUX)** is a digital combinational circuit that takes
 
 * **Circuit Diagram:**
 
-![1 × 8 Demultiplexer](Demultiplexer-Images/1x8-demultiplexer.png)
+![1 × 8 Demultiplexer](DEMUX-Images/1x8-demultiplexer.png)
 
 ---
 
