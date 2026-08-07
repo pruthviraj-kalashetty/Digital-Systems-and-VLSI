@@ -25,9 +25,9 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`01-1x2.md`](./01-1x2.md)** | Design and operation of a 1×2 demultiplexer, truth table, Boolean expression, and logic implementation. |
-| **[`02-1x4.md`](./02-1x4.md)** | Design and operation of a 1×4 demultiplexer using two select lines and four output lines. |
-| **[`03-1x8.md`](./03-1x8.md)** | Design and operation of a 1×8 demultiplexer using three select lines and eight output lines. |
+| **[`01-Demux-1-to-2.md`](./01-Demux-1-to-2.md)** | Design and operation of a 1×2 demultiplexer, truth table, Boolean expression, and logic implementation. |
+| **[`02-Demux-1-to-4.md`](./02-Demux-1-to-4.md)** | Design and operation of a 1×4 demultiplexer using two select lines and four output lines. |
+| **[`03-Demux-1-to-8.md`](./03-Demux-1-to-8.md)** | Design and operation of a 1×8 demultiplexer using three select lines and eight output lines. |
 
 ---
 
@@ -36,9 +36,9 @@ By working through this module, you will be able to:
 ```text
 Demultiplexers/
 ├── README.md
-├── 01-1x2.md
-├── 02-1x4.md
-└── 03-1x8.md
+├── 01-Demux-1-to-2.md
+├── 02-Demux-1-to-4.md
+└── 03-Demux-1-to-8.md
 ```
 
 ---
