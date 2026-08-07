@@ -1,6 +1,6 @@
 # 13. Finite State Machines (FSM)
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Finite%20State%20Machines-orange.svg)](#)
 
 This module introduces Finite State Machines (FSMs), one of the most important concepts in sequential digital system design. It covers FSM fundamentals, state representation, Moore and Mealy machines, FSM design methodology, and sequence detector implementation.
