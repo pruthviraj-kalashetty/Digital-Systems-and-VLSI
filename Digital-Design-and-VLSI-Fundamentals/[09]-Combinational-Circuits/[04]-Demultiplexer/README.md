@@ -1,6 +1,6 @@
 # Demultiplexers
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Demultiplexers-orange.svg)](#)
 
 This module introduces demultiplexers (DEMUX), fundamental combinational circuits that route a single input signal to one of several output lines based on the values of selection lines. It covers 1×2, 1×4, and 1×8 demultiplexers, their logic implementation, truth tables, Boolean expressions, and practical applications in digital systems.
