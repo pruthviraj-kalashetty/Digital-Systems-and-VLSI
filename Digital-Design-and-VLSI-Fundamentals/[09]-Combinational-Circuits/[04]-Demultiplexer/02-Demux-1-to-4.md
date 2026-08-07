@@ -53,7 +53,7 @@ A **1 × 4 Demultiplexer (DEMUX)** is a digital combinational circuit that takes
 
 * **Circuit Diagram:**
 
-![1 × 4 Demultiplexer](Demultiplexer-Images/1x4-demultiplexer.png)
+![1 × 4 Demultiplexer](DEMUX-Images/1x4-demultiplexer.png)
 
 ---
 
