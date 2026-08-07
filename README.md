@@ -1,13 +1,15 @@
 # 🚀 Digital Design & VLSI Fundamentals
 
-### Digital Electronics • Semiconductor Fundamentals • CMOS • Timing • VLSI Concepts • RTL Design Foundation
+### Digital Electronics • Semiconductor Fundamentals • CMOS • Timing Analysis • Digital VLSI • RTL Design Foundation
 
 <p>
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Focus-Digital%20Design%20%26%20CMOS-00C8FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Semiconductor-CMOS-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Digital%20Logic-Combinational%20%26%20Sequential-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/FSM-State%20Machine-purple?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Timing-Analysis-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Concepts-STA%20Basics-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/CMOS-Semiconductor-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/STA-Basics-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-success?style=for-the-badge"/>
 </p>
 
