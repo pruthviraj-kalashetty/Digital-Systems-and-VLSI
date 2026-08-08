@@ -51,8 +51,8 @@ By working through this module, you will be able to:
 | File / Design | Core Technical Focus |
 | :--- | :--- |
 | **[`01-MUX-2-to-1.md`](./[03]-Multiplexer/01-MUX-2-to-1.md)** | Selection of one input from two available data inputs. |
-| **4×1 Multiplexer** | Selection of one input from four available data inputs. |
-| **8×1 Multiplexer** | Selection of one input from eight available data inputs. |
+| **[`02-MUX-4-to-1.md`](./[03]-Multiplexer/02-MUX-4-to-1.md)** | Selection of one input from two available data inputs. |
+| **[`03-MUX-8-to-1.md`](./[03]-Multiplexer/03-MUX-8-to-1.md)** | Selection of one input from two available data inputs. |
 
 ---
 
