@@ -1,6 +1,6 @@
 # Encoders
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Encoders-orange.svg)](#)
 
 This module introduces encoders, fundamental combinational circuits that convert one of multiple active input lines into a corresponding binary output code. It covers 4×2 and 8×3 encoders, including their truth tables, Boolean expressions, logic implementation, and practical applications in digital systems.
