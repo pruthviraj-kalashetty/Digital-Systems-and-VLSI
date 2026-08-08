@@ -1,6 +1,6 @@
 # CMOS Introduction
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-CMOS%20Fundamentals-orange.svg)](#)
 
 This module introduces the fundamental concepts of Complementary Metal-Oxide-Semiconductor (CMOS) technology, which forms the foundation of modern digital integrated circuits. It covers CMOS fundamentals, complementary NMOS and PMOS operation, the CMOS inverter, CMOS logic operation, and pull-up and pull-down networks.
