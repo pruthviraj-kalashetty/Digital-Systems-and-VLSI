@@ -1,4 +1,4 @@
-# 06. Logic Gates
+# ◈ Logic Gates
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Logic%20Gates-green.svg)](#)
