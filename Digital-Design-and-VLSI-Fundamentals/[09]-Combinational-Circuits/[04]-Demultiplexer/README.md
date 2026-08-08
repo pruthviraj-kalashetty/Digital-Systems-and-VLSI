@@ -1,4 +1,4 @@
-# Demultiplexers
+# ◈ Demultiplexers
 
 [![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Demultiplexers-orange.svg)](#)
