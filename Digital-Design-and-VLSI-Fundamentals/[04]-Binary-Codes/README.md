@@ -1,4 +1,4 @@
-# Binary Codes
+# ◈ Binary Codes
 
 [![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Binary%20Codes-orange.svg)](#)
