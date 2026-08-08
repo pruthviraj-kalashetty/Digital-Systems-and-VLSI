@@ -31,8 +31,8 @@ By working through this module, you will be able to:
 | File | Core Technical Focus |
 | :--- | :--- |
 | **[`01-Half-Adder.md`](./[01]-Adders/01-Half-Adder.md)** | Design and operation of a Half Adder using Sum and Carry outputs. |
-| **[`02-Full-Adder.md`](./[01]-Adders/01-Full-Adder.md)** | Design and operation of a Full Adder with two input bits and a carry input. |
-| **[`03-Full-Adder-Using-Two-Half-Adder.md`](./[01]-Adders/01-Full-Adder-Using-Two-Half-Adder.md)** | Implementation of a Full Adder using two Half Adders and an OR gate. |
+| **[`02-Full-Adder.md`](./[01]-Adders/02-Full-Adder.md)** | Design and operation of a Full Adder with two input bits and a carry input. |
+| **[`03-Full-Adder-Using-Two-Half-Adder.md`](./[01]-Adders/03-Full-Adder-Using-Two-Half-Adder.md)** | Implementation of a Full Adder using two Half Adders and an OR gate. |
 
 ---
 
