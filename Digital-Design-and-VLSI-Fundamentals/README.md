@@ -47,3 +47,69 @@
 </p>
 
 </div>
+
+<div align="center">
+
+# ◈ DIGITAL BASICS
+
+### `[01] FOUNDATION MODULE`
+
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+<strong>01</strong><br>
+DIGITAL<br>vs<br>ANALOG
+
+</td>
+
+<td>➜</td>
+
+<td align="center">
+
+<strong>02</strong><br>
+DIGITAL<br>SYSTEM<br>OVERVIEW
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<code>FOUNDATION</code>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<code>DIGITAL ELECTRONICS</code>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<code>VLSI</code>
+
+</div>
+
+---
+
+## 📚 Module Contents
+
+| No. | Topic | Description |
+|:---:|---|---|
+| `01` | **Digital vs Analog** | Fundamental differences between analog and digital systems |
+| `02` | **Digital System Overview** | Introduction to the architecture and operation of digital systems |
+
+---
+
+## 🧭 Learning Path
+
+```text
+                    DIGITAL BASICS
+                         │
+            ┌────────────┴────────────┐
+            ▼                         ▼
+     DIGITAL vs ANALOG       DIGITAL SYSTEM OVERVIEW
+            │                         │
+            └────────────┬────────────┘
+                         ▼
+                  DIGITAL DESIGN
+                         │
+                         ▼
+                       VLSI
