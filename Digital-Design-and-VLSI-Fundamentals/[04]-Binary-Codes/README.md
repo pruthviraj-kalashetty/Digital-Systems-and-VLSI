@@ -1,9 +1,11 @@
-# 04. Binary Codes
+# Binary Codes
 
-[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Binary%20Codes-orange.svg)](#)
 
-This module introduces the binary coding techniques used in digital electronics for representing numerical data and alphanumeric characters. It covers commonly used binary codes, including BCD, Gray Code, ASCII, and code conversion techniques, providing the foundation for digital communication, data representation, encoding, and digital system design.
+This module introduces binary codes used to represent, process, store, and communicate digital information. It covers BCD, Gray Code, ASCII, Excess-3 Code, and binary code conversion techniques, providing a foundation for data representation and digital logic design.
+
+These concepts are important for understanding digital systems, data encoding, error reduction, communication interfaces, and code-conversion circuits used in digital electronics and VLSI design.
 
 ---
 
@@ -11,11 +13,11 @@ This module introduces the binary coding techniques used in digital electronics 
 
 By working through this module, you will be able to:
 
-- Understand the purpose and applications of different binary codes.
-- Distinguish between weighted and non-weighted binary codes.
-- Represent decimal numbers and characters using standard binary coding schemes.
-- Perform accurate conversions between commonly used binary codes.
-- Build a strong foundation for digital data representation and code conversion techniques.
+- Understand the purpose and classification of binary codes.
+- Analyze BCD, Gray, ASCII, and Excess-3 code representations.
+- Convert binary values between different code formats.
+- Understand the advantages and applications of different binary codes.
+- Build a foundation for code-conversion and digital data representation circuits.
 
 ---
 
@@ -23,9 +25,12 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`BCD-Code.md`](./BCD-Code.md)** | Introduction to Binary Coded Decimal (BCD), its representation, characteristics, advantages, and applications. |
-| **[`Gray-Code.md`](./Gray-Code.md)** | Understanding Gray Code, unit-distance property, advantages, and practical applications in digital systems. |
-| **[`ASCII-Code.md`](./ASCII-Code.md)** | ASCII character encoding, character representation, control characters, and data communication. |
+| **[`01-BCD-Code.md`](./01-BCD-Code.md)** | Binary-Coded Decimal representation, encoding rules, decimal digit representation, and applications. |
+| **[`02-Gray-Code.md`](./02-Gray-Code.md)** | Gray Code representation, characteristics, and its ability to minimize bit changes between consecutive values. |
+| **[`03-ASCII-Code.md`](./03-ASCII-Code.md)** | ASCII character encoding, binary representation of characters, and digital communication applications. |
+| **[`04-Excess-3-Code.md`](./04-Excess-3-Code.md)** | Excess-3 code representation, encoding procedure, characteristics, and applications. |
+| **[`05-Binary-to-Gray.md`](./05-Binary-to-Gray.md)** | Conversion procedure from Binary Code to Gray Code using bitwise relationships. |
+| **[`06-Gray-to-Binary.md`](./06-Gray-to-Binary.md)** | Conversion procedure from Gray Code to Binary using cumulative XOR relationships. |
 
 ---
 
@@ -34,34 +39,58 @@ By working through this module, you will be able to:
 ```text
 04-Binary-Codes/
 ├── README.md
-├── BCD-Code.md
-├── Gray-Code.md
-├── ASCII-Code.md
-├── Binary-to-Gray.md
-├── Gray-to-Binary.md
-├── BCD-to-Excess-3.md
-└── Excess-3-to-BCD.md
+├── 01-BCD-Code.md
+├── 02-Gray-Code.md
+├── 03-ASCII-Code.md
+├── 04-Excess-3-Code.md
+├── 05-Binary-to-Gray.md
+└── 06-Gray-to-Binary.md
 ```
 
 ---
 
 ## 🛠️ Core Concepts Covered
 
-### 1. Binary Coded Decimal (BCD)
+### 1. Binary Code Fundamentals
 
-Learn how decimal digits are represented using 4-bit binary patterns and understand the advantages and limitations of BCD representation in digital systems.
+Understand how binary codes represent numerical values, characters, and other forms of information using combinations of binary digits.
 
-### 2. Gray Code
+### 2. BCD Code
 
-Study the unit-distance property of Gray Code, where only one bit changes between consecutive values, reducing transition errors in digital circuits and rotary encoders.
+Study Binary-Coded Decimal (BCD), where each decimal digit is represented independently using a four-bit binary pattern.
 
-### 3. ASCII Code
+### 3. Gray Code
 
-Understand the American Standard Code for Information Interchange (ASCII), its character encoding scheme, and its role in representing text and symbols in digital systems.
+Understand Gray Code, in which consecutive code values differ by only one bit. This property helps reduce transition errors in applications such as position encoders.
 
-### 4. Code Conversion
+### 4. ASCII Code
 
-Learn the standard techniques for converting between Binary, Gray, BCD, and Excess-3 codes while preserving data accuracy and ensuring reliable digital communication.
+Learn how ASCII represents characters using binary code and understand its role in digital systems and communication interfaces.
+
+### 5. Excess-3 Code
+
+Understand Excess-3 as a non-weighted, self-complementing decimal code and learn how decimal digits are represented using this coding scheme.
+
+### 6. Binary-to-Gray Conversion
+
+Learn how to convert a binary number into its corresponding Gray Code using XOR-based relationships between adjacent bits.
+
+### 7. Gray-to-Binary Conversion
+
+Understand how Gray Code can be converted back to Binary by applying cumulative XOR operations from the most significant bit toward the least significant bit.
+
+### 8. Applications of Binary Codes
+
+Binary codes are used in:
+
+- Digital data representation
+- Digital communication
+- Rotary and position encoders
+- Character encoding
+- Code-conversion circuits
+- Error-reduction techniques
+- Digital control systems
+- VLSI and digital logic design
 
 ---
 
