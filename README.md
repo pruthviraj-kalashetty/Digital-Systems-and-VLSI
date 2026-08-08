@@ -3,7 +3,6 @@
 # ⚡ DIGITAL DESIGN & VLSI FUNDAMENTALS
 
 ### Digital Electronics • Semiconductor Fundamentals • CMOS • Timing Analysis • Digital VLSI • RTL Design Foundation
-</div>
 
 <p>
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
@@ -15,6 +14,8 @@
   <img src="https://img.shields.io/badge/STA-Basics-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-success?style=for-the-badge"/>
 </p>
+
+</div>
 
 --- 
 
