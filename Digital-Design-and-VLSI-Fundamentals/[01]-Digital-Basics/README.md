@@ -1,5 +1,4 @@
 # ◈ DIGITAL BASICS
-# 01. Digital Basics
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Digital%20Fundamentals-brightgreen.svg)](#)
