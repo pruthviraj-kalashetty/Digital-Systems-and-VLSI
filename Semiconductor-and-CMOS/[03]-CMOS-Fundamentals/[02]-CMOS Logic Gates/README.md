@@ -1,6 +1,6 @@
 # CMOS Logic Gates
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-CMOS%20Logic%20Gates-orange.svg)](#)
 
 This module introduces the implementation and operation of fundamental logic gates using CMOS technology. It covers CMOS NOT, AND, NAND, OR, NOR, and XOR/XNOR gates, focusing on their transistor-level structure, logic operation, and complementary pull-up and pull-down networks.
