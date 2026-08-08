@@ -5,6 +5,18 @@
 ### Digital Electronics • Semiconductor Fundamentals • CMOS • Timing Analysis • Digital VLSI • RTL Design Foundation
 
 <p>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20DOMAIN-%20VLSI ENGINEERING-111827?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20FOCUS-%20DEGITAL DESIGN-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20DIGITAL LOGIC-%20COMBINATIONAL & SEQUENTIAL-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20FSM-%20STATE MACHINE-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20TIMING-%20ANALYSIS-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20CMOS-%20SEMICONDUCTOR-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20STA-%20BASICS-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20PURPOSE-%20RTL DESIGN FOUNDATION-1E293B?style=for-the-badge&labelColor=020617"/>
+</p>
+
+
+<p>
   <img src="https://img.shields.io/badge/Domain-VLSI%20Engineering-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Focus-Digital%20Design%20%26%20CMOS-00C8FF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Digital%20Logic-Combinational%20%26%20Sequential-success?style=for-the-badge"/>
