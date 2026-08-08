@@ -1,6 +1,6 @@
 # CMOS Design Concepts
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-CMOS%20Design%20Concepts-orange.svg)](#)
 
 This module introduces fundamental CMOS design concepts that influence the performance, drive capability, and speed of digital circuits. It covers fan-in, fan-out, and load capacitance, providing the foundation for understanding how CMOS gates interact with other circuit elements and how electrical loading affects circuit performance.
