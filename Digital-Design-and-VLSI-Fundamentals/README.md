@@ -121,3 +121,97 @@ SEMICONDUCTOR
               │
               ▼
           RTL DESIGN
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a5f,100:0ea5e9&height=220&section=header&text=DIGITAL%20DESIGN%20%26%20VLSI&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Fundamentals%20%7C%20CMOS%20%7C%20RTL%20%7C%20Timing%20Analysis&descAlignY=58&descSize=17" width="100%"/>
+
+<br>
+
+<h1>⚡ DIGITAL DESIGN & VLSI FUNDAMENTALS</h1>
+
+<p>
+  <strong>Digital Electronics</strong>
+  &nbsp;•&nbsp;
+  <strong>Semiconductor Fundamentals</strong>
+  &nbsp;•&nbsp;
+  <strong>CMOS</strong>
+  &nbsp;•&nbsp;
+  <strong>Digital VLSI</strong>
+  &nbsp;•&nbsp;
+  <strong>RTL Design</strong>
+</p>
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="180">
+
+### ◈ DOMAIN
+**VLSI**
+
+</td>
+
+<td align="center" width="180">
+
+### ◈ CORE
+**DIGITAL DESIGN**
+
+</td>
+
+<td align="center" width="180">
+
+### ◈ LEVEL
+**RTL**
+
+</td>
+
+<td align="center" width="180">
+
+### ◈ GOAL
+**VLSI ENGINEERING**
+
+</td>
+</tr>
+</table>
+
+<br>
+
+</div>
+
+---
+
+<div align="center">
+
+```text
+╔══════════════════════════════════════════════════════════════╗
+║                  VLSI LEARNING ARCHITECTURE                 ║
+╠══════════════════════════════════════════════════════════════╣
+║                                                              ║
+║   SEMICONDUCTOR                                               ║
+║         │                                                    ║
+║         ▼                                                    ║
+║       CMOS                                                   ║
+║         │                                                    ║
+║         ▼                                                    ║
+║   DIGITAL ELECTRONICS                                        ║
+║         │                                                    ║
+║         ├───────────────┐                                    ║
+║         ▼               ▼                                    ║
+║   COMBINATIONAL     SEQUENTIAL                               ║
+║      LOGIC            LOGIC                                  ║
+║         │               │                                    ║
+║         └───────┬───────┘                                    ║
+║                 ▼                                            ║
+║                FSM                                           ║
+║                 │                                            ║
+║                 ▼                                            ║
+║          TIMING ANALYSIS                                     ║
+║                 │                                            ║
+║                 ▼                                            ║
+║             RTL DESIGN                                      ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
