@@ -32,7 +32,7 @@ DESIGN 01 — ELECTRIC BLUE
 
 ### ⚡ DIGITAL DESIGN & VLSI
 
-<img src="https://img.shields.io/badge/MODULE%2001-COMBINATIONAL%20LOGIC-00D9FF?style=for-the-badge&labelColor=0B1120"/>
+<img src="https://img.shields.io/badge/MODULE%20-COMBINATIONAL%20LOGIC-00D9FF?style=for-the-badge&labelColor=0B1120"/>
 
 <sub>DIGITAL DESIGN • VLSI FUNDAMENTALS</sub>
 
