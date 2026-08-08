@@ -33,8 +33,6 @@ By working through this module, you will be able to:
 | **[`01-Half-Adder.md`](./[01]-Adders/01-Half-Adder.md)** | Design and operation of a Half Adder using Sum and Carry outputs. |
 | **[`Full-Adder.md`](./Adders/Full-Adder.md)** | Design and operation of a Full Adder with two input bits and a carry input. |
 | **[`Full-Adder-using-Two-Half-Adder.md`](./Full-Adder-Using-Two-Half-Adder.md)** | Implementation of a Full Adder using two Half Adders and an OR gate. |
-| **[`Ripple-Carry-Adder.md`](./Adders/Ripple-Carry-Adder.md)** | Multi-bit binary addition using cascaded Full Adders and carry propagation. |
-| **[`4-Bit-Ripple-Carry-Adder.md`](./Adders/4-Bit-Ripple-Carry-Adder.md)** | Design and operation of a 4-bit Ripple Carry Adder. |
 
 ---
 
