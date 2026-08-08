@@ -37,7 +37,7 @@ By working through this module, you will be able to:
 ├── 01-Binary-Addition.md
 ├── 02-Binary-Subtraction.md
 ├── 03-Binary-Multiplication.md
-└──  04-Binary-Division.md
+└── 04-Binary-Division.md
 
 
 ---
