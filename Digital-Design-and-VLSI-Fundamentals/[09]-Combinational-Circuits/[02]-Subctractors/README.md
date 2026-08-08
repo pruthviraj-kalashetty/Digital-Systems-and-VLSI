@@ -1,4 +1,4 @@
-# Subtractors
+# ◈ Subtractors
 
 [![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Subtractors-orange.svg)](#)
