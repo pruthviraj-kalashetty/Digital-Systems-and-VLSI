@@ -15,8 +15,6 @@
   <img src="https://img.shields.io/badge/Purpose-RTL%20Design%20Foundation-success?style=for-the-badge"/>
 </p>
 
-</div>
-
 --- 
 
 ## 🛠️ Tools Used
@@ -24,6 +22,8 @@
   <p>
   <img src="https://skillicons.dev/icons?i=github,git,vscode,linux"/>
   </p>
+
+</div>
 
 ---
 
