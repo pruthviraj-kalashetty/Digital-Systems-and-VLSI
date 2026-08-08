@@ -248,3 +248,11 @@ A structured foundation for <b>Digital Design</b>, <b>VLSI</b> and <b>RTL Engine
 </p>
 
 </div>
+
+--
+
+<p>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20DOMAIN-%20VLSI-ENGINEERING-111827?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20DIGITAL%20DESIGN-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%97%88%20CMOS%20%2F%20VLSI-334155?style=for-the-badge&labelColor=020617"/>
+</p>
