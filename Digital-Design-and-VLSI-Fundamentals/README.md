@@ -222,79 +222,29 @@ A structured foundation for <b>Digital Design</b>, <b>VLSI</b> and <b>RTL Engine
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="150">
+<p>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20VLSI%20ENGINEERING-111827?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%9C%A6%20DIGITAL%20DESIGN-1E293B?style=for-the-badge&labelColor=020617"/>
+  <img src="https://img.shields.io/badge/%E2%97%88%20CMOS%20%2F%20VLSI-334155?style=for-the-badge&labelColor=020617"/>
+</p>
 
-<sub>DOMAIN</sub><br>
-<b>VLSI</b><br>
-<sub>ENGINEERING</sub>
+<p>
+  <img src="https://img.shields.io/badge/COMBINATIONAL-475569?style=flat-square"/>
+  <img src="https://img.shields.io/badge/SEQUENTIAL-475569?style=flat-square"/>
+  <img src="https://img.shields.io/badge/FSM-475569?style=flat-square"/>
+  <img src="https://img.shields.io/badge/TIMING%20ANALYSIS-475569?style=flat-square"/>
+  <img src="https://img.shields.io/badge/STA-475569?style=flat-square"/>
+  <img src="https://img.shields.io/badge/RTL%20DESIGN-475569?style=flat-square"/>
+</p>
 
-</td>
-
-<td align="center" width="150">
-
-<sub>CORE</sub><br>
-<b>DIGITAL</b><br>
-<sub>DESIGN</sub>
-
-</td>
-
-<td align="center" width="150">
-
-<sub>TECHNOLOGY</sub><br>
-<b>CMOS</b><br>
-<sub>VLSI</sub>
-
-</td>
-
-<td align="center" width="150">
-
-<sub>DESIGN</sub><br>
-<b>RTL</b><br>
-<sub>FOUNDATION</sub>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<kbd>COMBINATIONAL</kbd>
-&nbsp; ◆ &nbsp;
-<kbd>SEQUENTIAL</kbd>
-&nbsp; ◆ &nbsp;
-<kbd>FSM</kbd>
-&nbsp; ◆ &nbsp;
-<kbd>TIMING</kbd>
-&nbsp; ◆ &nbsp;
-<kbd>STA</kbd>
-
-<br><br>
-
-<table>
-<tr>
-<td align="center">
-
-<strong>◈ DIGITAL LOGIC</strong><br>
-<sub>Combinational · Sequential</sub>
-
-</td>
-
-<td align="center">
-
-<strong>◈ STATE MACHINES</strong><br>
-<sub>FSM · Moore · Mealy</sub>
-
-</td>
-
-<td align="center">
-
-<strong>◈ TIMING</strong><br>
-<sub>Timing Analysis · STA</sub>
-
-</td>
-</tr>
-</table>
+<p>
+  <code>SEMICONDUCTOR</code>
+  &nbsp;→&nbsp;
+  <code>CMOS</code>
+  &nbsp;→&nbsp;
+  <code>DIGITAL LOGIC</code>
+  &nbsp;→&nbsp;
+  <code>RTL</code>
+</p>
 
 </div>
