@@ -1,4 +1,4 @@
-# 02. Number Systems
+# ◈ Number Systems
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Data%20Representation-orange.svg)](#)
