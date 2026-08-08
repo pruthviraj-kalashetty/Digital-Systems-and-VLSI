@@ -1,6 +1,6 @@
 # ◈ Binary Codes
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Binary%20Codes-orange.svg)](#)
 
 This module introduces binary codes used to represent, process, store, and communicate digital information. It covers BCD, Gray Code, ASCII, Excess-3 Code, and binary code conversion techniques, providing a foundation for data representation and digital logic design.
