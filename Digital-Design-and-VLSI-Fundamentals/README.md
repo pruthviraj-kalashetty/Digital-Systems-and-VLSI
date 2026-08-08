@@ -24,118 +24,119 @@
 
 
 ----------
-
-
-<!-- ========================================================= -->
-<!-- DESIGN 01 — FUTURISTIC BLUE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 01 — ELECTRIC BLUE
+============================================================ -->
 
 <div align="center">
 
-<h2>⚡ DIGITAL DESIGN & VLSI</h2>
+### ⚡ DIGITAL DESIGN & VLSI
 
-<img src="https://img.shields.io/badge/01-COMBINATIONAL%20LOGIC-00D9FF?style=for-the-badge&labelColor=07111F"/>
+<img src="https://img.shields.io/badge/MODULE%2001-COMBINATIONAL%20LOGIC-00D9FF?style=for-the-badge&labelColor=0B1120"/>
 
-<p><code>LOGIC DESIGN</code> • <code>DIGITAL SYSTEMS</code> • <code>VLSI</code></p>
+<sub>DIGITAL DESIGN • VLSI FUNDAMENTALS</sub>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 02 — CYBERPUNK -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 02 — CYBERPUNK
+============================================================ -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/⚡%20MODULE%2001-00FF9C?style=for-the-badge&labelColor=090014"/>
+<img src="https://img.shields.io/badge/MODULE%2001-00FF9C?style=for-the-badge&labelColor=090014"/>
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-FF00E5?style=for-the-badge&labelColor=090014"/>
 
 <br>
 
-<code>[ DIGITAL ]</code> ─ <code>[ LOGIC ]</code> ─ <code>[ VLSI ]</code>
+<code>DIGITAL</code> ─ <code>LOGIC</code> ─ <code>VLSI</code>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 03 — CIRCUIT BOARD -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 03 — CIRCUIT BOARD
+============================================================ -->
 
 <div align="center">
 
 <pre>
 ╔══════════════════════════════════════════════╗
-║  [01] DIGITAL DESIGN                        ║
+║              DIGITAL DESIGN                  ║
+╠══════════════════════════════════════════════╣
 ║                                              ║
-║        ◆ COMBINATIONAL LOGIC ◆              ║
+║             MODULE [ 01 ]                    ║
 ║                                              ║
-║  LOGIC GATES • MUX • DECODER • ADDER        ║
+║          COMBINATIONAL LOGIC                 ║
+║                                              ║
+║     LOGIC GATES • ADDERS • MUX • DECODER    ║
+║                                              ║
 ╚══════════════════════════════════════════════╝
 </pre>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 04 — PREMIUM DARK -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 04 — PREMIUM DARK
+============================================================ -->
 
 <div align="center">
 
-<p>
 <img src="https://img.shields.io/badge/DOMAIN-VLSI%20ENGINEERING-FFFFFF?style=for-the-badge&labelColor=111827"/>
 <img src="https://img.shields.io/badge/MODULE-01-38BDF8?style=for-the-badge&labelColor=111827"/>
-</p>
-
-<h2>COMBINATIONAL LOGIC</h2>
-
-<sub>Digital Design Fundamentals</sub>
+<img src="https://img.shields.io/badge/TOPIC-COMBINATIONAL%20LOGIC-22D3EE?style=for-the-badge&labelColor=111827"/>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 05 — TERMINAL -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 05 — TERMINAL
+============================================================ -->
 
 <div align="center">
 
-```text
+<pre>
 ┌────────────────────────────────────────────┐
-│ $ module --open 01                         │
+│ $ vlsi --module 01                         │
 │                                            │
-│ > DOMAIN : DIGITAL DESIGN                  │
-│ > AREA   : VLSI                            │
-│ > TOPIC  : COMBINATIONAL LOGIC             │
-│ > STATUS : FOUNDATION                      │
+│ DOMAIN : DIGITAL DESIGN                    │
+│ AREA   : VLSI                              │
+│ TOPIC  : COMBINATIONAL LOGIC               │
+│ STATUS : FOUNDATION                        │
 └────────────────────────────────────────────┘
+</pre>
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 06 — NEON -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 06 — NEON
+============================================================ -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/⚡%20DIGITAL%20DESIGN-00FFFF?style=for-the-badge&labelColor=050505"/>
-<img src="https://img.shields.io/badge/◆%20COMBINATIONAL%20LOGIC-FF00FF?style=for-the-badge&labelColor=050505"/>
+<img src="https://img.shields.io/badge/DIGITAL%20DESIGN-00FFFF?style=for-the-badge&labelColor=050505"/>
+<img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-FF00FF?style=for-the-badge&labelColor=050505"/>
 
+<br>
 
 <sub>VLSI FUNDAMENTALS / MODULE 01</sub>
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 07 — TECH SPEC -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 07 — TECHNICAL SPEC
+============================================================ -->
 
 <div align="center">
 
 <table>
 <tr>
 <td><b>MODULE</b></td>
-<td><b>01</b></td>
+<td>01</td>
 </tr>
 <tr>
 <td><b>DOMAIN</b></td>
@@ -154,63 +155,67 @@
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 08 — ELECTRIC BLUE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 08 — ELECTRIC BLUE
+============================================================ -->
 
 <div align="center">
 
-<h1>01</h1>
+# `01`
 
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-2563EB?style=for-the-badge&labelColor=020617"/>
 
 <p>
-<strong>DIGITAL DESIGN</strong> × <strong>VLSI FUNDAMENTALS</strong>
+<strong>DIGITAL DESIGN</strong> • <strong>VLSI FUNDAMENTALS</strong>
 </p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 09 — VLSI CHIP -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 09 — CHIP
+============================================================ -->
 
 <div align="center">
 
 <pre>
-┌───────────────┐
-│   DIGITAL     │
-│   DESIGN      │
-├───────────────┤
-│   [ 01 ]      │
-│               │
-│ COMBINATIONAL │
-│    LOGIC      │
-├───────────────┤
-│ CMOS • VLSI   │
-└───────────────┘
+┌───────────────────┐
+│    DIGITAL        │
+│    DESIGN         │
+├───────────────────┤
+│                   │
+│     [ 01 ]        │
+│                   │
+│ COMBINATIONAL     │
+│     LOGIC         │
+│                   │
+├───────────────────┤
+│   CMOS • VLSI     │
+└───────────────────┘
 </pre>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 10 — MATRIX -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 10 — MATRIX
+============================================================ -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/MODULE_01-00FF41?style=for-the-badge&labelColor=001100"/>
-<img src="https://img.shields.io/badge/COMBINATIONAL_LOGIC-00FF41?style=for-the-badge&labelColor=001100"/>
+<img src="https://img.shields.io/badge/MODULE%2001-00FF41?style=for-the-badge&labelColor=001100"/>
+<img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-00FF41?style=for-the-badge&labelColor=001100"/>
 
-<p><code>01001100 01101111 01100111 01101001 01100011</code></p>
+<br>
+
+<code>01001100 01101111 01100111 01101001 01100011</code>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 11 — CYAN TECH -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 11 — CYAN
+============================================================ -->
 
 <div align="center">
 
@@ -225,54 +230,61 @@
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 12 — PURPLE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 12 — PURPLE
+============================================================ -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/01%20%7C%20DIGITAL%20DESIGN-7C3AED?style=for-the-badge&labelColor=1E1033"/>
+<img src="https://img.shields.io/badge/01%20DIGITAL%20DESIGN-7C3AED?style=for-the-badge&labelColor=1E1033"/>
 
+<br>
 
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-A78BFA?style=for-the-badge&labelColor=1E1033"/>
 
-<p><code>VLSI • DIGITAL ELECTRONICS • LOGIC DESIGN</code></p>
+<p>
+<code>VLSI</code> • <code>DIGITAL ELECTRONICS</code> • <code>LOGIC DESIGN</code>
+</p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 13 — GREEN ENGINEERING -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 13 — GREEN
+============================================================ -->
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/01-DIGITAL%20DESIGN-16A34A?style=for-the-badge&labelColor=052E16"/>
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-22C55E?style=for-the-badge&labelColor=052E16"/>
 
+<br>
 
 <sub>ENGINEERING FOUNDATION • VLSI</sub>
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 14 — ORANGE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 14 — ORANGE
+============================================================ -->
 
 <div align="center">
 
-<h2>◉ DIGITAL DESIGN</h2>
+<h2>◉ DIGITAL ELECTRONICS</h2>
 
-<img src="https://img.shields.io/badge/01%20%2F%20COMBINATIONAL%20LOGIC-F97316?style=for-the-badge&labelColor=431407"/>
+<img src="https://img.shields.io/badge/01%20COMBINATIONAL%20LOGIC-F97316?style=for-the-badge&labelColor=431407"/>
 
-<p><code>LOGIC GATES</code> • <code>ADDERS</code> • <code>MUX</code> • <code>DECODERS</code></p>
+<p>
+<code>LOGIC GATES</code> • <code>ADDERS</code> • <code>MUX</code> • <code>DECODERS</code>
+</p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 15 — BLUEPRINT -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 15 — BLUEPRINT
+============================================================ -->
 
 <div align="center">
 
@@ -294,20 +306,22 @@
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 16 — MINIMAL -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 16 — MINIMAL
+============================================================ -->
 
 <div align="center">
 
-01 · COMBINATIONAL LOGIC
-Digital Design · VLSI Fundamentals
+# `01` · COMBINATIONAL LOGIC
+
+**Digital Design** · **VLSI Fundamentals**
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 17 — ASCII TECH -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 17 — ASCII TECH
+============================================================ -->
 
 <div align="center">
 
@@ -318,15 +332,15 @@ Digital Design · VLSI Fundamentals
 │ TOPIC│ COMBINATIONAL LOGIC                 │
 │ AREA │ DIGITAL ELECTRONICS                 │
 │ LEVEL│ FOUNDATION                           │
-╰─────────────────────────────────────────────╯
+╰──────┴──────────────────────────────────────╯
 </pre>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 18 — RED CYBER -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 18 — RED CYBER
+============================================================ -->
 
 <div align="center">
 
@@ -338,63 +352,63 @@ Digital Design · VLSI Fundamentals
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 19 — GOLD -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 19 — GOLD
+============================================================ -->
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/01-DIGITAL%20DESIGN-FBBF24?style=for-the-badge&labelColor=292000"/>
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-F59E0B?style=for-the-badge&labelColor=292000"/>
 
+<br>
 
 <sub>VLSI ENGINEERING FUNDAMENTALS</sub>
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 20 — GLASS STYLE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 20 — MODERN
+============================================================ -->
 
 <div align="center">
 
 <p>
-<img src="https://img.shields.io/badge/%E2%9C%A6%20DIGITAL%20DESIGN-38BDF8?style=flat-square&labelColor=111827"/>
-<img src="https://img.shields.io/badge/%E2%97%88%20MODULE%2001-818CF8?style=flat-square&labelColor=111827"/>
-<img src="https://img.shields.io/badge/%E2%97%88%20COMBINATIONAL%20LOGIC-2DD4BF?style=flat-square&labelColor=111827"/>
+<img src="https://img.shields.io/badge/DIGITAL%20DESIGN-38BDF8?style=flat-square&labelColor=111827"/>
+<img src="https://img.shields.io/badge/MODULE%2001-818CF8?style=flat-square&labelColor=111827"/>
+<img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-2DD4BF?style=flat-square&labelColor=111827"/>
 </p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 21 — INDUSTRIAL -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 21 — INDUSTRIAL
+============================================================ -->
 
 <div align="center">
 
 <kbd>MODULE 01</kbd>
- 
+&nbsp;
 <kbd>DIGITAL DESIGN</kbd>
- 
+&nbsp;
 <kbd>VLSI</kbd>
 
-
+<br><br>
 
 <h2>COMBINATIONAL LOGIC</h2>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 22 — FUTURE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 22 — FUTURE
+============================================================ -->
 
 <div align="center">
 
-<p>
-<code>FUTURE SYSTEMS / DIGITAL DESIGN</code>
-</p>
+<p><code>FUTURE SYSTEMS / DIGITAL DESIGN</code></p>
 
 <h1>01 :: COMBINATIONAL LOGIC</h1>
 
@@ -405,9 +419,9 @@ Digital Design · VLSI Fundamentals
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 23 — CIRCUIT TRACE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 23 — CIRCUIT TRACE
+============================================================ -->
 
 <div align="center">
 
@@ -427,9 +441,9 @@ DIGITAL DESIGN
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 24 — BLUE + PURPLE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 24 — BLUE PURPLE
+============================================================ -->
 
 <div align="center">
 
@@ -440,25 +454,23 @@ DIGITAL DESIGN
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 25 — STATUS -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 25 — STATUS
+============================================================ -->
 
 <div align="center">
 
-<p>
 <img src="https://img.shields.io/badge/MODULE-01-2563EB?style=flat-square"/>
 <img src="https://img.shields.io/badge/DOMAIN-DIGITAL%20DESIGN-06B6D4?style=flat-square"/>
 <img src="https://img.shields.io/badge/TOPIC-COMBINATIONAL%20LOGIC-10B981?style=flat-square"/>
 <img src="https://img.shields.io/badge/STATUS-FOUNDATION-8B5CF6?style=flat-square"/>
-</p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 26 — COMMAND LINE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 26 — COMMAND LINE
+============================================================ -->
 
 <div align="center">
 
@@ -477,37 +489,38 @@ $ status
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 27 — HIGH CONTRAST -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 27 — HIGH CONTRAST
+============================================================ -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/⚡%20DIGITAL%20DESIGN-FFFFFF?style=for-the-badge&labelColor=000000"/>
+<img src="https://img.shields.io/badge/DIGITAL%20DESIGN-FFFFFF?style=for-the-badge&labelColor=000000"/>
 <img src="https://img.shields.io/badge/01%20COMBINATIONAL%20LOGIC-00E5FF?style=for-the-badge&labelColor=000000"/>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 28 — ELECTRONICS -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 28 — ELECTRONICS
+============================================================ -->
 
 <div align="center">
 
 <h2>⚙ DIGITAL ELECTRONICS</h2>
 
-<p>
 <img src="https://img.shields.io/badge/01-COMBINATIONAL%20LOGIC-0EA5E9?style=for-the-badge&labelColor=082F49"/>
-</p>
+
+<br>
 
 <sub>LOGIC CIRCUITS • BOOLEAN FUNCTIONS • DIGITAL SYSTEMS</sub>
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 29 — VLSI LAB -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 29 — VLSI LAB
+============================================================ -->
 
 <div align="center">
 
@@ -525,23 +538,25 @@ $ status
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 30 — NEON GREEN -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 30 — NEON GREEN
+============================================================ -->
 
 <div align="center">
 
 <img src="https://img.shields.io/badge/01%20DIGITAL%20DESIGN-39FF14?style=for-the-badge&labelColor=001500"/>
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-00FF9C?style=for-the-badge&labelColor=001500"/>
 
+<br>
 
 <code>VLSI_ENGINEERING::LOGIC_LAYER</code>
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 31 — MAGENTA -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 31 — MAGENTA
+============================================================ -->
 
 <div align="center">
 
@@ -553,9 +568,9 @@ $ status
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 32 — DATA CENTER -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 32 — DATA FLOW
+============================================================ -->
 
 <div align="center">
 
@@ -572,29 +587,29 @@ $ status
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 33 — CHIP PIN -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 33 — CHIP PINS
+============================================================ -->
 
 <div align="center">
 
 <pre>
           ┌───────────────┐
-IN ──────►│               │──────► OUT
+INPUT ──► │               │ ──► OUTPUT
           │ COMBINATIONAL │
-CLK ─────►│     LOGIC     │
+          │     LOGIC     │
           │     [01]      │
           └───────────────┘
-              DIGITAL
-               DESIGN
+               DIGITAL
+                DESIGN
 </pre>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 34 — ACADEMIC -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 34 — ACADEMIC
+============================================================ -->
 
 <div align="center">
 
@@ -617,21 +632,21 @@ CLK ─────►│     LOGIC     │
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 35 — MONOCHROME -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 35 — MONOCHROME
+============================================================ -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/01%20%7C%20DIGITAL%20DESIGN-FFFFFF?style=for-the-badge&labelColor=111111"/>
+<img src="https://img.shields.io/badge/01%20DIGITAL%20DESIGN-FFFFFF?style=for-the-badge&labelColor=111111"/>
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-CCCCCC?style=for-the-badge&labelColor=111111"/>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 36 — OCEAN -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 36 — OCEAN
+============================================================ -->
 
 <div align="center">
 
@@ -643,9 +658,9 @@ CLK ─────►│     LOGIC     │
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 37 — TECH GRID -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 37 — TECH GRID
+============================================================ -->
 
 <div align="center">
 
@@ -664,24 +679,25 @@ CLK ─────►│     LOGIC     │
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 38 — PURPLE CYAN -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 38 — PURPLE CYAN
+============================================================ -->
 
 <div align="center">
 
-<p>
-<img src="https://img.shields.io/badge/%E2%97%86%20DIGITAL%20DESIGN-22D3EE?style=for-the-badge&labelColor=18112B"/>
-<img src="https://img.shields.io/badge/%E2%97%86%20COMBINATIONAL%20LOGIC-C084FC?style=for-the-badge&labelColor=18112B"/>
-</p>
+<img src="https://img.shields.io/badge/DIGITAL%20DESIGN-22D3EE?style=for-the-badge&labelColor=18112B"/>
+<img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-C084FC?style=for-the-badge&labelColor=18112B"/>
+
+<br>
 
 <sub>MODULE 01 • VLSI FUNDAMENTALS</sub>
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 39 — RED ALERT -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 39 — RED CYBER
+============================================================ -->
 
 <div align="center">
 
@@ -693,47 +709,41 @@ CLK ─────►│     LOGIC     │
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 40 — SPACE -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 40 — LUXURY
+============================================================ -->
 
 <div align="center">
 
-<p>◈ ───────────── ◈</p>
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
 
-<h2>01 · COMBINATIONAL LOGIC</h2>
+<h2>01 · DIGITAL DESIGN</h2>
 
-<p>
-<code>DIGITAL DESIGN</code>
-&nbsp; • &nbsp;
-<code>VLSI</code>
-&nbsp; • &nbsp;
-<code>FOUNDATION</code>
-</p>
+<h3>COMBINATIONAL LOGIC</h3>
 
-<p>◈ ───────────── ◈</p>
+<sub>VLSI FUNDAMENTALS</sub>
+
+<p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 41 — ENGINEERING STATUS -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 41 — ENGINEERING STATUS
+============================================================ -->
 
 <div align="center">
 
-<p>
-<img src="https://img.shields.io/badge/01-MODULE-334155?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MODULE-01-334155?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/DIGITAL%20DESIGN-DOMAIN-2563EB?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-ACTIVE-10B981?style=for-the-badge"/>
-</p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 42 — RETRO COMPUTER -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 42 — RETRO COMPUTER
+============================================================ -->
 
 <div align="center">
 
@@ -751,15 +761,16 @@ STATUS ........... READY
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 43 — BLUE CYBER -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 43 — BLUE CYBER
+============================================================ -->
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%E2%9A%A1%20MODULE%2001-00A3FF?style=for-the-badge&labelColor=020617"/>
-<img src="https://img.shields.io/badge/%E2%97%88%20COMBINATIONAL%20LOGIC-00D4FF?style=for-the-badge&labelColor=020617"/>
+<img src="https://img.shields.io/badge/MODULE%2001-00A3FF?style=for-the-badge&labelColor=020617"/>
+<img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-00D4FF?style=for-the-badge&labelColor=020617"/>
 
+<br>
 
 <p>
 <code>VLSI</code> // <code>DIGITAL</code> // <code>LOGIC</code>
@@ -768,9 +779,9 @@ STATUS ........... READY
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 44 — LUXURY -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 44 — LUXURY MINIMAL
+============================================================ -->
 
 <div align="center">
 
@@ -780,57 +791,54 @@ STATUS ........... READY
 
 <h3>COMBINATIONAL LOGIC</h3>
 
-<sub>VLSI FUNDAMENTALS</sub>
+<sub>VLSI ENGINEERING FUNDAMENTALS</sub>
+
 <p>━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 45 — CIRCUIT COMMAND -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 45 — CIRCUIT COMMAND
+============================================================ -->
 
 <div align="center">
 
 <pre>
-[POWER ON]
-     ↓
-[DIGITAL DESIGN]
-     ↓
-[MODULE 01]
-     ↓
-[COMBINATIONAL LOGIC]
-     ↓
-[READY]
+[ POWER ON ]
+      ↓
+[ DIGITAL DESIGN ]
+      ↓
+[ MODULE 01 ]
+      ↓
+[ COMBINATIONAL LOGIC ]
+      ↓
+[ READY ]
 </pre>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 46 — MODERN STACK -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 46 — MODERN STACK
+============================================================ -->
 
 <div align="center">
 
-<p>
 <img src="https://img.shields.io/badge/DIGITAL%20DESIGN-0F172A?style=for-the-badge&labelColor=38BDF8"/>
 <img src="https://img.shields.io/badge/MODULE%2001-0F172A?style=for-the-badge&labelColor=818CF8"/>
 <img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-0F172A?style=for-the-badge&labelColor=2DD4BF"/>
-</p>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 47 — DARK TECH -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 47 — DARK TECH
+============================================================ -->
 
 <div align="center">
 
-<h2>
-<span>01</span> / DIGITAL DESIGN
-</h2>
+<h2>01 / DIGITAL DESIGN</h2>
 
 <p>
 <strong>COMBINATIONAL LOGIC</strong>
@@ -843,53 +851,55 @@ STATUS ........... READY
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 48 — SIGNAL -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 48 — SIGNAL FLOW
+============================================================ -->
 
 <div align="center">
 
 <pre>
-DIGITAL ────────► LOGIC ────────► VLSI
-                      │
-                      ▼
-                 MODULE [01]
-                      │
-                      ▼
-            COMBINATIONAL LOGIC
+DIGITAL ───────► LOGIC ───────► VLSI
+                    │
+                    ▼
+               MODULE [01]
+                    │
+                    ▼
+          COMBINATIONAL LOGIC
 </pre>
 
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 49 — ULTRA MINIMAL -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 49 — ULTRA MINIMAL
+============================================================ -->
 
 <div align="center">
 
-01
-COMBINATIONAL LOGIC
-DIGITAL DESIGN · VLSI FUNDAMENTALS
+# `01`
+
+## COMBINATIONAL LOGIC
+
+`DIGITAL DESIGN` · `VLSI FUNDAMENTALS`
+
 </div>
 
 
-<!-- ========================================================= -->
-<!-- DESIGN 50 — EXTREME VLSI -->
-<!-- ========================================================= -->
+<!-- ============================================================
+DESIGN 50 — EXTREME VLSI
+============================================================ -->
 
 <div align="center">
 
+<br>
 
-<img src="https://img.shields.io/badge/⚡%20DIGITAL%20DESIGN%20%2F%2001-38BDF8?style=for-the-badge&labelColor=020617&color=0F172A"/>
+<img src="https://img.shields.io/badge/DIGITAL%20DESIGN%20%2F%2001-38BDF8?style=for-the-badge&labelColor=020617"/>
 
+<br><br>
 
+<img src="https://img.shields.io/badge/COMBINATIONAL%20LOGIC-22D3EE?style=for-the-badge&labelColor=020617"/>
 
-
-<img src="https://img.shields.io/badge/◈%20COMBINATIONAL%20LOGIC-22D3EE?style=for-the-badge&labelColor=020617&color=0F172A"/>
-
-
-
+<br><br>
 
 <p>
 <code>LOGIC GATES</code>
@@ -911,7 +921,8 @@ DIGITAL DESIGN · VLSI FUNDAMENTALS
 <code>RTL FOUNDATION</code>
 </p>
 
+<br>
 
 <sub>MODULE STATUS :: ACTIVE</sub>
+
 </div>
-```
