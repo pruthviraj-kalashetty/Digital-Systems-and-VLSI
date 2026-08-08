@@ -52,7 +52,7 @@ A **2 × 4 Decoder** is a digital combinational circuit with 2 input lines and 4
 
 * **Circuit Diagram:**
 
-![2 × 4 Decoder](DECODER-Image/2x4-decoder.png)
+![2 × 4 Decoder](DECODER-Images/2x4-decoder.png)
 
 ---
 
