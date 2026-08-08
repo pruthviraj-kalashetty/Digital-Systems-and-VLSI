@@ -2,8 +2,6 @@
 
 # ⚡ DIGITAL DESIGN & VLSI FUNDAMENTALS
 
-# 🚀 Digital Design & VLSI Fundamentals
-
 ### Digital Electronics • Semiconductor Fundamentals • CMOS • Timing Analysis • Digital VLSI • RTL Design Foundation
 
 <p>
