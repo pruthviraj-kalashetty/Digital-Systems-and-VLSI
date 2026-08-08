@@ -34,3 +34,52 @@
 </p>
 
 </div>
+
+<div align="center">
+
+<h1>⚡ DIGITAL DESIGN & VLSI FUNDAMENTALS</h1>
+
+<h3>Finite State Machines</h3>
+
+<br>
+
+<table>
+<tr>
+<td>◈ DOMAIN</td>
+<td>Digital Design</td>
+</tr>
+<tr>
+<td>◈ DISCIPLINE</td>
+<td>VLSI</td>
+</tr>
+<tr>
+<td>◈ MODULE</td>
+<td>Sequential Logic</td>
+</tr>
+<tr>
+<td>◈ CORE TOPIC</td>
+<td>Finite State Machines</td>
+</tr>
+<tr>
+<td>◈ DESIGN LEVEL</td>
+<td>RTL</td>
+</tr>
+<tr>
+<td>◈ HDL</td>
+<td>Verilog</td>
+</tr>
+</table>
+
+<br>
+
+<p>
+<code>STATE</code>
+&nbsp;→&nbsp;
+<code>TRANSITION</code>
+&nbsp;→&nbsp;
+<code>OUTPUT</code>
+&nbsp;→&nbsp;
+<code>RTL IMPLEMENTATION</code>
+</p>
+
+</div>
