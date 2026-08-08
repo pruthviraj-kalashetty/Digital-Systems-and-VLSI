@@ -40,9 +40,9 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`Half-Subtractor.md`](./Subtractors/Half-Subtractor.md)** | Design and operation of a Half Subtractor using Difference and Borrow outputs. |
-| **[`Full-Subtractor.md`](./Subtractors/Full-Subtractor.md)** | Design and operation of a Full Subtractor with borrow input and borrow output. |
-| **[`Full-Subtractor-using-Half-Subtractor.md`](./Subtractors/Full-Subtractor-using-Half-Subtractor.md)** | Implementation of a Full Subtractor using two Half Subtractors and an OR gate. |
+| **[`01-Half-Subctractor.md`](./[02]-Subctractors/01-Half-Subctractor.md)** | Design and operation of a Half Subtractor using Difference and Borrow outputs. |
+| **[`02-Full-Subctractor.md`](./[02]-Subctractors/02-Full-Subctractor.md)** | Design and operation of a Full Subtractor with borrow input and borrow output. |
+| **[`03-Full-Subctractor-Using-Two-Half-Subctractor.md`](./[02]-Subtractors/02-Full-Subctractor-using--Two-Half-Subctractor.md)** | Implementation of a Full Subtractor using two Half Subtractors and an OR gate. |
 
 ---
 
