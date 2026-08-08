@@ -1,4 +1,4 @@
-# Encoders
+# ◈ Encoders
 
 [![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Encoders-orange.svg)](#)
