@@ -28,3 +28,33 @@
 </p>
 
 </div>
+
+
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">
+
+<kbd>01</kbd>
+
+</td>
+<td align="left">
+
+<strong>DIGITAL BASICS</strong><br>
+<sub>Digital Design & VLSI Fundamentals</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<kbd>DIGITAL SYSTEMS</kbd>
+&nbsp;→&nbsp;
+<kbd>LOGIC</kbd>
+&nbsp;→&nbsp;
+<kbd>VLSI</kbd>
+
+</div>
