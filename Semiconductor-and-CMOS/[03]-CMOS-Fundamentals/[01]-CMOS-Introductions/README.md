@@ -30,7 +30,7 @@ By working through this module, you will be able to:
 | **[`02-Complementary-NMOS-PMOS.md`](./02-Complementary-NMOS-PMOS.md)** | Complementary operation of NMOS and PMOS transistors and their role in CMOS logic. |
 | **[`03-CMOS-Inverter.md`](./03-CMOS-Inverter.md)** | CMOS inverter structure, transistor operation, logic levels, and voltage transfer behavior. |
 | **[`04-CMOS-Logic-Operation.md`](./04-CMOS-Logic-Operation.md)** | Fundamental principles of CMOS logic operation and transistor-level implementation of digital functions. |
-| **[`05-Pull-Up-and-Pull-Down-Networks.md`](./05-Pull-Up-and-Pull-Down-Networks.md)** | Operation and complementary relationship of PMOS pull-up and NMOS pull-down networks. |
+| **[`05-Pull-up-and-Pull-down-Networks.md`](./05-Pull-up-and-Pull-down-Networks.md)** | Operation and complementary relationship of PMOS pull-up and NMOS pull-down networks. |
 
 ---
 
