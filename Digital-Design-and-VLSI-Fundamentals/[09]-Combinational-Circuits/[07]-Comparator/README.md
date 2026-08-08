@@ -1,4 +1,4 @@
-# Comparator
+# ◈ Comparator
 
 [![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Comparators-orange.svg)](#)
