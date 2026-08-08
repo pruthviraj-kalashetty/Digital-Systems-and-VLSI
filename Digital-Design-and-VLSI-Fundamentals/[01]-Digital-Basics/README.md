@@ -23,7 +23,7 @@ By working through this module, you will be able to:
 | File | Core Technical Focus |
 | :--- | :--- |
 | **[`01-Digital-vs-Analog.md`](./01-Digital-vs-Analog.md)** | Comparison between analog and digital systems, signal characteristics, advantages, limitations, and real-world applications. |
-| **[`01-Digital-System-Overview.md`](./02-Digital-System-Overview.md)** | Introduction to digital systems, functional blocks, data representation, and applications of digital electronics. |
+| **[`02-Digital-System-Overview.md`](./02-Digital-System-Overview.md)** | Introduction to digital systems, functional blocks, data representation, and applications of digital electronics. |
 
 ---
 
