@@ -1,6 +1,6 @@
 # Decoders
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Decoders-orange.svg)](#)
 
 This module introduces decoders, fundamental combinational circuits that convert an n-bit binary input into one of multiple mutually exclusive output lines. It covers 2×4 and 3×8 decoders, including their truth tables, Boolean expressions, logic implementation, and practical applications in digital systems.
