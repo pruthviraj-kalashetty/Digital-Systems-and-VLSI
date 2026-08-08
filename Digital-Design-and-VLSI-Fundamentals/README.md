@@ -18,3 +18,13 @@
   <img src="https://img.shields.io/badge/%E2%97%86%20FOCUS-DIGITAL%20FUNDAMENTALS-0F172A?style=for-the-badge&labelColor=06B6D4"/>
 </p>
 
+<div align="center">
+
+<h2>⚡ MODULE 01 · DIGITAL BASICS</h2>
+
+<p>
+  <strong>Digital Design & VLSI Fundamentals</strong><br>
+  <sub>Digital Systems • Signals • Logic • VLSI</sub>
+</p>
+
+</div>
