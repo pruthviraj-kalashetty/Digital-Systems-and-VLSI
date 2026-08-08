@@ -217,3 +217,84 @@ A structured foundation for <b>Digital Design</b>, <b>VLSI</b> and <b>RTL Engine
 <br><br>
 
 </div>
+
+---
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="150">
+
+<sub>DOMAIN</sub><br>
+<b>VLSI</b><br>
+<sub>ENGINEERING</sub>
+
+</td>
+
+<td align="center" width="150">
+
+<sub>CORE</sub><br>
+<b>DIGITAL</b><br>
+<sub>DESIGN</sub>
+
+</td>
+
+<td align="center" width="150">
+
+<sub>TECHNOLOGY</sub><br>
+<b>CMOS</b><br>
+<sub>VLSI</sub>
+
+</td>
+
+<td align="center" width="150">
+
+<sub>DESIGN</sub><br>
+<b>RTL</b><br>
+<sub>FOUNDATION</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<kbd>COMBINATIONAL</kbd>
+&nbsp; ◆ &nbsp;
+<kbd>SEQUENTIAL</kbd>
+&nbsp; ◆ &nbsp;
+<kbd>FSM</kbd>
+&nbsp; ◆ &nbsp;
+<kbd>TIMING</kbd>
+&nbsp; ◆ &nbsp;
+<kbd>STA</kbd>
+
+<br><br>
+
+<table>
+<tr>
+<td align="center">
+
+<strong>◈ DIGITAL LOGIC</strong><br>
+<sub>Combinational · Sequential</sub>
+
+</td>
+
+<td align="center">
+
+<strong>◈ STATE MACHINES</strong><br>
+<sub>FSM · Moore · Mealy</sub>
+
+</td>
+
+<td align="center">
+
+<strong>◈ TIMING</strong><br>
+<sub>Timing Analysis · STA</sub>
+
+</td>
+</tr>
+</table>
+
+</div>
