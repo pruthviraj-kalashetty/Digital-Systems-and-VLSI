@@ -113,3 +113,41 @@ DIGITAL<br>SYSTEM<br>OVERVIEW
                          │
                          ▼
                        VLSI
+
+
+
+
+
+
+
+<div align="center">
+
+# ◈ DIGITAL BASICS
+
+### `FOUNDATION MODULE — 01`
+
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/DOMAIN-DIGITAL%20ELECTRONICS-0F172A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LEVEL-FOUNDATION-334155?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AREA-VLSI%20FUNDAMENTALS-475569?style=for-the-badge" />
+</p>
+
+<p>
+  <code>ANALOG</code>
+  →
+  <strong>DIGITAL BASICS</strong>
+  →
+  <code>DIGITAL DESIGN</code>
+  →
+  <code>VLSI</code>
+</p>
+
+</div>
+
+---
+
+> **Module 01** establishes the fundamental concepts of digital electronics and provides the foundation required for Digital Design, Computer Architecture, Verilog HDL, RTL Design, FPGA Development, and VLSI Design.
+
+---
