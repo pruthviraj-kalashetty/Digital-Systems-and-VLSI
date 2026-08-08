@@ -1,6 +1,6 @@
 # Comparator
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Comparators-orange.svg)](#)
 
 This module introduces digital comparators, fundamental combinational circuits used to compare two binary numbers and determine their relative magnitude. It covers 1-bit, 2-bit, and 3-bit comparators, including their truth tables, Boolean expressions, logic implementation, and comparison operations.
@@ -26,9 +26,9 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`1-bit.md`](./1-bit.md)** | Design and operation of a 1-bit comparator, including truth table, Boolean expressions, and comparison outputs. |
-| **[`2-bit.md`](./2-bit.md)** | Design and operation of a 2-bit comparator, including magnitude comparison and logic implementation. |
-| **[`3-bit.md`](./3-bit.md)** | Design and operation of a 3-bit comparator, including multi-bit magnitude comparison and logic implementation. |
+| **[`1-bit-comparator.md`](./1-bit-comparator.md)** | Design and operation of a 1-bit comparator, including truth table, Boolean expressions, and comparison outputs. |
+| **[`2-bit-comparator.md`](./2-bit-comparator.md)** | Design and operation of a 2-bit comparator, including magnitude comparison and logic implementation. |
+| **[`3-bit-comparator.md`](./3-bit-comparator.md)** | Design and operation of a 3-bit comparator, including multi-bit magnitude comparison and logic implementation. |
 
 ---
 
@@ -37,9 +37,9 @@ By working through this module, you will be able to:
 ```text
 07-Comparator/
 ├── README.md
-├── 1-bit.md
-├── 2-bit.md
-└── 3-bit.md
+├── 1-bit-comparator.md
+├── 2-bit-comparator.md
+└── 3-bit-comparator.md
 ```
 
 ---
