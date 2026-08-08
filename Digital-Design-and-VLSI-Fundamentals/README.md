@@ -119,3 +119,101 @@
 </sub>
 
 </div>
+
+---
+
+<div align="center">
+
+<br>
+
+# ⚡ DIGITAL DESIGN & VLSI FUNDAMENTALS
+
+### `ENGINEERING THE FOUNDATION OF DIGITAL VLSI`
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="180">
+
+**DIGITAL**  
+<sub>Electronics & Logic</sub>
+
+</td>
+
+<td align="center" width="180">
+
+**SEMICONDUCTOR**  
+<sub>Devices & Materials</sub>
+
+</td>
+
+<td align="center" width="180">
+
+**CMOS / VLSI**  
+<sub>Digital VLSI</sub>
+
+</td>
+
+<td align="center" width="180">
+
+**RTL**  
+<sub>Design Foundation</sub>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/%E2%97%86%20DIGITAL%20DESIGN-0F172A?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/%E2%97%86%20CMOS-1E293B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/%E2%97%86%20VLSI-334155?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/%E2%97%86%20RTL-475569?style=for-the-badge"/>
+</p>
+
+<br>
+
+<p>
+  <strong>Digital Electronics</strong>
+  &nbsp; • &nbsp;
+  <strong>Semiconductor Fundamentals</strong>
+  &nbsp; • &nbsp;
+  <strong>CMOS</strong>
+  &nbsp; • &nbsp;
+  <strong>Combinational Logic</strong>
+  &nbsp; • &nbsp;
+  <strong>Sequential Logic</strong>
+</p>
+
+<p>
+  <strong>Finite State Machines</strong>
+  &nbsp; • &nbsp;
+  <strong>Timing Analysis</strong>
+  &nbsp; • &nbsp;
+  <strong>Static Timing Analysis</strong>
+  &nbsp; • &nbsp;
+  <strong>RTL Design</strong>
+</p>
+
+<br>
+
+<pre>
+╭──────────────────────────────────────────────────────────────╮
+│  DOMAIN   ::  VLSI ENGINEERING                               │
+│  CORE     ::  DIGITAL DESIGN                                │
+│  FOCUS    ::  CMOS • TIMING • RTL                           │
+│  LEVEL    ::  FUNDAMENTALS → DESIGN                         │
+╰──────────────────────────────────────────────────────────────╯
+</pre>
+
+<br>
+
+<sub>
+A structured foundation for <b>Digital Design</b>, <b>VLSI</b> and <b>RTL Engineering</b>.
+</sub>
+
+<br><br>
+
+</div>
