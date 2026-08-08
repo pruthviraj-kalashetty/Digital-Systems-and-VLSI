@@ -1,4 +1,4 @@
-# 05. Boolean Algebra
+# ◈ 05. Boolean Algebra
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Boolean%20Algebra-green.svg)](#)
