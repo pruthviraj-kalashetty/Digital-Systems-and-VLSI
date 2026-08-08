@@ -50,8 +50,7 @@ By working through this module, you will be able to:
 
 | File / Design | Core Technical Focus |
 | :--- | :--- |
-| **[`Multiplexer.md`](./Multiplexer/Multiplexer.md)** | Fundamentals and operation of multiplexers for digital data selection. |
-| **2×1 Multiplexer** | Selection of one input from two available data inputs. |
+| **[`01-MUX-2-to-1.md`](./[03]-Multiplexer/01-MUX-2-to-1.md)** | Selection of one input from two available data inputs. |
 | **4×1 Multiplexer** | Selection of one input from four available data inputs. |
 | **8×1 Multiplexer** | Selection of one input from eight available data inputs. |
 
