@@ -57,7 +57,7 @@ A **3-Bit Comparator** is a digital combinational circuit that compares two 3-bi
 
 * **Circuit Diagram:**
 
-![3-Bit Comparator](Image/3-bit-comparator.png)
+![3-Bit Comparator](Comparator-Images/3-bit-comparator.png)
 
 ---
 
