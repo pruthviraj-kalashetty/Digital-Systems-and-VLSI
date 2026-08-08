@@ -1,4 +1,4 @@
-# 03. Binary Arithmetic
+# ◈ Binary Arithmetic
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Binary%20Arithmetic-orange.svg)](#)
@@ -22,8 +22,10 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`Binary-Addition.md`](./Binary-Addition.md)** | Rules of binary addition, carry generation, truth tables, and multi-bit addition. |
-| **[`Binary-Subtraction.md`](./Binary-Subtraction.md)** | Rules of binary subtraction, borrow generation, truth tables, and multi-bit subtraction. |
+| **[`01-Binary-Addition.md`](./01-Binary-Addition.md)** | Rules of binary addition, carry generation, truth tables, and multi-bit addition. |
+| **[`02-Binary-Subtraction.md`](./02-Binary-Subtraction.md)** | Rules of binary subtraction, borrow generation, truth tables, and multi-bit subtraction. |
+| **[`03-Binary-Multiplication.md`](./03-Binary-Multiplication.md)** | Rules of binary multiplication, carry generation, truth tables, and multi-bit multiplier. |
+| **[`04-Binary-Division.md`](./04-Binary-Division.md)** | Rules of binary division, carry generation, truth tables, and multi-bit divider. |
 
 ---
 
@@ -32,12 +34,11 @@ By working through this module, you will be able to:
 ```text
 03-Binary-Arithmetic/
 ├── README.md
-├── Binary-Addition.md
-├── Binary-Subtraction.md
-└── images/
-    ├── binary-addition.png
-    └── binary-subtraction.png
-```
+├── 01-Binary-Addition.md
+├── 02-Binary-Subtraction.md
+├── 03-Binary-Multiplication.md
+└──  04-Binary-Division.md
+
 
 ---
 
