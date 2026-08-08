@@ -1,6 +1,6 @@
 # CMOS Characteristics
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-CMOS%20Characteristics-orange.svg)](#)
 
 This module introduces the fundamental characteristics used to evaluate the performance and reliability of CMOS digital circuits. It covers noise margin, propagation delay, rise time, and fall time, which are essential parameters for understanding signal integrity, switching behavior, and timing performance in CMOS circuits.
