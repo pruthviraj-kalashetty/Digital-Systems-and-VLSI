@@ -58,3 +58,22 @@
 <kbd>VLSI</kbd>
 
 </div>
+
+
+<div align="center">
+
+<p><kbd>MODULE 01</kbd></p>
+
+<h2>⚡ DIGITAL BASICS</h2>
+
+<p>
+  <code>Digital Design</code>
+  &nbsp;◆&nbsp;
+  <code>Digital Systems</code>
+  &nbsp;◆&nbsp;
+  <code>VLSI Fundamentals</code>
+</p>
+
+<hr width="60%">
+
+</div>
