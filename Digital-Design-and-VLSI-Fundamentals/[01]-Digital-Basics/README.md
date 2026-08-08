@@ -5,7 +5,7 @@
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals--Design-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Digital%20Fundamentals-brightgreen.svg)](#)
 
-</div>
+
 
 This module introduces the fundamental concepts of digital electronics that serve as the foundation for Digital Design, Computer Architecture, Verilog HDL, RTL Design, FPGA Development, and VLSI Design. It explains the transition from analog to digital systems and provides an overview of how digital systems process, represent, and manipulate information.
 
