@@ -1,1 +1,3 @@
-
+[![Domain](https://img.shields.io/badge/Domain-Digital%20Design%20%26%20VLSI-0A66C2?style=for-the-badge&logo=semiconductor&logoColor=white)](#)
+[![Module](https://img.shields.io/badge/Module-Finite%20State%20Machines-7B2CBF?style=for-the-badge)](#)
+[![Stage](https://img.shields.io/badge/Stage-RTL%20Design-F77F00?style=for-the-badge)](#)
