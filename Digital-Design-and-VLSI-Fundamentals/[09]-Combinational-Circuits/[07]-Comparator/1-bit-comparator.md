@@ -56,7 +56,7 @@ A **1-Bit Comparator** is a digital circuit that compares two single-bit binary 
 
 * **Circuit Diagram:**
 
-![1-Bit Comparator](Image/1-bit-comparator.png)
+![1-Bit Comparator](Comparator-Images/1-bit-comparator.png)
 
 ---
 
