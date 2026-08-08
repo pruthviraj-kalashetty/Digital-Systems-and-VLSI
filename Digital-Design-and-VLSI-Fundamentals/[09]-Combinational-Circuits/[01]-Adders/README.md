@@ -1,4 +1,4 @@
-# Adders
+# ◈ Adders
 
 [![Stage](https://img.shields.io/badge/Combinational--Circuits-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Adders-orange.svg)](#)
