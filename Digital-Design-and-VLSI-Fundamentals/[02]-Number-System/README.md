@@ -22,10 +22,11 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`Binary-System.md`](./Binary-System.md)** | Introduction to the binary number system, bit representation, positional weights, and binary data representation. |
-| **[`Octal-System.md`](./Octal-System.md)** | Understanding the octal number system, positional notation, and its relationship with binary numbers. |
-| **[`Hexadecimal-System.md`](./Hexadecimal-System.md)** | Introduction to hexadecimal notation, hexadecimal digits, and efficient representation of binary data. |
-| **[`Number-System-Conversion.md`](./1-Number-System-Conversion.md)** | Methods for converting numbers between binary, decimal, octal, and hexadecimal number systems. |
+| **[`01-Binary-System.md`](./01-Binary-System.md)** | Introduction to the binary number system, bit representation, positional weights, and binary data representation. |
+| **[`02-Decimal-System.md`](./02-Decimal-System.md)** | Introduction to the decimal number system, bit representation, positional weights, and digital data representation. |
+| **[`03-Octal-System.md`](./03-Octal-System.md)** | Understanding the octal number system, positional notation, and its relationship with binary numbers. |
+| **[`04-Hexadecimal-System.md`](./04-Hexadecimal-System.md)** | Introduction to hexadecimal notation, hexadecimal digits, and efficient representation of binary data. |
+| **[`05-Number-System-Conversion.md`](./05-Number-System-Conversion.md)** | Methods for converting numbers between binary, decimal, octal, and hexadecimal number systems. |
 
 ---
 
@@ -34,10 +35,11 @@ By working through this module, you will be able to:
 ```text
 02-Number-Systems/
 ├── README.md
-├── Binary-System.md
-├── Octal-System.md
-├── Hexadecimal-System.md
-└── Number-System-Conversion.md
+├── 01-Binary-System.md
+├── 02-Decimal-System.md
+├── 03-Octal-System.md
+├── 04-Hexadecimal-System.md
+└── 05-Number-System-Conversion.md
 ```
 
 ---
