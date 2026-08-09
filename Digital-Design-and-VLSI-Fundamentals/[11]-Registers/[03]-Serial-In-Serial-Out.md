@@ -370,4 +370,4 @@ A Serial-In Serial-Out (SISO) Register is a Shift Register in which binary data 
 
 * **Waveform / Timing Diagram:**
 
-![SISO Register Timing Waveform](Image/siso_register_waveform.png)
+![SISO Register Timing Waveform](Images/siso-clock.png)
