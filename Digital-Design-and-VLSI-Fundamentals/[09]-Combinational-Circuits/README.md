@@ -79,10 +79,8 @@ By working through this module, you will be able to:
 
 | File / Design | Core Technical Focus |
 | :--- | :--- |
-| **[`Encoder.md`](./Encoder/Encoder.md)** | Fundamentals and operation of binary encoders. |
-| **4×2 Encoder** | Encoding four input lines into a 2-bit binary output. |
-| **8×3 Encoder** | Encoding eight input lines into a 3-bit binary output. |
-| **[`Priority-Encoder.md`](./Encoder/Priority-Encoder.md)** | Encoding the highest-priority active input when multiple inputs are asserted simultaneously. |
+| **[`01-Encoder-4-to-2.md`](./[06]-Encoder/01-Encoder-4-to-2.md)** | Fundamentals and operation of binary decoders. |
+| **[`02-Encoder-8-to-3.md`](./[06]-Encoder/02-Encoder-8-to-3.md)** | Fundamentals and operation of binary decoders. |
 
 ---
 
