@@ -60,10 +60,9 @@ By working through this module, you will be able to:
 
 | File / Design | Core Technical Focus |
 | :--- | :--- |
+| **[`01-Demux-1-to-2.md`](./[04]-Demultiplexer/01-Demux-1-to-2.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
 | **[`Demultiplexer.md`](./Demultiplexer/Demultiplexer.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
-| **1×2 Demultiplexer** | Routing one input signal to one of two outputs. |
-| **1×4 Demultiplexer** | Routing one input signal to one of four outputs. |
-| **1×8 Demultiplexer** | Routing one input signal to one of eight outputs. |
+| **[`Demultiplexer.md`](./Demultiplexer/Demultiplexer.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
 
 ---
 
