@@ -1,4 +1,4 @@
-# 11. Registers
+# ◈ Registers
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Registers-green.svg)](#)
