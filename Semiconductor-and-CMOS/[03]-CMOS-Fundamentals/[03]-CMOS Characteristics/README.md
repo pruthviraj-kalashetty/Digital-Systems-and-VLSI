@@ -1,4 +1,4 @@
-# CMOS Characteristics
+# C◈ MOS Characteristics
 
 [![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-CMOS%20Characteristics-orange.svg)](#)
