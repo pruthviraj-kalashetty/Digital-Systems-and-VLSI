@@ -29,7 +29,7 @@ By working through this module, you will be able to:
 | Module | Core Technical Focus |
 | :--- | :--- |
 | **[`[01]-CMOS-Introductions`](./[01]-CMOS-Introductions/)** | CMOS fundamentals, complementary NMOS and PMOS operation, CMOS inverter, CMOS logic operation, and pull-up/pull-down networks. |
-| **[`[02]-CMOS Logic-Gates`](./[02]-CMOS Logic-Gates/)** | Transistor-level implementation of CMOS NOT, AND, NAND, OR, NOR, XOR, and XNOR gates. |
+| **[`[02]-CMOS Logic-Gates`](./[02]-CMOS-Logic-Gates/)** | Transistor-level implementation of CMOS NOT, AND, NAND, OR, NOR, XOR, and XNOR gates. |
 | **[`[03]-CMOS Characteristics`](./[03]-CMOS Characteristics/)** | Noise margin, propagation delay, rise time, and fall time used to evaluate CMOS circuit performance. |
 | **[`[04]-CMOS-Design-Concepts`](./[04]-CMOS-Design-Concepts/)** | Fan-in, fan-out, load capacitance, and their effects on CMOS circuit operation and performance. |
 
