@@ -1,6 +1,6 @@
 # CMOS Fundamentals
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Semiconductor--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-CMOS%20Fundamentals-orange.svg)](#)
 
 This module introduces the fundamental concepts of CMOS technology and transistor-level digital logic design. It covers CMOS introductions, complementary NMOS and PMOS operation, CMOS inverters, CMOS logic gates, important CMOS characteristics, and essential CMOS design concepts.
