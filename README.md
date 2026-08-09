@@ -7,7 +7,7 @@
 
 
 <p>
-  <img src="https://img.shields.io/badge/%E2%9A%A1%20DOMAIN-VLSI%20ENGINEERING-0F172A?style=for-the-badge&labelColor=FFFF&color=2563EB"/>
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20DOMAIN-VLSI%20ENGINEERING-0F172A?style=for-the-badge&labelColor=FFFFFFF&color=2563EB"/>
   <img src="https://img.shields.io/badge/%E2%9C%A6%20FOCUS-DIGITAL%20DESIGN-0F172A?style=for-the-badge&labelColor=FFFFFF&color=06B6D4"/>
   <img src="https://img.shields.io/badge/%E2%97%88%20LOGIC-COMBINATIONAL%20%26%20SEQUENTIAL-0F172A?style=for-the-badge&labelColor=FFFFFF&color=10B981"/>
   <img src="https://img.shields.io/badge/%E2%97%88%20FSM-FINITE%20STATE%20MACHINES-0F172A?style=for-the-badge&labelColor=FFFFFF&color=8B5CF6"/>
