@@ -50,12 +50,6 @@ A **Moore Machine** is a sequential logic circuit in which the output is determi
 
 ---
 
-* **Circuit Diagram:**
-
-![Moore Machine Block Diagram](Image/moore-machine.png)
-
----
-
 * **Truth Table:**
 
 | Present State | Input | Next State | Output |
@@ -263,8 +257,3 @@ A **Moore Machine** is a Finite State Machine in which the output depends only o
   - Neso Academy – Finite State Machines.
   - GeeksforGeeks – Moore Machine.
 
----
-
-* **Waveform / Timing Diagram:**
-
-![Moore Machine Timing Waveform](Image/moore_machine_waveform.png)
