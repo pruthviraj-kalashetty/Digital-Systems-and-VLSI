@@ -61,8 +61,8 @@ By working through this module, you will be able to:
 | File / Design | Core Technical Focus |
 | :--- | :--- |
 | **[`01-Demux-1-to-2.md`](./[04]-Demultiplexer/01-Demux-1-to-2.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
-| **[`Demultiplexer.md`](./Demultiplexer/Demultiplexer.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
-| **[`Demultiplexer.md`](./Demultiplexer/Demultiplexer.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
+| **[`02-Demux-1-to-4.md`](./[04]-Demultiplexer/02-Demux-1-to-4.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
+| **[`03-Demux-1-to-8.md`](./[04]-Demultiplexer/03-Demux-1-to-8.md)** | Fundamentals and operation of demultiplexers for digital data distribution. |
 
 ---
 
