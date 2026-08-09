@@ -51,12 +51,6 @@ A **Sequence Detector** is a sequential circuit that monitors a serial input str
 
 ---
 
-* **Circuit Diagram:**
-
-![Sequence Detector Block Diagram](Image/sequence-detector.png)
-
----
-
 * **Truth Table:**
 
 | Present State | Input | Next State | Output |
@@ -262,8 +256,4 @@ A **Sequence Detector** is a sequential logic circuit designed to recognize pred
   - Neso Academy – Finite State Machines.
   - GeeksforGeeks – Sequence Detector.
 
----
 
-* **Waveform / Timing Diagram:**
-
-![Sequence Detector Timing Waveform](Image/sequence_detector_waveform.png)
