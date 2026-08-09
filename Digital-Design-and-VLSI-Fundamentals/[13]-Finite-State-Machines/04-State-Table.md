@@ -48,12 +48,6 @@ A **State Table** is a table that describes the behavior of a Finite State Machi
 
 ---
 
-* **Circuit Diagram:**
-
-![State Table Representation](Image/state-table.png)
-
----
-
 * **Truth Table:**
 
 | Present State | Input | Next State | Output |
@@ -263,8 +257,4 @@ A **State Table** is a structured tabular representation of a Finite State Machi
   - Neso Academy – Finite State Machines.
   - GeeksforGeeks – State Table.
 
----
 
-* **Waveform / Timing Diagram:**
-
-![State Table Timing Waveform](Image/state_table_waveform.png)
