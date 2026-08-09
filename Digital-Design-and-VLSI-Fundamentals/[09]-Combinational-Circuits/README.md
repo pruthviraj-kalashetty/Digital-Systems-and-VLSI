@@ -70,9 +70,8 @@ By working through this module, you will be able to:
 
 | File / Design | Core Technical Focus |
 | :--- | :--- |
-| **[`Decoder.md`](./Decoder/Decoder.md)** | Fundamentals and operation of binary decoders. |
-| **2×4 Decoder** | Decoding 2-bit input combinations into four unique outputs. |
-| **3×8 Decoder** | Decoding 3-bit input combinations into eight unique outputs. |
+| **[`01-Decoder-2-to-4.md`](./[05]-Decoder/01-Decoder-2-to-4.md)** | Fundamentals and operation of binary decoders. |
+| **[`02-Decoder-3-to-8.md`](./[05]-Decoder/02-Decoder-3-to-8.md)** | Fundamentals and operation of binary decoders. |
 
 ---
 
