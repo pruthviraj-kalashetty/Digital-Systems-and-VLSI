@@ -1,4 +1,4 @@
-# CMOS Design Concepts
+# ◈ CMOS Design Concepts
 
 [![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-CMOS%20Design%20Concepts-orange.svg)](#)
