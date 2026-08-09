@@ -1,4 +1,4 @@
-# 01. Semiconductor Basics
+# ◈ Semiconductor Basics
 
 [![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Semiconductor%20Technology-green.svg)](#)
