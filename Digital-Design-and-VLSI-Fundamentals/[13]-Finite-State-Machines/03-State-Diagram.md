@@ -49,12 +49,6 @@ A **State Diagram** is a graphical model that represents the states of an FSM an
 
 ---
 
-* **Circuit Diagram:**
-
-![FSM State Diagram](Image/state-diagram.png)
-
----
-
 * **Truth Table:**
 
 | Present State | Input | Next State | Output |
@@ -256,8 +250,3 @@ A **State Diagram** is a graphical representation of a Finite State Machine that
   - Neso Academy – Finite State Machines.
   - GeeksforGeeks – State Diagram.
 
----
-
-* **Waveform / Timing Diagram:**
-
-![FSM State Diagram Timing Waveform](Image/state_diagram_waveform.png)
