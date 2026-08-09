@@ -27,15 +27,15 @@ By working through this module, you will be able to:
 | File | Core Technical Focus |
 | :--- | :--- |
 | **Asynchronous Counters** | Design and analysis of ripple counters triggered by the output of the previous flip-flop. |
-| **├── [`3-Bit-Asynchronous-Up-Counter.md`](./Asynchronous-Counters/3-Bit-Asynchronous-Up-Counter.md)** | 3-bit ripple up counter design and counting sequence. |
-| **├── [`3-Bit-Asynchronous-Down-Counter.md`](./Asynchronous-Counters/3-Bit-Asynchronous-Down-Counter.md)** | 3-bit ripple down counter design and counting sequence. |
-| **├── [`4-Bit-Asynchronous-Up-Counter.md`](./Asynchronous-Counters/4-Bit-Asynchronous-Up-Counter.md)** | 4-bit ripple up counter with timing analysis. |
-| **└── [`4-Bit-Asynchronous-Down-Counter.md`](./Asynchronous-Counters/4-Bit-Asynchronous-Down-Counter.md)** | 4-bit ripple down counter with timing analysis. |
+| **[`3-Bit-Asynchronous-Up-Counter.md`](./Asynchronous-Counters/3-Bit-Asynchronous-Up-Counter.md)** | 3-bit ripple up counter design and counting sequence. |
+| **[`3-Bit-Asynchronous-Down-Counter.md`](./Asynchronous-Counters/3-Bit-Asynchronous-Down-Counter.md)** | 3-bit ripple down counter design and counting sequence. |
+| **[`4-Bit-Asynchronous-Up-Counter.md`](./Asynchronous-Counters/4-Bit-Asynchronous-Up-Counter.md)** | 4-bit ripple up counter with timing analysis. |
+| **[`4-Bit-Asynchronous-Down-Counter.md`](./Asynchronous-Counters/4-Bit-Asynchronous-Down-Counter.md)** | 4-bit ripple down counter with timing analysis. |
 | **Synchronous Counters** | Design and analysis of counters driven by a common clock signal. |
-| **├── [`3-Bit-Synchronous-Up-Counter.md`](./Synchronous-Counters/3-Bit-Synchronous-Up-Counter.md)** | 3-bit synchronous up counter operation and design. |
-| **├── [`3-Bit-Synchronous-Down-Counter.md`](./Synchronous-Counters/3-Bit-Synchronous-Down-Counter.md)** | 3-bit synchronous down counter operation and design. |
-| **├── [`4-Bit-Synchronous-Up-Counter.md`](./Synchronous-Counters/4-Bit-Synchronous-Up-Counter.md)** | 4-bit synchronous up counter and timing behavior. |
-| **└── [`4-Bit-Synchronous-Down-Counter.md`](./Synchronous-Counters/4-Bit-Synchronous-Down-Counter.md)** | 4-bit synchronous down counter and timing behavior. |
+| **[`3-Bit-Synchronous-Up-Counter.md`](./Synchronous-Counters/3-Bit-Synchronous-Up-Counter.md)** | 3-bit synchronous up counter operation and design. |
+| **[`3-Bit-Synchronous-Down-Counter.md`](./Synchronous-Counters/3-Bit-Synchronous-Down-Counter.md)** | 3-bit synchronous down counter operation and design. |
+| **[`4-Bit-Synchronous-Up-Counter.md`](./Synchronous-Counters/4-Bit-Synchronous-Up-Counter.md)** | 4-bit synchronous up counter and timing behavior. |
+| **[`4-Bit-Synchronous-Down-Counter.md`](./Synchronous-Counters/4-Bit-Synchronous-Down-Counter.md)** | 4-bit synchronous down counter and timing behavior. |
 | **[`Ring-Counter.md`](./Ring-Counter.md)** | Ring counter architecture, operation, timing sequence, and applications. |
 
 ---
