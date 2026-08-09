@@ -88,10 +88,9 @@ By working through this module, you will be able to:
 
 | File / Design | Core Technical Focus |
 | :--- | :--- |
-| **[`Comparator.md`](./Comparator/Comparator.md)** | Fundamentals of digital magnitude comparison. |
-| **1-Bit Comparator** | Comparison of two 1-bit binary values. |
-| **2-Bit Comparator** | Comparison of two 2-bit binary numbers. |
-| **3-Bit Comparator** | Comparison of two 3-bit binary numbers. |
+| **[`1-bit-comparator.md`](./[07]-Comparator/1-bit-comparator.md)** | Fundamentals of digital magnitude comparison. |
+| **[`2-bit-comparator.md`](./[07]-Comparator/2-bit-comparator.md)** | Fundamentals of digital magnitude comparison. |
+| **[`3-bit-comparator.md`](./[07]-Comparator/3-bit-comparator.md)** | Fundamentals of digital magnitude comparison. |
 
 ---
 
