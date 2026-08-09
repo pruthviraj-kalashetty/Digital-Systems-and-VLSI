@@ -50,12 +50,6 @@ A **Mealy Machine** is a sequential logic circuit in which the output is determi
 
 ---
 
-* **Circuit Diagram:**
-
-![Mealy Machine Block Diagram](Image/mealy-machine.png)
-
----
-
 * **Truth Table:**
 
 | Present State | Input | Next State | Output |
@@ -262,8 +256,3 @@ A **Mealy Machine** is a Finite State Machine in which the output depends on bot
   - Neso Academy – Finite State Machines.
   - GeeksforGeeks – Mealy Machine.
 
----
-
-* **Waveform / Timing Diagram:**
-
-![Mealy Machine Timing Waveform](Image/mealy_machine_waveform.png)
