@@ -78,12 +78,6 @@ The FSM design follows these sequential steps:
 
 ---
 
-* **Circuit Diagram:**
-
-![FSM Design Flow](Image/fsm-design-procedure.png)
-
----
-
 * **Truth Table:**
 
 | Design Step | Description |
@@ -289,8 +283,3 @@ The **FSM Design Procedure** is a structured methodology for designing sequentia
   - Neso Academy – Finite State Machines.
   - GeeksforGeeks – FSM Design.
 
----
-
-* **Waveform / Timing Diagram:**
-
-![FSM Design Procedure Timing Diagram](Image/fsm_design_procedure_waveform.png)
