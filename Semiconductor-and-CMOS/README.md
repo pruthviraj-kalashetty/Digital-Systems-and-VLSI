@@ -1,6 +1,6 @@
 # Semiconductor and CMOS
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Semiconductor--and--CMOS-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Semiconductor%20%26%20CMOS-orange.svg)](#)
 
 This module introduces the semiconductor and CMOS concepts that form the foundation of modern digital integrated circuits. It covers semiconductor fundamentals, MOS devices, CMOS technology, CMOS logic gates, CMOS characteristics, and essential CMOS design concepts.
