@@ -52,12 +52,6 @@ A **Finite State Machine (FSM)** is a sequential logic circuit that consists of 
 
 ---
 
-* **Circuit Diagram:**
-
-![Finite State Machine Block Diagram](Image/fsm-block-diagram.png)
-
----
-
 * **Truth Table:**
 
 | Present State | Input | Next State | Output |
@@ -270,8 +264,3 @@ A **Finite State Machine (FSM)** is a sequential logic circuit that transitions 
   - Neso Academy – Digital Electronics & FSM.
   - GeeksforGeeks – Finite State Machine.
 
----
-
-* **Waveform / Timing Diagram:**
-
-![FSM Timing Diagram](Image/fsm_waveform.png)
