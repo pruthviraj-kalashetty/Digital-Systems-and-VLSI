@@ -1,6 +1,6 @@
 # 01. Timing Fundamentals
 
-[![Stage](https://img.shields.io/badge/Stage-A--Digital--Design-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Timing--and--STA-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Digital%20Timing-orange.svg)](#)
 
 This module introduces the fundamental timing concepts used in digital system and RTL design. It covers clock characteristics, propagation and contamination delays, clock-to-Q delay, rise time, fall time, and the relationship between timing parameters and circuit operation.
