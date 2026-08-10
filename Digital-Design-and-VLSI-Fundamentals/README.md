@@ -1,6 +1,6 @@
 # ◈ Digital Design Fundamentals
 
-[![Focus](https://img.shields.io/badge/Focus-Digital%20Electronics%20%26%20VLSI-orange.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 
 This repository develops a structured foundation in digital design, progressing from fundamental digital concepts and number systems to Boolean algebra, logic gates, combinational circuits, sequential logic, counters, registers, and finite-state machines.
 
