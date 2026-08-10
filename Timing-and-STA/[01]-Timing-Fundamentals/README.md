@@ -28,7 +28,7 @@ By working through this module, you will be able to:
 
 | File | Core Technical Focus |
 | :--- | :--- |
-| **[`01-Introduction-to-Digital-Timing.md`](./01-Introduction-to-Digital-Timing.md)** | Introduction to timing concepts and the importance of timing in digital circuit operation. |
+| **[`01-Introduction-to-Timing.md`](./01-Introduction-to-Timing.md)** | Introduction to timing concepts and the importance of timing in digital circuit operation. |
 | **[`02-Clock-Concepts.md`](./02-Clock-Concepts.md)** | Clock signals, clock transitions, and their role in synchronizing sequential digital systems. |
 | **[`03-Clock-Frequency-and-Period.md`](./03-Clock-Frequency-and-Period.md)** | Relationship between clock frequency and time period with practical timing calculations. |
 | **[`04-Duty-Cycle.md`](./04-Duty-Cycle.md)** | Definition and calculation of duty cycle and its relationship with clock waveform timing. |
