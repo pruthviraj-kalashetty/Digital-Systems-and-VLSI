@@ -1,4 +1,4 @@
-# Semiconductor and CMOS
+# ◈ Semiconductor and CMOS
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI-blue.svg)](#)
 [![Stage](https://img.shields.io/badge/Semiconductor--and--CMOS-orange.svg)](#)
