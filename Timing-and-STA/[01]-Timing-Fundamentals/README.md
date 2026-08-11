@@ -1,4 +1,4 @@
-# 01. Timing Fundamentals
+# ◈ Timing Fundamentals
 
 [![Stage](https://img.shields.io/badge/Timing--and--STA-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Digital%20Timing-orange.svg)](#)
