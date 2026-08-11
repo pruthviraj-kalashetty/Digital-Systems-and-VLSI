@@ -1,4 +1,4 @@
-# 02. Setup, Hold & Clock Effects
+# ◈ Setup, Hold & Clock Effects
 
 [![Stage](https://img.shields.io/badge/Timing--and--STA-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Setup%20%26%20Hold%20Timing-orange.svg)](#)
