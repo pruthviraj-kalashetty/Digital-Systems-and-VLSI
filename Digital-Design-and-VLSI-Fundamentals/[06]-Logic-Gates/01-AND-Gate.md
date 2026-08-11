@@ -48,13 +48,6 @@ An AND gate is a digital logic gate that performs the logical AND operation on t
 
 * **Truth Table:**
 
-| A | B | Y |
-|---|---|---|
-| 0 | 0 | 0 |
-| 0 | 1 | 0 |
-| 1 | 0 | 0 |
-| 1 | 1 | 1 |
-
 | **Inputs** |  | **Output** |
 |:---:|:---:|:---:|
 | **A** | **B** | **Y** |
