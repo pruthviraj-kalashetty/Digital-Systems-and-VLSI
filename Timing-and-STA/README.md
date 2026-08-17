@@ -1,146 +1,182 @@
 <div align="center">
 
-# ⚡ DIGITAL DESIGN & VLSI FUNDAMENTALS
+# ◈ DIGITAL DESIGN & HARDWARE FUNDAMENTALS
 
-### Digital Electronics • Semiconductor Physics • CMOS • Static Timing Analysis • RTL Foundation
-
-<p align="center">
-  <img src="https://img.shields.io/badge/DOMAIN-VLSI_ENGINEERING-0F172A?style=for-the-badge&logo=microchip&logoColor=020617&color=2563EB" alt="Domain"/>
-  <img src="https://img.shields.io/badge/FOCUS-DIGITAL_DESIGN-0F172A?style=for-the-badge&logo=cpu&logoColor=020617&color=06B6D4" alt="Focus"/>
-  <img src="https://img.shields.io/badge/LOGIC-COMBINATIONAL_%26_SEQUENTIAL-0F172A?style=for-the-badge&color=10B981" alt="Logic"/>
-  <img src="https://img.shields.io/badge/FSM-FINITE_STATE_MACHINES-0F172A?style=for-the-badge&color=8B5CF6" alt="FSM"/>
-</p>
+### Digital Electronics • Logic Synthesis • Sequential Systems • FSM Engineering • RTL Foundation
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TIMING-STA_%26_TIMING_ANALYSIS-0F172A?style=for-the-badge&color=3B82F6" alt="Timing"/>
-  <img src="https://img.shields.io/badge/CMOS-SEMICONDUCTOR_PHYSICS-0F172A?style=for-the-badge&color=14B8A6" alt="CMOS"/>
-  <img src="https://img.shields.io/badge/PURPOSE-RTL_DESIGN_FOUNDATION-0F172A?style=for-the-badge&color=F97316" alt="Purpose"/>
+  <a href="https://github.com/pruthviraj-kalashetty">
+    <img src="https://img.shields.io/badge/Domain-Digital_Logic_Design-00C8FF?style=for-the-badge&logo=cpu&logoColor=white" alt="Domain"/>
+  </a>
+  <a href="https://github.com/pruthviraj-kalashetty">
+    <img src="https://img.shields.io/badge/Target-RTL_%26_VLSI_Foundation-6F42C1?style=for-the-badge&logo=intel&logoColor=white" alt="Target"/>
+  </a>
+  <a href="https://github.com/pruthviraj-kalashetty">
+    <img src="https://img.shields.io/badge/Architecture-FSM_%26_Combinational-2EA44F?style=for-the-badge&logo=microchip&logoColor=white" alt="Architecture"/>
+  </a>
 </p>
 
 </div>
 
 ---
 
-## 📌 About This Repository
+## 📌 Repository Overview
 
-This repository serves as a core theoretical foundation for **RTL Design** and **ASIC/FPGA Front-End Engineering**. It systematically documents essential hardware concepts required prior to writing synthesizable Verilog code.
+This repository provides a rigorous, structured foundation in **digital hardware design**, serving as the prerequisite for Verilog HDL coding, ASIC Front-End design, and FPGA development. 
 
-### 🎯 Key Knowledge Domains
-* **Digital Logic Architecture:** Combinational logic, state machines, and register transfer principles.
-* **Semiconductor Physics & CMOS:** Device operation, layout characteristics, and power dynamics.
-* **ASIC/VLSI Flow:** RTL-to-GDSII methodology, PPA trade-offs, and physical limitations.
-* **Static Timing Analysis (STA):** Setup/hold timing closures, clock domains, and skew analysis.
+It spans fundamental Boolean mathematics through complex sequential finite-state machines, emphasizing **hardware-first thinking** before writing synthesizable code.
+
+> **Primary Goal:** Master underlying gate-level and state-machine behavior to write clean, predictable, and synthesizable RTL for ASIC and FPGA targets.
 
 ---
 
-## 🛠️ Tools & Environment
+## 🎯 Core Technical Competencies
 
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,vscode,git,github" alt="Development Tools" />
-  </a>
-</p>
+By exploring this repository, you will build proficiency in:
+
+- **Logic Optimization:** Boolean reduction, Karnaugh Mapping (3 & 4 variable), and don't-care optimization.
+- **Combinational Design:** Adders, subtractors, MUX/DEMUX trees, priority encoders, decoders, and magnitude comparators.
+- **Sequential Systems:** Clocked flip-flop mechanics, characteristic/excitation tables, shift registers (SISO, SIPO, PISO, PIPO), and counters.
+- **FSM Architecture:** Mealy and Moore state machine synthesis, state transition tables, state reduction, and sequence detection logic.
+- **RTL Readiness:** Understanding cycle-accurate timing and state mechanics prior to SystemVerilog/Verilog hardware description.
 
 ---
 
-## 📚 Syllabus & Roadmap
+## 📂 Module Breakdown
+
+| Module | Module Name | Core Technical Focus |
+| :---: | :--- | :--- |
+| **`01`** | **[`[01]-Digital-Basics`](./[01]-Digital-Basics/)** | Digital vs. analog paradigms, voltage thresholds, and digital system abstraction. |
+| **`02`** | **[`[02]-Number-Systems`](./[02]-Number-Systems/)** | Radix conversions (Binary, Octal, Hex, Decimal) and fixed-point representation. |
+| **`03`** | **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithmetic/)** | Binary math, 2's complement representation, multiplication, and non-restoring division. |
+| **`04`** | **[`[04]-Binary-Codes`](./[04]-Binary-Codes/)** | Gray Code encoding/decoding, BCD, Excess-3, and ASCII representations. |
+| **`05`** | **[`[05]-Boolean-Algebra`](./[05]-Boolean-Algebra/)** | Axiomatic laws, canonical forms (SOP/POS), and DeMorgan's dualities. |
+| **`06`** | **[`[06]-Logic-Gates`](./[06]-Logic-Gates/)** | Primitive gates, universal logic gate synthesis (NAND/NOR), and propagation delay basics. |
+| **`07`** | **[`[07]-Combinational-Logic`](./[07]-Combinational-Logic/)** | Truth table derivation, minterms/maxterms, and memoryless circuit properties. |
+| **`08`** | **[`[08]-Karnaugh-Map`](./[08]-Karnaugh-Map/)** | Visual logic minimization, prime implicants, and essential prime implicants. |
+| **`09`** | **[`[09]-Combinational-Circuits`](./[09]-Combinational-Circuits/)** | Modular building blocks: Adders, MUX, DEMUX, Encoders, Decoders, and Ripple-Carry logic. |
+| **`10`** | **[`[10]-Flip-Flops`](./[10]-Flip-Flops/)** | Latches vs. Flip-Flops, SR/D/JK/T excitation profiles, and metastable behavior. |
+| **`11`** | **[`[11]-Registers`](./[11]-Registers/)** | Multi-bit storage, shift registers (SISO/SIPO/PISO/PIPO), and universal shift logic. |
+| **`12`** | **[`[12]-Counters`](./[12]-Counters/)** | Synchronous vs. Asynchronous ripple counters, Mod-N, Up/Down, and Ring configurations. |
+| **`13`** | **[`[13]-Finite-State-Machines`](./[13]-Finite-State-Machines/)** | Mealy & Moore architectures, state diagrams, transition matrices, and sequence detectors. |
+
+---
+
+## 📚 Detailed Concept Syllabus
 
 <details open>
-<summary><b>1️⃣ Digital Electronics</b></summary>
+<summary><b>1️⃣ Number Systems, Codes & Arithmetic</b></summary>
 
-* **Digital Fundamentals:** Number Systems, Conversions, Binary Arithmetic, Binary Codes (BCD, Gray, Excess-3).
-* **Combinational Logic:** Boolean Algebra, De Morgan's Theorems, Karnaugh Maps (K-Maps), Don't-Care Conditions.
-* **Combinational Circuits:** Adders/Subtractors, Multiplexers/Demultiplexers, Encoders/Decoders, Digital Comparators.
-* **Sequential Logic:** SR, D, JK, T Flip-Flops, Shift Registers (SISO, SIPO, PISO, PIPO).
-* **Counters & FSMs:** Synchronous & Asynchronous Counters, Ring/Johnson Counters, Mealy vs. Moore State Machines, Sequence Detectors.
+* **Base Systems:** Binary ($Radix-2$), Octal ($Radix-8$), Decimal ($Radix-10$), Hexadecimal ($Radix-16$).
+* **Arithmetic Operations:** 1's & 2's Complement subtraction, overflow detection, signed arithmetic.
+* **Code Conversions:** Binary-to-Gray, Gray-to-Binary, BCD-to-Excess-3, Error Detection concepts.
 </details>
 
 <details>
-<summary><b>2️⃣ Semiconductor Fundamentals</b></summary>
+<summary><b>2️⃣ Boolean Minimization & Combinational Hardware</b></summary>
 
-* **Physics & Materials:** Intrinsic & Extrinsic Semiconductors, Doping Dynamics, PN Junction Characteristics.
-* **Manufacturing & Fabrication:** Wafer Fabrication, Cleanroom Standards, Photolithography, EUV Lithography.
-* **Industry Ecosystem:** Chip Packaging Technologies, Wafer Testing, Semiconductor Supply Chain.
+* **Boolean Reduction:** Canonical SOP/POS expressions, Consensus theorem, Universal gate realization.
+* **K-Map Optimization:** 3-variable & 4-variable grids, Don't-Care conditions, Hazard mitigation.
+* **Arithmetic & Data Path Modules:** Half/Full Adders & Subtractors, Ripple-Carry Adders, Magnitude Comparators.
+* **Control Modules:** 2:1/4:1/8:1 Multiplexers, Demultiplexers, 3:8 Decoders, Priority Encoders.
 </details>
 
 <details>
-<summary><b>3️⃣ MOS & CMOS Technology</b></summary>
+<summary><b>3️⃣ Sequential Logic, Storage & State Machines</b></summary>
 
-* **MOSFET Devices:** NMOS, PMOS Structures, Channel Formation, Threshold Voltage ($V_{th}$).
-* **CMOS Logic:** CMOS Inverter, Complementary Pull-Up (PUN) / Pull-Down (PDN) Networks, NAND/NOR Gates.
-* **Design Metrics:** Noise Margins, Dynamic & Static Power Dissipation, Leakage Currents, Fan-in / Fan-out Limits.
-</details>
-
-<details>
-<summary><b>4️⃣ VLSI Engineering Principles</b></summary>
-
-* **Design Methodologies:** ASIC vs. FPGA Architectures, Front-End vs. Back-End Workflows.
-* **RTL-to-GDSII Flow:** Synthesis, Floorplanning, Placement, Clock Tree Synthesis (CTS), Routing, Physical Verification.
-* **Optimization Parameters:** PPA (Power, Performance, Area) Trade-offs, Parasitic RC Delays, Logical Effort.
-</details>
-
-<details>
-<summary><b>5️⃣ Timing & Static Timing Analysis (STA)</b></summary>
-
-* **Clock & Delay Metrics:** Clock Skew, Jitter, Propagation Delay, Contamination Delay, Rise/Fall Times.
-* **Timing Constraints:** Setup Time ($t_{setup}$), Hold Time ($t_{hold}$), Data Arrival Time, Data Required Time.
-* **STA & Verification:** Critical Path Analysis, Setup/Hold Violations, Slack Computation, False Paths, Multicycle Paths.
+* **Bistable Multivibrators:** SR Latches, Level vs Edge Sensitivity, D, JK, T Flip-Flop excitation logic.
+* **Storage Elements:** Serial & Parallel Shift Registers (SISO, SIPO, PISO, PIPO), Barrel Shifters.
+* **Counting Circuits:** Asynchronous Ripple Counters, Synchronous Mod-N Counters, Johnson & Ring Counters.
+* **State Machine Engineering:** State minimization, state assignment (One-Hot, Binary), Mealy vs. Moore timing comparisons, Overlapping/Non-overlapping Sequence Detectors.
 </details>
 
 ---
 
-## 🏗️ Directory Structure
+## 🌲 Directory Structure
 
 ```text
-.
-├── Digital-Electronics/
-│   ├── [01]-Digital-Basics/
-│   │   ├── Digital-vs-Analog.md
-│   │   └── Digital-System-Overview.md
-│   ├── [02]-Number-Systems/
-│   ├── [03]-Binary-Arithmetic/
-│   ├── [04]-Binary-Codes/
-│   ├── [05]-Boolean-Algebra/
-│   ├── [06]-Logic-Gates/
-│   ├── [07]-Combinational-Logic/
-│   ├── [08]-Karnaugh-Map/
-│   ├── [09]-Combinational-Circuits/
-│   │   ├── Adders/
-│   │   ├── Subtractors/
-│   │   ├── Multiplexers/
-│   │   ├── Demultiplexers/
-│   │   ├── Decoders/
-│   │   ├── Encoders/
-│   │   └── Comparators/
-│   ├── [10]-Flip-Flops/
-│   ├── [11]-Registers/
-│   ├── [12]-Counters/
-│   └── [13]-Finite-State-Machines/
-├── Semiconductor-and-CMOS/
-│   ├── [01]-Semiconductor-Basics/
-│   ├── [02]-MOS-Devices/
-│   └── [03]-CMOS-Fundamentals/
-│       ├── [01]-CMOS-Basics/
-│       ├── [02]-CMOS-Logic-Gates/
-│       ├── [03]-CMOS-Characteristics/
-│       ├── [04]-CMOS-Power/
-│       └── [05]-Digital-Design-Concepts/
-├── VLSI-Fundamentals/
-│   ├── [01]-Introduction-to-VLSI/
-│   ├── [02]-ASIC-vs-FPGA/
-│   ├── [03]-Front-End-vs-Back-End/
-│   ├── [04]-RTL-to-GDSII-Flow/
-│   ├── [05]-PPA-Optimization/
-│   ├── [06]-Parasitic-RC/
-│   └── [07]-Logical-Effort/
-├── Timing-Concepts/
-│   ├── 01-Clock-Concepts.md
-│   ├── 02-Propagation-Delay.md
-│   ├── 03-Setup-and-Hold-Time.md
-│   └── 04-Clock-Skew-and-Jitter.md
-└── STA-Basics/
-    ├── 01-Introduction-to-STA.md
-    ├── 02-Timing-Paths.md
-    ├── 03-Setup-and-Hold-Analysis.md
-    ├── 04-Slack-Computation.md
-    └── 05-Timing-Exceptions.md
+Digital-Design-Fundamentals/
+│
+├── README.md
+│
+├── [01]-Digital-Basics/
+│   ├── 01-Digital-vs-Analog.md
+│   └── 02-Digital-System-Overview.md
+│
+├── [02]-Number-Systems/
+│   ├── 01-Binary-System.md
+│   ├── 02-Decimal-System.md
+│   ├── 03-Octal-System.md
+│   ├── 04-Hexadecimal-System.md
+│   └── 05-Number-System-Conversion.md
+│
+├── [03]-Binary-Arithmetic/
+│   ├── 01-Binary-Addition.md
+│   ├── 02-Binary-Subtraction.md
+│   ├── 03-Binary-Multiplication.md
+│   └── 04-Binary-Division.md
+│
+├── [04]-Binary-Codes/
+│   ├── 01-BCD-Code.md
+│   ├── 02-Gray-Code.md
+│   ├── 03-ASCII-Code.md
+│   ├── 04-Excess-3-Code.md
+│   ├── 05-Binary-to-Gray.md
+│   └── 06-Gray-to-Binary.md
+│
+├── [05]-Boolean-Algebra/
+│   ├── 01-Boolean-Basics.md
+│   ├── 02-Boolean-Laws.md
+│   ├── 03-DeMorgan-Theorem.md
+│   └── 04-Boolean-Expression.md
+│
+├── [06]-Logic-Gates/
+│   ├── 01-AND-Gate.md
+│   ├── 02-OR-Gate.md
+│   ├── 03-NOT-Gate.md
+│   ├── 04-NAND-Gate.md
+│   ├── 05-NOR-Gate.md
+│   ├── 06-XOR-Gate.md
+│   └── 07-XNOR-Gate.md
+│
+├── [07]-Combinational-Logic/
+│   ├── 01-Introduction.md
+│   ├── 02-Truth-Tables.md
+│   ├── 03-Minterms-Maxterms.md
+│   └── 04-Combinational-vs-Sequential.md
+│
+├── [08]-Karnaugh-Map/
+│   ├── 01-KMap-3-Variable.md
+│   ├── 02-KMap-4-Variable.md
+│   └── 03-Dont-Care-Conditions.md
+│
+├── [09]-Combinational-Circuits/
+│   ├── [01]-Adders/
+│   ├── [02]-Subtractor/
+│   ├── [03]-Multiplexer/
+│   ├── [04]-Demultiplexer/
+│   ├── [05]-Decoder/
+│   ├── [06]-Encoder/
+│   ├── [07]-Comparator/
+│   └── [08]-Ripple-Carry-Adder.md
+│
+├── [10]-Flip-Flops/
+│   ├── SR-FlipFlop.md
+│   ├── D-FlipFlop.md
+│   ├── JK-FlipFlop.md
+│   └── T-FlipFlop.md
+│
+├── [11]-Registers/
+│   ├── 01-Register-Basics.md
+│   ├── 02-Shift-Registers.md
+│   └── 03-Shift-Types.md
+│
+├── [12]-Counters/
+│   ├── Asynchronous-Counters/
+│   ├── Synchronous-Counters/
+│   └── Ring-Counter.md
+│
+└── [13]-Finite-State-Machines/
+    ├── 01-FSM-Introduction.md
+    ├── 02-Moore-vs-Mealy.md
+    └── 03-Sequence-Detector.md
