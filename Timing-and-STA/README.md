@@ -5,15 +5,6 @@
 
 ### Fundamental Logic Gate • Combinational RTL • Dataflow Modeling
 
-
-  <img src="https://img.shields.io/badge/Language-Verilog_2001-00599C?style=flat-square&logo=cpu" alt="Language"/>
-  <img src="https://img.shields.io/badge/Simulator-Icarus_Verilog-2EA44F?style=flat-square&logo=linux" alt="Simulator"/>
-  <img src="https://img.shields.io/badge/Waveform-GTKWave-8B5CF6?style=flat-square" alt="GTKWave"/>
-  <img src="https://img.shields.io/badge/Verification-4%2F4_Passed-brightgreen?style=flat-square" alt="Status"/>
-</p>
-
-
-
 ---
 
 ## 📌 Module Description
