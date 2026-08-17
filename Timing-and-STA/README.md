@@ -1,57 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ASIC RTL Design & Hardware Portfolio</title>
-  <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0d1117; color: #c9d1d9; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; }
-    h1, h2, h3 { color: #58a6ff; }
-    .bio { border-bottom: 1px solid #30363d; padding-bottom: 20px; margin-bottom: 30px; }
-    .project-card { background-color: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 20px; margin-bottom: 20px; }
-    .badge { display: inline-block; background-color: #1f6feb; color: #ffffff; padding: 3px 8px; border-radius: 12px; font-size: 0.8em; margin-right: 5px; }
-    a { color: #58a6ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .links { margin-top: 15px; }
-  </style>
-</head>
-<body>
+# ◈ Pruthviraj Kalashetty
 
-  <div class="bio">
-    <h1>Your Name</h1>
-    <p><strong>ECE Undergraduate | Aspiring ASIC RTL Design & Verification Engineer</strong></p>
-    <p>Building open-source digital front-end architecture, synthesizable Verilog IPs, bus protocols, and processor cores.</p>
-    <div class="links">
-      <a href="https://github.com/your-username" target="_blank">GitHub Profile</a> | 
-      <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-    </div>
-  </div>
+### RTL Design • ASIC Front-End • Digital Hardware Design • VLSI Engineering
 
-  <h2>VLSI & Hardware Repositories</h2>
+<p>
+  <img src="https://img.shields.io/badge/RTL%20Design-Verilog%20%7C%20SystemVerilog-00C8FF?style=for-the-badge&logo=cpu"/>
+  <img src="https://img.shields.io/badge/Digital%20Design-FSM%20%7C%20Timing%20%7C%20STA-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/VLSI-ASIC%20Front--End-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Verification-Testbench%20%7C%20Assertions%20%7C%20SVA-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/FPGA-Xilinx%20Vivado-success?style=for-the-badge"/>
+</p>
 
-  <!-- Project 1 -->
-  <div class="project-card">
-    <h3>01. Digital Logic & Fundamentals</h3>
-    <span class="badge">Digital Systems</span><span class="badge">Timing Math</span>
-    <p>Core foundations covering combinational/sequential logic, setup & hold slack calculations, metastability, and clock skew analysis.</p>
-    <a href="https://github.com/your-username/vlsi-01-digital-logic-notes" target="_blank">View Repository &rarr;</a>
-  </div>
+<p>
+  <img src="https://img.shields.io/badge/RTL%20IPs-UART%20%7C%20SPI%20%7C%20I2C%20%7C%20Async%20FIFO-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Computer%20Architecture-RISC--V%20Core%20%7C%20Pipelining-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ASIC%20Flow-Synthesis%20%7C%20Timing%20Closure-black?style=for-the-badge"/>
+</p>
 
-  <!-- Project 2 -->
-  <div class="project-card">
-    <h3>02. Synthesizable Verilog Practice</h3>
-    <span class="badge">Verilog-2001</span><span class="badge">FSM</span><span class="badge">GTKWave</span>
-    <p>Synthesizable RTL designs including Mealy/Moore FSMs, clock dividers, parameterised counters, and linting-clean testbenches.</p>
-    <a href="https://github.com/your-username/vlsi-02-verilog-design-practice" target="_blank">View Repository &rarr;</a>
-  </div>
+---
 
-  <!-- Project 3 -->
-  <div class="project-card">
-    <h3>03. RTL Design IPs (Async FIFO & AXI4)</h3>
-    <span class="badge">CDC</span><span class="badge">Async FIFO</span><span class="badge">AMBA AXI4-Lite</span>
-    <p>Dual-clock asynchronous FIFO with Gray code pointers, 2-flop synchronizers, and AMBA bus-compliant interface modules.</p>
-    <a href="https://github.com/your-username/vlsi-04-rtl-design-ips" target="_blank">View Repository &rarr;</a>
-  </div>
+## 👨‍💻 About Me
 
-</body>
-</html>
+I am an **Electronics & Communication Engineering** student at **LAEC, Bidar**, pursuing a career as an **ASIC Front-End RTL Design Engineer**. 
+
+I am actively building a structured, open-source portfolio covering **Digital Design Theory, Verilog/SystemVerilog RTL, Computer Architecture, Standard IPs, and the ASIC Front-End Flow** through synthesizable code, functional testbenches, and hardware verification logs.
+
+* 🎓 **Degree:** B.Tech in Electronics & Communication Engineering (5th Semester)
+* 🎯 **Career Goal:** ASIC RTL Design / Front-End VLSI Engineer
+* 🌱 **Current Focus:** Synthesizable Verilog, FSM Optimization, Setup/Hold Timing Slack, and Async FIFOs
+
+---
+
+## 🛠️ Technical Skill Matrix
+
+| Category | Key Competencies & Technologies |
+| :--- | :--- |
+| **Hardware Description Languages** | Verilog (IEEE 1364-2001), SystemVerilog (SVA / Assertions) |
+| **Digital Logic & Hardware** | Combinational/Sequential Logic, FSMs (Mealy/Moore), CMOS Fundamentals, STA Setup/Hold Slack |
+| **Protocols & RTL IPs** | UART, SPI Master/Slave, I2C, Sync/Async FIFO (CDC), AMBA APB / AXI4-Lite |
+| **Computer Architecture** | ALU Architecture, Pipeline Hazard Detection/Bypassing, Memory Hierarchy, RISC-V ISA |
+| **EDA Tools & Workflows** | Xilinx Vivado, Icarus Verilog, GTKWave, ModelSim, Verilator (Linting), Yosys (Synthesis) |
+| **Environment & Scripting** | Linux / Bash, Git & GitHub Version Control, Tcl (Vivado/Yosys Automation), VS Code |
+
+---
+
+## 🗂️ Core Hardware Repository Roadmap
+
+My engineering work is organized into eight structured repositories tracking my progression from logic gates to full silicon synthesis:
+
+### 🏛️ Phase 1: Foundations & Architecture
+1. **[Digital-Systems-and-VLSI](https://github.com/pruthviraj-kalashetty/Digital-Systems-and-VLSI)**  
+   `Digital Logic` · `CMOS Electronics` · `Setup/Hold Slack Math` · `Clock Skew`
+2. **[Verilog-Practice](https://github.com/pruthviraj-kalashetty/Verilog-Practice)**  
+   `Synthesizable RTL` · `Mealy/Moore FSMs` · `Clock Dividers` · `Self-Checking Testbenches`
+3. **[Computer-Architecture](https://github.com/pruthviraj-kalashetty/Computer-Architecture)**  
+   `Pipeline Stages` · `Hazard Forwarding` · `Branch Prediction` · `Memory Hierarchy`
+
+### 🚀 Phase 2: IPs & System Integration
+4. **[RTL-Design-IPs](https://github.com/pruthviraj-kalashetty/RTL-Design-IPs)**  
+   `Async FIFO (CDC)` · `AMBA AXI4-Lite` · `UART` · `SPI Master/Slave` · `I2C`
+5. **[System-Level-Digital-Projects](https://github.com/pruthviraj-kalashetty/System-Level-Digital-Projects)**  
+   `Pipelined RISC-V Core` · `SoC Interconnect` · `Memory Controllers`
+6. **[FPGA-Projects](https://github.com/pruthviraj-kalashetty/FPGA-Projects)**  
+   `Board Bring-Up` · `Xilinx Vivado ILA` · `Hardware Debouncers` · `Clock Wizards`
+
+### 🔍 Phase 3: Verification & Silicon Flow
+7. **[SystemVerilog-and-Verification](https://github.com/pruthviraj-kalashetty/SystemVerilog-and-Verification)**  
+   `SystemVerilog Assertions (SVA)` · `Constrained Random Testing` · `Functional Coverage`
+8. **[ASIC-Flow](https://github.com/pruthviraj-kalashetty/ASIC-Flow)**  
+   `RTL-to-GDSII Overview` · `Yosys/Design Compiler Synthesis` · `Static Timing Analysis (STA)`
+
+---
+
+## 📊 Learning & Repository Progress
+
+```text
+[01] Digital Systems & VLSI    [██████████] 100% Completed
+[02] Verilog Practice          [███░░░░░░░]  30% In Progress
+[03] Computer Architecture     [░░░░░░░░░░]   0% Planned
+[04] RTL Design IPs            [░░░░░░░░░░]   0% Planned
+[05] System-Level Projects     [░░░░░░░░░░]   0% Planned
+[06] FPGA Projects             [░░░░░░░░░░]   0% Planned
+[07] SystemVerilog Verification[░░░░░░░░░░]   0% Planned
+[08] ASIC Flow & Synthesis     [░░░░░░░░░░]   0% Planned
