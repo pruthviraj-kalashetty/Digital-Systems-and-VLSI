@@ -1,5 +1,5 @@
 
-<div align="center">
+
 
 # ◈ 2-Input AND Gate (`and_gate`)
 
