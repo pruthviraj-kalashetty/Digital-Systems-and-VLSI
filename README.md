@@ -48,105 +48,50 @@ This repository is theory-focused and serves as the foundation for my Verilog RT
 
 ---
 
-# 📚 Learning Goal
+## 📚 Syllabus & Roadmap
 
-## 1️⃣ Digital Electronics
-- Digital Basics
-- Number Systems
-- Binary Arithmetic
-- Binary Codes
-- Boolean Algebra
-- Logic Gates
-- Combinational Logic
-- Karnaugh Maps
-- Combinational Circuits
-- Flip-Flops
-- Registers
-- Counters
-- Finite State Machines (FSM)
+<details open>
+<summary><b>1️⃣ Digital Electronics</b></summary>
 
----
+* **Digital Fundamentals:** Number Systems, Conversions, Binary Arithmetic, Binary Codes (BCD, Gray, Excess-3).
+* **Combinational Logic:** Boolean Algebra, De Morgan's Theorems, Karnaugh Maps (K-Maps), Don't-Care Conditions.
+* **Combinational Circuits:** Adders/Subtractors, Multiplexers/Demultiplexers, Encoders/Decoders, Digital Comparators.
+* **Sequential Logic:** SR, D, JK, T Flip-Flops, Shift Registers (SISO, SIPO, PISO, PIPO).
+* **Counters & FSMs:** Synchronous & Asynchronous Counters, Ring/Johnson Counters, Mealy vs. Moore State Machines, Sequence Detectors.
+</details>
 
-## 2️⃣ Semiconductor Fundamentals *(Knowledge)*
+<details>
+<summary><b>2️⃣ Semiconductor Fundamentals</b></summary>
 
-- Semiconductor Basics
-- Intrinsic & Extrinsic Semiconductor
-- Doping
-- PN Junction
-- Semiconductor Manufacturing
-- Wafer Fabrication
-- Photolithography
-- EUV Lithography
-- Chip Packaging
-- Semiconductor Ecosystem
+* **Physics & Materials:** Intrinsic & Extrinsic Semiconductors, Doping Dynamics, PN Junction Characteristics.
+* **Manufacturing & Fabrication:** Wafer Fabrication, Cleanroom Standards, Photolithography, EUV Lithography.
+* **Industry Ecosystem:** Chip Packaging Technologies, Wafer Testing, Semiconductor Supply Chain.
+</details>
 
----
+<details>
+<summary><b>3️⃣ MOS & CMOS Technology</b></summary>
 
-## 3️⃣ MOS & CMOS *(Knowledge)*
+* **MOSFET Devices:** NMOS, PMOS Structures, Channel Formation, Threshold Voltage ($V_{th}$).
+* **CMOS Logic:** CMOS Inverter, Complementary Pull-Up (PUN) / Pull-Down (PDN) Networks, NAND/NOR Gates.
+* **Design Metrics:** Noise Margins, Dynamic & Static Power Dissipation, Leakage Currents, Fan-in / Fan-out Limits.
+</details>
 
-### MOS Devices
+<details>
+<summary><b>4️⃣ VLSI Engineering Principles</b></summary>
 
-- MOSFET
-- NMOS
-- PMOS
-- MOS Operation
-- Threshold Voltage
+* **Design Methodologies:** ASIC vs. FPGA Architectures, Front-End vs. Back-End Workflows.
+* **RTL-to-GDSII Flow:** Synthesis, Floorplanning, Placement, Clock Tree Synthesis (CTS), Routing, Physical Verification.
+* **Optimization Parameters:** PPA (Power, Performance, Area) Trade-offs, Parasitic RC Delays, Logical Effort.
+</details>
 
-### CMOS Fundamentals
+<details>
+<summary><b>5️⃣ Timing & Static Timing Analysis (STA)</b></summary>
 
-- CMOS Basics
-- CMOS Inverter
-- CMOS Logic Gates
-- CMOS Characteristics
-- CMOS Power
-- CMOS Digital Design Concepts
+* **Clock & Delay Metrics:** Clock Skew, Jitter, Propagation Delay, Contamination Delay, Rise/Fall Times.
+* **Timing Constraints:** Setup Time ($t_{setup}$), Hold Time ($t_{hold}$), Data Arrival Time, Data Required Time.
+* **STA & Verification:** Critical Path Analysis, Setup/Hold Violations, Slack Computation, False Paths, Multicycle Paths.
+</details>
 
----
-
-## 4️⃣ VLSI Fundamentals *(Knowledge)*
-
-- Introduction to VLSI
-- ASIC vs FPGA
-- Front-End vs Back-End
-- RTL to GDSII Flow
-- Power, Performance & Area (PPA)
-- Parasitic RC
-- Logical Effort
-
----
-
-## 5️⃣ Timing Concepts *(Knowledge + Interview)*
-
-- Clock Concepts
-- Propagation Delay
-- Contamination Delay
-- Rise Time
-- Fall Time
-- Setup Time
-- Hold Time
-- Clock Skew
-- Clock Jitter
-- Arrival Time
-- Required Time
-- Timing Diagrams
-
----
-
-## 6️⃣ Static Timing Analysis (STA) *(Knowledge + Interview)*
-
-- Introduction to STA
-- Timing Paths
-- Setup Analysis
-- Hold Analysis
-- Timing Violations
-- Slack Analysis
-- Timing Constraints
-- Critical Path
-- Timing Reports
-- Input & Output Delay
-- False Path
-- Multicycle Path
-- Timing Closure
 
 
 ---
