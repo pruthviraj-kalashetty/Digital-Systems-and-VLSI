@@ -31,20 +31,13 @@
 
 ## 📌 About This Repository
 
-This repository contains structured notes, concepts, and design fundamentals required for **RTL Design and ASIC VLSI Engineering**.
+This repository serves as a core theoretical foundation for **RTL Design** and **ASIC/FPGA Front-End Engineering**. It systematically documents essential hardware concepts required prior to writing synthesizable Verilog code.
 
-It covers the journey from:
-
-- Digital Electronics
-- Semiconductor fundamentals
-- MOSFET and CMOS Technology
-- Timing Concepts
-- Static Timing Analysis (STA)
-- VLSI design fundamentals
-
-The primary objective is to understand how digital hardware works internally before implementing hardware using Verilog RTL.
-
-This repository is theory-focused and serves as the foundation for my Verilog RTL Design repository.
+### 🎯 Key Knowledge Domains
+* **Digital Logic Architecture:** Combinational logic, state machines, and register transfer principles.
+* **Semiconductor Physics & CMOS:** Device operation, layout characteristics, and power dynamics.
+* **ASIC/VLSI Flow:** RTL-to-GDSII methodology, PPA trade-offs, and physical limitations.
+* **Static Timing Analysis (STA):** Setup/hold timing closures, clock domains, and skew analysis.
 
 ---
 
@@ -397,14 +390,6 @@ This repository is theory-focused and serves as the foundation for my Verilog RT
 - RTL Design Foundation
 - Hardware Design Thinking
 - ASIC Interview Preparation
-
----
-
-# 🛠️ Tools Used
-
-<p>
-<img src="https://skillicons.dev/icons?i=github,git,vscode,linux"/>
-</p>
 
 ---
 
