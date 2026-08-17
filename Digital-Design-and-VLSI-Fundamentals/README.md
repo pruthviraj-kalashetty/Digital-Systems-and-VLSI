@@ -8,40 +8,76 @@ The learning path is designed to build the core knowledge required for Verilog H
 
 ---
 
-## 🎯 Learning Objectives
+## 📌 Repository Overview
 
-By working through this repository, you will be able to:
+This repository provides a rigorous, structured foundation in **digital hardware design**, serving as the prerequisite for Verilog HDL coding, ASIC Front-End design, and FPGA development. 
 
-- Understand the fundamental principles of digital electronics and digital systems.
-- Work confidently with binary, decimal, octal, and hexadecimal number systems.
-- Perform binary arithmetic and understand commonly used binary codes.
-- Apply Boolean algebra, Boolean laws, and DeMorgan's theorem to simplify logic expressions.
-- Understand and analyze fundamental logic gates and digital logic functions.
-- Use truth tables, minterms, maxterms, and Karnaugh maps for logic analysis and simplification.
-- Design and analyze fundamental combinational circuits such as adders, subtractors, multiplexers, decoders, encoders, and comparators.
-- Understand sequential logic, flip-flops, registers, and counters.
-- Analyze and design finite-state machines using Moore and Mealy models.
-- Build a strong foundation for Verilog HDL, RTL design, VLSI, FPGA, and ASIC development.
+It spans fundamental Boolean mathematics through complex sequential finite-state machines, emphasizing **hardware-first thinking** before writing synthesizable code.
+
+> **Primary Goal:** Master underlying gate-level and state-machine behavior to write clean, predictable, and synthesizable RTL for ASIC and FPGA targets.
 
 ---
 
-## 📂 Module Contents
+## 🎯 Core Technical Competencies
 
-| Module | Core Technical Focus |
-| :--- | :--- |
-| **[`[01]-Digital-Basics`](./[01]-Digital-Basics/)** | Digital vs. analog concepts and the overview of digital systems. |
-| **[`[02]-Number-Systems`](./[02]-Number-Systems/)** | Binary, decimal, octal, hexadecimal number systems and base conversion techniques. |
-| **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithmetic/)** | Binary addition, subtraction, multiplication, and division. |
-| **[`[04]-Binary-Codes`](./[04]-Binary-Codes/)** | BCD, Gray Code, ASCII, Excess-3, and binary/Gray code conversions. |
-| **[`[05]-Boolean-Algebra`](./[05]-Boolean-Algebra/)** | Boolean fundamentals, Boolean laws, DeMorgan's theorem, and Boolean expressions. |
-| **[`[06]-Logic-Gates`](./[06]-Logic-Gates/)** | AND, OR, NOT, NAND, NOR, XOR, and XNOR logic gates. |
-| **[`[07]-Combinational-Logic`](./[07]-Combinational-Logic/)** | Combinational logic fundamentals, truth tables, minterms, maxterms, and combinational vs. sequential logic. |
-| **[`[08]-Karnaugh-Map`](./[08]-Karnaugh-Map/)** | 3-variable and 4-variable Karnaugh maps and don't-care conditions. |
-| **[`[09]-Combinational-Circuits`](./[09]-Combinational-Circuits/)** | Adders, subtractors, multiplexers, demultiplexers, decoders, encoders, comparators, and ripple-carry adders. |
-| **[`[10]-Flip-Flops`](./[10]-Flip-Flops/)** | SR, D, JK, and T flip-flops, characteristic tables, and excitation tables. |
-| **[`[11]-Registers`](./[11]-Registers/)** | Register fundamentals and SISO, SIPO, PISO, and PIPO shift registers. |
-| **[`[12]-Counters`](./[12]-Counters/)** | Asynchronous, synchronous, and ring counters with up/down counting configurations. |
-| **[`[13]-Finite-State-Machines`](./[13]-Finite-State-Machines/)** | FSM fundamentals, state diagrams, state tables, Moore and Mealy machines, FSM design procedure, and sequence detectors. |
+By exploring this repository, you will build proficiency in:
+
+- **Logic Optimization:** Boolean reduction, Karnaugh Mapping (3 & 4 variable), and don't-care optimization.
+- **Combinational Design:** Adders, subtractors, MUX/DEMUX trees, priority encoders, decoders, and magnitude comparators.
+- **Sequential Systems:** Clocked flip-flop mechanics, characteristic/excitation tables, shift registers (SISO, SIPO, PISO, PIPO), and counters.
+- **FSM Architecture:** Mealy and Moore state machine synthesis, state transition tables, state reduction, and sequence detection logic.
+- **RTL Readiness:** Understanding cycle-accurate timing and state mechanics prior to SystemVerilog/Verilog hardware description.
+
+---
+
+## 📂 Module Breakdown
+
+| Module | Module Name | Core Technical Focus |
+| :---: | :--- | :--- |
+| **`01`** | **[`[01]-Digital-Basics`](./[01]-Digital-Basics/)** | Digital vs. analog paradigms, voltage thresholds, and digital system abstraction. |
+| **`02`** | **[`[02]-Number-Systems`](./[02]-Number-Systems/)** | Radix conversions (Binary, Octal, Hex, Decimal) and fixed-point representation. |
+| **`03`** | **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithmetic/)** | Binary math, 2's complement representation, multiplication, and non-restoring division. |
+| **`04`** | **[`[04]-Binary-Codes`](./[04]-Binary-Codes/)** | Gray Code encoding/decoding, BCD, Excess-3, and ASCII representations. |
+| **`05`** | **[`[05]-Boolean-Algebra`](./[05]-Boolean-Algebra/)** | Axiomatic laws, canonical forms (SOP/POS), and DeMorgan's dualities. |
+| **`06`** | **[`[06]-Logic-Gates`](./[06]-Logic-Gates/)** | Primitive gates, universal logic gate synthesis (NAND/NOR), and propagation delay basics. |
+| **`07`** | **[`[07]-Combinational-Logic`](./[07]-Combinational-Logic/)** | Truth table derivation, minterms/maxterms, and memoryless circuit properties. |
+| **`08`** | **[`[08]-Karnaugh-Map`](./[08]-Karnaugh-Map/)** | Visual logic minimization, prime implicants, and essential prime implicants. |
+| **`09`** | **[`[09]-Combinational-Circuits`](./[09]-Combinational-Circuits/)** | Modular building blocks: Adders, MUX, DEMUX, Encoders, Decoders, and Ripple-Carry logic. |
+| **`10`** | **[`[10]-Flip-Flops`](./[10]-Flip-Flops/)** | Latches vs. Flip-Flops, SR/D/JK/T excitation profiles, and metastable behavior. |
+| **`11`** | **[`[11]-Registers`](./[11]-Registers/)** | Multi-bit storage, shift registers (SISO/SIPO/PISO/PIPO), and universal shift logic. |
+| **`12`** | **[`[12]-Counters`](./[12]-Counters/)** | Synchronous vs. Asynchronous ripple counters, Mod-N, Up/Down, and Ring configurations. |
+| **`13`** | **[`[13]-Finite-State-Machines`](./[13]-Finite-State-Machines/)** | Mealy & Moore architectures, state diagrams, transition matrices, and sequence detectors. |
+
+---
+
+## 📚 Detailed Concept Syllabus
+
+<details open>
+<summary><b>1️⃣ Number Systems, Codes & Arithmetic</b></summary>
+
+* **Base Systems:** Binary ($Radix-2$), Octal ($Radix-8$), Decimal ($Radix-10$), Hexadecimal ($Radix-16$).
+* **Arithmetic Operations:** 1's & 2's Complement subtraction, overflow detection, signed arithmetic.
+* **Code Conversions:** Binary-to-Gray, Gray-to-Binary, BCD-to-Excess-3, Error Detection concepts.
+</details>
+
+<details>
+<summary><b>2️⃣ Boolean Minimization & Combinational Hardware</b></summary>
+
+* **Boolean Reduction:** Canonical SOP/POS expressions, Consensus theorem, Universal gate realization.
+* **K-Map Optimization:** 3-variable & 4-variable grids, Don't-Care conditions, Hazard mitigation.
+* **Arithmetic & Data Path Modules:** Half/Full Adders & Subtractors, Ripple-Carry Adders, Magnitude Comparators.
+* **Control Modules:** 2:1/4:1/8:1 Multiplexers, Demultiplexers, 3:8 Decoders, Priority Encoders.
+</details>
+
+<details>
+<summary><b>3️⃣ Sequential Logic, Storage & State Machines</b></summary>
+
+* **Bistable Multivibrators:** SR Latches, Level vs Edge Sensitivity, D, JK, T Flip-Flop excitation logic.
+* **Storage Elements:** Serial & Parallel Shift Registers (SISO, SIPO, PISO, PIPO), Barrel Shifters.
+* **Counting Circuits:** Asynchronous Ripple Counters, Synchronous Mod-N Counters, Johnson & Ring Counters.
+* **State Machine Engineering:** State minimization, state assignment (One-Hot, Binary), Mealy vs. Moore timing comparisons, Overlapping/Non-overlapping Sequence Detectors.
+</details>
+
 
 ---
 
@@ -180,162 +216,6 @@ Digital-Design-Fundamentals/
     ├── 07-FSM-Design-Procedure.md
     └── 08-Sequence-Detector.md
 ```
-
----
-
-## 🛠️ Core Concepts Covered
-
-### 1. Digital Design Fundamentals
-
-Build an understanding of how physical signals are represented as digital information and how digital systems process binary data.
-
-Key concepts include:
-
-- Digital vs. analog signals
-- Digital system architecture
-- Binary representation
-- Logic states
-
-### 2. Number Systems and Binary Arithmetic
-
-Develop the mathematical foundation required for digital hardware design.
-
-Topics include:
-
-- Binary
-- Decimal
-- Octal
-- Hexadecimal
-- Number system conversion
-- Binary addition
-- Binary subtraction
-- Binary multiplication
-- Binary division
-
-### 3. Binary Codes
-
-Understand different methods of representing digital information using binary codes.
-
-Topics include:
-
-- BCD
-- Gray Code
-- ASCII
-- Excess-3
-- Binary-to-Gray conversion
-- Gray-to-Binary conversion
-
-### 4. Boolean Algebra and Logic Gates
-
-Understand Boolean mathematics and its application to digital logic design.
-
-Topics include:
-
-- Boolean variables and expressions
-- Boolean laws
-- DeMorgan's theorem
-- Logic simplification
-- AND
-- OR
-- NOT
-- NAND
-- NOR
-- XOR
-- XNOR
-
-### 5. Combinational Logic
-
-Understand circuits whose outputs depend only on their present inputs.
-
-Key concepts include:
-
-- Truth tables
-- Minterms
-- Maxterms
-- Combinational vs. sequential logic
-- Karnaugh maps
-- Don't-care conditions
-
-### 6. Combinational Circuits
-
-Develop an understanding of commonly used combinational building blocks.
-
-Topics include:
-
-- Half Adder
-- Full Adder
-- Full Adder using two Half Adders
-- Half Subtractor
-- Full Subtractor
-- Full Subtractor using two Half Subtractors
-- Multiplexers
-- Demultiplexers
-- Decoders
-- Encoders
-- Comparators
-- Ripple-Carry Adder
-
-### 7. Sequential Logic
-
-Understand digital circuits that use memory elements and whose behavior depends on previous states.
-
-Topics include:
-
-- SR Flip-Flop
-- D Flip-Flop
-- JK Flip-Flop
-- T Flip-Flop
-- Characteristic tables
-- Excitation tables
-- Registers
-- Shift registers
-- Counters
-
-### 8. Registers and Counters
-
-Understand how flip-flops are combined to store, shift, and sequence binary information.
-
-Topics include:
-
-- Register basics
-- SISO
-- SIPO
-- PISO
-- PIPO
-- Asynchronous counters
-- Synchronous counters
-- Up counters
-- Down counters
-- Ring counter
-
-### 9. Finite-State Machines
-
-Understand FSMs as sequential models used to represent systems that transition between defined states according to inputs and clock events.
-
-Topics include:
-
-- FSM fundamentals
-- Purpose of FSMs
-- State diagrams
-- State tables
-- Moore machines
-- Mealy machines
-- FSM design procedure
-- Sequence detectors
-
-### 10. Foundation for RTL and VLSI Design
-
-The concepts developed throughout this repository provide the digital design foundation required for further study of:
-
-- Verilog HDL
-- RTL Design
-- Digital System Design
-- Computer Architecture
-- FPGA Design
-- ASIC Design
-- VLSI Design
-- Digital Verification
-
 ---
 
 ## 📚 Reference Literature
