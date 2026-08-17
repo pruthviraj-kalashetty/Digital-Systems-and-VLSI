@@ -1,2 +1,1 @@
-
-  <h1 align="center">◈ PRUTHVIRAJ KALASHETTY</h1>
+◈ PRUTHVIRAJ KALASHETTY</h1>
