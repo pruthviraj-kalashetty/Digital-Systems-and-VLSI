@@ -21,38 +21,6 @@ It emphasizes **hardware-first architectural thinking** to build the necessary p
 
 ---
 
-## 🎯 Core Technical Competencies
-
-By exploring this repository, you will build proficiency in:
-
-- **Logic Optimization:** Boolean reduction, Karnaugh Mapping (3 & 4 variable), and don't-care optimization.
-- **Combinational Design:** Adders, subtractors, MUX/DEMUX trees, priority encoders, decoders, and magnitude comparators.
-- **Sequential Systems:** Clocked flip-flop mechanics, characteristic/excitation tables, shift registers (SISO, SIPO, PISO, PIPO), and counters.
-- **FSM Architecture:** Mealy and Moore state machine synthesis, state transition tables, state reduction, and sequence detection logic.
-- **RTL Readiness:** Understanding cycle-accurate timing and state mechanics prior to SystemVerilog/Verilog hardware description.
-
----
-
-## 📂 Module Breakdown
-
-| Module | Directory | Core Technical Focus |
-| :---: | :--- | :--- |
-| **`01`** | **[`[01]-Digital-Basics`](./[01]-Digital-Basics/)** | Digital vs. analog paradigms, voltage thresholds, and digital abstraction. |
-| **`02`** | **[`[02]-Number-Systems`](./[02]-Number-System/)** | Radix conversions (Binary, Octal, Hex, Decimal) and fixed-point representation. |
-| **`03`** | **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithemetic/)** | Binary math, 2's complement arithmetic, signed overflow, multiplication, and division. |
-| **`04`** | **[`[04]-Binary-Codes`](./[04]-Binary-Codes/)** | Gray Code encoding/decoding, BCD, Excess-3, and ASCII representations. |
-| **`05`** | **[`[05]-Boolean-Algebra`](./[05]-Boolean-Algebra/)** | Axiomatic laws, canonical forms (SOP/POS), and DeMorgan's dualities. |
-| **`06`** | **[`[06]-Logic-Gates`](./[06]-Logic-Gates/)** | Primitive gates, universal logic gate synthesis (NAND/NOR), and propagation delay. |
-| **`07`** | **[`[07]-Combinational-Logic`](./[07]-Combinational-Logic/)** | Truth tables, minterms/maxterms, and memoryless circuit properties. |
-| **`08`** | **[`[08]-Karnaugh-Map`](./[08]-Karnaugh-Map/)** | Visual logic minimization, prime implicants, and essential prime implicants. |
-| **`09`** | **[`[09]-Combinational-Circuits`](./[09]-Combinational-Circuits/)** | Modular blocks: Adders, Subtractors, MUX/DEMUX, Encoders, Decoders, Comparators. |
-| **`10`** | **[`[10]-Flip-Flops`](./[10]-Flip-Flops/)** | Latches vs. Flip-Flops, SR/D/JK/T excitation profiles, and metastable behavior. |
-| **`11`** | **[`[11]-Registers`](./[11]-Registers/)** | Multi-bit storage, shift registers (SISO/SIPO/PISO/PIPO), and universal shift logic. |
-| **`12`** | **[`[12]-Counters`](./[12]-Counters/)** | Synchronous vs. Asynchronous ripple counters, Mod-N, Up/Down, and Ring configurations. |
-| **`13`** | **[`[13]-Finite-State-Machines`](./[13]-Finite-State-Machines/)** | Mealy & Moore architectures, state diagrams, transition matrices, sequence detectors. |
-
----
-
 ## 📚 Detailed Concept Syllabus
 
 <details open>
@@ -81,6 +49,25 @@ By exploring this repository, you will build proficiency in:
 * **State Machine Engineering:** State minimization, state assignment (One-Hot, Binary), Mealy vs. Moore timing comparisons, Overlapping/Non-overlapping Sequence Detectors.
 </details>
 
+---
+
+## 📂 Module Breakdown
+
+| Module | Directory | Core Technical Focus |
+| :---: | :--- | :--- |
+| **`01`** | **[`[01]-Digital-Basics`](./[01]-Digital-Basics/)** | Digital vs. analog paradigms, voltage thresholds, and digital abstraction. |
+| **`02`** | **[`[02]-Number-Systems`](./[02]-Number-System/)** | Radix conversions (Binary, Octal, Hex, Decimal) and fixed-point representation. |
+| **`03`** | **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithemetic/)** | Binary math, 2's complement arithmetic, signed overflow, multiplication, and division. |
+| **`04`** | **[`[04]-Binary-Codes`](./[04]-Binary-Codes/)** | Gray Code encoding/decoding, BCD, Excess-3, and ASCII representations. |
+| **`05`** | **[`[05]-Boolean-Algebra`](./[05]-Boolean-Algebra/)** | Axiomatic laws, canonical forms (SOP/POS), and DeMorgan's dualities. |
+| **`06`** | **[`[06]-Logic-Gates`](./[06]-Logic-Gates/)** | Primitive gates, universal logic gate synthesis (NAND/NOR), and propagation delay. |
+| **`07`** | **[`[07]-Combinational-Logic`](./[07]-Combinational-Logic/)** | Truth tables, minterms/maxterms, and memoryless circuit properties. |
+| **`08`** | **[`[08]-Karnaugh-Map`](./[08]-Karnaugh-Map/)** | Visual logic minimization, prime implicants, and essential prime implicants. |
+| **`09`** | **[`[09]-Combinational-Circuits`](./[09]-Combinational-Circuits/)** | Modular blocks: Adders, Subtractors, MUX/DEMUX, Encoders, Decoders, Comparators. |
+| **`10`** | **[`[10]-Flip-Flops`](./[10]-Flip-Flops/)** | Latches vs. Flip-Flops, SR/D/JK/T excitation profiles, and metastable behavior. |
+| **`11`** | **[`[11]-Registers`](./[11]-Registers/)** | Multi-bit storage, shift registers (SISO/SIPO/PISO/PIPO), and universal shift logic. |
+| **`12`** | **[`[12]-Counters`](./[12]-Counters/)** | Synchronous vs. Asynchronous ripple counters, Mod-N, Up/Down, and Ring configurations. |
+| **`13`** | **[`[13]-Finite-State-Machines`](./[13]-Finite-State-Machines/)** | Mealy & Moore architectures, state diagrams, transition matrices, sequence detectors. |
 
 ---
 
