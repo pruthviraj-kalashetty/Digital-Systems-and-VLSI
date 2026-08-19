@@ -53,7 +53,7 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 * **Counters & FSMs:** Synchronous & Asynchronous Counters, Ring/Johnson Counters, Mealy vs. Moore State Machines, Sequence Detectors.
 </details>
 
-<details>
+<details open>
 <summary><b>2️⃣ Semiconductor Fundamentals</b></summary>
 
 * **Physics & Materials:** Intrinsic & Extrinsic Semiconductors, Doping Dynamics, PN Junction Characteristics.
@@ -61,7 +61,7 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 * **Industry Ecosystem:** Chip Packaging Technologies, Wafer Testing, Semiconductor Supply Chain.
 </details>
 
-<details>
+<details open>
 <summary><b>3️⃣ MOS & CMOS Technology</b></summary>
 
 * **MOSFET Devices:** NMOS, PMOS Structures, Channel Formation, Threshold Voltage ($V_{th}$).
@@ -69,7 +69,7 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 * **Design Metrics:** Noise Margins, Dynamic & Static Power Dissipation, Leakage Currents, Fan-in / Fan-out Limits.
 </details>
 
-<details>
+<details open>
 <summary><b>4️⃣ VLSI Engineering Principles</b></summary>
 
 * **Design Methodologies:** ASIC vs. FPGA Architectures, Front-End vs. Back-End Workflows.
@@ -77,7 +77,7 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 * **Optimization Parameters:** PPA (Power, Performance, Area) Trade-offs, Parasitic RC Delays, Logical Effort.
 </details>
 
-<details>
+<details open>
 <summary><b>5️⃣ Timing & Static Timing Analysis (STA)</b></summary>
 
 * **Clock & Delay Metrics:** Clock Skew, Jitter, Propagation Delay, Contamination Delay, Rise/Fall Times.
