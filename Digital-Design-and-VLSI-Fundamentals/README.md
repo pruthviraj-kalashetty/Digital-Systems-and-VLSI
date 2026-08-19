@@ -31,7 +31,7 @@ It emphasizes **hardware-first architectural thinking** to build the necessary p
 * **Code Conversions:** Binary-to-Gray, Gray-to-Binary, BCD-to-Excess-3, Error Detection concepts.
 </details>
 
-<details> open>
+<details open>
 <summary><b>2️⃣ Boolean Minimization & Combinational Hardware</b></summary>
 
 * **Boolean Reduction:** Canonical SOP/POS expressions, Consensus theorem, Universal gate realization.
@@ -40,7 +40,7 @@ It emphasizes **hardware-first architectural thinking** to build the necessary p
 * **Control Modules:** 2:1/4:1/8:1 Multiplexers, Demultiplexers, 3:8 Decoders, Priority Encoders.
 </details>
 
-<details>
+<details open>
 <summary><b>3️⃣ Sequential Logic, Storage & State Machines</b></summary>
 
 * **Bistable Multivibrators:** SR Latches, Level vs Edge Sensitivity, D, JK, T Flip-Flop excitation logic.
