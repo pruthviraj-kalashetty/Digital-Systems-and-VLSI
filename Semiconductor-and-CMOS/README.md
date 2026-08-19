@@ -44,48 +44,6 @@ By working through this module, you will learn to:
 
 ---
 
-
-
-
-
-
-# ◈ Semiconductor and CMOS
-
-[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI-blue.svg)](#)
-[![Stage](https://img.shields.io/badge/Semiconductor--and--CMOS-orange.svg)](#)
-
-This module introduces the semiconductor and CMOS concepts that form the foundation of modern digital integrated circuits. It covers semiconductor fundamentals, MOS devices, CMOS technology, CMOS logic gates, CMOS characteristics, and essential CMOS design concepts.
-
-These concepts provide the device-level foundation required to understand how digital logic is physically implemented using transistors and how CMOS circuits are designed and evaluated in VLSI and ASIC technologies.
-
----
-
-## 🎯 Learning Objectives
-
-By working through this module, you will be able to:
-
-- Understand the fundamental properties and types of semiconductors.
-- Explain intrinsic and extrinsic semiconductor behavior and the role of doping.
-- Understand the basic semiconductor manufacturing and fabrication process.
-- Understand MOSFET structure, NMOS and PMOS operation, and threshold voltage.
-- Explain the fundamental principles of CMOS technology.
-- Analyze CMOS logic gates using complementary NMOS and PMOS networks.
-- Understand important CMOS characteristics such as noise margin, propagation delay, rise time, and fall time.
-- Understand fan-in, fan-out, and load capacitance in CMOS circuit design.
-- Build a strong foundation for transistor-level VLSI and CMOS design.
-
----
-
-## 📂 Module Contents
-
-| Module | Core Technical Focus |
-| :--- | :--- |
-| **[`[01]-Semiconductor-Basics`](./[01]-Semiconductor-Basics/)** | Semiconductor types, intrinsic and extrinsic semiconductors, doping, semiconductor manufacturing, wafer fabrication, lithography, testing, packaging, and the semiconductor ecosystem. |
-| **[`[02]-MOS-Devices`](./[02]-MOS-Devices/)** | MOSFET fundamentals, NMOS, PMOS, MOS operation, and threshold voltage. |
-| **[`[03]-CMOS-Fundamentals`](./[03]-CMOS-Fundamentals/)** | CMOS fundamentals, CMOS logic gates, CMOS characteristics, and important CMOS design concepts. |
-
----
-
 ## 🌲 Directory Structure
 
 ```text
