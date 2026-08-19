@@ -1,11 +1,25 @@
-# ◈ MOS Devices
+# ◈ MOS Devices & Transistor Physics
 
-[![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
-[![Focus](https://img.shields.io/badge/Focus-MOS%20Devices-green.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor_Basics_&_CMOS-blue.svg?style=flat-square)](#)
+[![Focus](https://img.shields.io/badge/Focus-MOSFET_Physics_&_Operation-green.svg?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](#)
 
-This module introduces Metal-Oxide-Semiconductor Field-Effect Transistors (MOSFETs), the fundamental building blocks of modern CMOS technology and VLSI design. It covers the structure, operation, characteristics, and threshold voltage of NMOS and PMOS transistors, providing the foundation for CMOS logic gates, digital integrated circuits, and semiconductor device engineering.
+This module introduces Metal-Oxide-Semiconductor Field-Effect Transistors (MOSFETs), the core switching elements of modern CMOS digital logic and integrated circuits. It covers device structure, $N$-channel and $P$-channel operation, $I\text{--}V$ characteristics, operating region equations (Cutoff, Linear, Saturation), and threshold voltage ($V_{th}$) formulation.
 
-Understanding MOS devices is essential for learning CMOS logic design, transistor-level circuit implementation, and advanced VLSI architecture.
+Understanding MOS devices provides the foundational device physics needed for CMOS gate synthesis, transistor-level timing analysis, and VLSI circuit layout.
+
+---
+
+## ⚡ MOS Devices Quick Reference
+
+| Device / Parameter | Terminal Threshold Conditions | Drain Current ($I_D$) Characteristic Equation | Core Digital Role |
+| :--- | :--- | :--- | :--- |
+| **NMOS Transistor** | $V_{GS} < V_{thn}$ | $I_D = 0$ (Cutoff Region) | Pull-down switch; conducts strong logic '0', weak logic '1'. |
+| **NMOS Linear** | $V_{GS} \ge V_{thn}, \quad V_{DS} < V_{GS} - V_{thn}$ | $I_D = \mu_n C_{ox} \frac{W}{L} \left[(V_{GS} - V_{thn})V_{DS} - \frac{V_{DS}^2}{2}\right]$ | Acts as a voltage-controlled variable resistor. |
+| **NMOS Saturation** | $V_{GS} \ge V_{thn}, \quad V_{DS} \ge V_{GS} - V_{thn}$ | $I_D = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{thn})^2 (1 + \lambda V_{DS})$ | Pinched-off channel; operates as a current source. |
+| **PMOS Transistor** | $V_{SG} \ge \vert{}V_{thp}\vert{}$ | Complementary conduction dynamics | Pull-up switch; conducts strong logic '1', weak logic '0'. |
+
+---
 
 ---
 
