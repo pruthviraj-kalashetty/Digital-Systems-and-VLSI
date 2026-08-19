@@ -31,7 +31,7 @@ It emphasizes **hardware-first architectural thinking** to build the necessary p
 * **Code Conversions:** Binary-to-Gray, Gray-to-Binary, BCD-to-Excess-3, Error Detection concepts.
 </details>
 
-<details>
+<details> open>
 <summary><b>2️⃣ Boolean Minimization & Combinational Hardware</b></summary>
 
 * **Boolean Reduction:** Canonical SOP/POS expressions, Consensus theorem, Universal gate realization.
