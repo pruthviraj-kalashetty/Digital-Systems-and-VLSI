@@ -1,3 +1,29 @@
+# ◈ Semiconductor Basics & Manufacturing
+
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor_Basics_&_CMOS-blue.svg?style=flat-square)](#)
+[![Focus](https://img.shields.io/badge/Focus-Silicon_Physics_&_Fabrication-green.svg?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](#)
+
+This module provides a comprehensive introduction to semiconductor physics, material properties, controlled impurity doping, and the full end-to-end silicon fabrication process used in modern integrated circuits (ICs). 
+
+It establishes the device-level physics and chemical processing context required to understand MOSFET devices, static CMOS design, and advanced sub-nanometer node VLSI architectures.
+
+---
+
+## ⚡ Semiconductor & Fabrication Quick Reference
+
+| Process / Material | Key Chemical / Physical Characteristics | Role in Integrated Circuit Manufacturing |
+| :--- | :--- | :--- |
+| **Intrinsic Silicon** | Pure Silicon Crystal structure, $N_i \approx 1.5 \times 10^{10} \text{ cm}^{-3}$ | Pure baseline semiconductor material before controlled conductivity modification. |
+| **N-Type / P-Type Doping** | Pentavalent ($As, P$) Donor / Trivalent ($B$) Acceptor Doping | Generates majority electron ($n$) or hole ($p$) carriers to lower resistivity. |
+| **Photolithography / EUV** | Deep UV ($193\text{nm}$) / Extreme UV ($13.5\text{nm}$) Patterning | Transfers nanometer-scale circuit layouts onto photoresist-coated silicon wafers. |
+| **OSAT & Packaging** | Wafer Probing, Die Dicing, Flip-Chip / 3D Packaging | Tests, encapsulates, and interconnects bare silicon dies for final board assembly. |
+
+---
+
+
+
+
 # ◈ Semiconductor Basics
 
 [![Stage](https://img.shields.io/badge/Stage-Semiconductor--Basics--and--CMOS-blue.svg)](#)
