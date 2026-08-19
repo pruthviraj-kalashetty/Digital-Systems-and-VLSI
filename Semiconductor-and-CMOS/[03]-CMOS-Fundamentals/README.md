@@ -1,11 +1,23 @@
-# ◈ CMOS Fundamentals
+# ◈ CMOS Fundamentals & Transistor Logic
 
-[![Stage](https://img.shields.io/badge/Semiconductor--and--CMOS-blue.svg)](#)
-[![Focus](https://img.shields.io/badge/Focus-CMOS%20Fundamentals-orange.svg)](#)
+[![Stage](https://img.shields.io/badge/Stage-Semiconductor_Basics_&_CMOS-blue.svg?style=flat-square)](#)
+[![Focus](https://img.shields.io/badge/Focus-CMOS_Logic_&_Circuit_Characteristics-orange.svg?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](#)
 
-This module introduces the fundamental concepts of CMOS technology and transistor-level digital logic design. It covers CMOS introductions, complementary NMOS and PMOS operation, CMOS inverters, CMOS logic gates, important CMOS characteristics, and essential CMOS design concepts.
+This module provides a comprehensive guide to Complementary Metal-Oxide-Semiconductor (CMOS) technology and transistor-level digital logic design. It details the operation of complementary $N$-channel and $P$-channel network topologies, static CMOS gate synthesis, transfer characteristics, voltage noise margins ($NM_H, NM_L$), dynamic switching delays, and capacitive loading constraints.
 
-These concepts provide the foundation for understanding how CMOS technology implements digital logic and how electrical and timing characteristics influence the performance of VLSI and ASIC circuits.
+Mastering these concepts establishes the essential foundation for cell library characterization, static timing analysis (STA), ASIC standard-cell design, and sub-nanometer VLSI implementation.
+
+---
+
+## ⚡ CMOS Technology & Dynamics Quick Reference
+
+| Domain / Metric | Core Formula / Rule | Physical & Circuit Description |
+| :--- | :--- | :--- |
+| **Pull-Up Network (PUN)** | PMOS Transistors (Parallel for NAND, Series for NOR) | Connects output $V_{out}$ to $V_{DD}$; passes strong logic '1', weak logic '0'. |
+| **Pull-Down Network (PDN)** | NMOS Transistors (Series for NAND, Parallel for NOR) | Connects output $V_{out}$ to $GND$; passes strong logic '0', weak logic '1'. |
+| **Noise Margins** | $NM_L = V_{IL} - V_{OL}, \quad NM_H = V_{OH} - V_{IH}$ | Quantifies circuit immunity against signal degradation and voltage noise. |
+| **Propagation Delay** | $t_{pd} = \frac{t_{pHL} + t_{pLH}}{2} \approx 0.69 \cdot R_{eq} \cdot C_L$ | Average latency required for output signal to cross $50\%$ $V_{DD}$ switching threshold. |
 
 ---
 
