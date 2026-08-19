@@ -1,3 +1,62 @@
+# ◈ Digital Design Fundamentals Suite
+
+[![Stage](https://img.shields.io/badge/Stage-Digital_Design_&_VLSI_Fundamentals-blue.svg?style=flat-square)](#)
+[![Focus](https://img.shields.io/badge/Focus-Gate_Level_&_Sequential_Logic-orange.svg?style=flat-square)](#)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](#)
+
+This repository establishes a structured foundation in digital hardware design, progressing from fundamental number systems and Boolean algebra to complex combinational datapaths, sequential elements, registers, counters, and finite-state machines (FSMs). 
+
+It emphasizes **hardware-first architectural thinking** to build the necessary prerequisite knowledge for Verilog HDL coding, ASIC front-end design, and FPGA system development.
+
+---
+
+## ⚡ Digital Design Architecture Quick Reference
+
+| Domain | Key Concepts | Hardware Primitives / Target Modules |
+| :--- | :--- | :--- |
+| **Boolean Logic** | DeMorgan's Theorems, SOP/POS, K-Map Minimization | Universal Gates (NAND/NOR), Prime Implicants |
+| **Combinational Datapaths** | Binary Arithmetic, Decoding, Multiplexing | Ripple Carry Adders, Priority Encoders, MUX Trees |
+| **Sequential Storage** | Edge-Triggering, Bistability, Metastability | D/JK/T Flip-Flops, Shift Registers (SISO/SIPO/PISO/PIPO) |
+| **Control Logic** | Next-State Logic, State Encoding, Sequence Detection | Mealy and Moore Finite-State Machines (FSMs) |
+
+---
+
+## 🎯 Core Technical Competencies
+
+By exploring this repository, you will build proficiency in:
+
+- **Logic Optimization:** Boolean reduction, Karnaugh Mapping (3 & 4 variable), and don't-care optimization.
+- **Combinational Design:** Adders, subtractors, MUX/DEMUX trees, priority encoders, decoders, and magnitude comparators.
+- **Sequential Systems:** Clocked flip-flop mechanics, characteristic/excitation tables, shift registers (SISO, SIPO, PISO, PIPO), and counters.
+- **FSM Architecture:** Mealy and Moore state machine synthesis, state transition tables, state reduction, and sequence detection logic.
+- **RTL Readiness:** Understanding cycle-accurate timing and state mechanics prior to SystemVerilog/Verilog hardware description.
+
+---
+
+## 📂 Module Breakdown
+
+| Module | Directory | Core Technical Focus |
+| :---: | :--- | :--- |
+| **`01`** | **[`[01]-Digital-Basics`](./[01]-Digital-Basics/)** | Digital vs. analog paradigms, voltage thresholds, and digital abstraction. |
+| **`02`** | **[`[02]-Number-Systems`](./[02]-Number-Systems/)** | Radix conversions (Binary, Octal, Hex, Decimal) and fixed-point representation. |
+| **`03`** | **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithmetic/)** | Binary math, 2's complement arithmetic, signed overflow, multiplication, and division. |
+| **`04`** | **[`[04]-Binary-Codes`](./[04]-Binary-Codes/)** | Gray Code encoding/decoding, BCD, Excess-3, and ASCII representations. |
+| **`05`** | **[`[05]-Boolean-Algebra`](./[05]-Boolean-Algebra/)** | Axiomatic laws, canonical forms (SOP/POS), and DeMorgan's dualities. |
+| **`06`** | **[`[06]-Logic-Gates`](./[06]-Logic-Gates/)** | Primitive gates, universal logic gate synthesis (NAND/NOR), and propagation delay. |
+| **`07`** | **[`[07]-Combinational-Logic`](./[07]-Combinational-Logic/)** | Truth tables, minterms/maxterms, and memoryless circuit properties. |
+| **`08`** | **[`[08]-Karnaugh-Map`](./[08]-Karnaugh-Map/)** | Visual logic minimization, prime implicants, and essential prime implicants. |
+| **`09`** | **[`[09]-Combinational-Circuits`](./[09]-Combinational-Circuits/)** | Modular blocks: Adders, Subtractors, MUX/DEMUX, Encoders, Decoders, Comparators. |
+| **`10`** | **[`[10]-Flip-Flops`](./[10]-Flip-Flops/)** | Latches vs. Flip-Flops, SR/D/JK/T excitation profiles, and metastable behavior. |
+| **`11`** | **[`[11]-Registers`](./[11]-Registers/)** | Multi-bit storage, shift registers (SISO/SIPO/PISO/PIPO), and universal shift logic. |
+| **`12`** | **[`[12]-Counters`](./[12]-Counters/)** | Synchronous vs. Asynchronous ripple counters, Mod-N, Up/Down, and Ring configurations. |
+| **`13`** | **[`[13]-Finite-State-Machines`](./[13]-Finite-State-Machines/)** | Mealy & Moore architectures, state diagrams, transition matrices, sequence detectors. |
+
+---
+
+
+
+
+
 # ◈ Digital Design Fundamentals
 
 [![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
