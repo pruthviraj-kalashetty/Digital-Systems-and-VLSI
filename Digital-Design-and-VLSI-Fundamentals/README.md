@@ -38,8 +38,8 @@ By exploring this repository, you will build proficiency in:
 | Module | Directory | Core Technical Focus |
 | :---: | :--- | :--- |
 | **`01`** | **[`[01]-Digital-Basics`](./[01]-Digital-Basics/)** | Digital vs. analog paradigms, voltage thresholds, and digital abstraction. |
-| **`02`** | **[`[02]-Number-Systems`](./[02]-Number-Systems/)** | Radix conversions (Binary, Octal, Hex, Decimal) and fixed-point representation. |
-| **`03`** | **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithmetic/)** | Binary math, 2's complement arithmetic, signed overflow, multiplication, and division. |
+| **`02`** | **[`[02]-Number-Systems`](./[02]-Number-System/)** | Radix conversions (Binary, Octal, Hex, Decimal) and fixed-point representation. |
+| **`03`** | **[`[03]-Binary-Arithmetic`](./[03]-Binary-Arithemetic/)** | Binary math, 2's complement arithmetic, signed overflow, multiplication, and division. |
 | **`04`** | **[`[04]-Binary-Codes`](./[04]-Binary-Codes/)** | Gray Code encoding/decoding, BCD, Excess-3, and ASCII representations. |
 | **`05`** | **[`[05]-Boolean-Algebra`](./[05]-Boolean-Algebra/)** | Axiomatic laws, canonical forms (SOP/POS), and DeMorgan's dualities. |
 | **`06`** | **[`[06]-Logic-Gates`](./[06]-Logic-Gates/)** | Primitive gates, universal logic gate synthesis (NAND/NOR), and propagation delay. |
