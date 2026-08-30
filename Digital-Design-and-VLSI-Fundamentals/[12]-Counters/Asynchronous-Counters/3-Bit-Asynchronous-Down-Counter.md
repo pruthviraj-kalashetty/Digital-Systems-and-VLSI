@@ -70,12 +70,6 @@
 
 ---
 
-* **Timing Diagram**
-
-![3-Bit Asynchronous Down Counter Timing Diagram](Image/3-bit-asynchronous-down-counter-timing.png)
-
----
-
 * **Counting Sequence**
 
 | Clock Pulse | Q2 | Q1 | Q0 | Decimal |
