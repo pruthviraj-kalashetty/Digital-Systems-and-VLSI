@@ -55,7 +55,7 @@
 
 * **Block Diagram**
 
-![3-Bit Asynchronous Down Counter](Image/3-bit-asynchronous-down-counter.png)
+![3-Bit Asynchronous Down Counter](Images/3-bit-asynchronous-down-counter.png)
 
 ---
 
