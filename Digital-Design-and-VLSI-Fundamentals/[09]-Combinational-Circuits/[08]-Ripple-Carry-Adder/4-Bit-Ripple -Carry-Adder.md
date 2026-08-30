@@ -63,7 +63,7 @@ A **4-Bit Ripple Carry Adder** is formed by connecting four Full Adders in casca
 
 * **Circuit Diagram:**
 
-![4-Bit Ripple Carry Adder](4-bit-ripple-carry-adder.png)
+![4-Bit Ripple Carry Adder](4-bit-ripple-cary-adder.png)
 
 ---
 
