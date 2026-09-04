@@ -147,7 +147,7 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   ├── KMap-3-Variable.md
 │   │   ├── KMap-4-Variable.md
 │   │   └── Dont-Care-Conditions.md
-
+│   │
 │   ├── [09]-Combinational-Circuits
 │   │   ├── Adders
 │   │   │   ├── Half-Adder.md
