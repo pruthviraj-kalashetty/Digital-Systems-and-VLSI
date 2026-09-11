@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/GTKWave-2C2C2C?style=for-the-badge&logo=gtkwave&logoColor=white" />
+
 <p>
   <img src="https://skillicons.dev/icons?i=github,git,vscode,linux" />
   <img src="https://img.shields.io/badge/Vivado-FF1010?style=for-the-badge&logo=amd&logoColor=white" />
