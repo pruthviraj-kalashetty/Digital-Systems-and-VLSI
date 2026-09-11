@@ -1,4 +1,5 @@
 <img src="https://img.shields.io/badge/GTKWave-2C2C2C?style=for-the-badge&logo=gtkwave&logoColor=white" />
+<img src="https://img.shields.io/badge/Icarus%20Verilog-1E88E5?style=for-the-badge&logo=verilog&logoColor=white" />
 
 <p>
   <img src="https://skillicons.dev/icons?i=github,git,vscode,linux" />
