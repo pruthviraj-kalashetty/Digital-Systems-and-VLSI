@@ -6,6 +6,11 @@
 
 `Category: Computer Architecture` `Stage: Theory`
 
+<p>
+  <img src="https://skillicons.dev/icons?i=github,git,vscode,linux" />
+  <img src="./assets/vivado.svg" alt="Vivado" height="48" />
+</p>
+
 ---
 
 ## Definition
