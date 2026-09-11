@@ -1,8 +1,7 @@
-<img src="https://wikimedia.org" 
-     alt="AMD Vivado Logo" 
-     width="300" 
-     style="display: block; max-width: 100%; height: auto;">
-
+<p>
+  <img src="https://skillicons.dev/icons?i=github,git,vscode,linux" />
+  <img src="https://img.shields.io/badge/Vivado-FF1010?style=for-the-badge&logo=amd&logoColor=white" />
+</p>
 # ISA vs Microarchitecture
 
 `Category: Computer Architecture` `Stage: Theory`
