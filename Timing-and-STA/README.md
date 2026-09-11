@@ -1,3 +1,8 @@
+<img src="https://wikimedia.org" 
+     alt="AMD Vivado Logo" 
+     width="300" 
+     style="display: block; max-width: 100%; height: auto;">
+
 # ISA vs Microarchitecture
 
 `Category: Computer Architecture` `Stage: Theory`
