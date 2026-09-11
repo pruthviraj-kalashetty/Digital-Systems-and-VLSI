@@ -8,9 +8,13 @@
 
 <p>
   <img src="https://skillicons.dev/icons?i=github,git,vscode,linux" />
-  <img src="./assets/vivado.svg" alt="Vivado" height="48" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vivado/vivado-original.svg" />
 </p>
 
+<p>
+  <img src="https://skillicons.dev/icons?i=github,git,vscode,linux" />
+  <img src="./assets/vivado.svg" alt="Vivado" />
+</p>
 ---
 
 ## Definition
