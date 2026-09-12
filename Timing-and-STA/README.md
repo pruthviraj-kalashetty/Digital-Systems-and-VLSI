@@ -80,6 +80,10 @@ implements a predefined traffic-light sequence using a Moore Finite State
 Machine (FSM). The project demonstrates FSM-based control, synchronous reset,
 RTL coding, testbench development, simulation, and waveform analysis.
 
+## 🎯 Problem Statement
+
+Define the traffic-control problem and the required behavior of the controller.
+
 ## 🎯 Objective
 
 Design a synchronous traffic-light controller that generates the appropriate
@@ -164,6 +168,13 @@ schematic.
 
 **Legend:** ⬜ Not Tested • 🟡 In Progress • ✅ PASS • ❌ FAIL
 
+## 🛠️ Tools & Technologies
+- Verilog HDL
+- Icarus Verilog
+- GTKWave
+- Vivado
+- Git & GitHub
+
 ## 📚 Key RTL Concepts Applied
 
 - Moore FSM
@@ -217,39 +228,4 @@ foundation for larger control-oriented digital hardware projects.
 
 ---
 
-### What I changed from the image
-
-| Original template | My RTL version | Why |
-|---|---|---|
-| **Project Title** | **Project Title + RTL subtitle** | Makes the project immediately identifiable |
-| **Brief One Line Summary** | **One-Line Summary** | Kept, but made hardware-focused |
-| **Overview** | **Overview** | Kept |
-| **Problem Statement** | **Problem Statement** | Kept |
-| **Dataset** | ❌ **Removed** | Not applicable to RTL |
-| **Tools and Technologies** | **Tools & Technologies** | Kept |
-| **Methods** | **RTL Implementation + FSM Design** | Better terminology for hardware |
-| **Key Insights** | **Key RTL Concepts** | More relevant to an RTL interviewer |
-| **Dashboard/Model/Output** | **Simulation Evidence** | Waveform + schematic are your project evidence |
-| **How to Run this project?** | **How to Run** | Kept and made executable |
-| **Results & Conclusion** | **Results & Verification** | Verification is much more important for RTL |
-| — | **Inputs & Outputs** | Added; essential for hardware projects |
-| — | **Architecture** | Added; important for understanding the design |
-| — | **FSM Design** | Added because this project is FSM-based |
-| — | **Verification Strategy** | Added; important for RTL credibility |
-| — | **Interview Questions** | Added for your portfolio/interview preparation |
-| — | **Design Decisions** | Added to show engineering reasoning |
-| **Future Work** | **Future Improvements** | Kept with RTL-specific extensions |
-| — | **Documentation** | Added to connect your supporting docs |
-
-### The important idea
-
-Your README should follow the **engineering story**:
-
-**Problem → Objective → I/O → Architecture → FSM → RTL → Verification → Simulation → Results → Design Decisions → Future Improvements**
-
-That is much more appropriate for a **semiconductor/RTL portfolio** than the original:
-
-**Dataset → Methods → Dashboard → Model**
-
-And I would **not make the README excessively long**. Your detailed `docs/` files already contain the deeper information. The main README should be the **attractive interviewer-facing summary**, while `docs/` provides the engineering details.
 
