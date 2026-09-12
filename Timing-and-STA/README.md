@@ -183,8 +183,6 @@ from the Verilog RTL.
 
 ## 🧪 Verification & Simulation Results
 
-Verification is executed through a self-checking testbench (`tb/tb_traffic_light_controller.v`) with automated cycle checks and assertion monitoring.
-
 | Test Case | Scenario Description | Expected Behavior | Actual Behavior | Status |
 | :--- | :--- | :--- | :--- | :--- |
 | **TC_01** | Reset Assertion during active run | Immediate return to `S_RED` (`light=3'b100`) | Forced to `S_RED` within 1 cycle | ✅ PASS |
