@@ -130,10 +130,6 @@ corresponding traffic-light output based on the current state.
 Detailed FSM behavior is documented in
 [FSM Specification](./docs/fsm-specification.md).
 
-## 🔄 Design Flow
-
-Requirements → FSM Specification → State Encoding → RTL Design →
-Testbench → Simulation → Waveform Analysis → RTL Schematic → Verification
 
 ## 💻 RTL Implementation
 
@@ -271,18 +267,4 @@ Part of the [RTL Mini-Projects](../README.md) collection.
 
 This project strengthens practical FSM and RTL design skills and provides a
 foundation for larger control-oriented digital hardware projects.
-
----
-
-## 🛠️ Reproduction & Tool Flow
-
-Execute the complete compilation and verification flow with one command:
-
-```bash
-# Clone the repository
-git clone [https://github.com/](https://github.com/)<your-username>/RTL-Mini-Projects.git
-cd RTL-Mini-Projects/01-traffic-light-controller/sim
-
-# Compile and run via Icarus Verilog
-chmod +x run.sh && ./run.sh
 
