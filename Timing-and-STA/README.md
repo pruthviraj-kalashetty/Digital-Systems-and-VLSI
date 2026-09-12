@@ -87,3 +87,40 @@ This section contains integrated RTL mini-projects that combine fundamentals fro
 ## 💬 Interview Questions
 ## 🚀 Future Improvements
 ## 📝 Conclusion
+
+# ⚡ Traffic Light Controller
+
+### Moore FSM • Timed State Transitions • Synthesizable RTL
+
+<p>
+  <img src="https://img.shields.io/badge/%E2%97%88%20TYPE-MOORE%20FSM-0F172A?style=for-the-badge&labelColor=020617&color=3B82F6"/>
+  <img src="https://img.shields.io/badge/%E2%97%88%20STATES-3-0F172A?style=for-the-badge&labelColor=020617&color=14B8A6"/>
+  <img src="https://img.shields.io/badge/%E2%97%88%20VERIFIED-PASS-0F172A?style=for-the-badge&labelColor=020617&color=10B981"/>
+</p>
+
+---
+
+## 📌 Overview
+One-paragraph summary: what this project is, what it does, why it was built (mini-project, portfolio piece).
+
+## 🎯 Objective
+1-2 sentences — what the design accomplishes.
+
+## 🏗️ Architecture at a Glance
+Brief description + embedded diagram:
+![State Diagram](./architecture/state-diagram.png)
+
+## 📚 Documentation
+- [Requirements & Design](./docs/requirements-and-design.md)
+- [FSM Specification](./docs/fsm-specification.md)
+- [Verification Summary](./docs/verification-summary.md)
+- [Design Decisions](./docs/design-decisions.md)
+
+## 💻 RTL & Testbench
+See [`rtl-tb/`](./rtl-tb) for source code, testbench, schematic, and waveform.
+
+## ✅ Verification Status
+Short summary line, e.g., "All test cases passed — see [verification summary](./docs/verification-summary.md) for details."
+
+## 🔗 Related
+Link back to the parent Mini-Projects index, or note what repo/skill this builds toward.
