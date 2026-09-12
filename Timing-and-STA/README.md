@@ -133,13 +133,13 @@ Detailed FSM behavior is documented in
 
 ## 💻 RTL Implementation
 
-The RTL implementation follows a structured FSM design consisting of:
+The RTL implementation follows strict synthesizable coding standards:
 
-- State register
-- Next-state combinational logic
-- Output logic
-- Synchronous reset
-- Clock-driven state transitions
+- Separated 2-process FSM modeling (Sequential state/timer registers + Combinational next-state/output logic)
+- One-hot state encoding (`S_RED=3'b001`, `S_GREEN=3'b010`, `S_YELLOW=3'b100`) for minimal combinational decode logic and maximum $F_{max}$
+- Full case coverage with defensive `default` branches to guarantee zero inferred latches
+- Fully synchronous active-high reset aligned with the system clock tree
+- Parameterized state dwell times (`RED_CYCLES`, `GREEN_CYCLES`, `YELLOW_CYCLES`)
 
 The Verilog RTL and testbench are available in
 [rtl-tb/](./rtl-tb).
@@ -148,12 +148,12 @@ The Verilog RTL and testbench are available in
 
 The dedicated testbench is used to verify:
 
-- Reset behavior
-- FSM state transitions
-- Traffic-light output sequence
-- Clock-driven operation
-- Complete state cycle
-- Expected versus actual behavior
+- Synchronous reset assertion and de-assertion latency
+- Cycle-accurate timing verification across all state intervals
+- State transition sequence ordering without intermediate invalid states
+- Output vector integrity (`light` bus exclusivity: never multiple lights ON simultaneously)
+- Extended endurance testing (50+ continuous cycles) verifying terminal recovery and zero deadlock
+- Self-checking assertion checks with automated `$error` tracking and summary reporting
 
 Detailed verification planning and results are documented in
 [Verification Summary](./docs/verification-summary.md).
@@ -195,24 +195,20 @@ Verification is executed through a self-checking testbench (`tb/tb_traffic_light
 
 ## 🛠️ Tools & Technologies
 
-- Verilog HDL
-- Icarus Verilog
-- GTKWave
-- Vivado
-- Git & GitHub
+- **HDL:** Verilog HDL 
+- **Simulation Engine:** Icarus Verilog 
+- **Waveform Debugger:** GTKWave 
+- **Synthesis & Linting:** Xilinx Vivado / Verilator
+- **Version Control:** Git & GitHub
 
 ## 📚 Key RTL Concepts Applied
 
-- Moore FSM
-- State encoding
-- State register
-- Next-state logic
-- Synchronous reset
-- Combinational output logic
-- Latch-free RTL design
-- Synthesizable Verilog
-- Testbench-based verification
-- Waveform debugging
+- **Moore FSM Topology:** Decoupled input-to-output combinational paths for hazard-free outputs.
+- **One-Hot State Encoding:** Minimized next-state decode logic depth to reduce critical path delay.
+- **Deterministic Reset Recovery:** Synchronous reset architecture eliminating removal/recovery metastability issues.
+- **Latch Prevention Disciplines:** Full default assignments and comprehensive case item branching.
+- **Self-Checking Verification:** Automated testbenches using tasks, loop assertions, and status counters.
+- **Static Timing Awareness:** Registering boundaries to maintain clean setup and hold slack margins.
 
 ## 💬 Interview Questions
 
@@ -248,11 +244,10 @@ See [Design Decisions & Trade-offs](./docs/design-decisions.md) for details.
 
 ## 🚀 Future Improvements
 
-- Parameterized traffic-light timing
-- Pedestrian crossing support
-- Emergency priority mode
-- Multi-intersection control
-- Configurable traffic sequences
+- Fully parameterized cycle registers accessible via an AMBA APB slave bus interface.
+- Dual-axis intersection support (North-South / East-West) with conflicting-green hardware interlocks.
+- Pedestrian crossing request synchronizer with debounce filtering.
+- Emergency vehicle preemption logic with priority interrupt override.
 
 ## 🔗 Related
 
