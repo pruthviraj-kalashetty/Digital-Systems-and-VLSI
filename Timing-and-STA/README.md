@@ -329,6 +329,22 @@ The dedicated testbench is used to verify:
 Detailed verification planning and results are documented in
 [Verification Summary](./docs/verification-summary.md).
 
+## 📈 Simulation Evidence
+
+### Waveform
+
+![Waveform](./rtl-tb/waveform.png)
+
+The waveform is analyzed to compare the expected FSM behavior with the actual
+simulation output.
+
+### RTL Schematic
+
+![RTL Schematic](./rtl-tb/rtl-schematic.png)
+
+The RTL schematic provides a hardware-oriented view of the structures inferred
+from the Verilog RTL.
+
 ## 📊 Results & Verification
 
 | Test Case | Expected Behavior | Actual Behavior | Result |
@@ -347,21 +363,6 @@ Detailed verification planning and results are documented in
 See [Verification Summary](./docs/verification-summary.md) for detailed
 PASS/FAIL results.
 
-## 📈 Simulation Evidence
-
-### Waveform
-
-![Waveform](./rtl-tb/waveform.png)
-
-The waveform is analyzed to compare the expected FSM behavior with the actual
-simulation output.
-
-### RTL Schematic
-
-![RTL Schematic](./rtl-tb/rtl-schematic.png)
-
-The RTL schematic provides a hardware-oriented view of the structures inferred
-from the Verilog RTL.
 
 ## 🛠️ Tools & Technologies
 
