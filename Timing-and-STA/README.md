@@ -58,7 +58,7 @@ This section contains integrated RTL mini-projects that combine fundamentals fro
 ➡ System-Level Integration (Repository 05)
 
 ---
-
+this is 01
 # ⚡ TRAFFIC LIGHT CONTROLLER
 
 ### Moore FSM • Timed State Transitions • Synthesizable RTL
@@ -88,6 +88,7 @@ This section contains integrated RTL mini-projects that combine fundamentals fro
 ## 🚀 Future Improvements
 ## 📝 Conclusion
 
+this is 02
 # ⚡ Traffic Light Controller
 
 ### Moore FSM • Timed State Transitions • Synthesizable RTL
@@ -124,3 +125,67 @@ Short summary line, e.g., "All test cases passed — see [verification summary](
 
 ## 🔗 Related
 Link back to the parent Mini-Projects index, or note what repo/skill this builds toward.
+
+---
+
+# ⚡ TRAFFIC LIGHT CONTROLLER
+
+### Moore FSM • Timed State Transitions • Synthesizable RTL
+
+<p>
+  <img src="https://img.shields.io/badge/%E2%97%88%20TYPE-MOORE%20FSM-0F172A?style=for-the-badge&labelColor=020617&color=3B82F6"/>
+  <img src="https://img.shields.io/badge/%E2%97%88%20STATES-3-0F172A?style=for-the-badge&labelColor=020617&color=14B8A6"/>
+  <img src="https://img.shields.io/badge/%E2%97%88%20VERIFIED-4%2F4%20TEST%20CASES-0F172A?style=for-the-badge&labelColor=020617&color=10B981"/>
+</p>
+
+---
+
+## 📌 Overview
+One-paragraph summary: what this project is, what it does, why it was built.
+
+## 🎯 Objective
+1-2 sentences — what the design accomplishes.
+
+## 🔌 Inputs and Outputs
+Quick table — signal name, direction, width, purpose. (Full detail in [Requirements & Design](./docs/requirements-and-design.md).)
+
+| Signal | Direction | Width | Purpose |
+|---|---|---|---|
+| clk | input | 1 | System clock |
+| reset | input | 1 | Synchronous reset |
+| light | output | 3 | {Red, Yellow, Green} |
+
+## 🏗️ Architecture at a Glance
+Brief description + embedded diagram:
+![State Diagram](./architecture/state-diagram.png)
+
+## 📚 Documentation
+- [Requirements & Design](./docs/requirements-and-design.md)
+- [FSM Specification](./docs/fsm-specification.md)
+- [Verification Summary](./docs/verification-summary.md)
+- [Design Decisions & Trade-offs](./docs/design-decisions.md)
+
+## 💻 RTL & Testbench
+See [`rtl-tb/`](./rtl-tb) for source code, testbench, schematic, and waveform.
+
+## ✅ Verification Status
+All test cases passed — see [verification summary](./docs/verification-summary.md) for the full PASS/FAIL table.
+
+## 📚 Key RTL Concepts Applied
+- Moore FSM design (output depends only on current state)
+- Synchronous reset handling
+- Latch-free combinational next-state logic
+
+## 💬 Interview Questions
+**Q: Why Moore FSM instead of Mealy here?**
+A: Output (light color) only needs to depend on the current state, not immediate input — Moore avoids glitches on output transitions.
+
+**Q: How would you extend this to a pedestrian crossing signal?**
+A: Add a new state and input condition, extend the state transition table accordingly — no core FSM logic change.
+
+## 🚀 Future Improvements
+- Add configurable timing (parameterized instead of fixed cycle counts)
+- Add pedestrian crossing state extension
+
+## 🔗 Related
+Part of the [Mini-Projects](../README.md) collection — builds toward Computer Architecture (control unit design) and future system-level integration.
