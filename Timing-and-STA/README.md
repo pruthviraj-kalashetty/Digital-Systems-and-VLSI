@@ -192,8 +192,6 @@ Verification is executed through a self-checking testbench (`tb/tb_traffic_light
 | **TC_03** | Sequential Transition Integrity | Sequenced through `RED -> GREEN -> YELLOW -> RED` | Deterministic cycle sequence verified | ✅ PASS |
 | **TC_04** | Terminal Recovery Verification | Continuous execution across 50 full cycles | Zero state lockup or illegal states | ✅ PASS |
 
-### GTKWave Simulation Trace
-![Simulation Waveform](./docs/waveform.png)
 
 ## 🛠️ Tools & Technologies
 
