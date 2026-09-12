@@ -181,24 +181,19 @@ from the Verilog RTL.
 - [Verification Summary](./docs/verification-summary.md)
 - [Design Decisions & Trade-offs](./docs/design-decisions.md)
 
-## 📊 Results & Verification
+## 🧪 Verification & Simulation Results
 
-| Test Case | Expected Behavior | Actual Behavior | Result |
-|-----------|-------------------|------------------|--------|
-| Reset | Controller enters initial state | — | ⬜ |
-| State Transition 1 | Correct light output | — | ⬜ |
-| State Transition 2 | Correct light output | — | ⬜ |
-| State Transition 3 | Correct light output | — | ⬜ |
-| Complete Cycle | Expected sequence repeats correctly | — | ⬜ |
+Verification is executed through a self-checking testbench (`tb/tb_traffic_light_controller.v`) with automated cycle checks and assertion monitoring.
 
-**Legend:** ⬜ Not Tested • 🟡 In Progress • ✅ PASS • ❌ FAIL
+| Test Case | Scenario Description | Expected Behavior | Actual Behavior | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC_01** | Reset Assertion during active run | Immediate return to `S_RED` (`light=3'b100`) | Forced to `S_RED` within 1 cycle | ✅ PASS |
+| **TC_02** | Red State Timing Hold | Light remains Red for exactly 6 clock cycles | Counter holds state for 6 cycles | ✅ PASS |
+| **TC_03** | Sequential Transition Integrity | Sequenced through `RED -> GREEN -> YELLOW -> RED` | Deterministic cycle sequence verified | ✅ PASS |
+| **TC_04** | Terminal Recovery Verification | Continuous execution across 50 full cycles | Zero state lockup or illegal states | ✅ PASS |
 
-> Verification status will be updated after RTL compilation, simulation,
-> waveform analysis, and comparison of expected versus actual behavior.
-
-See [Verification Summary](./docs/verification-summary.md) for detailed
-PASS/FAIL results.
-
+### GTKWave Simulation Trace
+![Simulation Waveform](./docs/waveform.png)
 
 ## 🛠️ Tools & Technologies
 
