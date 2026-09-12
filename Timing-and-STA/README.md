@@ -267,16 +267,17 @@ Design and verify a synchronous traffic-light controller using a Moore FSM,
 where each FSM state represents a traffic-light condition and determines the
 corresponding output.
 
-## 🔌 Inputs and Outputs
+## 🔌 Interface Specifications
 
 Quick interface overview. Full details are available in
 [Requirements & Design](./docs/requirements-and-design.md).
 
-| Signal | Direction | Width | Purpose |
-|--------|-----------|-------|---------|
-| `clk` | Input | 1 | System clock |
-| `reset` | Input | 1 | Synchronous reset |
-| `light` | Output | 3 | Traffic-light output `{Red, Yellow, Green}` |
+| Port | Direction | Width | Description |
+| :--- | :--- | :--- | :--- |
+| `clk` | Input | 1 | Master system clock |
+| `reset` | Input | 1 | Synchronous active-high reset |
+| `light` | Output | 3 | One-hot encoded traffic lights `{Red, Yellow, Green}` |
+
 
 ## 🏗️ Architecture
 
