@@ -345,6 +345,13 @@ simulation output.
 The RTL schematic provides a hardware-oriented view of the structures inferred
 from the Verilog RTL.
 
+## 📚 Documentation
+
+- [Requirements & Design](./docs/requirements-and-design.md)
+- [FSM Specification](./docs/fsm-specification.md)
+- [Verification Summary](./docs/verification-summary.md)
+- [Design Decisions & Trade-offs](./docs/design-decisions.md)
+
 ## 📊 Results & Verification
 
 | Test Case | Expected Behavior | Actual Behavior | Result |
@@ -424,13 +431,6 @@ See [Design Decisions & Trade-offs](./docs/design-decisions.md) for details.
 - Emergency priority mode
 - Multi-intersection control
 - Configurable traffic sequences
-
-## 📚 Documentation
-
-- [Requirements & Design](./docs/requirements-and-design.md)
-- [FSM Specification](./docs/fsm-specification.md)
-- [Verification Summary](./docs/verification-summary.md)
-- [Design Decisions & Trade-offs](./docs/design-decisions.md)
 
 ## 🔗 Related
 
