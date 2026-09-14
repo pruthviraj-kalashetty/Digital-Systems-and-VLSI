@@ -608,6 +608,13 @@ The controller uses registered state and timing storage, with combinational next
 
 # Requirements and Design
 
+| Field | Value |
+|---|---|
+| Document version | 1.1 |
+| Status | Approved for implementation |
+| Target HDL | Verilog-2001 synthesizable subset |
+| Design style | Parameterized Moore FSM |
+
 ## 1. Project purpose
 
 Design and verify a synthesizable Verilog controller for a standard four-way road intersection. The controller operates two opposing traffic flows:
@@ -622,7 +629,7 @@ Each flow receives a red, yellow, or green indication. Opposing directions in th
 ### Included in version 1
 
 - A synchronous finite-state-machine (FSM) controller.
-- A single clock input and asynchronous active-high reset.
+- A single clock input and synchronous active-high reset.
 - Fixed, parameterized durations for green, yellow, and all-red intervals.
 - Individual 3-bit outputs for NS and EW lights.
 - A Verilog testbench that checks the normal sequence and reset behavior.
@@ -664,7 +671,7 @@ These features can be added as later versions without changing the basic safety 
 | Signal | Direction | Width | Description |
 |---|---:|---:|---|
 | `clk` | Input | 1 | System clock; state and timer update on its rising edge. |
-| `reset` | Input | 1 | Active-high asynchronous reset. |
+| `reset` | Input | 1 | Active-high synchronous reset, sampled on the rising edge of `clk`. |
 | `north_south` | Output | 3 | NS traffic-light indication. |
 | `east_west` | Output | 3 | EW traffic-light indication. |
 
@@ -680,7 +687,7 @@ The output is one-hot encoded to simplify connection to three separate lamps.
 
 ## 6. Design approach
 
-The design uses a Moore FSM with six states. Outputs depend only on the current state, avoiding output glitches caused by changes to the counter. A synchronous counter records elapsed cycles in the active state. When that counter reaches the duration for the current phase, the FSM moves to the next state and clears the counter.
+The design uses a Moore FSM with six states. Outputs depend only on the current state, avoiding output glitches caused by changes to the counter. A synchronous counter records elapsed cycles in the active state. When that counter reaches the duration for the current phase, the FSM moves to the next state and clears the counter. Reset is evaluated only at a rising clock edge, consistent with the single-clock synchronous architecture.
 
 | State | NS output | EW output | Exit condition |
 |---|---|---|---|
@@ -715,3 +722,8 @@ The testbench must demonstrate all of the following:
 
 Future revisions can add request inputs and additional states while preserving the safety rule that conflicting flows are never permitted together. Suitable next additions are pedestrian phases, sensor-triggered green extensions, independent NS/EW green durations, and an emergency all-red override.
 
+## 10. Related Engineering Documentation
+
+- [FSM Specification](./fsm-specification.md)
+- [Verification Summary](./verification-summary.md)
+- [Design Decisions & Trade-offs](./design-decisions.md)
