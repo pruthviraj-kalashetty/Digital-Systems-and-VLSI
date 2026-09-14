@@ -685,7 +685,22 @@ The output is one-hot encoded to simplify connection to three separate lamps.
 | `YELLOW` | `3'b010` | Prepare to stop |
 | `GREEN` | `3'b001` | Proceed |
 
-## 6. Design approach
+## 6. FSM State Definition
+
+The design is implemented as a 6-state Moore finite-state machine. Light outputs depend strictly on the active state, and state transitions occur once the elapsed clock count matches the configured parameter duration.
+
+| State | Encoding | NS Output (`north_south`) | EW Output (`east_west`) | Duration (Cycles) | Next State |
+|---|:---:|:---:|:---:|:---:|---|
+| `NS_GREEN` | `3'b000` | `GREEN` (`3'b001`) | `RED` (`3'b100`) | `GREEN_CYCLES` | `NS_YELLOW` |
+| `NS_YELLOW` | `3'b001` | `YELLOW` (`3'b010`) | `RED` (`3'b100`) | `YELLOW_CYCLES` | `ALL_RED_TO_EW` |
+| `ALL_RED_TO_EW` | `3'b010` | `RED` (`3'b100`) | `RED` (`3'b100`) | `ALL_RED_CYCLES` | `EW_GREEN` |
+| `EW_GREEN` | `3'b011` | `RED` (`3'b100`) | `GREEN` (`3'b001`) | `GREEN_CYCLES` | `EW_YELLOW` |
+| `EW_YELLOW` | `3'b100` | `RED` (`3'b100`) | `YELLOW` (`3'b010`) | `YELLOW_CYCLES` | `ALL_RED_TO_NS` |
+| `ALL_RED_TO_NS` | `3'b101` | `RED` (`3'b100`) | `RED` (`3'b100`) | `ALL_RED_CYCLES` | `NS_GREEN` |
+
+* **Invalid States (`3'b110`, `3'b111`):** Default recovery transitions immediately to `ALL_RED_TO_NS` with both outputs forced to `RED` (`3'b100`).
+* 
+## 7. Design approach
 
 The design uses a Moore FSM with six states. Outputs depend only on the current state, avoiding output glitches caused by changes to the counter. A synchronous counter records elapsed cycles in the active state. When that counter reaches the duration for the current phase, the FSM moves to the next state and clears the counter. Reset is evaluated only at a rising clock edge, consistent with the single-clock synchronous architecture.
 
@@ -700,14 +715,14 @@ The design uses a Moore FSM with six states. Outputs depend only on the current 
 
 The next-state path is strictly circular, which makes normal operation deterministic and straightforward to verify.
 
-## 7. Timing assumptions
+## 8. Timing assumptions
 
 - All time values are expressed in **clock cycles**, not seconds.
 - The external system is responsible for selecting a clock frequency and converting real-world seconds to parameter values. For example, with a 1 Hz clock, `GREEN_TIME = 30` means a 30-second green phase.
 - `GREEN_TIME`, `YELLOW_TIME`, and `ALL_RED_TIME` must be positive integers.
 - Version 1 gives NS and EW equal green durations. Independent `NS_GREEN_TIME` and `EW_GREEN_TIME` parameters may be introduced later if the junction needs unequal timings.
 
-## 8. Verification acceptance criteria
+## 9. Verification acceptance criteria
 
 The testbench must demonstrate all of the following:
 
@@ -718,11 +733,11 @@ The testbench must demonstrate all of the following:
 5. No sampled clock cycle has green on both NS and EW.
 6. The FSM repeats from `ALL_RED_2` back to `NS_GREEN`.
 
-## 9. Future enhancement path
+## 10. Future enhancement path
 
 Future revisions can add request inputs and additional states while preserving the safety rule that conflicting flows are never permitted together. Suitable next additions are pedestrian phases, sensor-triggered green extensions, independent NS/EW green durations, and an emergency all-red override.
 
-## 10. Related Engineering Documentation
+## 11. Related Engineering Documentation
 
 - [FSM Specification](./fsm-specification.md)
 - [Verification Summary](./verification-summary.md)
