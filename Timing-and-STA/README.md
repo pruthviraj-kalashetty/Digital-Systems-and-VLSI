@@ -279,3 +279,112 @@ Part of the [RTL Mini-Projects](../README.md) collection.
 This project strengthens practical FSM and RTL design skills and provides a
 foundation for larger control-oriented digital hardware projects.
 
+---
+
+# Requirements & Design Specification — Traffic Light Controller
+
+| | |
+|---|---|
+| **Document Version** | 1.0 |
+| **Status** | Approved for Implementation |
+| **Project** | RTL Mini-Projects — 01 |
+| **Target HDL** | Verilog (Synthesizable Subset) |
+
+---
+
+## 1. Problem Statement
+
+Design a digital traffic-light controller that generates the correct sequence of Red, Yellow, and Green signals across deterministic intervals. The controller must operate synchronously within a single clock domain, maintain cycle-accurate phase holds, and return to a known safe state immediately upon reset assertion.
+
+## 2. Objective
+
+Design and verify a synchronous, parameterizable Moore FSM in synthesizable Verilog. The design integrates an internal cycle-accurate timer register with registered state logic, targeting latch-free structure and glitch-free output transitions.
+
+## 3. Scope Boundaries
+
+**In Scope**
+* Single-intersection, fixed forward sequence: `S_RED` → `S_GREEN` → `S_YELLOW` → `S_RED`.
+* Parameterized dwell-time counters for each operational state.
+* Synchronous active-high reset recovery within 1 clock cycle.
+* Decoupled Moore output decoding to prevent combinational path glitches.
+
+**Out of Scope**
+* Pedestrian walk requests and emergency vehicle preemption.
+* Multi-axis cross-traffic arbitration.
+* Runtime dynamic timing configuration via a software-accessible bus (e.g., APB/AXI).
+
+## 4. Operational Assumptions
+
+* Single clock domain driving all flip-flop clock pins.
+* Synchronous active-high reset, sampled with `posedge clk`.
+* Output bus `light[2:0]` drives downstream logic within the same design (no external electrical constraints assumed).
+
+## 5. Functional Requirements
+
+| ID | Requirement Description | Verification Method |
+|---|---|---|
+| **REQ-F01** | Cycle through `S_RED` → `S_GREEN` → `S_YELLOW` → `S_RED` in strict sequence without skipping states. | Testbench state sequence check |
+| **REQ-F02** | Each state holds its active output for exactly N clock cycles defined by parameters (`RED_CYCLES`, `GREEN_CYCLES`, `YELLOW_CYCLES`). | Testbench cycle counting |
+| **REQ-F03** | Assertion of synchronous `reset` forces the FSM to `S_RED` and clears the timer within 1 clock cycle. | Testbench reset check |
+| **REQ-F04** | Output bus `light[2:0]` must be one-hot at all times; multiple active lights is an invalid condition. | Testbench output check (manual comparison, each cycle) |
+| **REQ-F05** | The core runs continuously over extended run times without state lockup or illegal states. | 50+ cycle testbench stress run |
+
+## 6. Non-Functional & Microarchitecture Constraints
+
+| ID | Requirement Description | Verification Method |
+|---|---|---|
+| **REQ-NF01** | Fully synthesizable RTL using standard Verilog synthesizable constructs; no simulation-only delay logic. | Manual code review against synthesizable coding guidelines |
+| **REQ-NF02** | Latch-free design: complete branch assignments in all combinational blocks. | Manual code review; Verilator lint check planned |
+| **REQ-NF03** | Synchronous reset architecture, sampled on the clock edge. | Design review (formal STA not yet performed) |
+| **REQ-NF04** | All state durations parameterized via `parameter` declarations, avoiding hardcoded magic numbers. | Manual code review |
+
+## 7. Interface Specification
+
+```text
+              ┌───────────────────────────┐
+   clk   ───▶ │                           │
+   reset ───▶ │  traffic_light_controller │ ───▶ light[2:0]
+              │                           │
+              └───────────────────────────┘
+```
+
+| Signal | Direction | Width | Reset Value | Description |
+|---|---|---|---|---|
+| `clk` | Input | 1 | — | Primary system clock (positive-edge triggered). |
+| `reset` | Input | 1 | — | Synchronous active-high system reset. |
+| `light[2]` | Output | 1 | `1'b1` | Active-high **Red Light** indicator. |
+| `light[1]` | Output | 1 | `1'b0` | Active-high **Yellow Light** indicator. |
+| `light[0]` | Output | 1 | `1'b0` | Active-high **Green Light** indicator. |
+
+## 8. Design Architecture
+
+The controller partitions timing from control logic across two functional processes:
+
+```text
+   clk, reset          Sequential Process           Combinational Process
+        │            (State + Timer Register)         (Next-State + Output)
+        ▼                      │                              │
+   ┌─────────┐                 ▼                              ▼
+   │  Timer  │ ──────▶  ┌─────────────┐   current   ┌───────────────────┐   light[2:0]
+   │ Counter │          │ State Reg   │ ──state───▶  │  Output Decode    │ ────────────▶
+   └─────────┘          └─────────────┘              └───────────────────┘
+```
+
+1. **Sequential State & Timer Process:** A clocked `always @(posedge clk)` block registers current state and increments an internal cycle counter until terminal count is reached, triggering the next state.
+2. **Combinational Moore Output Process:** An `always @(*)` block decodes the registered state into the one-hot `light[2:0]` bus. Because outputs depend solely on state registers, combinational glitches from input transitions cannot propagate to downstream logic.
+
+## 9. Requirements Traceability Matrix (RTM)
+
+| Requirement ID | Verification Test Case | Expected Result | Status |
+|---|---|---|---|
+| **REQ-F01** | `TC_03` (Sequential Transition Integrity) | Order verified: `RED` → `GREEN` → `YELLOW` | *(fill in after simulation)* |
+| **REQ-F02** | `TC_02` (State Timing Hold Verification) | Cycle counts match parameter values | *(fill in after simulation)* |
+| **REQ-F03** | `TC_01` (Reset Latency Check) | Immediate return to `S_RED` on clock edge | *(fill in after simulation)* |
+| **REQ-F04** | `TC_03` (Output Mutual Exclusion) | Exactly one light active every cycle | *(fill in after simulation)* |
+| **REQ-F05** | `TC_04` (Extended Run Stress) | Zero deadlock or undefined states over 50 cycles | *(fill in after simulation)* |
+
+## 10. Related Documents
+
+- [FSM Specification](./fsm-specification.md)
+- [Verification Summary](./verification-summary.md)
+- [Design Decisions & Trade-offs](./design-decisions.md)
