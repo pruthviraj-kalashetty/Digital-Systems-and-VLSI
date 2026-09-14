@@ -390,3 +390,217 @@ The controller partitions timing from control logic across two functional proces
 - [Design Decisions & Trade-offs](./design-decisions.md)
 
 - ---
+
+# Requirements & Design Specification — Traffic Light Controller
+
+| Field | Value |
+|---|---|
+| **Document Version** | 1.1 |
+| **Status** | Approved for Implementation |
+| **Project** | RTL Mini-Projects — 01 |
+| **Target HDL** | Verilog-2001, synthesizable RTL |
+| **Design Style** | Parameterized Moore finite-state machine |
+
+---
+
+## 1. Problem Statement
+
+A two-road intersection requires controlled right-of-way assignment between north/south (NS) and east/west (EW) traffic. The controller shall sequence red, yellow, and green lamp indications using a single synchronous clock domain.
+
+The design shall ensure that both roads never receive green simultaneously and shall include an all-red clearance interval before right-of-way changes from one direction to the other.
+
+## 2. Objective
+
+Design and verify a synthesizable, parameterized Moore finite-state machine in Verilog. The controller shall use a registered state machine and cycle counter to generate exact green, yellow, and all-red durations.
+
+The design shall be safe, deterministic, latch-free, and configurable through timing parameters.
+
+## 3. Scope Boundaries
+
+### In Scope
+
+- One fixed-time intersection with NS and EW traffic directions.
+- Six FSM states representing green, yellow, and all-red phases.
+- Parameterized green, yellow, and all-red durations.
+- Active-high synchronous reset.
+- Cycle-accurate state-duration control.
+- One-hot lamp indication for each direction.
+- Automatic recovery from an illegal FSM state.
+
+### Out of Scope
+
+- Vehicle sensors and adaptive timing.
+- Pedestrian walk signals.
+- Emergency-vehicle preemption.
+- Flashing-lamp operation.
+- Multi-intersection coordination.
+- Software-controlled runtime configuration through APB, AXI, or another bus.
+- Physical electrical lamp-driver circuitry.
+
+## 4. Operational Assumptions
+
+- The design operates in one clock domain.
+- `rst` is an active-high synchronous reset sampled on `posedge clk`.
+- A timing parameter represents clock cycles, not real-time seconds.
+- The integrating system chooses timing parameters based on its clock frequency.
+- `GREEN_CYCLES`, `YELLOW_CYCLES`, and `ALL_RED_CYCLES` shall each be greater than or equal to one.
+- All outputs are active high.
+- Each traffic direction shall have exactly one active lamp during every legal FSM state.
+
+## 5. Configuration Parameters
+
+| Parameter | Default Value | Valid Range | Description |
+|---|---:|---:|---|
+| `GREEN_CYCLES` | 5 | ≥ 1 | Duration of each green phase in clock cycles |
+| `YELLOW_CYCLES` | 2 | ≥ 1 | Duration of each yellow phase in clock cycles |
+| `ALL_RED_CYCLES` | 1 | ≥ 1 | Clearance duration when both roads are red |
+
+## 6. FSM State Definition
+
+| State | Encoding | NS Lamps | EW Lamps | Duration |
+|---|---|---|---|---|
+| `NS_GREEN` | `3'b000` | Green | Red | `GREEN_CYCLES` |
+| `NS_YELLOW` | `3'b001` | Yellow | Red | `YELLOW_CYCLES` |
+| `ALL_RED_TO_EW` | `3'b010` | Red | Red | `ALL_RED_CYCLES` |
+| `EW_GREEN` | `3'b011` | Red | Green | `GREEN_CYCLES` |
+| `EW_YELLOW` | `3'b100` | Red | Yellow | `YELLOW_CYCLES` |
+| `ALL_RED_TO_NS` | `3'b101` | Red | Red | `ALL_RED_CYCLES` |
+
+The normal phase sequence is:
+
+```text
+NS_GREEN → NS_YELLOW → ALL_RED_TO_EW →
+EW_GREEN → EW_YELLOW → ALL_RED_TO_NS → NS_GREEN
+```
+
+## 7. Timing Convention
+
+A state with a duration of `N` shall remain active for exactly `N` rising clock intervals.
+
+The timer counter shall increment while the FSM remains in its current state. A state transition shall occur when:
+
+```text
+count == duration - 1
+```
+
+When a transition occurs, the counter shall clear to zero and begin timing the next state.
+
+## 8. Safety Invariants
+
+The following conditions shall be true throughout normal operation:
+
+1. `ns_green` and `ew_green` shall never be asserted simultaneously.
+2. NS traffic shall have exactly one active lamp in every legal state.
+3. EW traffic shall have exactly one active lamp in every legal state.
+4. Every direction change shall pass through an all-red clearance state.
+5. Reset shall return the controller to a known legal state.
+6. An illegal state encoding shall recover to the safe `NS_GREEN` state.
+7. Default output decoding for an illegal state shall drive both directions red.
+
+## 9. Functional Requirements
+
+| ID | Requirement Description | Verification Method |
+|---|---|---|
+| **REQ-F01** | The FSM shall follow the defined six-state phase sequence without skipping a legal state. | Testbench state-sequence check |
+| **REQ-F02** | `NS_GREEN` and `EW_GREEN` shall each remain active for exactly `GREEN_CYCLES`. | Testbench cycle-count check |
+| **REQ-F03** | `NS_YELLOW` and `EW_YELLOW` shall each remain active for exactly `YELLOW_CYCLES`. | Testbench cycle-count check |
+| **REQ-F04** | Each all-red state shall remain active for exactly `ALL_RED_CYCLES`. | Testbench cycle-count check |
+| **REQ-F05** | When `rst=1` at a rising clock edge, the FSM shall enter `NS_GREEN` and clear the timer counter to zero. | Testbench reset-recovery check |
+| **REQ-F06** | NS and EW green outputs shall never be high at the same time. | Assertion or testbench safety check on every clock |
+| **REQ-F07** | Each direction shall have exactly one asserted lamp in every legal state. | One-hot output check on every clock |
+| **REQ-F08** | The controller shall repeat the complete traffic cycle continuously. | Full-cycle repeat check |
+| **REQ-F09** | An illegal FSM state shall select safe recovery behavior. | Directed illegal-state recovery test |
+
+## 10. Non-Functional and Microarchitecture Requirements
+
+| ID | Requirement Description | Verification Method |
+|---|---|---|
+| **REQ-NF01** | The RTL shall use only synthesizable Verilog constructs. | RTL review and synthesis-tool check |
+| **REQ-NF02** | Sequential storage shall be implemented only in clocked blocks using `posedge clk`. | RTL review |
+| **REQ-NF03** | Combinational blocks shall assign defaults or cover all branches to prevent latch inference. | RTL review and lint check |
+| **REQ-NF04** | Timing values shall be parameterized; the RTL shall not contain hardcoded phase durations. | RTL review |
+| **REQ-NF05** | Outputs shall depend only on the registered FSM state. | RTL review of Moore output decoder |
+| **REQ-NF06** | The design shall use a single clock domain and shall not require clock-domain-crossing logic. | Architecture review |
+
+## 11. Interface Specification
+
+```text
+                   ┌────────────────────────────────┐
+      clk    ─────▶ │                                │
+      rst    ─────▶ │   traffic_light_controller     │
+                   │                                │
+  ns_red           │ ──────────────────────────────▶ │ NS red
+  ns_yellow        │ ──────────────────────────────▶ │ NS yellow
+  ns_green         │ ──────────────────────────────▶ │ NS green
+  ew_red           │ ──────────────────────────────▶ │ EW red
+  ew_yellow        │ ──────────────────────────────▶ │ EW yellow
+  ew_green         │ ──────────────────────────────▶ │ EW green
+                   └────────────────────────────────┘
+```
+
+| Signal | Direction | Width | Reset-State Value | Description |
+|---|---|---:|---|---|
+| `clk` | Input | 1 | — | Primary positive-edge-triggered system clock |
+| `rst` | Input | 1 | — | Active-high synchronous reset |
+| `ns_red` | Output | 1 | `1'b0` | North/south red-lamp command |
+| `ns_yellow` | Output | 1 | `1'b0` | North/south yellow-lamp command |
+| `ns_green` | Output | 1 | `1'b1` | North/south green-lamp command |
+| `ew_red` | Output | 1 | `1'b1` | East/west red-lamp command |
+| `ew_yellow` | Output | 1 | `1'b0` | East/west yellow-lamp command |
+| `ew_green` | Output | 1 | `1'b0` | East/west green-lamp command |
+
+## 12. Design Architecture
+
+The controller uses registered state and timing storage, with combinational next-state, duration-selection, and output-decode logic.
+
+```text
+                            ┌─────────────────────┐
+                            │  Duration Selection │
+                            │  state → duration   │
+                            └─────────┬───────────┘
+                                      │
+                                      ▼
+┌──────────┐     ┌──────────────┐   terminal    ┌─────────────────┐
+│ clk, rst │ ──▶ │ State Register│ ────────────▶ │ Next-State Logic│
+└──────────┘     │   3-bit FSM   │ ◀──────────── │                 │
+                 └──────┬───────┘   next_state  └─────────────────┘
+                        │
+                        │ current state
+              ┌─────────┴──────────┐
+              ▼                    ▼
+┌─────────────────────┐    ┌─────────────────────┐
+│ Timer / Counter Reg │    │ Moore Output Decode │
+│ clear or increment  │    │ state → lamp outputs│
+└─────────────────────┘    └─────────────────────┘
+```
+
+### Architecture Rules
+
+1. The state register and counter are updated only on `posedge clk`.
+2. Reset has priority over normal state progression.
+3. The counter clears when the FSM enters a new state.
+4. The output decoder depends only on the registered state.
+5. The output decoder defaults to both directions red for an illegal state.
+
+## 13. Requirements Traceability Matrix
+
+| Requirement ID | Test Case | Expected Result | Status |
+|---|---|---|---|
+| **REQ-F01** | `TC-01`: State sequence | Six states occur in the specified order | Pending simulation |
+| **REQ-F02** | `TC-02`: Green duration | Each green state lasts `GREEN_CYCLES` | Pending simulation |
+| **REQ-F03** | `TC-03`: Yellow duration | Each yellow state lasts `YELLOW_CYCLES` | Pending simulation |
+| **REQ-F04** | `TC-04`: All-red duration | Each clearance state lasts `ALL_RED_CYCLES` | Pending simulation |
+| **REQ-F05** | `TC-05`: Reset recovery | State becomes `NS_GREEN`; count becomes zero | Pending simulation |
+| **REQ-F06** | `TC-06`: Green mutual exclusion | NS and EW green are never both high | Pending simulation |
+| **REQ-F07** | `TC-07`: Lamp one-hot check | Exactly one lamp per direction is active | Pending simulation |
+| **REQ-F08** | `TC-08`: Cycle repeat | FSM returns to `NS_GREEN` after one full sequence | Pending simulation |
+| **REQ-F09** | `TC-09`: Illegal-state recovery | Controller returns to safe state | Pending simulation |
+
+## 14. Related Documents
+
+- [FSM Specification](./fsm-specification.md)
+- [Design Decisions](./design-decisions.md)
+- [Verification Summary](./verification-summary.md)
+- [State Diagram](../architecture/state-diagram.png)
+- [Block Diagram](../architecture/block-diagram.png)
+- [Timing Flow](../architecture/timing-flow.png)
