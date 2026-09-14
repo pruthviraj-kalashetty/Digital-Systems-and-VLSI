@@ -699,7 +699,7 @@ The design is implemented as a 6-state Moore finite-state machine. Light outputs
 | `ALL_RED_TO_NS` | `3'b101` | `RED` (`3'b100`) | `RED` (`3'b100`) | `ALL_RED_CYCLES` | `NS_GREEN` |
 
 * **Invalid States (`3'b110`, `3'b111`):** Default recovery transitions immediately to `ALL_RED_TO_NS` with both outputs forced to `RED` (`3'b100`).
-* 
+  
 ## 7. Design approach
 
 The design uses a Moore FSM with six states. Outputs depend only on the current state, avoiding output glitches caused by changes to the counter. A synchronous counter records elapsed cycles in the active state. When that counter reaches the duration for the current phase, the FSM moves to the next state and clears the counter. Reset is evaluated only at a rising clock edge, consistent with the single-clock synchronous architecture.
