@@ -755,3 +755,318 @@ Future revisions can add request inputs and additional states while preserving t
 - 📄 [`localparam`](./[01]-Verilog-Basics/localparam.md)
 
 </details>
+
+---
+
+<!-- Verilog HDL and RTL Design -->
+<details>
+<summary><b>📁 [01]-Verilog-Basics</b></summary>
+
+- 📄 [What is HDL?](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/What-is-HDL.md)
+- 📄 [HDL vs Software](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/HDL-vs-Software.md)
+- 📄 [Introduction to Verilog](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Introduction-to-Verilog.md)
+- 📄 [Module Structure](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Module-Structure.md)
+- 📄 [Port Declaration](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Port-Declaration.md)
+- 📄 [Data Types (`wire` vs `reg`)](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Data-Types-wire-vs-reg.md)
+- 📄 [Integer, Real, Time](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Integer-Real-Time.md)
+- 📄 [Number Representation](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Number-Representation.md)
+- 📄 [Operators in Verilog](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Operators-in-Verilog.md)
+- 📄 [Operator Precedence](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Operator-Precedence.md)
+- 📄 [Parameters](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/Parameters.md)
+- 📄 [`localparam`](./Verilog-HDL-and-RTL-Design/[01]-Verilog-Basics/localparam.md)
+
+</details>
+
+<details>
+<summary><b>📁 [02]-Procedural-Blocks</b></summary>
+
+- 📄 [initial Block](./Verilog-HDL-and-RTL-Design/[02]-Procedural-Blocks/initial-Block.md)
+- 📄 [always Block](./Verilog-HDL-and-RTL-Design/[02]-Procedural-Blocks/always-Block.md)
+- 📄 [Sensitivity List](./Verilog-HDL-and-RTL-Design/[02]-Procedural-Blocks/Sensitivity-List.md)
+- 📄 [always @*](./Verilog-HDL-and-RTL-Design/[02]-Procedural-Blocks/always-Star.md)
+- 📄 [Clocked always](./Verilog-HDL-and-RTL-Design/[02]-Procedural-Blocks/Clocked-always.md)
+- 📄 [Blocking vs Non-Blocking](./Verilog-HDL-and-RTL-Design/[02]-Procedural-Blocks/Blocking-vs-NonBlocking.md)
+
+</details>
+
+<details>
+<summary><b>📁 [03]-Combinational-Logic</b></summary>
+
+- 📄 [Boolean Logic](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/Boolean-Logic.md)
+- 📄 [Continuous Assignment](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/Continuous-Assignment.md)
+- 📄 [Gate-Level Modeling](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/Gate-Level-Modeling.md)
+- 📄 [Dataflow Modeling](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/Dataflow-Modeling.md)
+- 📄 [Behavioral Modeling](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/Behavioral-Modeling.md)
+- 📄 [if-else](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/if-else.md)
+- 📄 [case](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/case.md)
+- 📄 [Ternary Operator](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/Ternary-Operator.md)
+- 📄 [Priority vs Parallel](./Verilog-HDL-and-RTL-Design/[03]-Combinational-Logic/Priority-vs-Parallel.md)
+
+</details>
+
+<details>
+<summary><b>📁 [04]-Sequential-Logic</b></summary>
+
+- 📄 [Clock Concept](./Verilog-HDL-and-RTL-Design/[04]-Sequential-Logic/01-Clock-Concept.md)
+- 📄 [Edge Triggering](./Verilog-HDL-and-RTL-Design/[04]-Sequential-Logic/02-Edge-Triggering.md)
+- 📄 [Synchronous Reset](./Verilog-HDL-and-RTL-Design/[04]-Sequential-Logic/03-Reset-Synchronous.md)
+- 📄 [Asynchronous Reset](./Verilog-HDL-and-RTL-Design/[04]-Sequential-Logic/04-Reset-Asynchronous.md)
+- 📄 [Memory Basics](./Verilog-HDL-and-RTL-Design/[04]-Sequential-Logic/05-Memory-Basics.md)
+
+</details>
+
+<details>
+<summary><b>📁 [05]-Hierarchical-Design</b></summary>
+
+- 📄 [Module Instantiation](./Verilog-HDL-and-RTL-Design/[05]-Hierarchical-Design/01-Module-Instantiation.md)
+- 📄 [Structural vs Behavioral](./Verilog-HDL-and-RTL-Design/[05]-Hierarchical-Design/02-Structural-vs-Behavioral.md)
+
+</details>
+
+<details>
+<summary><b>📁 [06]-Synthesizable-Coding</b></summary>
+
+- 📄 [Synthesizable vs Non-Synthesizable](./Verilog-HDL-and-RTL-Design/[06]-Synthesizable-Coding/01-Synthesizable-vs-NonSynth.md)
+- 📄 [Coding Guidelines](./Verilog-HDL-and-RTL-Design/[06]-Synthesizable-Coding/02-Coding-Guidelines.md)
+- 📄 [Common Mistakes](./Verilog-HDL-and-RTL-Design/[06]-Synthesizable-Coding/03-Common-Mistakes.md)
+- 📄 [Code Optimization](./Verilog-HDL-and-RTL-Design/[06]-Synthesizable-Coding/04-Code-Optimization.md)
+
+</details>
+
+<details>
+<summary><b>📁 [07]-Avoiding-Latches</b></summary>
+
+- 📄 [What is a Latch?](./Verilog-HDL-and-RTL-Design/[07]-Avoiding-Latches/01-What-is-a-Latch.md)
+- 📄 [Latch Inference](./Verilog-HDL-and-RTL-Design/[07]-Avoiding-Latches/02-Latch-Inference.md)
+- 📄 [Writing Latch-Free Code](./Verilog-HDL-and-RTL-Design/[07]-Avoiding-Latches/03-Writing-Latch-Free-Code.md)
+
+</details>
+
+<details>
+<summary><b>📁 [08]-Testbench</b></summary>
+
+- 📄 [What is a Testbench?](./Verilog-HDL-and-RTL-Design/[08]-Testbench/01-What-is-Testbench.md)
+- 📄 [Device Under Test (DUT)](./Verilog-HDL-and-RTL-Design/[08]-Testbench/02-DUT.md)
+- 📄 [Writing a Testbench](./Verilog-HDL-and-RTL-Design/[08]-Testbench/03-Writing-Testbench.md)
+- 📄 [Stimulus Generation](./Verilog-HDL-and-RTL-Design/[08]-Testbench/04-Stimulus-Generation.md)
+- 📄 [Clock Generation](./Verilog-HDL-and-RTL-Design/[08]-Testbench/05-Clock-Generation.md)
+- 📄 [Delay Control (#)](./Verilog-HDL-and-RTL-Design/[08]-Testbench/06-Delay-Control(#).md)
+- 📄 [$display and $monitor](./Verilog-HDL-and-RTL-Design/[08]-Testbench/07-$display-$monitor.md)
+- 📄 [$dumpfile and $dumpvars](./Verilog-HDL-and-RTL-Design/[08]-Testbench/08-$dumpfile-$dumpvars.md)
+- 📄 [Self-Checking Testbench](./Verilog-HDL-and-RTL-Design/[08]-Testbench/09-Self-Checking-Testbench.md)
+
+</details>
+
+<details>
+<summary><b>📁 [09]-Simulation</b></summary>
+
+- 📄 [Simulation Basics](./Verilog-HDL-and-RTL-Design/[09]-Simulation/01-Simulation-Basics.md)
+- 📄 [Compilation](./Verilog-HDL-and-RTL-Design/[09]-Simulation/02-Compilation.md)
+- 📄 [Running Simulation](./Verilog-HDL-and-RTL-Design/[09]-Simulation/03-Running-Simulation.md)
+- 📄 [Waveform Analysis](./Verilog-HDL-and-RTL-Design/[09]-Simulation/04-Waveform-Analysis.md)
+- 📄 [Debugging Techniques](./Verilog-HDL-and-RTL-Design/[09]-Simulation/05-Debugging-Techniques.md)
+
+</details>
+
+<details>
+<summary><b>📁 [10]-Combinational-RTL-Design</b></summary>
+
+  <details>
+  <summary><b>📂 01-Logic-Gates</b></summary>
+
+  - **01-AND-Gate**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/01-AND-Gate/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/01-AND-Gate/and_gate.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/01-AND-Gate/and_gate_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/01-AND-Gate/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/01-AND-Gate/waveform.png)
+  - **02-OR-Gate**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/02-OR-Gate/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/02-OR-Gate/or_gate.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/02-OR-Gate/or_gate_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/02-OR-Gate/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/02-OR-Gate/waveform.png)
+  - **03-NOT-Gate**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/03-NOT-Gate/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/03-NOT-Gate/not_gate.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/03-NOT-Gate/not_gate_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/03-NOT-Gate/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/03-NOT-Gate/waveform.png)
+  - **04-NAND-Gate**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/04-NAND-Gate/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/04-NAND-Gate/nand_gate.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/04-NAND-Gate/nand_gate_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/04-NAND-Gate/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/04-NAND-Gate/waveform.png)
+  - **05-NOR-Gate**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/05-NOR-Gate/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/05-NOR-Gate/nor_gate.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/05-NOR-Gate/nor_gate_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/05-NOR-Gate/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/05-NOR-Gate/waveform.png)
+  - **06-XOR-Gate**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/06-XOR-Gate/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/06-XOR-Gate/xor_gate.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/06-XOR-Gate/xor_gate_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/06-XOR-Gate/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/06-XOR-Gate/waveform.png)
+  - **07-XNOR-Gate**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/07-XNOR-Gate/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/07-XNOR-Gate/xnor_gate.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/07-XNOR-Gate/xnor_gate_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/07-XNOR-Gate/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/01-Logic-Gates/07-XNOR-Gate/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 02-Adders</b></summary>
+
+  - **01-Half-Adder**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/01-Half-Adder/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/01-Half-Adder/half_adder.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/01-Half-Adder/half_adder_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/01-Half-Adder/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/01-Half-Adder/waveform.png)
+  - **02-Full-Adder**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/02-Full-Adder/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/02-Full-Adder/full_adder.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/02-Full-Adder/full_adder_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/02-Full-Adder/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/02-Full-Adder/waveform.png)
+  - **03-Full-Adder-Using-Half-Adder**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/03-Full-Adder-Using-Half-Adder/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/03-Full-Adder-Using-Half-Adder/full_adder_using_two_half_adder.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/03-Full-Adder-Using-Half-Adder/full_adder_using_two_half_adder_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/03-Full-Adder-Using-Half-Adder/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/02-Adders/03-Full-Adder-Using-Half-Adder/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 03-Subtractor</b></summary>
+
+  - **01-Half-Subtractor**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/01-Half-Subtractor/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/01-Half-Subtractor/half_subtractor.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/01-Half-Subtractor/half_subtractor_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/01-Half-Subtractor/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/01-Half-Subtractor/waveform.png)
+  - **02-Full-Subtractor**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/02-Full-Subtractor/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/02-Full-Subtractor/full_subtractor.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/02-Full-Subtractor/full_subtractor_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/02-Full-Subtractor/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/02-Full-Subtractor/waveform.png)
+  - **03-Full-Subtractor-Using-Half-Subtractor**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/03-Full-Subtractor-Using-Half-Subtractor/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/03-Full-Subtractor-Using-Half-Subtractor/full_subtractor_using_two_half_subtractor.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/03-Full-Subtractor-Using-Half-Subtractor/full_subtractor_using_two_half_subtractor_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/03-Full-Subtractor-Using-Half-Subtractor/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/03-Subtractor/03-Full-Subtractor-Using-Half-Subtractor/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 04-Multiplexers</b></summary>
+
+  - **01-Mux-2x1**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/01-Mux-2x1/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/01-Mux-2x1/mux_2x1.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/01-Mux-2x1/mux_2x1_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/01-Mux-2x1/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/01-Mux-2x1/waveform.png)
+  - **02-Mux-4x1**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/02-Mux-4x1/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/02-Mux-4x1/mux_4x1.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/02-Mux-4x1/mux_4x1_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/02-Mux-4x1/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/02-Mux-4x1/waveform.png)
+  - **03-Mux-8x1**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/03-Mux-8x1/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/03-Mux-8x1/mux_8x1.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/03-Mux-8x1/mux_8x1_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/03-Mux-8x1/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/04-Multiplexers/03-Mux-8x1/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 05-Demultiplexers</b></summary>
+
+  - **01-Demux-1x2**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/01-Demux-1x2/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/01-Demux-1x2/demux_1x2.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/01-Demux-1x2/demux_1x2_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/01-Demux-1x2/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/01-Demux-1x2/waveform.png)
+  - **02-Demux-1x4**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/02-Demux-1x4/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/02-Demux-1x4/demux_1x4.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/02-Demux-1x4/demux_1x4_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/02-Demux-1x4/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/02-Demux-1x4/waveform.png)
+  - **03-Demux-1x8**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/03-Demux-1x8/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/03-Demux-1x8/demux_1x8.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/03-Demux-1x8/demux_1x8_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/03-Demux-1x8/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/05-Demultiplexers/03-Demux-1x8/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 06-Decoders</b></summary>
+
+  - **01-Decoder-2x4**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/01-Decoder-2x4/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/01-Decoder-2x4/decoder_2x4.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/01-Decoder-2x4/decoder_2x4_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/01-Decoder-2x4/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/01-Decoder-2x4/waveform.png)
+  - **02-Decoder-3x8**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/02-Decoder-3x8/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/02-Decoder-3x8/decoder_3x8.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/02-Decoder-3x8/decoder_3x8_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/02-Decoder-3x8/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/02-Decoder-3x8/waveform.png)
+  - **03-Decoder-4x16**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/03-Decoder-4x16/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/03-Decoder-4x16/decoder_4x16.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/03-Decoder-4x16/decoder_4x16_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/03-Decoder-4x16/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/06-Decoders/03-Decoder-4x16/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 07-Encoders</b></summary>
+
+  - **01-Encoder-4x2**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/01-Encoder-4x2/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/01-Encoder-4x2/encoder_4x2.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/01-Encoder-4x2/encoder_4x2_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/01-Encoder-4x2/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/01-Encoder-4x2/waveform.png)
+  - **02-Encoder-8x3**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/02-Encoder-8x3/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/02-Encoder-8x3/encoder_8x3.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/02-Encoder-8x3/encoder_8x3_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/02-Encoder-8x3/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/02-Encoder-8x3/waveform.png)
+  - **03-Encoder-16x4**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/03-Encoder-16x4/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/03-Encoder-16x4/encoder_16x4.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/03-Encoder-16x4/encoder_16x4_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/03-Encoder-16x4/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/07-Encoders/03-Encoder-16x4/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 08-Comparators</b></summary>
+
+  - **01-1-Bit-Comparator**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/01-1-Bit-Comparator/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/01-1-Bit-Comparator/1_bit_comparator.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/01-1-Bit-Comparator/1_bit_comparator_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/01-1-Bit-Comparator/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/01-1-Bit-Comparator/waveform.png)
+  - **02-2-Bit-Comparator**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/02-2-Bit-Comparator/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/02-2-Bit-Comparator/2_bit_comparator.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/02-2-Bit-Comparator/2_bit_comparator_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/02-2-Bit-Comparator/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/02-2-Bit-Comparator/waveform.png)
+  - **03-4-Bit-Comparator**: [README](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/03-4-Bit-Comparator/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/03-4-Bit-Comparator/4_bit_comparator.v) | [TB](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/03-4-Bit-Comparator/4_bit_comparator_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/03-4-Bit-Comparator/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[10]-Combinational-RTL-Design/08-Comparators/03-4-Bit-Comparator/waveform.png)
+
+  </details>
+
+</details>
+
+<details>
+<summary><b>📁 [11]-Sequential-RTL</b></summary>
+
+  <details>
+  <summary><b>📂 01-Latches</b></summary>
+
+  - **01-SR-Latch**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/01-SR-Latch/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/01-SR-Latch/sr_latch.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/01-SR-Latch/sr_latch_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/01-SR-Latch/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/01-SR-Latch/waveform.png)
+  - **02-D-Latch**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/02-D-Latch/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/02-D-Latch/d_latch.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/02-D-Latch/d_latch_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/02-D-Latch/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/01-Latches/02-D-Latch/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 02-Flip-Flops</b></summary>
+
+  - **01-D-Flip-Flop**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/01-D-Flip-Flop/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/01-D-Flip-Flop/d_flip_flop.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/01-D-Flip-Flop/d_flip_flop_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/01-D-Flip-Flop/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/01-D-Flip-Flop/waveform.png)
+  - **02-JK-Flip-Flop**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/02-JK-Flip-Flop/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/02-JK-Flip-Flop/jk_flip_flop.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/02-JK-Flip-Flop/jk_flip_flop_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/02-JK-Flip-Flop/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/02-JK-Flip-Flop/waveform.png)
+  - **03-SR-Flip-Flop**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/03-SR-Flip-Flop/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/03-SR-Flip-Flop/sr_flip_flop.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/03-SR-Flip-Flop/sr_flip_flop_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/03-SR-Flip-Flop/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/03-SR-Flip-Flop/waveform.png)
+  - **04-T-Flip-Flop**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/04-T-Flip-Flop/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/04-T-Flip-Flop/t_flip_flop.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/04-T-Flip-Flop/t_flip_flop_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/04-T-Flip-Flop/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/02-Flip-Flops/04-T-Flip-Flop/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 03-Shift-Registers</b></summary>
+
+  - **01-Serial-In-Serial-Out**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/01-Serial-In-Serial-Out/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/01-Serial-In-Serial-Out/siso.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/01-Serial-In-Serial-Out/siso_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/01-Serial-In-Serial-Out/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/01-Serial-In-Serial-Out/waveform.png)
+  - **02-Serial-In-Parallel-Out**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/02-Serial-In-Parallel-Out/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/02-Serial-In-Parallel-Out/sipo.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/02-Serial-In-Parallel-Out/sipo_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/02-Serial-In-Parallel-Out/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/02-Serial-In-Parallel-Out/waveform.png)
+  - **03-Parallel-In-Serial-Out**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/03-Parallel-In-Serial-Out/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/03-Parallel-In-Serial-Out/piso.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/03-Parallel-In-Serial-Out/piso_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/03-Parallel-In-Serial-Out/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/03-Parallel-In-Serial-Out/waveform.png)
+  - **04-Parallel-In-Parallel-Out**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/04-Parallel-In-Parallel-Out/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/04-Parallel-In-Parallel-Out/pipo.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/04-Parallel-In-Parallel-Out/pipo_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/04-Parallel-In-Parallel-Out/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/03-Shift-Registers/04-Parallel-In-Parallel-Out/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 04-Counters</b></summary>
+
+  - 📄 [03-Ring-Counter.md](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/03-Ring-Counter.md)
+
+    <details>
+    <summary><b>📁 01-Asynchronous-Counters</b></summary>
+
+    - **01-Three-Bit-Asynchronous-Up-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/01-Three-Bit-Asynchronous-Up-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/01-Three-Bit-Asynchronous-Up-Counter/three_bit_asynchronous_up_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/01-Three-Bit-Asynchronous-Up-Counter/three_bit_asynchronous_up_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/01-Three-Bit-Asynchronous-Up-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/01-Three-Bit-Asynchronous-Up-Counter/waveform.png)
+    - **02-Three-Bit-Asynchronous-Down-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/02-Three-Bit-Asynchronous-Down-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/02-Three-Bit-Asynchronous-Down-Counter/three_bit_asynchronous_down_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/02-Three-Bit-Asynchronous-Down-Counter/three_bit_asynchronous_down_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/02-Three-Bit-Asynchronous-Down-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/02-Three-Bit-Asynchronous-Down-Counter/waveform.png)
+    - **03-Four-Bit-Asynchronous-Up-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/03-Four-Bit-Asynchronous-Up-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/03-Four-Bit-Asynchronous-Up-Counter/four_bit_asynchronous_up_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/03-Four-Bit-Asynchronous-Up-Counter/four_bit_asynchronous_up_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/03-Four-Bit-Asynchronous-Up-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/03-Four-Bit-Asynchronous-Up-Counter/waveform.png)
+    - **04-Four-Bit-Asynchronous-Down-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/04-Four-Bit-Asynchronous-Down-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/04-Four-Bit-Asynchronous-Down-Counter/four_bit_asynchronous_down_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/04-Four-Bit-Asynchronous-Down-Counter/four_bit_asynchronous_down_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/04-Four-Bit-Asynchronous-Down-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/01-Asynchronous-Counters/04-Four-Bit-Asynchronous-Down-Counter/waveform.png)
+
+    </details>
+
+    <details>
+    <summary><b>📁 02-Synchronous-Counters</b></summary>
+
+    - **01-Three-Bit-Synchronous-Up-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/01-Three-Bit-Synchronous-Up-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/01-Three-Bit-Synchronous-Up-Counter/three_bit_synchronous_up_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/01-Three-Bit-Synchronous-Up-Counter/three_bit_synchronous_up_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/01-Three-Bit-Synchronous-Up-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/01-Three-Bit-Synchronous-Up-Counter/waveform.png)
+    - **02-Three-Bit-Synchronous-Down-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/02-Three-Bit-Synchronous-Down-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/02-Three-Bit-Synchronous-Down-Counter/three_bit_synchronous_down_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/02-Three-Bit-Synchronous-Down-Counter/three_bit_synchronous_down_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/02-Three-Bit-Synchronous-Down-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/02-Three-Bit-Synchronous-Down-Counter/waveform.png)
+    - **03-Four-Bit-Synchronous-Up-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/03-Four-Bit-Synchronous-Up-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/03-Four-Bit-Synchronous-Up-Counter/four_bit_synchronous_up_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/03-Four-Bit-Synchronous-Up-Counter/four_bit_synchronous_up_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/03-Four-Bit-Synchronous-Up-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/03-Four-Bit-Synchronous-Up-Counter/waveform.png)
+    - **04-Four-Bit-Synchronous-Down-Counter**: [README](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/04-Four-Bit-Synchronous-Down-Counter/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/04-Four-Bit-Synchronous-Down-Counter/four_bit_synchronous_down_counter.v) | [TB](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/04-Four-Bit-Synchronous-Down-Counter/four_bit_synchronous_down_counter_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/04-Four-Bit-Synchronous-Down-Counter/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[11]-Sequential-RTL/04-Counters/02-Synchronous-Counters/04-Four-Bit-Synchronous-Down-Counter/waveform.png)
+
+    </details>
+
+  </details>
+
+</details>
+
+<details>
+<summary><b>📁 [12]-RTL-FSM</b></summary>
+
+  <details>
+  <summary><b>📂 01-FSM-Fundamentals</b></summary>
+
+  - 📄 [State and Next State](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/01-FSM-Fundamentals/01-State-and-Next-State.md)
+  - 📄 [State Diagram to RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/01-FSM-Fundamentals/02-State-Diagram-to-RTL.md)
+  - 📄 [State Transition Table](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/01-FSM-Fundamentals/03-State-Transition-Table.md)
+  - 📄 [FSM Verilog Structure](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/01-FSM-Fundamentals/04-FSM-Verilog-Structure.md)
+
+  </details>
+
+  <details>
+  <summary><b>📂 02-Moore-FSM</b></summary>
+
+  - **Moore FSM**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/02-Moore-FSM/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/02-Moore-FSM/moore_fsm.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/02-Moore-FSM/moore_fsm_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/02-Moore-FSM/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/02-Moore-FSM/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 03-Mealy-FSM</b></summary>
+
+  - **Mealy FSM**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/03-Mealy-FSM/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/03-Mealy-FSM/mealy_fsm.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/03-Mealy-FSM/mealy_fsm_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/03-Mealy-FSM/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/03-Mealy-FSM/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 04-Sequence-Detector</b></summary>
+
+  - **01-Sequence-Detector-1011-Overlapping**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/01-Sequence-Detector-1011-Overlapping/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/01-Sequence-Detector-1011-Overlapping/sequence_detector_1011_overlap.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/01-Sequence-Detector-1011-Overlapping/sequence_detector_1011_overlap_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/01-Sequence-Detector-1011-Overlapping/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/01-Sequence-Detector-1011-Overlapping/waveform.png)
+  - **02-Sequence-Detector-1101-Non-Overlapping**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/02-Sequence-Detector-1101-Non-Overlapping/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/02-Sequence-Detector-1101-Non-Overlapping/sequence_detector_1101_non_overlap.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/02-Sequence-Detector-1101-Non-Overlapping/sequence_detector_1101_non_overlap_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/02-Sequence-Detector-1101-Non-Overlapping/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/04-Sequence-Detector/02-Sequence-Detector-1101-Non-Overlapping/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 05-State-Encoding</b></summary>
+
+  - **01-Binary-Encoding**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/01-Binary-Encoding/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/01-Binary-Encoding/binary_encoding.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/01-Binary-Encoding/binary_encoding_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/01-Binary-Encoding/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/01-Binary-Encoding/waveform.png)
+  - **02-One-Hot-Encoding**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/02-One-Hot-Encoding/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/02-One-Hot-Encoding/one_hot_encoding.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/02-One-Hot-Encoding/one_hot_encoding_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/02-One-Hot-Encoding/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/02-One-Hot-Encoding/waveform.png)
+  - **03-Gray-Encoding**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/03-Gray-Encoding/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/03-Gray-Encoding/gray_encoding.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/03-Gray-Encoding/gray_encoding_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/03-Gray-Encoding/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/05-State-Encoding/03-Gray-Encoding/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 06-FSM-RTL-Design-Patterns</b></summary>
+
+  - **01-Two-Process-FSM**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/01-Two-Process-FSM/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/01-Two-Process-FSM/two_process_fsm.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/01-Two-Process-FSM/two_process_fsm_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/01-Two-Process-FSM/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/01-Two-Process-FSM/waveform.png)
+  - **02-Three-Process-FSM**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/02-Three-Process-FSM/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/02-Three-Process-FSM/three_process_fsm.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/02-Three-Process-FSM/three_process_fsm_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/02-Three-Process-FSM/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/06-FSM-RTL-Design-Patterns/02-Three-Process-FSM/waveform.png)
+
+  </details>
+
+  <details>
+  <summary><b>📂 07-FSM-Reset-and-Initialization</b></summary>
+
+  - **01-Synchronous-Reset**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/01-Synchronous-Reset/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/01-Synchronous-Reset/fsm_sync_reset.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/01-Synchronous-Reset/fsm_sync_reset_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/01-Synchronous-Reset/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/01-Synchronous-Reset/waveform.png)
+  - **02-Asynchronous-Reset**: [README](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/02-Asynchronous-Reset/README.md) | [RTL](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/02-Asynchronous-Reset/fsm_async_reset.v) | [TB](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/02-Asynchronous-Reset/fsm_async_reset_tb.v) | [Schematic](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/02-Asynchronous-Reset/rtl-schematic.png) | [Waveform](./Verilog-HDL-and-RTL-Design/[12]-RTL-FSM/07-FSM-Reset-and-Initialization/02-Asynchronous-Reset/waveform.png)
+
+  </details>
+
+</details>
