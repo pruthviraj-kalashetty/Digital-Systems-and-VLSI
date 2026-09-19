@@ -737,6 +737,28 @@ The testbench must demonstrate all of the following:
 
 Future revisions can add request inputs and additional states while preserving the safety rule that conflicting flows are never permitted together. Suitable next additions are pedestrian phases, sensor-triggered green extensions, independent NS/EW green durations, and an emergency all-red override.
 
+
+<details>
+<summary><b>📁 [01]-Verilog-Basics</b></summary>
+
+<br>
+
+| Topic / Note | File Path |
+| :--- | :--- |
+| **What is HDL?** | [`What-is-HDL.md`](./[01]-Verilog-Basics/What-is-HDL.md) |
+| **HDL vs Software** | [`HDL-vs-Software.md`](./[01]-Verilog-Basics/HDL-vs-Software.md) |
+| **Introduction to Verilog** | [`Introduction-to-Verilog.md`](./[01]-Verilog-Basics/Introduction-to-Verilog.md) |
+| **Module Structure** | [`Module-Structure.md`](./[01]-Verilog-Basics/Module-Structure.md) |
+| **Port Declaration** | [`Port-Declaration.md`](./[01]-Verilog-Basics/Port-Declaration.md) |
+| **Data Types (`wire` vs `reg`)** | [`Data-Types-wire-vs-reg.md`](./[01]-Verilog-Basics/Data-Types-wire-vs-reg.md) |
+| **Integer, Real & Time** | [`Integer-Real-Time.md`](./[01]-Verilog-Basics/Integer-Real-Time.md) |
+| **Number Representation** | [`Number-Representation.md`](./[01]-Verilog-Basics/Number-Representation.md) |
+| **Operators in Verilog** | [`Operators-in-Verilog.md`](./[01]-Verilog-Basics/Operators-in-Verilog.md) |
+| **Operator Precedence** | [`Operator-Precedence.md`](./[01]-Verilog-Basics/Operator-Precedence.md) |
+| **Parameters** | [`Parameters.md`](./[01]-Verilog-Basics/Parameters.md) |
+| **`localparam`** | [`localparam.md`](./[01]-Verilog-Basics/localparam.md) |
+
+</details>
 ## 11. Related Engineering Documentation
 
 
