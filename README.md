@@ -339,36 +339,47 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │         ├── Electrical-Effort
 │         ├── Parasitic-Delay
 │         └── Path-Optimization
-│
-├──Timing-Concepts
-│ ├── 01-Clock-Concepts.md
-│ ├── 02-Clock-Frequency-and-Period.md      
-│ ├── 03-Propagation-Delay.md
-│ ├── 04-Contamination-Delay.md             
-│ ├── 05-Rise-Time.md
-│ ├── 06-Fall-Time.md
-│ ├── 07-Setup-Time.md
-│ ├── 08-Hold-Time.md
-│ ├── 09-Clock-Skew.md
-│ ├── 10-Clock-Jitter.md
-│ ├── 11-Arrival-Time.md                    
-│ ├── 12-Required-Time.md                   
-│ └── 13-Timing-Diagrams.md
-│       
-└── STA-Basics
-  ├── 01-Introduction-to-STA.md             
-  ├── 02-Timing-Paths.md
-  ├── 03-Setup-Analysis.md
-  ├── 04-Hold-Analysis.md
-  ├── 05-Timing-Violations.md
-  ├── 06-Slack-Analysis.md
-  ├── 07-Timing-Constraints.md
-  ├── 08-Critical-Path.md
-  ├── 09-Timing-Reports.md
-  ├── 10-Input-and-Output-Delay.md          
-  ├── 11-False-Path-Basics.md               
-  ├── 12-Multicycle-Path-Basics.md          
-  └── 13-Timing-Closure-Basics.md               
+├── Timing-and-STA
+│   ├── 01-Timing-Fundamentals
+│   │   ├── 01-Introduction-to-Digital-Timing.md
+│   │   ├── 02-Clock-Concepts.md
+│   │   ├── 03-Clock-Frequency-and-Period.md
+│   │   ├── 04-Duty-Cycle.md
+│   │   ├── 05-Propagation-Delay.md
+│   │   ├── 06-Contamination-Delay.md
+│   │   ├── 07-Clock-to-Q-Delay.md
+│   │   ├── 08-Rise-Time.md
+│   │   └── 09-Fall-Time.md
+│   │
+│   ├── 02-Setup-Hold-and-Clock-Effects
+│   │   ├── 01-Setup-Time.md
+│   │   ├── 02-Hold-Time.md
+│   │   ├── 03-Setup-and-Hold-Requirements.md
+│   │   ├── 04-Clock-Skew.md
+│   │   ├── 05-Clock-Jitter.md
+│   │   └── 06-Clock-Uncertainty.md
+│   │
+│   ├── 03-Timing-Paths
+│   │   ├── 01-Timing-Path-Introduction.md
+│   │   ├── 02-Launch-and-Capture-Elements.md
+│   │   ├── 03-Data-Path.md
+│   │   ├── 04-Clock-Path.md
+│   │   ├── 05-Register-to-Register-Path.md
+│   │   ├── 06-Input-to-Register-Path.md
+│   │   ├── 07-Register-to-Output-Path.md
+│   │   └── 08-Input-to-Output-Path.md
+│   │
+│   ├── 04-Static-Timing-Analysis
+│   │   ├── 01-Introduction-to-STA.md
+│   │   ├── 02-STA-vs-Simulation.md
+│   │   ├── 03-Timing-Graph-and-Paths.md
+│   │   ├── 04-Setup-Analysis.md
+│   │   ├── 05-Hold-Analysis.md
+    │   ├── 06-Arrival-Time.md
+    │   ├── 07-Required-Time.md
+    │   ├── 08-Slack-Analysis.md
+    │   └── 09-Timing-Violations.md
+       
 
 ```
 ---
