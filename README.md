@@ -244,19 +244,19 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │
 │   └── [03]. CMOS Fundamentals
 │          ├── [01]-CMOS-Basics
-│          │ ├── What is CMOS?
-│          │ ├── Complementary NMOS + PMOS
-│          │ ├── CMOS Inverter
-│          │    ├── CMOS Logic Operation
-│          │    └── Pull-up and Pull-down Networks
+│          │   ├── What is CMOS?
+│          │   ├── Complementary NMOS + PMOS
+│          │   ├── CMOS Inverter
+│          │   ├── CMOS Logic Operation
+│          │   └── Pull-up and Pull-down Networks
 │          │   
 │          ├── [02]-CMOS Logic Gates
 │          │   ├── CMOS NOT (Inverter)
 │          │   ├── CMOS NAND
 │          │   ├── CMOS NOR
 │          │   ├── CMOS AND
-│          │    ├── CMOS OR
-│          │     └── CMOS XOR / XNOR (basic understanding)
+│          │   ├── CMOS OR
+│          │   └── CMOS XOR / XNOR (basic understanding)
 │          │   
 │          ├── [03]-CMOS Characteristics
 │          │   ├── Logic 0 and Logic 1
@@ -264,14 +264,14 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │          │   ├── Noise Margin
 │          │   ├── Propagation Delay
 │          │   ├── Rise Time
-│          │     └── Fall Time
+│          │   └── Fall Time
 │          │     
 │          ├── [04]-CMOS Power
 │          │    ├── Dynamic Power
 │          │    ├── Static Power
 │          │    ├── Switching Activity
 │          │    ├── Short-Circuit Power (basic)
-│          │     └── Leakage Power (basic)
+│          │    └── Leakage Power (basic)
 │          │     
 │          └── [05]- CMOS Digital Design Concepts
 │              ├── Fan-in
@@ -279,7 +279,7 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │              ├── Load Capacitance
 │              ├── Drive Strength (basic)
 │              ├── PVT Variations (basic)
-│               └── Process Technology Nodes (basic)
+│              └── Process Technology Nodes (basic)
 │
 ├── VLSI-Fundamentals
 │   ├── [01]-Introduction-to-VLSI
