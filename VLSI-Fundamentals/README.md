@@ -58,6 +58,7 @@ By working through this module, you will be able to:
 
 ## 🌲 Directory Structure
 
+```
 VLSI-Fundamentals/
 ├── [01]-Introduction-to-VLSI/
 │   ├── What-is-VLSI
@@ -114,7 +115,7 @@ VLSI-Fundamentals/
     ├── Electrical-Effort
     ├── Parasitic-Delay
     └── Path-Optimization
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
