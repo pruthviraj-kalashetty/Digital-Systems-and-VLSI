@@ -61,11 +61,11 @@ By working through this module, you will be able to:
 ```
 VLSI-Fundamentals/
 ├── [01]-Introduction-to-VLSI/
-│   ├── What-is-VLSI
-│   ├── VLSI-Levels-of-Integration
-│   ├── VLSI-Design-Types
-│   ├── Digital-vs-Analog-IC
-│   └── VLSI-Applications
+│   ├── 01-What-is-VLSI
+│   ├── 02-VLSI-Levels-of-Integration
+│   ├── 03-VLSI-Design-Types
+│   ├── 04-Digital-vs-Analog-IC
+│   └── 05-VLSI-Applications
 │
 ├── [02]-ASIC-vs-FPGA/
 │   ├── ASIC
