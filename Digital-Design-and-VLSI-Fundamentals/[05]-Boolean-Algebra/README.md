@@ -35,10 +35,10 @@ By working through this module, you will be able to:
 ```text
 05-Boolean-Algebra/
 ├── README.md
-├── Boolean-Basics.md
-├── Boolean-Laws.md
-├── DeMorgan-Theorem.md
-└── Boolean-Expression.md
+├── 01-Boolean-Basics.md
+├── 02-Boolean-Laws.md
+├── 03-DeMorgan-Theorem.md
+└── 04-Boolean-Expression.md
 ```
 
 ---
