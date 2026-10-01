@@ -130,10 +130,10 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   ├── 01-AND-Gate.md
 │   │   ├── 02-OR-Gate.md
 │   │   ├── 03-NOT-Gate.md
-│   │   ├── NAND-Gate.md
-│   │   ├── NOR-Gate.md
-│   │   ├── XOR-Gate.md
-│   │   └── XNOR-Gate.md
+│   │   ├── 04-NAND-Gate.md
+│   │   ├── 05-NOR-Gate.md
+│   │   ├── 06-XOR-Gate.md
+│   │   └── 07-XNOR-Gate.md
 │   │
 │   ├── [07]-Combinational-Logic
 │   │   ├── Introduction.md
