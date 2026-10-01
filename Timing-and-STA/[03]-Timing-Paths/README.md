@@ -40,7 +40,7 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 03-Timing-Paths/
 ├── 01-Timing-Path-Introduction.md
 ├── 02-Launch-and-Capture-Elements.md
@@ -50,7 +50,7 @@ By working through this module, you will be able to:
 ├── 06-Input-to-Register-Path.md
 ├── 07-Register-to-Output-Path.md
 └── 08-Input-to-Output-Path.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
@@ -63,11 +63,13 @@ A typical synchronous timing path contains:
 
 **Launch Element → Data Path → Capture Element**
 
+
 ### 2. Launch and Capture Elements
 
 Understand the roles of launch and capture elements in synchronous timing analysis.
 
 The **launch element** starts data propagation, while the **capture element** receives the data at the destination timing point.
+
 
 ### 3. Data Path
 
@@ -79,6 +81,7 @@ A data path may contain:
 - Combinational logic
 - Logic gates
 - Interconnects
+
 
 ### 4. Clock Path
 
@@ -92,6 +95,7 @@ Clock paths are important for analyzing:
 - Setup timing
 - Hold timing
 
+
 ### 5. Register-to-Register Path
 
 Understand the common synchronous timing path between two registers.
@@ -101,6 +105,7 @@ The basic structure is:
 **Launch Register → Combinational Logic → Capture Register**
 
 This is one of the primary path types analyzed during STA.
+
 
 ### 6. Input-to-Register Path
 
@@ -112,6 +117,7 @@ The basic structure is:
 
 This path type is analyzed using appropriate input timing constraints.
 
+
 ### 7. Register-to-Output Path
 
 Understand timing paths that begin at a sequential element and terminate at an external output.
@@ -122,6 +128,7 @@ The basic structure is:
 
 This path type is analyzed using appropriate output timing constraints.
 
+
 ### 8. Input-to-Output Path
 
 Understand timing paths that begin at an external input and terminate at an external output.
@@ -131,6 +138,7 @@ The basic structure is:
 **Input → Combinational Logic → Output**
 
 This represents a combinational timing path without a sequential launch or capture element.
+
 
 ### 9. Timing Paths and STA
 
