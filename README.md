@@ -136,21 +136,21 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   └── 07-XNOR-Gate.md
 │   │
 │   ├── [07]-Combinational-Logic
-│   │   ├── Introduction.md
-│   │   ├── Truth-Tables.md
-│   │   ├── Minterms-Maxterms.md
-│   │   └── Combinational-vs-Sequential.md
+│   │   ├── 01-Introduction.md
+│   │   ├── 02-Truth-Tables.md
+│   │   ├── 03-Minterms-Maxterms.md
+│   │   └── 04-Combinational-vs-Sequential.md
 │   │
 │   ├── [08]-Karnaugh-Map
-│   │   ├── KMap-3-Variable.md
-│   │   ├── KMap-4-Variable.md
-│   │   └── Dont-Care-Conditions.md
+│   │   ├── 01-KMap-3-Variable.md
+│   │   ├── 02-KMap-4-Variable.md
+│   │   └── 03-Dont-Care-Conditions.md
 │   │
 │   ├── [09]-Combinational-Circuits
-│   │   ├── Adders
-│   │   │   ├── Half-Adder.md
-│   │   │   ├── Full-Adder.md
-│   │   │   └── Full-Adder-Using-Two-Half-Adder.md
+│   │   ├── [01]Adders
+│   │   │   ├── 01-Half-Adder.md
+│   │   │   ├── 02-Full-Adder.md
+│   │   │   └── 03-Full-Adder-Using-Two-Half-Adder.md
 │   │   ├── Subctractor
 │   │   │   ├── Half-Subctractor.md
 │   │   │   ├── Full-Subctractor.md
