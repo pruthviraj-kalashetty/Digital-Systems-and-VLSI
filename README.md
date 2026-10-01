@@ -127,9 +127,9 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   └── Boolean-Expression.md
 │   │
 │   ├── [06]-Logic-Gates
-│   │   ├── AND-Gate.md
-│   │   ├── OR-Gate.md
-│   │   ├── NOT-Gate.md
+│   │   ├── 01-AND-Gate.md
+│   │   ├── 02-OR-Gate.md
+│   │   ├── 03-NOT-Gate.md
 │   │   ├── NAND-Gate.md
 │   │   ├── NOR-Gate.md
 │   │   ├── XOR-Gate.md
