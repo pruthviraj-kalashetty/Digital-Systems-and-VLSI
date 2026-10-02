@@ -36,14 +36,14 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 01-Introduction-to-VLSI/
 ├── 01-What-is-VLSI.md
 ├── 02-VLSI-Levels-of-Integration.md
 ├── 03-VLSI-Design-Types.md
 ├── 04-Digital-vs-Analog-IC.md
 └── 05-VLSI-Applications.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
@@ -53,6 +53,7 @@ By working through this module, you will be able to:
 Understand Very-Large-Scale Integration (VLSI) as the process of integrating a large number of transistors and electronic components onto a single integrated circuit.
 
 Understand the importance of VLSI in building compact, high-performance, and complex electronic systems.
+
 
 ### 2. VLSI Levels of Integration
 
@@ -66,6 +67,7 @@ Key concepts include:
 - VLSI
 - ULSI
 
+
 ### 3. VLSI Design Types
 
 Understand the major approaches used to design and implement integrated circuits.
@@ -77,6 +79,7 @@ Key concepts include:
 - Mixed-Signal IC Design
 - ASIC Design
 - FPGA-Based Design
+
 
 ### 4. Digital vs Analog IC
 
@@ -92,6 +95,7 @@ Key concepts include:
 - Analog processing
 - Applications
 
+
 ### 5. VLSI Applications
 
 Understand how VLSI technology is used in modern electronic systems.
@@ -106,6 +110,7 @@ Major application areas include:
 - Consumer electronics
 - Automotive electronics
 - AI and computing systems
+
 
 ### 6. Foundation for VLSI Design
 
