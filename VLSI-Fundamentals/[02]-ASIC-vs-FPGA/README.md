@@ -36,14 +36,14 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 02-ASIC-vs-FPGA/
 ├── 01-ASIC.md
 ├── 02-FPGA.md
 ├── 03-ASIC-vs-FPGA.md
 ├── 04-Advantages-and-Disadvantages.md
 └── 05-RTL-in-ASIC-and-FPGA.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
