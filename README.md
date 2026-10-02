@@ -94,8 +94,8 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 
 ├──Digital-Systems-and-VLSI  
 │   ├── [01]-Digital-Basics
-│   │   ├── Digital-vs-Analog.md
-│   │   └── Digital-System-Overview.md
+│   │   ├── 01-Digital-vs-Analog.md
+│   │   └── 02-Digital-System-Overview.md
 │   │
 │   ├── [02]-Number-Systems
 │   │   ├── Binary-System.md
