@@ -41,7 +41,7 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 04-Static-Timing-Analysis/
 ├── 01-Introduction-to-STA.md
 ├── 02-STA-vs-Simulation.md
@@ -52,7 +52,7 @@ By working through this module, you will be able to:
 ├── 07-Required-Time.md
 ├── 08-Slack-Analysis.md
 └── 09-Timing-Violations.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
