@@ -250,12 +250,12 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │          │   └── 05-Pull-up and Pull-down Networks
 │          │   
 │          ├── [02]-CMOS Logic Gates
-│          │   ├── CMOS NOT (Inverter)
-│          │   ├── CMOS NAND
-│          │   ├── CMOS NOR
-│          │   ├── CMOS AND
-│          │   ├── CMOS OR
-│          │   └── CMOS XOR / XNOR (basic understanding)
+│          │   ├── 01-CMOS NOT (Inverter)
+│          │   ├── 02-CMOS AND
+│          │   ├── 03-CMOS NAND
+│          │   ├── 04-CMOS OR
+│          │   ├── 05-CMOS NOR
+│          │   └── 06-sCMOS XOR / XNOR (basic understanding)
 │          │   
 │          ├── [03]-CMOS Characteristics
 │          │   ├── Logic 0 and Logic 1
