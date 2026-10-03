@@ -1070,3 +1070,12 @@ Future revisions can add request inputs and additional states while preserving t
   </details>
 
 </details>
+-----
+
+<details>
+<summary><b>[01] Digital-Basics</b></summary>
+
+* [01-Digital-vs-Analog.md](01-Digital-Basics/01-Digital-vs-Analog.md)
+* [02-Digital-System-Overview.md](01-Digital-Basics/02-Digital-System-Overview.md)
+
+</details>
