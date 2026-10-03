@@ -255,15 +255,13 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │          │   ├── 03-CMOS NAND
 │          │   ├── 04-CMOS OR
 │          │   ├── 05-CMOS NOR
-│          │   └── 06-sCMOS XOR / XNOR (basic understanding)
+│          │   └── 06-CMOS XOR / XNOR (basic understanding)
 │          │   
 │          ├── [03]-CMOS Characteristics
-│          │   ├── Logic 0 and Logic 1
-│          │   ├── Voltage Levels
-│          │   ├── Noise Margin
-│          │   ├── Propagation Delay
-│          │   ├── Rise Time
-│          │   └── Fall Time
+│          │   ├── 01-Noise Margin
+│          │   ├── 02-Propagation Delay
+│          │   ├── 03-Rise Time
+│          │   └── 04-Fall Time
 │          │     
 │          ├── [04]-CMOS Power
 │          │    ├── Dynamic Power
