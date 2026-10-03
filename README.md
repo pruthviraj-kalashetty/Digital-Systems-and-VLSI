@@ -263,20 +263,10 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │          │   ├── 03-Rise Time
 │          │   └── 04-Fall Time
 │          │     
-│          ├── [04]-CMOS Power
-│          │    ├── Dynamic Power
-│          │    ├── Static Power
-│          │    ├── Switching Activity
-│          │    ├── Short-Circuit Power (basic)
-│          │    └── Leakage Power (basic)
-│          │     
-│          └── [05]- CMOS Digital Design Concepts
-│              ├── Fan-in
-│              ├── Fan-out
-│              ├── Load Capacitance
-│              ├── Drive Strength (basic)
-│              ├── PVT Variations (basic)
-│              └── Process Technology Nodes (basic)
+│          └── [04]-CMOS Design Concepts
+│              ├── 01-Fan-in
+│              ├── 02-Fan-out
+│              └── 03-Load Capacitance
 │
 ├── VLSI-Fundamentals
 │   ├── [01]-Introduction-to-VLSI
