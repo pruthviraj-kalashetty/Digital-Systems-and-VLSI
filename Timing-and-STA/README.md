@@ -1087,19 +1087,19 @@ Digital-Systems-and-VLSI
 <summary>├── <b>[01]-Digital-Basics</b></summary>
 │   ├── 01-Digital-vs-Analog.md<br>
 │   └── 02-Digital-System-Overview.md
-</details>
-<details>
-<summary>├── <b>[02]-Number-Systems</b></summary>
+│</details>
+│<details>
+│<summary>├── <b>[02]-Number-Systems</b></summary>
 │   ├── Binary-System.md<br>
 │   ├── Decimal-System.md<br>
 │   ├── Octal-System.md<br>
 │   ├── Hexadecimal-System.md<br>
 │   └── Number-System-Conversion.md
-</details>
-<details>
-<summary>└── <b>[03]-Binary-Arithmetic</b></summary>
-    ├── Binary-Addition.md<br>
-    ├── Binary-Subtraction.md<br>
-    ├── Binary-Multiplication.md<br>
-    └── Binary-Division.md
-</details>
+│</details>
+│<details>
+│<summary>└── <b>[03]-Binary-Arithmetic</b></summary>
+│    ├── Binary-Addition.md<br>
+│    ├── Binary-Subtraction.md<br>
+│    ├── Binary-Multiplication.md<br>
+│    └── Binary-Division.md
+│</details>
