@@ -96,7 +96,7 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   ├── <summary><b>[01]-Digital-Basics</b></summary>
 │   │   ├── 01-Digital-vs-Analog.md
 │   │   └── 02-Digital-System-Overview.md
-│   │
+│   │</details>
 │   ├── [02]-Number-Systems
 │   │   ├── Binary-System.md
 │   │   ├── Decimal-System.md
