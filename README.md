@@ -165,15 +165,15 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   ├── [05]-Decoder
 │   │   │   ├── 01-2x4.md
 │   │   │   └── 02-3x8.md
-│   │   ├── Encoder
-│   │   │   ├── 4x2.md
-│   │   │   ├── 8x3.md
-│   │   │   └── Priority-Encoder.md
-│   │   └── Comparator
+│   │   ├── [06]-Encoder
+│   │   │   ├── 01-4x2.md
+│   │   │   ├── 02-8x3.md
+│   │   │   └── 03-Priority-Encoder.md
+│   │   └── [07]-Comparator
 │   │   │   ├── 1-bit.md
 │   │   │   ├── 2-bit.md
 │   │   │   └── 3-bit.md
-│   │   └── Ripple-Carry-Adder.md
+│   │   └── [08]Ripple-Carry-Adder.md
 │   │
 │   ├── [10]-Flip-Flops
 │   │   ├── SR-FlipFlop.md
@@ -184,12 +184,12 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   └── Excitation-Table.md
 │   │
 │   ├── [11]-Registers
-│   │   ├── Register-Basics.md
-│   │   ├── Shift-Registers.md
-│   │   ├── SISO-Register.md
-│   │   ├── SIPO-Register.md
-│   │   ├── PISO-Register.md
-│   │   └── PIPO-Register.md
+│   │   ├── 01-Register-Basics.md
+│   │   ├── 02-Shift-Registers.md
+│   │   ├── 03-SISO-Register.md
+│   │   ├── 04-SIPO-Register.md
+│   │   ├── 05-PISO-Register.md
+│   │   └── 06-PIPO-Register.md
 │   │
 │   ├── [12]-Counters
 │   │   ├── Asynchronous-Counters
@@ -207,12 +207,12 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │       └── Johnson-Counter.md
 │   │
 │   └── [13]-Finite-State-Machines
-│       ├── FSM-Introduction.md
-│       ├── State-Diagram.md
-│       ├── State-Table.md
-│       ├── Moore-Machine.md
-│       ├── Mealy-Machine.md
-│       └── Sequence-Detector.md
+│       ├── 01-FSM-Introduction.md
+│       ├── 02-State-Diagram.md
+│       ├── 03-State-Table.md
+│       ├── 04-Moore-Machine.md
+│       ├── 05-Mealy-Machine.md
+│       └── 06-Sequence-Detector.md
 │
 ├── Semiconductor-and-CMOS
 │   │
