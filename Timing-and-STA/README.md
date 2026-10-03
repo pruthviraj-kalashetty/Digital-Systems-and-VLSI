@@ -1082,23 +1082,12 @@ Future revisions can add request inputs and additional states while preserving t
 
 ----
 
-<details>
-<summary><code>Digital-Systems-and-VLSI</code></summary>
-├── <details><summary><b>[01]-Digital-Basics</b></summary>
-│   ├── 01-Digital-vs-Analog.md<br>
-│   └── 02-Digital-System-Overview.md
-│   </details>
-</details>
-
-<details>
-<summary><code>Digital-Systems-and-VLSI</code></summary>
-
+Digital-Systems-and-VLSI
 <details>
 <summary>├── <b>[01]-Digital-Basics</b></summary>
 │   ├── 01-Digital-vs-Analog.md<br>
 │   └── 02-Digital-System-Overview.md
 </details>
-
 <details>
 <summary>├── <b>[02]-Number-Systems</b></summary>
 │   ├── Binary-System.md<br>
@@ -1107,13 +1096,10 @@ Future revisions can add request inputs and additional states while preserving t
 │   ├── Hexadecimal-System.md<br>
 │   └── Number-System-Conversion.md
 </details>
----
 <details>
 <summary>└── <b>[03]-Binary-Arithmetic</b></summary>
     ├── Binary-Addition.md<br>
     ├── Binary-Subtraction.md<br>
     ├── Binary-Multiplication.md<br>
     └── Binary-Division.md
-</details>
-
 </details>
