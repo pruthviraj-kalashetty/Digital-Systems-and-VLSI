@@ -193,18 +193,21 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │
 │   ├── [12]-Counters
 │   │   ├── Asynchronous-Counters
-│   │   │   ├──3-Bit-Asynchoronous-Up-Counter.md
 │   │   │   ├── 3-Bit-Asynchoronous-Down-Counter.md
-│   │   │   ├── 4-Bit-Asynchoronous-Up-Counter.md
-│   │   │   └── 4-Bit-Asynchoronous-Down-Counter.md
+│   │   │   ├── 3-Bit-Asynchoronous-Up,Down-Counter.md
+│   │   │   ├── 3-Bit-Asynchoronous-Up-Counter.md
+│   │   │   ├── 4-Bit-Asynchoronous-Down-Counter.md
+│   │   │   ├── 4-Bit-Asynchoronous-Up,Down-Counter.md
+│   │   │   └── 4-Bit-Asynchoronous-Up-Counter.md
 │   │   ├── Synchronous-Counters
-│   │   │   ├── Up-Counter.md
-│   │   │   ├── Down-Counter.md
-│   │   │   ├── Up-Down-Counter.md
-│   │   │   └── Mod-N-Counter.md
+│   │   │   ├── 3-Bit-Synchoronous-Down-Counter.md
+│   │   │   ├── 3-Bit-Synchoronous-Up,Down-Counter.md
+│   │   │   ├── 3-Bit-Synchoronous-Up-Counter.md
+│   │   │   ├── 4-Bit-Synchoronous-Down-Counter.md
+│   │   │   ├── 4-Bit-Synchoronous-Up,Down-Counter.md
+│   │   │   └── 4-Bit-Synchoronous-Up-Counter.md
 │   │   └── Special-Counters
-│   │       ├── Ring-Counter.md
-│   │       └── Johnson-Counter.md
+│   │       └── Ring-Counter.md
 │   │
 │   └── [13]-Finite-State-Machines
 │       ├── 01-FSM-Introduction.md
