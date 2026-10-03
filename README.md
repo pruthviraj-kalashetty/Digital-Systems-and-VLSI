@@ -97,17 +97,17 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   └── 02-Digital-System-Overview.md
 │   │   
 │   ├── [02]-Number-Systems
-│   │   ├── Binary-System.md
-│   │   ├── Decimal-System.md
-│   │   ├── Octal-System.md
-│   │   ├── Hexadecimal-System.md
-│   │   └── Number-System-Conversion.md
+│   │   ├── 01-Binary-System.md
+│   │   ├── 02-Decimal-System.md
+│   │   ├── 03-Octal-System.md
+│   │   ├── 04-Hexadecimal-System.md
+│   │   └── 05-Number-System-Conversion.md
 │   │
 │   ├── [03]-Binary-Arithmetic
-│   │   ├── Binary-Addition.md
-│   │   ├── Binary-Subtraction.md
-│   │   ├── Binary-Multiplication.md
-│   │   └── Binary-Division.md
+│   │   ├── 01-Binary-Addition.md
+│   │   ├── 02-Binary-Subtraction.md
+│   │   ├── 03-Binary-Multiplication.md
+│   │   └── 04-Binary-Division.md
 │   │
 │   ├── [04]-Binary-Codes
 │   │   ├── BCD-Code.md
