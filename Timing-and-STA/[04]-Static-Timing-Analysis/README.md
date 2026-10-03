@@ -2,7 +2,6 @@
 
 [![Stage](https://img.shields.io/badge/Timing--and--STA-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Static%20Timing%20Analysis-orange.svg)](#)
-[![Focus](https://img.shields.io/badge/Focus-Static%20Timing%20Analysis-orange.svg)](#)
 
 This module introduces the fundamental concepts of Static Timing Analysis (STA), a method used to analyze the timing behavior of digital designs without requiring functional simulation. It covers timing graphs and paths, setup and hold analysis, arrival time, required time, slack, and timing violations.
 
