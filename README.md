@@ -110,20 +110,20 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   └── 04-Binary-Division.md
 │   │
 │   ├── [04]-Binary-Codes
-│   │   ├── BCD-Code.md
-│   │   ├── Gray-Code.md
-│   │   ├── ASCII-Code.md
-│   │   ├── Excess-3-Code.md
-│   │   ├── Binary-to-Gray.md
-│   │   ├── Gray-to-Binary.md
-│   │   ├── BCD-to-Excess-3.md
-│   │   └── Excess-3-to-BCD.md
+│   │   ├── 01-BCD-Code.md
+│   │   ├── 02-Gray-Code.md
+│   │   ├── 03-ASCII-Code.md
+│   │   ├── 04-Excess-3-Code.md
+│   │   ├── 05-Binary-to-Gray.md
+│   │   ├── 06-Gray-to-Binary.md
+│   │   ├── 07-BCD-to-Excess-3.md
+│   │   └── 08-Excess-3-to-BCD.md
 │   │
 │   ├── [05]-Boolean-Algebra
-│   │   ├── Boolean-Basics.md
-│   │   ├── Boolean-Laws.md
-│   │   ├── DeMorgan-Theorem.md
-│   │   └── Boolean-Expression.md
+│   │   ├── 01-Boolean-Basics.md
+│   │   ├── 02-Boolean-Laws.md
+│   │   ├── 03-DeMorgan-Theorem.md
+│   │   └── 04-Boolean-Expression.md
 │   │
 │   ├── [06]-Logic-Gates
 │   │   ├── 01-AND-Gate.md
@@ -146,25 +146,25 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   └── 03-Dont-Care-Conditions.md
 │   │
 │   ├── [09]-Combinational-Circuits
-│   │   ├── [01]Adders
+│   │   ├── [01]-Adders
 │   │   │   ├── 01-Half-Adder.md
 │   │   │   ├── 02-Full-Adder.md
 │   │   │   └── 03-Full-Adder-Using-Two-Half-Adder.md
-│   │   ├── Subctractor
-│   │   │   ├── Half-Subctractor.md
-│   │   │   ├── Full-Subctractor.md
-│   │   │   └── Full-Subctractor-Using-Two-Half-Subctractor.md
-│   │   ├── Multiplexer
-│   │   │   ├── 2x1.md
-│   │   │   ├── 4x1.md
-│   │   │   └── 8x1.md
-│   │   ├── Demultiplexer
-│   │   │   ├── 1x2.md
-│   │   │   ├── 1x4.md
-│   │   │   └── 1x8.md
-│   │   ├── Decoder
-│   │   │   ├── 2x4.md
-│   │   │   └── 3x8.md
+│   │   ├── [02]-Subctractor
+│   │   │   ├── 01-Half-Subctractor.md
+│   │   │   ├── 02-Full-Subctractor.md
+│   │   │   └── 03-Full-Subctractor-Using-Two-Half-Subctractor.md
+│   │   ├── [03]-Multiplexer
+│   │   │   ├── 01-2x1.md
+│   │   │   ├── 02-4x1.md
+│   │   │   └── 03-8x1.md
+│   │   ├── [04]-Demultiplexer
+│   │   │   ├── 01-1x2.md
+│   │   │   ├── 02-1x4.md
+│   │   │   └── 03-1x8.md
+│   │   ├── [05]-Decoder
+│   │   │   ├── 01-2x4.md
+│   │   │   └── 02-3x8.md
 │   │   ├── Encoder
 │   │   │   ├── 4x2.md
 │   │   │   ├── 8x3.md
