@@ -219,16 +219,16 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   ├── [01]-Semiconductor-Basics
 │   │   ├── 01-Semiconductor-Types.md 
 │   │   ├── 02-Intrinsic-Semiconductor.md 
-│   │   ├── Extrinsic-Semiconductor.md 
-│   │   ├── Doping.md 
-│   │   ├── N-Type-Semiconductor.md 
-│   │   ├── P-Type-Semiconductor.md 
-│   │   ├── Semiconductor Manufacturing Process
-│   │   ├── From Sand to Silicon
-│   │   ├── Silicon Wafer Manufacturing
-│   │   ├── Semiconductor Fabrication Plant
-│   │   ├── Clean Room Technology
-│   │   ├── Photolithography
+│   │   ├── 03-Extrinsic-Semiconductor.md 
+│   │   ├── 04-Doping.md 
+│   │   ├── 05-N-Type-Semiconductor.md 
+│   │   ├── 06-P-Type-Semiconductor.md 
+│   │   ├── 07-Semiconductor Manufacturing Process
+│   │   ├── 08-From Sand to Silicon
+│   │   ├── 09-Silicon Wafer Manufacturing
+│   │   ├── 10-Semiconductor Fabrication Plant
+│   │   ├── 11-Clean Room Technology
+│   │   ├── 12-Photolithography
 │   │   ├── EUV Lithography
 │   │   ├── Wafer Testing
 │   │   ├── Chip Packaging
