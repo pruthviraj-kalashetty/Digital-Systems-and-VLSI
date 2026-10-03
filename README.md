@@ -217,8 +217,8 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 ├── Semiconductor-and-CMOS
 │   │
 │   ├── [01]-Semiconductor-Basics
-│   │   ├── Semiconductor-Types.md 
-│   │   ├── Intrinsic-Semiconductor.md 
+│   │   ├── 01-Semiconductor-Types.md 
+│   │   ├── 02-Intrinsic-Semiconductor.md 
 │   │   ├── Extrinsic-Semiconductor.md 
 │   │   ├── Doping.md 
 │   │   ├── N-Type-Semiconductor.md 
