@@ -1079,3 +1079,13 @@ Future revisions can add request inputs and additional states while preserving t
 * [02-Digital-System-Overview.md](01-Digital-Basics/02-Digital-System-Overview.md)
 
 </details>
+
+----
+
+<details>
+<summary><code>Digital-Systems-and-VLSI</code></summary>
+├── <details><summary><b>[01]-Digital-Basics</b></summary>
+│   ├── 01-Digital-vs-Analog.md<br>
+│   └── 02-Digital-System-Overview.md
+│   </details>
+</details>
