@@ -311,8 +311,8 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   ├── 01-Power
 │   │   ├── 02-Performance
 │   │   ├── 03-Area
-│   │   ├── PPA-Tradeoffs
-│   │   └── RTL-Level-PPA-Optimization
+│   │   ├── 04-PPA-Tradeoffs
+│   │   └── 05-RTL-Level-PPA-Optimization
 │   │  
 │   ├── [06]-Parasitic-RC-Basics
 │   │   ├── Resistance
