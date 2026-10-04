@@ -1,6 +1,6 @@
 # ◈ Karnaugh Map
 
-[![Stage](https://img.shields.io/badge/Digital--Logic-blue.svg)](#)
+[![Stage](https://img.shields.io/badge/Digital--Design--and--VLSI--Fundamentals-blue.svg)](#)
 [![Focus](https://img.shields.io/badge/Focus-Karnaugh%20Map-orange.svg)](#)
 
 This module introduces Karnaugh Maps (K-Maps), a graphical method used to simplify Boolean expressions and digital logic circuits.
