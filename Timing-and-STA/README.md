@@ -30,10 +30,10 @@ By working through this module, you will be able to:
 
 | Module | Core Technical Focus |
 | :--- | :--- |
-| **[`01-Timing-Fundamentals`](./01-Timing-Fundamentals/)** | Fundamental digital timing concepts including clocks, frequency, period, delays, and signal transition times. |
-| **[`02-Setup-Hold-and-Clock-Effects`](./02-Setup-Hold-and-Clock-Effects/)** | Setup and hold requirements along with clock skew, jitter, and uncertainty. |
-| **[`03-Timing-Paths`](./03-Timing-Paths/)** | Different timing paths, launch and capture elements, data paths, and clock paths. |
-| **[`04-Static-Timing-Analysis`](./04-Static-Timing-Analysis/)** | STA concepts including timing graphs, setup/hold analysis, arrival time, required time, slack, and timing violations. |
+| **[`[01]-Timing-Fundamentals`](./[01]-Timing-Fundamentals/)** | Fundamental digital timing concepts including clocks, frequency, period, delays, and signal transition times. |
+| **[`[02]-Setup-Hold-and-Clock-Effects`](./[02]-Setup-Hold-and-Clock-Effects/)** | Setup and hold requirements along with clock skew, jitter, and uncertainty. |
+| **[`[03]-Timing-Paths`](./[03]-Timing-Paths/)** | Different timing paths, launch and capture elements, data paths, and clock paths. |
+| **[`[04]-Static-Timing-Analysis`](./[04]-Static-Timing-Analysis/)** | STA concepts including timing graphs, setup/hold analysis, arrival time, required time, slack, and timing violations. |
 
 ---
 
