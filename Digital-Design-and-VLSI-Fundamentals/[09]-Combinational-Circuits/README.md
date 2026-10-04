@@ -100,42 +100,42 @@ By working through this module, you will be able to:
 09-Combinational-Circuits/
 ├── README.md
 │
-├── Adders/
-│   ├── Half-Adder.md
-│   ├── Full-Adder.md
-│   ├── Full-Adder-using-Half-Adder.md
-│   ├── Ripple-Carry-Adder.md
-│   └── 4-Bit-Ripple-Carry-Adder.md
+├── [01]-Adders/
+│   ├── 01-Half-Adder.md
+│   ├── 02-Full-Adder.md
+│   ├── 03-Full-Adder-using-Half-Adder.md
+│   ├── 03-Ripple-Carry-Adder.md
+│   └── 04-4-Bit-Ripple-Carry-Adder.md
 │
-├── Subtractors/
-│   ├── Half-Subtractor.md
-│   ├── Full-Subtractor.md
-│   └── Full-Subtractor-using-Half-Subtractor.md
+├── [02]-Subtractors/
+│   ├── 01-Half-Subtractor.md
+│   ├── 02-Full-Subtractor.md
+│   └── 03-Full-Subtractor-using-Half-Subtractor.md
 │
-├── Multiplexer/
-│   ├── Multiplexer.md
-│   ├── 2x1/
-│   ├── 4x1/
-│   └── 8x1/
+├── [03]-Multiplexer/
+│   ├── 01-Multiplexer.md
+│   ├── 02-2x1/
+│   ├── 03-4x1/
+│   └── 04-8x1/
 │
-├── Demultiplexer/
-│   ├── Demultiplexer.md
-│   ├── 1x2/
-│   ├── 1x4/
-│   └── 1x8/
+├── [04]-Demultiplexer/
+│   ├── 01-Demultiplexer.md
+│   ├── 02-1x2/
+│   ├── 03-1x4/
+│   └── 04-1x8/
 │
-├── Decoder/
-│   ├── Decoder.md
-│   ├── 2x4/
-│   └── 3x8/
+├── [05]-Decoder/
+│   ├── 01-Decoder.md
+│   ├── 02-2x4/
+│   └── 04-3x8/
 │
-├── Encoder/
-│   ├── Encoder.md
-│   ├── 4x2/
-│   ├── 8x3/
-│   └── Priority-Encoder.md
+├── [06]-Encoder/
+│   ├── 01-Encoder.md
+│   ├── 02-4x2/
+│   ├── 03-8x3/
+│   └── 04-Priority-Encoder.md
 │
-└── Comparator/
+└── [07]-Comparator/
     ├── Comparator.md
     ├── 1-Bit/
     ├── 2-Bit/
