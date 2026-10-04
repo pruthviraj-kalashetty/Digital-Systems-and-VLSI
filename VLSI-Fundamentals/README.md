@@ -68,11 +68,11 @@ VLSI-Fundamentals/
 │   └── 05-VLSI-Applications
 │
 ├── [02]-ASIC-vs-FPGA/
-│   ├── ASIC
-│   ├── FPGA
-│   ├── ASIC-vs-FPGA
-│   ├── Advantages-and-Disadvantages
-│   └── RTL-in-ASIC-and-FPGA
+│   ├── 01-ASIC
+│   ├── 02-FPGA
+│   ├── 03-ASIC-vs-FPGA
+│   ├── 04-Advantages-and-Disadvantages
+│   └── 05-RTL-in-ASIC-and-FPGA
 │
 ├── [03]-Front-End-vs-Back-End/
 │   ├── Front-End-Design
