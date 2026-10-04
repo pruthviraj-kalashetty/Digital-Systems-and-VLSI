@@ -287,12 +287,12 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │    └── 05-RTL-in-ASIC-and-FPGA
 │   │
 │   ├── [03]-Front-End-vs-Back-End
-│   │    ├── Front-End-Design
-│   │    ├── RTL-Design
-│   │    ├── Functional-Verification
-│   │    ├── Logic-Synthesis
-│   │    ├── Back-End-Design
-│   │    └── Physical-Design
+│   │    ├── 01-Front-End-Design
+│   │    ├── 02-RTL-Design
+│   │    ├── 03-Functional-Verification
+│   │    ├── 04-Logic-Synthesis
+│   │    ├── 05-Back-End-Design
+│   │    └── 06-Physical-Design
 │   │  
 │   ├── [04]-RTL-to-GDSII-Flow
 │   │   ├── Specification
