@@ -46,7 +46,7 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 [04]-RTL-to-GDSII-Flow/
 ├── 01-Specification.md
 ├── 02-RTL-Coding.md
@@ -59,7 +59,7 @@ By working through this module, you will be able to:
 ├── 09-STA.md
 ├── 10-Physical-Verification.md
 └── 11-GDSII.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
