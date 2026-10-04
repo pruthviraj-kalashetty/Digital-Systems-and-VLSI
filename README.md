@@ -308,9 +308,9 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   └── 11-GDSII
 │   │   
 │   ├── [05]-PPA
-│   │   ├── Power
-│   │   ├── Performance
-│   │   ├── Area
+│   │   ├── 01-Power
+│   │   ├── 02-Performance
+│   │   ├── 03-Area
 │   │   ├── PPA-Tradeoffs
 │   │   └── RTL-Level-PPA-Optimization
 │   │  
