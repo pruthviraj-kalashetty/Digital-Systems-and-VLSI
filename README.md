@@ -307,26 +307,13 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │   ├── 10-Physical-Verification
 │   │   └── 11-GDSII
 │   │   
-│   ├── [05]-PPA
-│   │   ├── 01-Power
-│   │   ├── 02-Performance
-│   │   ├── 03-Area
-│   │   ├── 04-PPA-Tradeoffs
-│   │   └── 05-RTL-Level-PPA-Optimization
-│   │  
-│   ├── [06]-Parasitic-RC-Basics
-│   │   ├── Resistance
-│   │   ├── Capacitance
-│   │   ├── Interconnect
-│   │   ├── RC-Delay
-│   │   └── Impact-on-Timing
-│   │
-│   └── [07]-Logical-Effort-Basics
-│         ├── Gate-Delay
-│         ├── Logical-Effort
-│         ├── Electrical-Effort
-│         ├── Parasitic-Delay
-│         └── Path-Optimization
+│   └── [05]-PPA
+│       ├── 01-Power
+│       ├── 02-Performance
+│       ├── 03-Area
+│       ├── 04-PPA-Tradeoffs
+│       └── 05-RTL-Level-PPA-Optimization
+│      
 │
 └── Timing-and-STA
     ├── 01-Timing-Fundamentals
