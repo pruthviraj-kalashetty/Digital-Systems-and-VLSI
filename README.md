@@ -295,17 +295,17 @@ This repository serves as a core theoretical foundation for **RTL Design** and *
 │   │    └── 06-Physical-Design
 │   │  
 │   ├── [04]-RTL-to-GDSII-Flow
-│   │   ├── Specification
-│   │   ├── RTL-Coding
-│   │   ├── Functional-Verification
-│   │   ├── Logic-Synthesis
-│   │   ├── Floor-planning
-│   │   ├── Placement
-│   │   ├── Clock-Tree-Synthesis
-│   │   ├── Routing
-│   │   ├── STA
-│   │   ├── Physical-Verification
-│   │   └── GDSII
+│   │   ├── 01-Specification
+│   │   ├── 02-RTL-Coding
+│   │   ├── 03-Functional-Verification
+│   │   ├── 04-Logic-Synthesis
+│   │   ├── 05-Floor-planning
+│   │   ├── 06-Placement
+│   │   ├── 07-Clock-Tree-Synthesis
+│   │   ├── 08-Routing
+│   │   ├── 09-STA
+│   │   ├── 10-Physical-Verification
+│   │   └── 11-GDSII
 │   │   
 │   ├── [05]-PPA
 │   │   ├── Power
