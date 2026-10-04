@@ -39,7 +39,7 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 [03]-Front-End-vs-Back-End/
 ├── 01-Front-End-Design.md
 ├── 02-RTL-Design.md
@@ -47,7 +47,7 @@ By working through this module, you will be able to:
 ├── 04-Logic-Synthesis.md
 ├── 05-Back-End-Design.md
 └── 06-Physical-Design.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
