@@ -38,7 +38,7 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 Timing-and-STA/
 ├── 01-Timing-Fundamentals/
 │   ├── 01-Introduction-to-Digital-Timing.md
@@ -79,7 +79,7 @@ Timing-and-STA/
     ├── 07-Required-Time.md
     ├── 08-Slack-Analysis.md
     └── 09-Timing-Violations.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
