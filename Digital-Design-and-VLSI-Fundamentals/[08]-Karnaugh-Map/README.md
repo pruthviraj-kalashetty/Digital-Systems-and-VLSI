@@ -36,12 +36,12 @@ By working through this module, you will be able to:
 ---
 
 ## 🌲 Directory Structure
-
+```
 [08]-Karnaugh-Map/
 ├── 01-KMap-3-Variable.md
 ├── 02-KMap-4-Variable.md
 └── 03-Dont-Care-Conditions.md
-
+```
 ---
 
 ## 🛠️ Core Concepts Covered
