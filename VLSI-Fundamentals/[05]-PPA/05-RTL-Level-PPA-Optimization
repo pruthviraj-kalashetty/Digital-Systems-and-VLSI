@@ -1,0 +1,1135 @@
+# **RTL-Level PPA Optimization**
+
+* **Overview:**
+
+RTL-Level PPA Optimization is the process of improving **Power, Performance, and Area (PPA)** by making better architectural and RTL coding decisions while maintaining the required functionality.
+
+RTL decisions directly affect the logic synthesized from the design. Therefore, an RTL designer can significantly influence the final implementation's timing, power consumption, and silicon area.
+
+---
+
+* **Definition:**
+
+RTL-Level PPA Optimization means modifying the **RTL architecture, logic structure, data paths, control logic, and coding style** to achieve a better balance of:
+
+- **Power** — Reduce unnecessary energy consumption.
+- **Performance** — Improve timing and maximum operating frequency.
+- **Area** — Reduce required hardware resources.
+
+The optimization must always preserve the required functionality.
+
+---
+
+* **Why is it needed?*
+
+Poor RTL architecture can create:
+
+- Long critical paths
+- Excessive switching activity
+- Unnecessary registers
+- Large multiplexers
+- High fanout
+- Duplicate logic
+- Unnecessary hardware
+- Larger silicon area
+- Higher power consumption
+- Timing violations
+
+Good RTL optimization helps synthesis tools produce a more efficient gate-level implementation.
+
+---
+
+* **Core PPA Relationship:**
+
+RTL optimization affects all three PPA parameters:
+
+```text
+                    RTL Design
+                        |
+             +----------+----------+
+             |          |          |
+           Power    Performance    Area
+             |          |          |
+        Switching    Timing      Hardware
+        Activity     Paths       Resources
+             |          |          |
+             +----------+----------+
+                        |
+                  Final PPA
+```
+
+An optimization for one parameter can negatively affect another.
+
+For example:
+
+```text
+More Pipeline Stages
+        ↓
+Shorter Combinational Paths
+        ↓
+Better Timing
+        ↓
+More Registers + Clock Activity
+        ↓
+Higher Area / Potentially Higher Power
+```
+
+Therefore, PPA optimization is a **trade-off problem**, not simply an attempt to minimize everything.
+
+---
+
+* **Main RTL-Level PPA Optimization Areas:**
+
+The major RTL-level optimization areas include:
+
+1. Logic Depth
+2. Data Width
+3. Pipeline Architecture
+4. Hardware Sharing
+5. Parallelism
+6. Multiplexer Optimization
+7. Register Optimization
+8. Switching Activity
+9. Clock Activity
+10. Fanout
+11. Arithmetic Architecture
+12. Memory Architecture
+13. FSM Optimization
+14. Control Logic Optimization
+15. Parameterization
+
+---
+
+* **1. Reduce Logic Depth:**
+
+Long combinational logic paths can reduce performance.
+
+Example:
+
+```text
+Input
+  |
+AND
+  |
+OR
+  |
+MUX
+  |
+XOR
+  |
+Output
+```
+
+The signal must pass through several logic levels.
+
+Reducing unnecessary logic can shorten the critical path.
+
+```text
+Original:
+
+A → Logic 1 → Logic 2 → Logic 3 → Logic 4 → Y
+
+
+Optimized:
+
+A → Logic 1 → Logic 2 → Y
+```
+
+Benefits:
+
+- Better timing
+- Higher possible frequency
+- Potentially lower power
+- Potentially lower area
+
+---
+
+* **2. Optimize Data Width:**
+
+Using unnecessarily wide signals can increase hardware resources.
+
+Example:
+
+```verilog
+reg [31:0] counter;
+```
+
+If the counter only needs to represent values from `0` to `999`, a 32-bit counter may be unnecessary.
+
+A smaller width can reduce:
+
+- Flip-flops
+- Adders
+- Comparators
+- Multiplexers
+- Routing
+- Switching activity
+
+The required width should be selected based on the actual range of values.
+
+For a counter with maximum value `999`:
+
+```text
+Required bits = ceil(log2(1000))
+              = 10 bits
+```
+
+So:
+
+```verilog
+reg [9:0] counter;
+```
+
+may be sufficient.
+
+**Important:** Never reduce width if the specification requires the larger range.
+
+---
+
+* **3. Pipeline Optimization:**
+
+Pipelining divides a long combinational path into smaller stages.
+
+Without pipelining:
+
+```text
+Input
+  |
+Long Combinational Logic
+  |
+Output
+```
+
+With pipelining:
+
+```text
+Input
+  |
+Logic
+  |
+Register
+  |
+Logic
+  |
+Register
+  |
+Logic
+  |
+Output
+```
+
+Benefits:
+
+- Shorter critical paths
+- Higher operating frequency
+- Higher throughput
+
+Costs:
+
+- More registers
+- More clock power
+- More area
+- Increased cycle latency
+
+Therefore, pipeline depth should be selected according to the performance requirement.
+
+---
+
+* **4. Hardware Sharing:**
+
+If the same hardware operation is performed multiple times and cannot occur simultaneously, hardware can sometimes be shared.
+
+Example:
+
+```text
+Operation A ──┐
+              ├── Shared ALU
+Operation B ──┘
+```
+
+Instead of:
+
+```text
+Operation A → ALU 1
+
+Operation B → ALU 2
+```
+
+Hardware sharing can reduce:
+
+- Area
+- Potentially power
+
+However, sharing usually introduces:
+
+- Multiplexers
+- Additional control logic
+- Potentially longer timing paths
+
+Therefore:
+
+```text
+More Sharing
+     ↓
+Lower Area
+     ↓
+More Selection Logic
+     ↓
+Potential Timing Impact
+```
+
+---
+
+* **5. Control Parallelism Carefully:**
+
+Parallel hardware can improve performance.
+
+Example:
+
+```text
+        Input
+          |
+     +----+----+
+     |         |
+   ALU 1      ALU 2
+     |         |
+     +----+----+
+          |
+        Output
+```
+
+Two operations can occur simultaneously.
+
+Benefits:
+
+- Higher throughput
+- Better performance
+
+Costs:
+
+- More hardware
+- More area
+- More switching activity
+- Potentially more power
+
+Therefore, parallelism should be used when required by the architecture.
+
+---
+
+* **6. Multiplexer Optimization:**
+
+Large multiplexers can increase:
+
+- Area
+- Delay
+- Switching activity
+- Routing complexity
+
+Example:
+
+```text
+A ──┐
+B ──┤
+C ──┤──→ Large MUX → Y
+D ──┤
+E ──┘
+```
+
+Possible RTL-level improvements include:
+
+- Removing unnecessary choices
+- Simplifying conditions
+- Reducing data width
+- Restructuring control logic
+- Sharing common expressions
+
+A large nested conditional structure should be reviewed when it appears on a critical path.
+
+---
+
+* **7. Register Optimization:**
+
+Registers consume:
+
+- Area
+- Clock power
+- Data switching power
+
+Unnecessary registers should be avoided.
+
+Example:
+
+```text
+Input → Register 1 → Register 2 → Output
+```
+
+If `Register 2` does not provide any architectural or timing requirement, it may be unnecessary.
+
+However, removing a register can affect:
+
+- Timing
+- Latency
+- Interface behavior
+- Pipelining
+
+Therefore, registers should only be removed when functionality and timing requirements remain satisfied.
+
+---
+
+* **8. Reduce Switching Activity:**
+
+Dynamic power is strongly related to switching activity.
+
+A simplified relationship is:
+
+```text
+P_dynamic = α C V² f
+```
+
+where:
+
+- `α` = switching activity
+- `C` = capacitance
+- `V` = voltage
+- `f` = frequency
+
+RTL optimization can reduce unnecessary switching.
+
+Example:
+
+```text
+Unnecessary Activity
+        ↓
+More Transitions
+        ↓
+Higher Dynamic Power
+```
+
+Useful techniques include:
+
+- Avoid unnecessary toggling
+- Avoid redundant calculations
+- Reduce unnecessary data movement
+- Use appropriate enables
+- Avoid unnecessary combinational activity
+
+---
+
+* **9. Reduce Clock Activity:**
+
+Clock signals toggle continuously during normal operation and drive many sequential elements.
+
+Therefore, clock-related activity can significantly contribute to power.
+
+A common architectural technique is **clock gating**.
+
+Conceptually:
+
+```text
+             Enable
+               |
+Clock ─────── Gating ───────→ Register Bank
+```
+
+When a block is inactive, its clock activity can be reduced.
+
+At RTL level, designers commonly describe appropriate enable/gating intent while implementation tools and flows may determine the final clock-gating structure.
+
+Clock gating must be designed carefully because clock signals are timing-critical.
+
+---
+
+* **10. Control High-Fanout Signals:**
+
+A signal driving many destinations creates high fanout.
+
+Example:
+
+```text
+                 ┌── Register
+                 ├── Register
+Control ─────────┼── Register
+                 ├── Register
+                 ├── Register
+                 └── Register
+```
+
+High fanout can increase:
+
+- Capacitance
+- Delay
+- Power
+- Routing difficulty
+
+RTL designers should avoid unnecessarily creating extremely high-fanout control structures.
+
+Synthesis and physical-design tools can later insert buffers or optimize the network, but good RTL structure can reduce the problem at its source.
+
+---
+
+* **11. Arithmetic Architecture Optimization:**
+
+Arithmetic operations can have significant PPA impact.
+
+Examples:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Comparison
+
+For example:
+
+```verilog
+assign y = a * b;
+```
+
+The resulting hardware depends on:
+
+- Operand width
+- Technology
+- Synthesis tool
+- Available arithmetic structures
+- Timing constraints
+
+Therefore, arithmetic architecture should be selected according to the specification.
+
+For expensive operations, alternatives may include:
+
+- Sequential implementation
+- Shared hardware
+- Pipelining
+- Specialized architecture
+
+---
+
+* **12. Memory Architecture Optimization:**
+
+Memory can dominate area in many designs.
+
+Important RTL-level considerations include:
+
+- Memory depth
+- Data width
+- Number of ports
+- Read/write behavior
+- Access frequency
+- Memory organization
+
+Example:
+
+```text
+Large Register Array
+        ↓
+Large Number of Flip-Flops
+        ↓
+Large Area + Clock Power
+```
+
+If the target technology provides suitable memory macros or inferred RAM structures, the architecture can potentially be much more area-efficient.
+
+---
+
+* **13. FSM Optimization:**
+
+FSM design can influence PPA through:
+
+- Number of states
+- State encoding
+- State transition logic
+- Output logic
+- Combinational depth
+
+Example:
+
+```text
+Current State
+      |
+Transition Logic
+      |
+Next State
+```
+
+Unnecessary states or unnecessarily complex transition conditions can increase logic.
+
+However, state encoding should not be changed blindly.
+
+Common encoding approaches include:
+
+- Binary
+- One-hot
+- Gray
+
+The best choice depends on the target technology, number of states, timing, area, and synthesis optimization.
+
+---
+
+* **14. Control Logic Optimization:**
+
+Complex control logic can create large combinational networks.
+
+Example:
+
+```text
+if (A && B && C && D && E)
+```
+
+When control logic becomes large, consider:
+
+- Common conditions
+- Repeated expressions
+- Nested conditions
+- Unnecessary comparisons
+- Large priority chains
+
+A clean RTL structure helps synthesis identify optimization opportunities.
+
+---
+
+* **15. Parameterization:**
+
+Parameterized RTL can allow the same architecture to be configured for different requirements.
+
+Example:
+
+```verilog
+parameter WIDTH = 8;
+```
+
+Instead of always using a fixed width:
+
+```verilog
+reg [31:0] data;
+```
+
+the design can use:
+
+```verilog
+reg [WIDTH-1:0] data;
+```
+
+This can prevent unnecessary hardware when a smaller configuration is required.
+
+However, parameterization itself is not automatically a PPA optimization. The selected parameter values determine the actual hardware.
+
+---
+
+* **RTL Coding Practices That Help PPA:**
+
+Good RTL coding practices include:
+
+- Use only required data widths.
+- Avoid unnecessary registers.
+- Avoid redundant calculations.
+- Avoid unnecessary logic duplication.
+- Keep combinational logic simple.
+- Avoid unintended latches.
+- Control switching activity.
+- Use enables appropriately.
+- Avoid unnecessarily large multiplexers.
+- Keep reset logic appropriate to the architecture.
+- Consider timing-critical paths.
+- Write synthesis-friendly RTL.
+- Review synthesis reports after optimization.
+
+---
+
+* **RTL Optimization and Synthesis:**
+
+RTL is not directly implemented as transistors.
+
+The typical relationship is:
+
+```text
+RTL
+ ↓
+Synthesis
+ ↓
+Gate-Level Netlist
+ ↓
+Physical Implementation
+ ↓
+Parasitics
+ ↓
+STA / Power / Area Analysis
+ ↓
+PPA Results
+```
+
+Therefore, an RTL change should be evaluated based on the **resulting implementation**, not only by looking at the RTL code.
+
+Two RTL descriptions that appear different can sometimes synthesize into nearly identical hardware.
+
+---
+
+* **PPA Optimization Feedback Loop:**
+
+RTL optimization is iterative.
+
+```text
+RTL
+ ↓
+Synthesis
+ ↓
+Timing / Area / Power Reports
+ ↓
+Identify Bottleneck
+ ↓
+Modify RTL
+ ↓
+Synthesis Again
+ ↓
+Compare Results
+ ↓
+Repeat
+```
+
+The designer should measure the effect of each important optimization.
+
+---
+
+* **Example: Optimizing a Counter**
+
+Suppose an RTL design contains:
+
+```verilog
+reg [31:0] counter;
+
+always @(posedge clk)
+begin
+    counter <= counter + 1;
+end
+```
+
+If the specification only requires counting from `0` to `999`, a 32-bit counter may use more hardware than necessary.
+
+A smaller counter can reduce:
+
+- Register count
+- Adder width
+- Switching activity
+- Area
+- Potentially power
+
+However, the optimized width must still support the required count range.
+
+This illustrates an important principle:
+
+```text
+Understand Requirement
+        ↓
+Choose Appropriate Architecture
+        ↓
+Write Efficient RTL
+        ↓
+Measure PPA
+```
+
+---
+
+* **PPA Bottleneck Identification:**
+
+Do not optimize everything blindly.
+
+First determine the dominant problem.
+
+```text
+Timing Violation?
+      |
+      +── Yes → Optimize critical path
+      |
+      No
+      ↓
+Area Too High?
+      |
+      +── Yes → Optimize hardware resources
+      |
+      No
+      ↓
+Power Too High?
+      |
+      +── Yes → Reduce unnecessary switching
+```
+
+The actual design constraint should determine the optimization priority.
+
+---
+
+* **PPA Optimization vs Functionality:**
+
+PPA optimization must never break the required behavior.
+
+The correct priority is:
+
+```text
+Functional Correctness
+        ↓
+Timing / Constraint Requirements
+        ↓
+Power / Area Optimization
+        ↓
+PPA Refinement
+```
+
+An area reduction is not useful if it causes functional failure.
+
+Similarly, reducing power is not useful if the design no longer meets its performance requirement.
+
+---
+
+* **Pre-Synthesis vs Post-Synthesis PPA:**
+
+### Pre-Synthesis
+
+RTL-level estimation can provide early feedback.
+
+```text
+RTL
+ ↓
+Early Analysis
+ ↓
+Estimated PPA
+```
+
+### Post-Synthesis
+
+After synthesis:
+
+```text
+RTL
+ ↓
+Synthesis
+ ↓
+Gate-Level Netlist
+ ↓
+Area / Timing / Power Analysis
+```
+
+Post-synthesis results are more meaningful because actual mapped cells are considered.
+
+### Post-Layout
+
+After physical implementation:
+
+```text
+Placement + Routing
+        ↓
+Parasitics
+        ↓
+More Accurate Timing / Power
+```
+
+Physical effects can change the final PPA significantly.
+
+---
+
+* **Important PPA Trade-offs at RTL:**
+
+| RTL Optimization | Power | Performance | Area |
+|---|---:|---:|---:|
+| Reduce data width | ↓ | Can improve | ↓ |
+| Reduce logic depth | ↓/↔ | ↑ | ↓/↔ |
+| Add pipeline stages | ↑/↔ | ↑ | ↑ |
+| Hardware sharing | ↓/↔ | ↓/↔ | ↓ |
+| Parallel hardware | ↑ | ↑ | ↑ |
+| Reduce switching | ↓ | ↔ | ↔ |
+| Clock gating | ↓ | ↔ | ↑/↔ |
+| Reduce registers | ↓ | ↓/↔ | ↓ |
+| Larger/faster hardware | ↑ | ↑ | ↑ |
+| Reduce mux complexity | ↓/↔ | ↑ | ↓/↔ |
+
+The exact effect depends on the architecture, technology, synthesis tool, and constraints.
+
+---
+
+* **Practical RTL PPA Optimization Flow:**
+
+```text
+1. Understand Specification
+          ↓
+2. Identify PPA Requirements
+          ↓
+3. Design Initial Architecture
+          ↓
+4. Write Synthesizable RTL
+          ↓
+5. Verify Functionality
+          ↓
+6. Synthesize
+          ↓
+7. Check Timing
+          ↓
+8. Check Area
+          ↓
+9. Check Power
+          ↓
+10. Identify Main Bottleneck
+          ↓
+11. Optimize RTL
+          ↓
+12. Re-Synthesize
+          ↓
+13. Compare Results
+          ↓
+14. Verify Again
+          ↓
+15. Continue Until Requirements Are Met
+```
+
+---
+
+* **Common Mistakes:**
+
+1. Optimizing RTL without understanding the specification.
+2. Reducing data width without checking the required range.
+3. Adding excessive pipeline stages only to improve frequency.
+4. Sharing hardware without considering timing.
+5. Removing registers without checking latency.
+6. Assuming fewer lines of RTL always means smaller hardware.
+7. Ignoring synthesis results.
+8. Ignoring switching activity.
+9. Optimizing area while violating timing.
+10. Optimizing timing while creating excessive power.
+11. Changing FSM encoding without measuring the result.
+12. Assuming RTL changes always produce different hardware.
+13. Ignoring verification after optimization.
+
+---
+
+* **Best Practices:**
+
+- Start with a correct and clear architecture.
+- Understand the PPA requirement before optimization.
+- Identify the actual bottleneck.
+- Optimize architecture before micro-level coding tricks.
+- Use appropriate data widths.
+- Minimize unnecessary switching.
+- Control combinational depth.
+- Use pipelining when performance requires it.
+- Avoid unnecessary hardware duplication.
+- Use hardware sharing when timing allows it.
+- Keep control logic simple.
+- Check synthesis reports.
+- Compare before and after PPA results.
+- Re-run functional verification after RTL changes.
+- Consider downstream physical effects.
+
+---
+
+* **Applications:**
+
+RTL-level PPA optimization is important in:
+
+- CPUs
+- GPUs
+- DSP processors
+- Communication systems
+- Network controllers
+- Memory controllers
+- UART/SPI/I2C peripherals
+- SoCs
+- Embedded processors
+- AI/ML accelerators
+- High-speed digital interfaces
+- Low-power digital systems
+
+---
+
+* **Advantages:**
+
+- Improves implementation efficiency.
+- Can reduce silicon area.
+- Can improve operating frequency.
+- Can reduce dynamic power.
+- Can improve timing closure.
+- Can reduce unnecessary hardware.
+- Helps achieve design constraints earlier.
+- Gives RTL designers direct influence over implementation quality.
+
+---
+
+* **Limitations:**
+
+- RTL optimization cannot eliminate all physical effects.
+- Final PPA depends on technology and libraries.
+- Physical implementation can change timing and power results.
+- An optimization beneficial for one design may hurt another.
+- Some RTL changes may be optimized away by synthesis.
+- Accurate final PPA requires implementation-aware analysis.
+- Aggressive optimization can increase design complexity.
+
+---
+
+* **Real-World Example:**
+
+Consider a processor datapath that must operate at a high frequency.
+
+Initial architecture:
+
+```text
+Input
+  |
+Large Combinational Logic
+  |
+Register
+```
+
+Suppose STA identifies this path as the critical path.
+
+An RTL designer may introduce a pipeline stage:
+
+```text
+Input
+  |
+Logic Stage 1
+  |
+Register
+  |
+Logic Stage 2
+  |
+Register
+```
+
+The combinational delay per stage is reduced.
+
+Result:
+
+```text
+Performance ↑
+Area ↑
+Clock Power ↑
+Cycle Latency ↑
+```
+
+If the original design failed timing, this trade-off may be acceptable.
+
+This is a typical RTL-level PPA decision.
+
+---
+
+* **Key Points:**
+
+- RTL has a major influence on final PPA.
+- PPA means Power, Performance, and Area.
+- RTL optimization must preserve functionality.
+- Reduce unnecessary logic and switching.
+- Use appropriate data widths.
+- Logic depth affects performance.
+- Pipelining can improve timing but increases registers and clock activity.
+- Hardware sharing can reduce area but may add muxing and delay.
+- Parallelism can improve performance but increases hardware.
+- Clock activity is an important power consideration.
+- High fanout can affect timing and power.
+- Arithmetic and memory architecture strongly influence PPA.
+- Always identify the actual PPA bottleneck.
+- Synthesis and implementation reports should guide optimization.
+- PPA optimization is an iterative process.
+
+---
+
+* **Interview Questions:**
+
+**1. What is RTL-level PPA optimization?**  
+RTL-level PPA optimization is the process of modifying RTL architecture and coding to improve power, performance, and area while preserving functionality.
+
+**2. How can RTL affect power?**  
+RTL affects power through switching activity, clock activity, data width, logic structure, and unnecessary hardware.
+
+**3. How can RTL affect performance?**  
+RTL determines logic depth, critical paths, fanout, pipeline structure, and combinational complexity, all of which can affect timing.
+
+**4. How can RTL affect area?**  
+RTL determines the number and size of registers, combinational logic, multiplexers, arithmetic units, and memory structures synthesized into hardware.
+
+**5. Why does reducing data width help PPA?**  
+Smaller data widths can reduce the number of flip-flops and the size of arithmetic, comparison, and selection logic.
+
+**6. How does pipelining improve performance?**  
+Pipelining divides a long combinational path into shorter stages, allowing a shorter clock period and potentially higher frequency.
+
+**7. What is the disadvantage of excessive pipelining?**  
+It can increase register area, clock power, implementation complexity, and cycle latency.
+
+**8. What is hardware sharing?**  
+Hardware sharing means using the same hardware resource for multiple operations when those operations do not need to execute simultaneously.
+
+**9. What is the disadvantage of hardware sharing?**  
+It can introduce multiplexers, control logic, and additional delay.
+
+**10. Why is switching activity important for power?**  
+Dynamic power depends strongly on switching activity, capacitance, voltage, and frequency.
+
+**11. Why should RTL optimization be followed by synthesis?**  
+Because the actual hardware generated by synthesis determines whether the RTL optimization really improved PPA.
+
+**12. Should an RTL designer always minimize area?**  
+No. The design must balance area with timing, power, and functional requirements.
+
+**13. What is the first step in PPA optimization?**  
+Identify the actual design requirement and the dominant PPA bottleneck.
+
+**14. Can two different RTL descriptions produce the same hardware?**  
+Yes. Synthesis may optimize different RTL descriptions into similar or identical gate-level implementations.
+
+**15. Why is functional verification required after PPA optimization?**  
+Because RTL changes can unintentionally change behavior even when the intended optimization appears safe.
+
+---
+
+* **Quick Revision:**
+
+```text
+RTL-Level PPA Optimization
+        |
+        +── Power
+        |     ├── Reduce switching
+        |     ├── Reduce clock activity
+        |     └── Avoid unnecessary hardware
+        |
+        +── Performance
+        |     ├── Reduce logic depth
+        |     ├── Reduce fanout
+        |     └── Pipeline critical paths
+        |
+        +── Area
+              ├── Reduce data width
+              ├── Share hardware
+              ├── Remove redundant logic
+              └── Optimize architecture
+```
+
+**Remember:**
+
+```text
+Better Architecture
+       ↓
+Better RTL
+       ↓
+Better Synthesized Hardware
+       ↓
+Better PPA
+```
+
+---
+
+* **Summary:**
+
+RTL-Level PPA Optimization focuses on improving **Power, Performance, and Area** through better architecture and RTL implementation decisions.
+
+Important techniques include reducing logic depth, selecting appropriate data widths, controlling switching activity, optimizing pipelines, sharing hardware when appropriate, reducing unnecessary registers and multiplexers, managing fanout, and choosing efficient arithmetic and memory architectures.
+
+The most important principle is:
+
+> **Do not optimize RTL blindly. Identify the real PPA bottleneck, make a controlled change, verify functionality, and measure the implementation result.**
+
+---
+
+* **References:**
+
+1. Neso Academy — Digital Electronics and VLSI Design
+2. All About Electronics — Digital Electronics and VLSI Concepts
+3. Weste & Harris — *CMOS VLSI Design: A Circuits and Systems Perspective*
+4. Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolić — *Digital Integrated Circuits*
+5. Stephen Brown & Zvonko Vranesic — *Fundamentals of Digital Logic with Verilog Design*
+6. Neil H. E. Weste, David Harris — *CMOS VLSI Design*
